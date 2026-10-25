@@ -1,5 +1,7 @@
 # LITMUS-ReAgent
 
+This repository contains the code and data for **Litmus (Re)Agent: A Benchmark and Agentic System for Predictive Evaluation of Multilingual Models** ([arXiv:2604.08970](https://arxiv.org/abs/2604.08970)). Litmus (Re)Agent builds on [LITMUS++](#citation) (IJCNLP-AACL 2025 System Demonstrations).
+
 A multi-agent system for predicting how well LLMs perform across languages, tasks and models, with a focus on low-resource languages. For each question, the system gathers evidence from a curated database of research papers, follows expert research guidance, and, when no benchmark reports the number directly, collects features and trains small predictive models in generated code.
 
 ```
@@ -100,3 +102,24 @@ Curated research-paper database, one folder per task: `01_Code_Generation`, `02_
 - **Paths were adapted** to this layout (data under `../data`, outputs under `code/outputs`). Firecrawl keys were unified to `FIRECRAWL_API_KEY`. Agent logic and prompts are unchanged.
 - The experiments evaluated **1,500 questions (50 per task×scenario file)**, a subset of the 2,035 in `data/Ground_truths`. The runner takes the first 50 per file, which is not necessarily the same subset.
 - Not included: experiment outputs and intermediate logs, the question-generation pipeline, the Magentic-One / single-agent / original-LITMUS baselines, and visualization scripts.
+
+## Citation
+
+If you use this code or data, please cite:
+
+```bibtex
+@article{mittal2026litmus,
+  title={Litmus (Re) Agent: A Benchmark and Agentic System for Predictive Evaluation of Multilingual Models},
+  author={Mittal, Avni and Kumar, Shanu and Dandapat, Sandipan and Choudhury, Monojit},
+  journal={arXiv preprint arXiv:2604.08970},
+  year={2026}
+}
+
+@inproceedings{mittal2025litmus++,
+  title={LITMUS++: An Agentic System for Predictive Analysis of Low-Resource Languages Across Tasks and Models},
+  author={Mittal, Avni and Kumar, Shanu and Dandapat, Sandipan and Choudhury, Monojit},
+  booktitle={Proceedings of The 14th International Joint Conference on Natural Language Processing and The 4th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics: System Demonstrations},
+  pages={47--54},
+  year={2025}
+}
+```
