@@ -1,0 +1,22 @@
+# Versions were not pinned in the original project; these are the packages the code imports.
+# Agent framework: classic AutoGen 0.2-style API (autogen.ConversableAgent, GroupChat,
+# RetrieveUserProxyAgent, autogen.coding.LocalCommandLineCodeExecutor).
+pyautogen[retrievechat]
+openai>=1.0.0
+azure-identity
+python-dotenv
+firecrawl-py>=2,<3
+chromadb
+langchain
+numpy
+pandas
+scikit-learn
+pydantic
+
+# Libraries the coder_agent is told it can use inside generated/executed code
+lang2vec
+xgboost
+lightgbm
+shap
+transformers
+wikipedia-api

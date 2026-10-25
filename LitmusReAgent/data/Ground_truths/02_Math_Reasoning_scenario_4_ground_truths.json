@@ -1,0 +1,1284 @@
+[
+  {
+    "unique_id": "a01aba29-da89-4266-ace8-cefbfb47d395",
+    "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Albanian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e3bf2df3-b8c8-46e5-88b0-2752ceff82f7",
+    "complete_question": "What score does Mistral-Large achieve for Math Reasoning in Estonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c601817b-5874-4754-a565-d901c310f590",
+    "complete_question": "How well does GPT-4 perform on Math Reasoning for Modern-Standard-Arabic?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "681b6543-621c-470a-985d-e0dd8db8aefd",
+    "complete_question": "What is the performance of Mistral-Large on Math Reasoning for Finnish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e8fb14a6-aa91-464b-970b-7ebdaa3853ac",
+    "complete_question": "What score does Gemini-Pro achieve for Math Reasoning in Latvian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f6cd93d8-2981-466c-82d5-0716436a17c3",
+    "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Lithuanian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ebaf9a42-0f92-4e14-82d1-d2c816cb81b7",
+    "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "55.4",
+        "value_in_100_range": 55.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3056e13d-6623-4449-8af2-c5848daf63d9",
+    "complete_question": "What score does Mistral-Large achieve for Math Reasoning in Welsh?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3982fe31-b5eb-4a45-b072-3b3091e45dec",
+    "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Turkish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3e44bc1b-9a7e-418e-b90b-60aebca8f4b8",
+    "complete_question": "What is the performance of GPT-4 on Math Reasoning for Dialectal-Arabic?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "0afe8a96-ed03-43fd-bb1c-3cf9a1700a4b",
+    "complete_question": "What score does Gemini-Pro achieve for Math Reasoning in Persian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "9f0d7f51-20ca-43ab-b219-89e3e6590763",
+    "complete_question": "How well does Mistral-Large perform on Math Reasoning for Hungarian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "55fca098-132b-4597-9f47-21bd2cf84a3d",
+    "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Greek?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ca1d6d74-5f54-4609-89d5-d9f9a66b497e",
+    "complete_question": "What score does Mistral-Large achieve for Math Reasoning in Turkish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "93d3e707-df1c-47f0-ae19-22709dd290ba",
+    "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Welsh?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "81605c94-90b5-462f-9f5b-836b7862e23f",
+    "complete_question": "What is the performance of Mistral-Large on Math Reasoning for Albanian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "6a383b4d-0303-4973-9b77-4474fc139914",
+    "complete_question": "What score does Mistral-Large achieve for Math Reasoning in Lithuanian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3a9facb5-910f-47b4-8010-7ffab5e41741",
+    "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Estonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "76927627-72db-4f5c-8b2c-351d83818a8c",
+    "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Finnish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "78f6b396-b41c-44c5-b8b2-15e15cd5dcaf",
+    "complete_question": "What score does Mistral-Large achieve for Math Reasoning in Hungarian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a75ad734-2746-493c-93eb-c9d5b344fde4",
+    "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Latvian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d0bff60b-cd6c-4e5f-a098-ad19176093bf",
+    "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Persian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d8e0565a-6b2f-471d-baa1-7679f1edbfea",
+    "complete_question": "What score does Mistral-Large achieve for Math Reasoning in Latvian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "1248a1a6-f973-46ff-b78d-71e482187b02",
+    "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Hungarian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f2a13bd2-efed-4256-977f-e6169a73e3f4",
+    "complete_question": "What is the performance of Mistral-Large on Math Reasoning for Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "5c92ef7a-fc55-4bb3-9a7c-2d32070a83ee",
+    "complete_question": "What score does Mistral-Large achieve for Math Reasoning in Persian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "aa5f9413-c8fa-428b-bd74-8f353d787362",
+    "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Greek?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "24.90",
+        "value_in_100_range": 24.9
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "6.36",
+        "value_in_100_range": 6.36
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "836d0dc6-4dc9-4c8b-810f-8221dde6cc43",
+    "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Lithuanian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c90c438e-da28-43c7-ba0c-1ae9ce3e1b50",
+    "complete_question": "What score does Mistral-Large achieve for Math Reasoning in Estonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "affc485b-021c-4166-ae83-5f89d3843866",
+    "complete_question": "How well does Mistral-Large perform on Math Reasoning for Welsh?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "0abd19ff-adb7-42e6-8503-1f75fedd9bb2",
+    "complete_question": "Which model performs best for Math Reasoning in Albanian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "49.06",
+        "value_in_100_range": 49.06
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "f8b9cdd1-be80-4fa3-bb23-410df9b618c7",
+    "complete_question": "What is the top-performing model for Math Reasoning in Finnish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "83748d0b-31ba-462d-ab14-2e5ce48e876b",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Estonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "ca69dba8-a00c-4c61-8bb6-2d9473141be7",
+    "complete_question": "Which language shows the best performance with GPT-4 for Math Reasoning?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "e39bb644-bb4d-42db-a3a2-d2b29d35eefb",
+    "complete_question": "What is the top-performing model for Math Reasoning in Latvian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "0f4079d0-940d-4588-a86c-0cdb9b928024",
+    "complete_question": "Which model performs best for Math Reasoning in Welsh?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "d4f08b8f-d910-4a08-b7c8-02ae2fac9704",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Lithuanian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "9cd35ea3-51ec-4f33-b39c-60f1f52250c1",
+    "complete_question": "Which language has the best performance for Math Reasoning with Mistral-Large?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "41.53",
+        "value_in_100_range": 41.53
+      }
+    ],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "398e1286-7471-43fd-8a76-a385eb72fb2a",
+    "complete_question": "What is the top-performing model for Math Reasoning in Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemma 2 27B"
+  },
+  {
+    "unique_id": "0b33d9c8-3f0c-4bc7-80d1-6047f533fd58",
+    "complete_question": "Which model performs best for Math Reasoning in Turkish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "b893f43e-e8b7-44e7-88a8-634380b1631a",
+    "complete_question": "Which language shows the best performance with Gemini-Pro for Math Reasoning?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "83.75",
+        "value_in_100_range": 83.75
+      }
+    ],
+    "answer_text_for_qna": "Hungarian"
+  },
+  {
+    "unique_id": "80ba03ae-bf16-42bb-909c-249d03ca7ef9",
+    "complete_question": "What is the top-performing model for Math Reasoning in Modern-Standard-Arabic?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "c59cc6a5-7776-44be-a25a-56eef282ada1",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Persian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "8c7466e5-ab38-48c6-922c-590b5786b7b1",
+    "complete_question": "Which model performs best for Math Reasoning in Greek?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "43ae57b8-c340-4937-80e9-448a8271aaef",
+    "complete_question": "Which language has the best performance for Math Reasoning with Mistral-Large?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "41.53",
+        "value_in_100_range": 41.53
+      }
+    ],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "2a6c3130-bfe0-435b-b45f-4a7ae5e2c188",
+    "complete_question": "What is the top-performing model for Math Reasoning in Hungarian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "62.88",
+        "value_in_100_range": 62.88
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "c325c57e-6a5e-46f0-9bf3-53a30a6ec574",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Finnish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "62.88",
+        "value_in_100_range": 62.88
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "8997d17c-eb5a-43de-8cd5-f053b3f18f67",
+    "complete_question": "Which model performs best for Math Reasoning in Estonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "4fecb40e-dd9d-462e-98ee-cf645cf2cc97",
+    "complete_question": "Which language shows the best performance with Gemini-Pro for Math Reasoning?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "83.75",
+        "value_in_100_range": 83.75
+      }
+    ],
+    "answer_text_for_qna": "Hungarian"
+  },
+  {
+    "unique_id": "4898df66-395d-445f-80b2-ebfdea2cb529",
+    "complete_question": "What is the top-performing model for Math Reasoning in Lithuanian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "24856cc5-237e-41f2-a836-7c39de2a3f21",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "a0391b44-0ff4-4d0e-837f-50ebda2f44fc",
+    "complete_question": "Which model performs best for Math Reasoning in Latvian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "6a9416db-16ab-422f-a022-5521664a7e30",
+    "complete_question": "Which language has the best performance for Math Reasoning with Gemini-Pro?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "82.50",
+        "value_in_100_range": 82.5
+      }
+    ],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "611afb5c-eae1-40a3-8e7a-d1bd9746c896",
+    "complete_question": "What is the top-performing model for Math Reasoning in Albanian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "28.43",
+        "value_in_100_range": 28.43
+      }
+    ],
+    "answer_text_for_qna": "Gemma"
+  },
+  {
+    "unique_id": "23854008-700e-4174-98c6-fb555c5d991b",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Turkish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "62.88",
+        "value_in_100_range": 62.88
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "80dea4dd-f807-4929-9fa6-94c2a82616fb",
+    "complete_question": "Which model performs best for Math Reasoning in Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "28.5",
+        "value_in_100_range": 28.5
+      }
+    ],
+    "answer_text_for_qna": "Gemma 2 27B"
+  },
+  {
+    "unique_id": "49dafec6-de17-4b99-b0b1-3c859954961a",
+    "complete_question": "Which language shows the best performance with Mistral-Large for Math Reasoning?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "83.75",
+        "value_in_100_range": 83.75
+      }
+    ],
+    "answer_text_for_qna": "Hungarian"
+  },
+  {
+    "unique_id": "1262d73b-944d-43fc-bc05-328338b4f759",
+    "complete_question": "What is the top-performing model for Math Reasoning in Greek?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "62.88",
+        "value_in_100_range": 62.88
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "74828d00-2076-469f-81be-504ab35e7994",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Hungarian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "62.88",
+        "value_in_100_range": 62.88
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "d91937ac-c23d-4652-933f-b279cef3c402",
+    "complete_question": "Which model performs best for Math Reasoning in Persian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "62.88",
+        "value_in_100_range": 62.88
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "aa21fbf3-b430-4843-8e56-9f499d54fb11",
+    "complete_question": "How effectively could Gemini-Pro solve Math Reasoning tasks in Albanian using only distant language transfer?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "95af400f-e66e-4724-b75f-7935f3dc8c49",
+    "complete_question": "Can GPT-4 achieve reliable Math Reasoning performance for Dialectal-Arabic via transfer from distant languages?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d5075b55-e3f7-486d-8e63-2d7552eec3c5",
+    "complete_question": "What is the expected capability of Gemini-Pro on Math Reasoning questions presented in Estonian, relying solely on distant cross-lingual transfer?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MCLM MT-MATH100",
+        "value": "57.58",
+        "value_in_100_range": 57.58
+      },
+      {
+        "metric_name": "MCLM MT-AIME2024",
+        "value": "13.33",
+        "value_in_100_range": 13.33
+      },
+      {
+        "metric_name": "MCLM M-IMO",
+        "value": "20.00",
+        "value_in_100_range": 20.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "aa52a99f-c0e5-4ec6-82f8-311a37314fcf",
+    "complete_question": "How does Gemini-Pro's Math Reasoning performance in Finnish compare when using only distant language transfer for adaptation?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "77f03d26-451b-4ebd-8475-89581bc15b08",
+    "complete_question": "What is the projected outcome for Gemini-Pro handling Math Reasoning tasks in Greek given a distant language transfer setting?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "PolyMath DW-ACC (Medium, Greek, Gemini-2.5-pro)",
+        "value": "68.8",
+        "value_in_100_range": 68.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c5dace8c-88b4-42b8-ae93-3348af144107",
+    "complete_question": "How well might Gemini-Pro generalize for Math Reasoning in Hungarian without access to closely related language training data?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "26cb4bdb-077d-4ef8-8d0f-1f87d434028f",
+    "complete_question": "Could Gemini-Pro effectively address Math Reasoning challenges in Latvian using knowledge transferred from distant languages?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MCLM MT-MATH100",
+        "value": "87.88",
+        "value_in_100_range": 87.88
+      },
+      {
+        "metric_name": "MCLM MT-AIME2024",
+        "value": "46.67",
+        "value_in_100_range": 46.67
+      },
+      {
+        "metric_name": "MCLM M-IMO",
+        "value": "32.00",
+        "value_in_100_range": 32.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a0ecc86c-1667-4cb3-8074-f041708bab98",
+    "complete_question": "How is Gemini-Pro expected to perform on Math Reasoning when transferring from non-similar languages to Lithuanian?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "96ccbb28-5e46-4bff-818d-2f2414e8e70d",
+    "complete_question": "What level of Math Reasoning competence does GPT-4 demonstrate for Modern-Standard-Arabic when leveraging distant language transfer alone?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "6eea693b-d7e2-49df-8bd4-990a0711d316",
+    "complete_question": "Can Gemini-Pro solve Math Reasoning tasks in Persian through distant cross-lingual transfer effectively?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "52.3",
+        "value_in_100_range": 52.3
+      },
+      {
+        "metric_name": "AfriMGSM Exact Match (translate-test)",
+        "value": "44.3",
+        "value_in_100_range": 44.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "fe2fa8d3-bfdd-44b0-acfe-4b773d15d69e",
+    "complete_question": "What is the anticipated Math Reasoning performance of Gemini-Pro on Somali without utilizing similar language data?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a61ee17e-36a6-4cab-b954-dc999ba36762",
+    "complete_question": "How does Gemini-Pro fare in Turkish Math Reasoning tasks under the constraint of only distant language transfer?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b0f546a2-b830-4776-ae4e-11b43611600a",
+    "complete_question": "How robust is Gemini-Pro's Math Reasoning ability in Welsh when relying solely on knowledge from distant languages?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "52.3",
+        "value_in_100_range": 52.3
+      },
+      {
+        "metric_name": "AfriMGSM Exact Match (translate-test)",
+        "value": "44.3",
+        "value_in_100_range": 44.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "328f80b1-78db-4733-9c2b-5e252172792b",
+    "complete_question": "What are the potential strengths and weaknesses of Gemini-Pro on Math Reasoning for Modern-Standard-Arabic through distant cross-lingual transfer?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "82.8",
+        "value_in_100_range": 82.8
+      },
+      {
+        "metric_name": "AfriMGSM Exact Match (translate-test)",
+        "value": "70.0",
+        "value_in_100_range": 70.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e6dc3d93-f556-4e1e-acc7-ce0205501796",
+    "complete_question": "Which models, Gemini-Pro or GPT-4, provide stronger results on Math Reasoning for dialectal variants of Arabic through distant transfer?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini-1.5-Pro"
+  },
+  {
+    "unique_id": "91ee6478-bca6-4f27-8d22-95565623170c",
+    "complete_question": "How does Math Reasoning performance vary between Estonian and Finnish for Gemini-Pro when only distant language transfer is used?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang): Estonian",
+        "value": "83.84",
+        "value_in_100_range": 83.84
+      },
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang): Finnish",
+        "value": "84.85",
+        "value_in_100_range": 84.85
+      }
+    ],
+    "answer_text_for_qna": "Finnish: 84.85, Estonian: 83.84"
+  },
+  {
+    "unique_id": "b7d34947-f66a-4488-9d4c-f6e2b83ab126",
+    "complete_question": "What insights exist on the effectiveness of distant cross-lingual transfer for Math Reasoning in Greek and Hungarian using Gemini-Pro?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "40.8",
+        "value_in_100_range": 40.8
+      },
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "65.6",
+        "value_in_100_range": 65.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a32509b5-2dcc-4aa2-99a2-82eee2fbda0d",
+    "complete_question": "Does Gemini-Pro's Math Reasoning strength remain consistent across Latvian and Lithuanian via distant language transfer approaches?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MCLM MT-MATH100 (Gemma-Pro / Gemini-Pro, Latvian)",
+        "value": "59.60",
+        "value_in_100_range": 59.6
+      },
+      {
+        "metric_name": "MCLM MT-MATH100 (Gemma-Pro / Gemini-Pro, Lithuanian)",
+        "value": "61.62",
+        "value_in_100_range": 61.62
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b91801b7-48ae-4016-a42f-6ead0888a855",
+    "complete_question": "How well do Gemini-Pro and GPT-4 support Math Reasoning in Turkish and Modern-Standard-Arabic, respectively, under distant transfer?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini-2.5-pro, GPT-4o"
+  },
+  {
+    "unique_id": "03fe6a4f-c580-4887-bdec-fa3b0b518a79",
+    "complete_question": "Are there notable differences in Math Reasoning abilities for Gemini-Pro across the lesser-resourced languages: Somali and Welsh, considering distant transfer?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "Somali: 67.6",
+        "value_in_100_range": 67.6
+      },
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "Welsh: 3.2",
+        "value_in_100_range": 3.2
+      }
+    ],
+    "answer_text_for_qna": "Somali much higher than Welsh for Gemini-Pro; notable distant transfer gap"
+  },
+  {
+    "unique_id": "0527128c-7fdd-4075-9f1b-f865d8655bac",
+    "complete_question": "For the task of Math Reasoning, which model outperforms in Persian using distant language adaptation?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "2e07d402-2399-4240-a79e-f2d2aab32abc",
+    "complete_question": "What challenges do models face when transferring Math Reasoning capabilities into Albanian from unrelated languages?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Models face challenges such as significant performance drops in transfer for math reasoning into Albanian from unrelated languages due to a lack of shared linguistic structures, reduced contextual understanding, and limited cross-lingual transferability as evidenced by the MCLM benchmarks. For example, Qwen2.5-Math-7B-Instruct achieves only about 60.61% on MT-MATH100 and 16.67% on MT-AIME2024 in Albanian, much lower than high-resource languages like English. These challenges manifest as lower math reasoning accuracy, inability to leverage multilingual knowledge, and poor adaptation when there is no linguistic similarity or shared math corpus between source and target languages."
+  },
+  {
+    "unique_id": "1de19ee4-fb1e-400a-8116-479d84666f05",
+    "complete_question": "Can distant language transfer approaches for Math Reasoning in Finnish benefit more from Gemini-Pro compared to Hungarian?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Finnish"
+  },
+  {
+    "unique_id": "21da1881-2142-40c2-82f4-f5627a9a503b",
+    "complete_question": "How does Gemini-Pro's Math Reasoning accuracy in Lithuanian compare to its performance in Estonian through distant-language knowledge transfer?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "33.6",
+        "value_in_100_range": 33.6
+      },
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "13.33",
+        "value_in_100_range": 13.33
+      }
+    ],
+    "answer_text_for_qna": "Gemini-Pro's Math Reasoning accuracy in Lithuanian (33.6) is notably higher than Estonian (13.33) via distant-language knowledge transfer."
+  },
+  {
+    "unique_id": "3166cd22-208e-4e32-9250-07f1788f4583",
+    "complete_question": "Is it possible for GPT-4 to effectively transfer mathematical reasoning abilities from unrelated languages to Dialectal-Arabic?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Yes. Recent benchmarks (AfriMGSM, PolyMath, MMATH, MCLM) show GPT-4 (GPT-4o, GPT-4-Turbo) achieves strong mathematical reasoning in many languages, including African and low-resource dialects. In-language scores for African languages (including Amharic, Hausa, Igbo, Yoruba, Swahili, Zulu, etc.) reach 40–60% exact match; PolyMath and MMATH show high cross-lingual consistency. Thus, GPT-4 can effectively transfer mathematical reasoning abilities from unrelated languages to Dialectal-Arabic and similar under-resourced varieties."
+  },
+  {
+    "unique_id": "f973c2a1-e405-4b68-b5fb-c47e35c3f3fa",
+    "complete_question": "For which languages does Gemini-Pro demonstrate the least drop in Math Reasoning performance using only distant transfer?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Amharic, Hausa, Igbo, Kinyarwanda, Lingala, Luganda, Oromo, chiShona, Sesotho, Swahili, Twi, Wolof, isiXhosa, Yoruba, IsiZulu"
+  }
+]

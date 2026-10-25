@@ -1,0 +1,942 @@
+[
+  {
+    "unique_id": "1ffc5b93-254f-4543-808f-eeb06021760c",
+    "complete_question": "How well does GPT-3.5 perform on Code Generation for Bodo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "60.4",
+        "value_in_100_range": 60.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "0be2a06f-5d6c-4049-8c0a-5021c9e09908",
+    "complete_question": "What score does GPT-4 achieve for Code Generation in Malvi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "61.25",
+        "value_in_100_range": 61.25
+      }
+    ],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "007e3919-35f4-4e5e-813d-56f6d778995e",
+    "complete_question": "What score does GPT-3.5 achieve for Code Generation in Rajasthani?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "61.25",
+        "value_in_100_range": 61.25
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c3e3603d-4c5c-4808-af63-d457d094615a",
+    "complete_question": "How well does PaLM-2 perform on Code Generation for Punjabi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CodeBERTScore",
+        "value": "0.9401",
+        "value_in_100_range": 94.01
+      },
+      {
+        "metric_name": "BERTScore",
+        "value": "0.8334",
+        "value_in_100_range": 83.34
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "dbe0f055-89a0-4762-b286-06a29468db2e",
+    "complete_question": "What is the performance of LLaMA on Code Generation for Maithili?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XorQA-In-Xx (Token-F1)",
+        "value": "28.0",
+        "value_in_100_range": 28.0
+      },
+      {
+        "metric_name": "CrossSum-In (ChrF)",
+        "value": "4.9",
+        "value_in_100_range": 4.9
+      },
+      {
+        "metric_name": "Flores-In (enxx)",
+        "value": "21.4",
+        "value_in_100_range": 21.4
+      },
+      {
+        "metric_name": "Flores-In (xxen)",
+        "value": "41.8",
+        "value_in_100_range": 41.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "54df1ae5-7306-4026-bc4d-31b11a98499a",
+    "complete_question": "What score does GPT-3.5 achieve for Code Generation in Gujarati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "61.25",
+        "value_in_100_range": 61.25
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "119c18cc-47f9-4c7a-b4d5-1be4461871f0",
+    "complete_question": "Which model achieves the highest score for Code Generation in Konkani?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "61.25",
+        "value_in_100_range": 61.25
+      }
+    ],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "c0e5800b-64c7-45e3-ad70-f9b1bc0579de",
+    "complete_question": "What is the top-performing model for Code Generation in Sanskrit?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CodeBERTScore",
+        "value": "0.9109",
+        "value_in_100_range": 91.09
+      }
+    ],
+    "answer_text_for_qna": "Gemini 1.5"
+  },
+  {
+    "unique_id": "b77dd305-6b09-4d33-a0e7-613e91f29a88",
+    "complete_question": "For Code Generation, which language shows the best performance with PaLM-2?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "82.50",
+        "value_in_100_range": 82.5
+      }
+    ],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "43b8e320-98e1-49df-85df-eabc8073a5f4",
+    "complete_question": "What is the best model for Code Generation in Sanskrit?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CodeBERTScore",
+        "value": "0.9190",
+        "value_in_100_range": 91.9
+      }
+    ],
+    "answer_text_for_qna": "Gemini 2.0"
+  },
+  {
+    "unique_id": "3d4f49ff-4a83-4597-9cc7-594ec25c48bc",
+    "complete_question": "For Code Generation, which language shows the best performance with LLaMA?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "82.5",
+        "value_in_100_range": 82.5
+      }
+    ],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "9066d945-6170-460f-b73d-ed8121b688ed",
+    "complete_question": "Which model performs best for Code Generation in Urdu?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "61.25",
+        "value_in_100_range": 61.25
+      }
+    ],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "b2567a3b-ea98-465b-a966-cc0ae9474a2a",
+    "complete_question": "For Code Generation, which language shows the best performance with Airavata?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "82.5",
+        "value_in_100_range": 82.5
+      }
+    ],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "3d7104d5-8436-4570-b7c4-12d305b5e5de",
+    "complete_question": "How well does PaLM-2 perform on Code Generation for Sanskrit?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CodeBERTScore",
+        "value": "0.794-0.917",
+        "value_in_100_range": 91.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "fac55d6c-5696-4f12-ae6b-e41a6707a3b0",
+    "complete_question": "What is the top-performing model for Code Generation in Punjabi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CodeBERTScore",
+        "value": "0.946",
+        "value_in_100_range": 94.6
+      },
+      {
+        "metric_name": "CodeBERTScore",
+        "value": "0.879",
+        "value_in_100_range": 87.9
+      }
+    ],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "4297c08c-093a-4105-a8c5-11440b7749f4",
+    "complete_question": "For Code Generation, which language shows the best performance with BLOOMZ?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Python"
+  },
+  {
+    "unique_id": "7d62b29a-ba82-4684-a358-132b8d410658",
+    "complete_question": "How well does GPT-4 perform on Code Generation for Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.831",
+        "value_in_100_range": 83.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "fefcfbc9-6274-4162-85cc-a3a53b8b59b2",
+    "complete_question": "Which model performs best for Code Generation in Sindhi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Claude3.5"
+  },
+  {
+    "unique_id": "9ead6739-bbad-4fae-b517-6767b16e6fc2",
+    "complete_question": "Which model is the top performer for Code Generation in Bengali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Claude3.5"
+  },
+  {
+    "unique_id": "069e9724-a846-4097-8956-070534a04c1a",
+    "complete_question": "Which model performs best for Code Generation in Odia?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Aya"
+  },
+  {
+    "unique_id": "edd314a2-6805-40a8-a268-6ac39df7731e",
+    "complete_question": "Which model is the best for Code Generation in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Claude3.5"
+  },
+  {
+    "unique_id": "d32e2dc5-8455-4328-951e-11a4a312ec86",
+    "complete_question": "What is the top-performing model for Code Generation in Kannada?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "DeepSeek-Coder"
+  },
+  {
+    "unique_id": "4ea50ee0-4e42-44d5-9ac6-56a1bc304e0c",
+    "complete_question": "What is the performance of GPT-4o on Code Generation for Kannada?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.831",
+        "value_in_100_range": 83.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "7dfdcd14-84b3-4c99-aa7d-e49937d3758c",
+    "complete_question": "What score does DeepSeek-Coder-V2 achieve for Code Generation in Uzbek?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.591",
+        "value_in_100_range": 59.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3b3a0bec-7809-47b1-ad72-966a1d63841b",
+    "complete_question": "How well does Aya perform on Code Generation for Oromo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.421",
+        "value_in_100_range": 42.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ee4d049a-f505-4e87-957c-e77d310efd16",
+    "complete_question": "What is the performance of Claude-3.5-Opus on Code Generation for Yiddish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.719",
+        "value_in_100_range": 71.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "1d7e69de-2d8e-4378-8ffd-39f9d92f1001",
+    "complete_question": "What score does WizardCoder achieve for Code Generation in Kazakh?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.110",
+        "value_in_100_range": 11.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a9f6d751-fcee-4287-917f-9094545c8105",
+    "complete_question": "How well does GPT-3.5 perform on Code Generation for Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.339",
+        "value_in_100_range": 33.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c873d3c4-aa21-48d3-b3f3-9ea38dcaaaae",
+    "complete_question": "What is the performance of Claude-3.5-Opus on Code Generation for Igbo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.732",
+        "value_in_100_range": 73.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a20b28fc-42d6-4736-97bd-f4c894b0ff3a",
+    "complete_question": "What score does DeepSeek-Coder-V2 achieve for Code Generation in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.015",
+        "value_in_100_range": 1.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c4e690be-4d0b-448c-b1be-d309fd9dee58",
+    "complete_question": "How well does GPT-4o perform on Code Generation for Odia?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.831",
+        "value_in_100_range": 83.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "15c9b978-e40f-428c-94c8-850b3bb9908f",
+    "complete_question": "What is the performance of GPT-3.5 on Code Generation for Kurdish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.288",
+        "value_in_100_range": 28.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a2a08f7a-842b-460b-8377-51412313b05e",
+    "complete_question": "What score does Aya achieve for Code Generation in Sango?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.438",
+        "value_in_100_range": 43.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c3b87e5c-862e-44d1-8376-765e7907c52c",
+    "complete_question": "How well does WizardCoder perform on Code Generation for Malagasy?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.040",
+        "value_in_100_range": 4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "58cd870f-2caf-4812-8f0c-af9640ca259e",
+    "complete_question": "What is the performance of Claude-3.5-Opus on Code Generation for Macedonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.739",
+        "value_in_100_range": 73.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a8ff5e0a-2da3-49b6-91ae-757f42812598",
+    "complete_question": "What score does DeepSeek-Coder-V2 achieve for Code Generation in Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.025",
+        "value_in_100_range": 2.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "8fe95f7d-fc82-4ec3-9c48-8c4bf7096626",
+    "complete_question": "How well does GPT-3.5 perform on Code Generation for Lao?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.449",
+        "value_in_100_range": 44.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "13f7fc53-56ce-49b2-95a8-cb5600e85b02",
+    "complete_question": "What is the performance of Claude-3.5-Opus on Code Generation for Kyrgyz?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.831",
+        "value_in_100_range": 83.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "203dc4d2-4f8c-4738-a63f-840b647ac102",
+    "complete_question": "What score does DeepSeek-Coder-V2 achieve for Code Generation in Pashto?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.076",
+        "value_in_100_range": 7.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "bdb932d4-c468-415d-8afd-c93ecdd50d65",
+    "complete_question": "How well does WizardCoder perform on Code Generation for Shona?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.831",
+        "value_in_100_range": 83.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ca9f3451-f9a6-4cb5-8312-ed3fb048f787",
+    "complete_question": "What is the performance of Aya on Code Generation for Hausa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.447",
+        "value_in_100_range": 44.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "49425455-c99c-4a30-b269-7eb4b9c8499c",
+    "complete_question": "What score does Claude-3.5-Opus achieve for Code Generation in Amharic?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.765",
+        "value_in_100_range": 76.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e1812ea9-e30c-48a4-ab9b-1581745d3a23",
+    "complete_question": "How well does DeepSeek-Coder-V2 perform on Code Generation for Burmese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.009",
+        "value_in_100_range": 0.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "5f1f07cd-2979-472e-95b4-ef34f24d5c75",
+    "complete_question": "What is the performance of GPT-4o on Code Generation for Sinhala?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.633",
+        "value_in_100_range": 63.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "cadf52f7-1867-46e1-9253-3416644606ff",
+    "complete_question": "What score does Claude-3.5-Opus achieve for Code Generation in Sundanese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.831",
+        "value_in_100_range": 83.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "69d0c149-d3f7-4192-8895-6fd988094f6a",
+    "complete_question": "How well does DeepSeek-Coder-V2 perform on Code Generation for Tigrinya?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.457",
+        "value_in_100_range": 45.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "76f30f15-8612-440b-aaa6-dbf666fae5e2",
+    "complete_question": "What is the performance of GPT-3.5 on Code Generation for Sango?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.831",
+        "value_in_100_range": 83.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "7e42b2a8-62e6-468b-bd06-e89985db03fd",
+    "complete_question": "What score does Aya achieve for Code Generation in Sardinian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.584",
+        "value_in_100_range": 58.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "fd5e24aa-e899-4277-9278-de3bb4309c41",
+    "complete_question": "How well does GPT-4o perform on Code Generation for Tajik?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.831",
+        "value_in_100_range": 83.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "4194263a-7348-4253-a276-5f1df910b256",
+    "complete_question": "What is the performance of Claude-3.5-Opus on Code Generation for Javanese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.771",
+        "value_in_100_range": 77.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "803d0342-1540-4019-bd11-e166d1bc2fea",
+    "complete_question": "What score does DeepSeek-Coder-V2 achieve for Code Generation in Tsonga?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.042",
+        "value_in_100_range": 4.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d3bef306-6e57-4ff7-846c-2b8a33d76224",
+    "complete_question": "How well does Aya perform on Code Generation for Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "0.831",
+        "value_in_100_range": 83.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b5b12af7-9733-433b-b507-88355dded7c9",
+    "complete_question": "Which model performs best for Code Generation in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Claude3.5"
+  },
+  {
+    "unique_id": "57c4a1a5-e09f-4a36-80b4-6fe189d350da",
+    "complete_question": "What is the top-performing model for Code Generation in Igbo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Claude3.5"
+  },
+  {
+    "unique_id": "ac24b927-90bc-4c97-9b6e-62d99a668b41",
+    "complete_question": "For Code Generation, which model achieves the highest score in Kurdish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "ef84d0b9-4eb7-4ef7-80a2-8dbb5ee1ae26",
+    "complete_question": "Which model achieves the highest score for Code Generation in Lao?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Claude3.5"
+  },
+  {
+    "unique_id": "5f42c615-e681-4f03-9077-7a40e33fb328",
+    "complete_question": "Which model performs best for Code Generation in Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Aya"
+  },
+  {
+    "unique_id": "2ed927a2-1643-4a51-a247-2d2d9314b662",
+    "complete_question": "What is the top-performing model for Code Generation in Pashto?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT4o"
+  },
+  {
+    "unique_id": "41a6614c-2018-4f03-9ee6-900aa5f46591",
+    "complete_question": "For Code Generation, which language shows the best performance with Aya?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Python"
+  },
+  {
+    "unique_id": "404363d4-9007-4df7-98c5-e158eea5235d",
+    "complete_question": "Which model achieves the highest score for Code Generation in Quechua?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Claude3.5"
+  },
+  {
+    "unique_id": "5b9da767-0784-4d52-80c4-0b498f09b99f",
+    "complete_question": "Which model performs best for Code Generation in Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Claude3.5"
+  },
+  {
+    "unique_id": "8b4aa76d-2ed4-4a75-bebb-3f90019ab9b9",
+    "complete_question": "What is the top-performing model for Code Generation in Sundanese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Claude3.5"
+  },
+  {
+    "unique_id": "1acf8e88-44f9-46e7-9852-095648d5acee",
+    "complete_question": "For Code Generation, which model achieves the highest score in Sardinian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT4o"
+  },
+  {
+    "unique_id": "733e6a02-973c-4ab0-8d2d-9fcf97fedbbd",
+    "complete_question": "Which language shows the best performance for Code Generation with DeepSeek-Coder-V2?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Python"
+  },
+  {
+    "unique_id": "85df7879-56cd-4028-9812-f08b59d583c1",
+    "complete_question": "Which model achieves the highest score for Code Generation in Sango?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "dd8c36b3-39cc-4598-835b-7636be71495f",
+    "complete_question": "Which model performs best for Code Generation in Tsonga?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Claude3.5"
+  },
+  {
+    "unique_id": "68f29ec4-38f5-4ed9-9705-76d1fd3763aa",
+    "complete_question": "What is the top-performing model for Code Generation in Sardinian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT4o"
+  },
+  {
+    "unique_id": "ccef2380-8f75-4677-8884-50f0b7d55c3f",
+    "complete_question": "For Code Generation, which language shows the best performance with Claude-3.5-Opus?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "eng_Latn"
+  },
+  {
+    "unique_id": "0e133b9c-99ff-4bfa-aeed-ac5ae040720b",
+    "complete_question": "Which model achieves the highest score for Code Generation in Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "9808abbe-93d4-4256-b533-d92f2cf60d0d",
+    "complete_question": "Which model performs best for Code Generation in Kyrgyz?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "747df29b-e7fd-476e-90e6-10b8e8fe1fd5",
+    "complete_question": "What is the top-performing model for Code Generation in Kazakh?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4"
+  }
+]

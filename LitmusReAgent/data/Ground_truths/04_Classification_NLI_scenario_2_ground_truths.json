@@ -1,0 +1,851 @@
+[
+  {
+    "unique_id": "9dd28fe1-4c6a-41a4-983a-50812113f3d9",
+    "complete_question": "What is the performance of Aya-23B on Classification NLI for Bambara?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Accuracy (IrokoBench NLI)",
+        "value": "54.32",
+        "value_in_100_range": 54.32
+      },
+      {
+        "metric_name": "AfriXNLI Accuracy (IrokoBench NLI, prompt_2)",
+        "value": "55.93",
+        "value_in_100_range": 55.93
+      },
+      {
+        "metric_name": "AfriXNLI Accuracy (IrokoBench NLI, prompt_3)",
+        "value": "51.62",
+        "value_in_100_range": 51.62
+      },
+      {
+        "metric_name": "AfriXNLI Accuracy (IrokoBench NLI, prompt_4)",
+        "value": "54.32",
+        "value_in_100_range": 54.32
+      },
+      {
+        "metric_name": "AfriXNLI Accuracy (IrokoBench NLI, prompt_5)",
+        "value": "52.5",
+        "value_in_100_range": 52.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "cdbe4cac-c728-4019-84fe-e25f3aa68457",
+    "complete_question": "What score does Llama3.2-1B achieve for Classification NLI in Oromo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "4a95542c-6c7b-4f87-8f9f-d2add8a5ea79",
+    "complete_question": "How well does Aya-8B perform on Classification NLI for Wolof?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Prompt LLMs in African Language)",
+        "value": "36.7",
+        "value_in_100_range": 36.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "559541ef-bb87-45fd-9d08-4b74af70459f",
+    "complete_question": "What is the performance of Gemma2-2B on Classification NLI for Hausa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Prompt LLMs in African Language)",
+        "value": "49.7",
+        "value_in_100_range": 49.7
+      },
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Translate-Test, Evaluation in English)",
+        "value": "49.7",
+        "value_in_100_range": 49.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e927f1c4-ca2d-4fa7-af60-3ff6a4f20522",
+    "complete_question": "What score does GPT-4.1 achieve for Classification NLI in Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MasakhaNEWS Topic Classification (NLI) Accuracy",
+        "value": "80.95",
+        "value_in_100_range": 80.95
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a5c61534-48d5-46a5-a33f-df60361a87be",
+    "complete_question": "How well does Phi-4-3.8B perform on Classification NLI for Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI (IrokoBench, Classification NLI) – kin (Kinyarwanda)",
+        "value": "10.98",
+        "value_in_100_range": 10.98
+      },
+      {
+        "metric_name": "AfriXNLI (IrokoBench, Classification NLI) – kin (Kinyarwanda) prompt_2",
+        "value": "10",
+        "value_in_100_range": 10.0
+      },
+      {
+        "metric_name": "AfriXNLI (IrokoBench, Classification NLI) – kin (Kinyarwanda) prompt_3",
+        "value": "64.51",
+        "value_in_100_range": 64.51
+      },
+      {
+        "metric_name": "AfriXNLI (IrokoBench, Classification NLI) – kin (Kinyarwanda) prompt_4",
+        "value": "13.86",
+        "value_in_100_range": 13.86
+      },
+      {
+        "metric_name": "AfriXNLI (IrokoBench, Classification NLI) – kin (Kinyarwanda) prompt_5",
+        "value": "10",
+        "value_in_100_range": 10.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3f3a0b6b-ad34-4e8d-9e60-47b227e5fd01",
+    "complete_question": "What is the performance of Claude-4-Sonnet on Classification NLI for Amharic?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Mean Accuracy",
+        "value": "64.60",
+        "value_in_100_range": 64.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "67fea1f2-9d7f-40a9-a7ae-0aa259b955ea",
+    "complete_question": "What score does Gemma3-27B achieve for Classification NLI in Kirundi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy",
+        "value": "40.5",
+        "value_in_100_range": 40.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "213fa50b-62ae-41c0-aad7-118171b585a6",
+    "complete_question": "How well does Command-R-Plus-104B perform on Classification NLI for Xhosa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "1307d47d-0961-4d8e-88cc-7674ffc9c28c",
+    "complete_question": "What is the performance of Llama3.1-8B on Classification NLI for Yoruba?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Prompt LLMs in African Language)",
+        "value": "39.0",
+        "value_in_100_range": 39.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c76e9dcd-a87c-4efe-af4a-e670bad8f89a",
+    "complete_question": "What score does Gemma2-9B achieve for Classification NLI in Twi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "23.2",
+        "value_in_100_range": 23.2
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "45.8",
+        "value_in_100_range": 45.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3c384481-1571-49f8-beea-a2adbb2d31f8",
+    "complete_question": "How well does Command-R-Plus-R7B perform on Classification NLI for Tigrinya?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e4aae458-4d37-4f31-82b9-3982da625859",
+    "complete_question": "What is the performance of Gemma3-4B on Classification NLI for Oromo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (African Language Prompt)",
+        "value": "35.8",
+        "value_in_100_range": 35.8
+      },
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Translate-Test Evaluation in English)",
+        "value": "51.7",
+        "value_in_100_range": 51.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "7bb6ca49-1a48-48b9-817e-2dd4fdcab51d",
+    "complete_question": "What score does Phi-3.5-3.8B achieve for Classification NLI in Hausa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Classification NLI Score",
+        "value": "57.65",
+        "value_in_100_range": 57.65
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3818ee18-021b-437e-a052-16ba64b6e652",
+    "complete_question": "How well does Gemma2-27B perform on Classification NLI for Bambara?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MasakhaNEWS Topic Classification Accuracy",
+        "value": "66.82",
+        "value_in_100_range": 66.82
+      },
+      {
+        "metric_name": "AfriXNLI Natural Language Inference Accuracy",
+        "value": "N/A",
+        "value_in_100_range": null
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3b642291-6d9f-431a-825c-11864220e0bb",
+    "complete_question": "What is the performance of Llama3.3-70B on Classification NLI for Twi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Prompt LLMs in African Language)",
+        "value": "36.0",
+        "value_in_100_range": 36.0
+      },
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Translate-Test: Evaluation in English)",
+        "value": "34.5",
+        "value_in_100_range": 34.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3d9298f2-ba59-4c26-9cf9-7fbaa988f543",
+    "complete_question": "What score does Gemma2-2B achieve for Classification NLI in Zulu?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Prompt LLMs in African Language)",
+        "value": "48.0",
+        "value_in_100_range": 48.0
+      },
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Translate-Test: Evaluation in English)",
+        "value": "49.0",
+        "value_in_100_range": 49.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "5a7d52f3-5c04-4d5c-a4bd-d7c5d5bb4b5d",
+    "complete_question": "How well does Llama3.2-3B perform on Classification NLI for Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Accuracy",
+        "value": "49.2",
+        "value_in_100_range": 49.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "dd0ebcd4-d15c-4c2b-b845-191c6a494a71",
+    "complete_question": "What is the performance of Aya-35B on Classification NLI for Kirundi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI (NLI) - Best-Prompt Accuracy",
+        "value": "69.8",
+        "value_in_100_range": 69.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2e91c9c2-7a3f-49af-a31a-b2acbf136563",
+    "complete_question": "What score does GPT-4.1 achieve for Classification NLI in Bambara?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "23.2",
+        "value_in_100_range": 23.2
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "45.8",
+        "value_in_100_range": 45.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "15d1f312-a5bb-4dc3-a845-585f3b86aaf0",
+    "complete_question": "How well does Llama3.2-3B perform on Classification NLI for Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Prompt LLMs in African Language)",
+        "value": "36.5",
+        "value_in_100_range": 36.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "4c797b30-617e-4445-a27e-34e072b44c7d",
+    "complete_question": "What is the performance of Gemma3-27B on Classification NLI for Zulu?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (%)",
+        "value": "48.0",
+        "value_in_100_range": 48.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "6e7a60a8-88c3-4db8-95d0-4edd5d05bf27",
+    "complete_question": "What score does Phi-4-3.8B achieve for Classification NLI in Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI (IrokoBench, Classification NLI, Somali, Phi-4-3.8B)",
+        "value": "77.7",
+        "value_in_100_range": 77.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "dffe079d-26af-427c-a3e3-8976fc180ebf",
+    "complete_question": "How well does Aya-8B perform on Classification NLI for Hausa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Prompt LLMs in African Language)",
+        "value": "57.0",
+        "value_in_100_range": 57.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "04f79bb2-0db8-4a2b-92db-8d9db39f2e5d",
+    "complete_question": "What is the performance of Command-A-111B on Classification NLI for Kirundi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "23.2",
+        "value_in_100_range": 23.2
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "45.8",
+        "value_in_100_range": 45.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "9346dd91-7452-44b4-9be3-03d26905510b",
+    "complete_question": "What score does Gemma3-4B achieve for Classification NLI in Twi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy",
+        "value": "36.0",
+        "value_in_100_range": 36.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "6d93d412-67b9-4061-8804-b427e755a77e",
+    "complete_question": "How well does Gemma3-27B perform on Classification NLI for Xhosa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Prompt LLMs in African Language)",
+        "value": "45.0",
+        "value_in_100_range": 45.0
+      },
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Translate-Test Evaluation in English)",
+        "value": "50.2",
+        "value_in_100_range": 50.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e8014224-2510-46f2-9333-4592b234eefa",
+    "complete_question": "What is the performance of Llama3.3-70B on Classification NLI for Yoruba?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy",
+        "value": "39.0",
+        "value_in_100_range": 39.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ae08e3d8-9fe2-4941-b244-3eb40fe6ab2d",
+    "complete_question": "What score does Command-R-Plus-104B achieve for Classification NLI in Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy",
+        "value": "54.3",
+        "value_in_100_range": 54.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d41608a7-bbbe-41c6-af77-b423b3fd0368",
+    "complete_question": "How well does Aya-23B perform on Classification NLI for Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MasakhaNEWS Topic Classification (som)",
+        "value": "74.49",
+        "value_in_100_range": 74.49
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "54073800-04dc-4c73-aca3-f6c3eeb41466",
+    "complete_question": "Which model performs best for Classification NLI in Kirundi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "aya-101"
+  },
+  {
+    "unique_id": "b3931cf1-0bb0-4cfc-8196-8e68502248e7",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Bambara?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "accuracy",
+        "value": "61.8%",
+        "value_in_100_range": 61.8
+      }
+    ],
+    "answer_text_for_qna": "Translate-Test (BiLSTM)"
+  },
+  {
+    "unique_id": "a664f079-40ac-45e3-a766-72728401254a",
+    "complete_question": "What is the top-performing model for Classification NLI in Hausa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "0daad06b-eb49-42c2-b987-e83613fe20a1",
+    "complete_question": "Which model performs best for Classification NLI in Tigrinya?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "aya-101"
+  },
+  {
+    "unique_id": "955056dd-f037-43bc-a72e-dbf62782ce71",
+    "complete_question": "What is the top-performing model for Classification NLI in Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "accuracy",
+        "value": "61.8%",
+        "value_in_100_range": 61.8
+      }
+    ],
+    "answer_text_for_qna": "Translate-Test (BiLSTM-max)"
+  },
+  {
+    "unique_id": "85c7b3c1-f415-4e52-9611-bf94216c4011",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Oromo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "a7bc1b70-43fe-44f4-9ad2-15c98dc67e7f",
+    "complete_question": "Which model performs best for Classification NLI in Twi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "AfroXLMR-76L"
+  },
+  {
+    "unique_id": "f2a40030-00d2-4ea3-9968-0e48f5bb5503",
+    "complete_question": "What is the top-performing model for Classification NLI in Zulu?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "AfroXLMR-76L"
+  },
+  {
+    "unique_id": "cafe7ccf-8e50-4ac9-9bf4-ceff27fb2929",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Xhosa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "AfroXLMR-76L"
+  },
+  {
+    "unique_id": "d71969cf-e095-4f5c-ba9b-603b368d5aab",
+    "complete_question": "Which language shows the best performance with Llama3.1-70B for Classification NLI?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Token-F1 (XQuAD-In)",
+        "value": "25.3",
+        "value_in_100_range": 25.3
+      },
+      {
+        "metric_name": "Token-F1 (XorQA-In-Xx)",
+        "value": "43.5",
+        "value_in_100_range": 43.5
+      },
+      {
+        "metric_name": "Token-F1 (XorQA-In-Xx, Rajasthani)",
+        "value": "31.2",
+        "value_in_100_range": 31.2
+      },
+      {
+        "metric_name": "Token-F1 (XorQA-In-Xx, Marwari)",
+        "value": "24.4",
+        "value_in_100_range": 24.4
+      },
+      {
+        "metric_name": "Token-F1 (XorQA-In-Xx, Maithili)",
+        "value": "28.0",
+        "value_in_100_range": 28.0
+      }
+    ],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "db5f41e7-e9bf-4100-8195-0b8fb462ae16",
+    "complete_question": "Which model performs best for Classification NLI in Yoruba?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "dddaf75b-5627-415a-8dd9-d9d3ad41630e",
+    "complete_question": "What is the top-performing model for Classification NLI in Wolof?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "AfroXLMR-76L"
+  },
+  {
+    "unique_id": "e5dd2213-cb0a-4825-95b4-7a309ef9f48e",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Amharic?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "AfroXLMR-76L-large"
+  },
+  {
+    "unique_id": "0f394bce-7d28-418d-906a-bbd304a45a74",
+    "complete_question": "Which language shows the best performance with Phi-4-3.8B for Classification NLI?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "c75a2773-59f3-453a-81c1-338d5a04aacb",
+    "complete_question": "Which model performs best for Classification NLI in Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "c8aa7f09-5032-4c29-8fab-ca2babe19836",
+    "complete_question": "What is the top-performing model for Classification NLI in Bambara?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "gpt-4o-2024-08-06"
+  },
+  {
+    "unique_id": "62962d41-d18d-42f3-b671-d7263b20e24d",
+    "complete_question": "Which language shows the best performance with Gemma3-27B for Classification NLI?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XorQA-In-Xx F1",
+        "value": "43.5",
+        "value_in_100_range": 43.5
+      }
+    ],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "5d3ddd2a-0eb1-4924-a347-955ca49d352d",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "7cfc311e-bd4c-498d-83da-8ff22c36dfce",
+    "complete_question": "Which language shows the best performance with Command-A-111B for Classification NLI?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "accuracy",
+        "value": "64.2",
+        "value_in_100_range": 64.2
+      }
+    ],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "8ea02d83-023d-4af8-8629-3be934670a69",
+    "complete_question": "Which model performs best for Classification NLI in Twi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "AfroXLMR-76L"
+  },
+  {
+    "unique_id": "61b3bdbe-6ce0-461b-9bdc-f1afab3cccc3",
+    "complete_question": "What is the top-performing model for Classification NLI in Zulu?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "AfroXLMR-76L"
+  },
+  {
+    "unique_id": "9b4b3217-dfee-4331-ac4d-df25b878c7aa",
+    "complete_question": "Which language shows the best performance with Gemma2-9B for Classification NLI?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "1e3611c7-3d93-48cb-b058-6cc57a26f98b",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Hausa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "988b2292-51a8-4916-ac55-4a6a54308417",
+    "complete_question": "Which model performs best for Classification NLI in Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "9bcbdc01-d8fa-41b0-b2cd-a36a49fdc55e",
+    "complete_question": "What is the top-performing model for Classification NLI in Wolof?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "AfroXLMR-76L"
+  },
+  {
+    "unique_id": "5bb2a185-43a7-428b-b91b-a025cefc8fec",
+    "complete_question": "Which language shows the best performance with Llama3.2-1B for Classification NLI?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Token-F1 (XorQA-In-Xx, Classification/NLI)",
+        "value": "43.5",
+        "value_in_100_range": 43.5
+      }
+    ],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "dae9d31e-4b49-4b1f-9e07-b19c75a61d98",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Zulu?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "AfroXLMR-76L"
+  },
+  {
+    "unique_id": "3cf54a18-207d-4dfa-8a2b-827ce49c5d54",
+    "complete_question": "Which model performs best for Classification NLI in Kirundi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "aya-101"
+  },
+  {
+    "unique_id": "0492bf52-4bd1-480a-90b8-8acdc6178cde",
+    "complete_question": "What is the top-performing model for Classification NLI in Amharic?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "e9cc1f7a-3452-4407-9771-2a3ed05f9624",
+    "complete_question": "What is the performance of Gemma3-4B on Classification NLI for Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Accuracy (IrokoBench, Prompt LLMs in African Language)",
+        "value": "40.5",
+        "value_in_100_range": 40.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  }
+]

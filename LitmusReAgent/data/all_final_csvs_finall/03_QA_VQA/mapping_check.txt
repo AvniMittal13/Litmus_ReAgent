@@ -1,0 +1,11 @@
+﻿python :   File "<string>", line 20
+At line:1 char:123
++ ... _questions_final_litmus\all_final_csvs_finall\03_QA_VQA"; python -c "
++                                                               ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  File "<string>", line 20:String 
+   ) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    if ('" +lang+ \'
+        ^
+SyntaxError: unterminated string literal (detected at line 20)

@@ -1,0 +1,990 @@
+Model,Total_Frequency,Tasks_Appeared,Avg_Frequency_Per_Task
+GPT-4o,395,6,65.83
+GPT-4,244,6,40.67
+mT5,234,5,46.8
+XLM-R,221,5,44.2
+Aya (33B),210,1,210.0
+WizardCoder (33B),210,1,210.0
+GPT-3.5 (175B),210,1,210.0
+DeepSeek-Coder-V2 (236B),210,1,210.0
+Claude-3.5-Opus,210,1,210.0
+Llama-3,155,3,51.67
+PaLM-2,154,3,51.33
+GPT-3.5,142,6,23.67
+mBERT,124,4,31.0
+Qwen3-8B,117,1,117.0
+Qwen3-32B,117,1,117.0
+Qwen2.5 (various models),117,1,117.0
+Qwen3-0.6B,117,1,117.0
+Qwen3-1.7B,117,1,117.0
+DeepSeek-V3 Base,117,1,117.0
+Qwen3-14B,117,1,117.0
+Qwen3-235B-A22B,117,1,117.0
+Qwen3-30B-A3B,117,1,117.0
+Gemma-3,117,1,117.0
+Qwen3-4B,117,1,117.0
+Llama-4,117,1,117.0
+MoE 54.5B),106,1,106.0
+Distilled 1.3B,106,1,106.0
+600M,106,1,106.0
+1.3B,106,1,106.0
+NLLB-200 family (Dense 3.3B,106,1,106.0
+Airavata,100,4,25.0
+Qwen 2 Audio,92,1,92.0
+Gemini 2.0 Flash,92,1,92.0
+GPT-4o Audio,92,1,92.0
+Gemma 3 27B,92,1,92.0
+M2M-100,90,2,45.0
+NLLB-200,88,1,88.0
+BLOOM,85,3,28.33
+M2M-100 (various sizes),84,1,84.0
+mBART-50,82,3,27.33
+T5,78,4,19.5
+Gemini-1.5,74,2,37.0
+mT5EncZero,73,1,73.0
+mT5Enc,73,1,73.0
+XLM-Rzero,73,1,73.0
+mT5Zero,73,1,73.0
+Claude-3,70,1,70.0
+SeamlessM4T,70,1,70.0
+Gemma,67,3,22.33
+XLM,67,2,33.5
+mBart,64,1,64.0
+Gemini Pro,64,2,32.0
+LLaMA,60,3,20.0
+BLOOM-7B,58,2,29.0
+BLOOMZ-7B,58,2,29.0
+GPT-3,58,3,19.33
+PaLM-2-L,58,2,29.0
+LLaMA-2,56,2,28.0
+Bloom-VIST,55,1,55.0
+Bloom-LM,55,1,55.0
+Bloom-Captioning,55,1,55.0
+Bloom-Speech,55,1,55.0
+Qwen2.5-Math-1.5B-Instruct,54,1,54.0
+Qwen2.5-Math-7B-Instruct,54,1,54.0
+Qwen2.5-Math-7B-PRM,54,1,54.0
+mBART,54,2,27.0
+Qwen2.5-Math-72B-RM,54,1,54.0
+GPT-4o-Mini,54,1,54.0
+Qwen2.5-Math-72B-PRM,54,1,54.0
+o3-Mini,54,1,54.0
+DeepSeek-R1-1.5B,54,1,54.0
+MR1-1.5B,54,1,54.0
+Gemma2-9B,54,1,54.0
+Mistral-Large,54,1,54.0
+IndicBART,52,3,17.33
+Aya-101,48,1,48.0
+IndicTrans2,48,1,48.0
+BLOOMZ,48,4,12.0
+XLM-RoBERTa,47,3,15.67
+mT5 (multilingual T5),43,1,43.0
+mT5 (official baseline),43,1,43.0
+mBART (multilingual BART),43,1,43.0
+Community models,43,1,43.0
+multilingual transformer models,43,1,43.0
+Mistral,43,3,14.33
+Gemini 1.5 Pro,42,1,42.0
+LLaMA 3.1 8B,41,1,41.0
+Gemma 2,41,1,41.0
+OpenHathi,41,2,20.5
+LLaMA 3.1 70B,41,1,41.0
+AfroLLaMA,41,1,41.0
+PaLM-X,40,1,40.0
+M-CLIP XLM-Roberta-Large-Vit-B-32,40,1,40.0
+Gemini-1.5-Flash,40,1,40.0
+LLaVA-1.5-7B,40,1,40.0
+GPT-4o-mini,40,2,20.0
+MMTE,40,1,40.0
+mBLIP mT0-XL (4.9B),40,1,40.0
+CLIP vit-large-patch14-336,40,1,40.0
+74.3% local languages),40,1,40.0
+GPT-4o (best performance: 75.4% English,40,1,40.0
+InstructBLIP (4.1B),40,1,40.0
+mBLIP BLOOMZ (8.3B),40,1,40.0
+mT5-Large,36,2,18.0
+m2m (proposed),35,1,35.0
+m2o,35,1,35.0
+M-BERT,33,2,16.5
+NLLB,33,2,16.5
+Google Translate,32,2,16.0
+LLaMA-65B,30,1,30.0
+mBART50,30,1,30.0
+DeepSeek,30,2,15.0
+Opus MT,30,1,30.0
+LibreTranslate,30,1,30.0
+L,29,1,29.0
+mT5-Base,29,1,29.0
+Gemma-7B,29,1,29.0
+S,29,1,29.0
+mT5-B to XXL,29,1,29.0
+mT5-XXL,29,1,29.0
+Qwen,29,3,9.67
+LLaMA-7B,29,1,29.0
+LLaMA-13B,29,1,29.0
+PaLM-2-XXS,29,1,29.0
+PaLM-2-XS,29,1,29.0
+mT5-XL,29,1,29.0
+Gemma-7B-PT and IT,29,1,29.0
+Gemma-7B-PT,29,1,29.0
+mT5 (B,29,1,29.0
+13B,29,1,29.0
+BLOOMZ (7B),29,1,29.0
+Gemma-7B-IT,29,1,29.0
+PaLM-2 (XXS,29,1,29.0
+XS,29,1,29.0
+Gemma (7B-IT),29,1,29.0
+65B),29,1,29.0
+PaLM-2-XXS to L,29,1,29.0
+L),29,1,29.0
+XXL),29,1,29.0
+XL,29,1,29.0
+LLaMA (7B,29,1,29.0
+LLaMA-7B to 65B,29,1,29.0
+PaLM-2-S,29,1,29.0
+Gemma2?9B,28,1,28.0
+Mistral?7B?v0.3,28,1,28.0
+Gemini-1.5-Pro,28,2,14.0
+NLLB?54.5B,28,1,28.0
+GPT?3.5?turbo,28,1,28.0
+GPT?4?turbo,28,1,28.0
+LLaMA3/3.1?8B,28,1,28.0
+Qwen2/2.5?7B,28,1,28.0
+AfroXLMR-large,27,1,27.0
+RoBERTa,27,3,9.0
+Anthropic-LM,27,1,27.0
+ChatGLM3,27,1,27.0
+Yi,27,1,27.0
+XLM-R base,27,1,27.0
+Cohere,27,1,27.0
+Phi-3,27,1,27.0
+AfroXLMR-base,27,1,27.0
+GLM,27,1,27.0
+InternLM,27,1,27.0
+SOLAR,27,1,27.0
+OPT,27,1,27.0
+Unicoder LC,27,1,27.0
+Vicuna-7B,27,1,27.0
+GPT-3.5-turbo-16k,27,1,27.0
+Antares,27,1,27.0
+Mixtral-8x7B-v0.1,26,2,13.0
+BERT,26,2,13.0
+m-BERT,24,1,24.0
+CodeGen2 (1B,23,1,23.0
+3.7B,23,1,23.0
+2B),23,1,23.0
+CodeT5+ (220M,23,1,23.0
+Mistral-7B-Instruct-v0.2,23,2,11.5
+16B),23,1,23.0
+770M,23,1,23.0
+7B,23,1,23.0
+various LLMs,22,1,22.0
+Phi-3-medium-14B-128k-Instruct,21,1,21.0
+Meta-Llama-3.1-8B,21,1,21.0
+Mistral-7B-v0.1,21,1,21.0
+Vicuna-13b-v1.5,21,1,21.0
+Gemma 2 27B,21,1,21.0
+EuroLLM-1.7B,21,1,21.0
+Gemma-7b,21,1,21.0
+mT0-XXL-MT,21,1,21.0
+Meta-Llama-2-7B,21,1,21.0
+Aya-23-8B,21,1,21.0
+Command-R (August version),21,1,21.0
+EuroLLM-1.7B-Instruct,21,1,21.0
+Occiglot-7b-eu5-Instruct,21,1,21.0
+Meta-Llama-2-7B-Chat,21,1,21.0
+GPT-4-Turbo,21,1,21.0
+Meta-Llama-3-8B-Instruct,21,1,21.0
+BLOOMZ 7B,21,1,21.0
+Gemma-2-27b-Instruct,21,1,21.0
+Meta-Llama-3.1-8B-Instruct,21,1,21.0
+Bloomz-7b1,21,1,21.0
+Meta-Llama-2-13B-Chat,21,1,21.0
+Claude OPUS,21,1,21.0
+Vicuna-33b-v1.3,21,1,21.0
+Phi-3-mini-3.8B-128k-Instruct,21,1,21.0
+Mistral-Nemo-Instruct-12.2B,21,1,21.0
+Mistral-7B-Instruct-v0.1,21,1,21.0
+Pharia-1-LLM-7B-control,21,1,21.0
+Bloom-7b1,21,1,21.0
+LLaMa 3.1 70B,21,1,21.0
+Qwen2-7B,21,1,21.0
+GPT-4o-08-06,21,1,21.0
+AfroXLMR-76L,21,1,21.0
+Mixtral-8x7B-Instruct-v0.1,21,1,21.0
+Gemma-1.1-7b-Instruct,21,1,21.0
+LLaMa 3 8B,21,1,21.0
+c4ai-command-r-35B-v01,21,1,21.0
+Mistral-NeMo-Minitron-8B-Base,21,1,21.0
+Gemma-2-9b-Instruct,21,1,21.0
+Phi-3-mini-4k-Instruct,21,1,21.0
+Mistral-7B-v0.3,21,1,21.0
+Pharia-1-LLM-7B-control-aligned,21,1,21.0
+Meta-Llama-3-8B,21,1,21.0
+Phi-3-medium-14B-4k-Instruct,21,1,21.0
+Serengeti,21,1,21.0
+Qwen2-7B-Instruct,21,1,21.0
+Mistral-7B-Instruct-v0.3,21,1,21.0
+Meta-Llama-3.1-70B-Instruct,21,1,21.0
+Occiglot-7b-eu5,21,1,21.0
+LLaMaX 3 8B,21,1,21.0
+Mistral-Nemo-Base-12.2B,21,1,21.0
+Gemma 2 9B,21,1,21.0
+GPT-3.5-Turbo,21,1,21.0
+LLaMa 3.1 8B,21,1,21.0
+Qwen 2.5 Instruct (72 B),20,1,20.0
+Mistral Large,20,1,20.0
+Qwen 2.5 Instruct (7 B),20,1,20.0
+Llama 3.1 Instruct (8 B),20,1,20.0
+Llama 3.1 Instruct (70 B),20,1,20.0
+Mistral v3 (7 B),20,1,20.0
+C4AI Command R+,20,1,20.0
+Mixtral,20,1,20.0
+GPT-4.1,20,2,10.0
+Unicoder,19,1,19.0
+Claude?OPUS,19,1,19.0
+gpt?4o?2024?08?06,19,1,19.0
+LLaMa?2?7B,19,1,19.0
+gpt?4o?mini?2024?07?18,19,1,19.0
+gpt?4?turbo?2024?04?09,19,1,19.0
+Llama3,19,2,9.5
+Command?R,19,1,19.0
+Gemma?7B,19,1,19.0
+gpt?3.5?turbo?0125,19,1,19.0
+LLaMa?3?8B,19,1,19.0
+Gemma?2?9B,19,1,19.0
+GPT?3.5?Turbo,19,1,19.0
+LLaMa?3.1?70B,19,1,19.0
+BLOOMZ?7B,19,1,19.0
+Gemma?2?27B,19,1,19.0
+Command?R+,19,1,19.0
+OpenAI-o3-mini-medium,18,1,18.0
+Lead-3,18,1,18.0
+Trans-Sum-R,18,1,18.0
+DC+Synth,18,1,18.0
+Translate-then-Summarize,18,1,18.0
+mBART (fine-tuned),18,1,18.0
+Claude-3.7-sonnet-thinking,18,1,18.0
+Claude-3.7-sonnet,18,1,18.0
+Qwen-1.5,18,1,18.0
+mT5-base,18,1,18.0
+Llama-3.3-70B-Instruct,18,1,18.0
+Deepseek-v3,18,1,18.0
+mBART monolingual fine-tuning,18,1,18.0
+Summarize→Translate,18,1,18.0
+lead-3,18,1,18.0
+OpenAI-o1-mini,18,1,18.0
+Qwen-3-235B-A22B-Thinking,18,1,18.0
+mT5-small,18,1,18.0
+Qwen-QwQ-32B,18,1,18.0
+Gemini-2.5-pro,18,1,18.0
+Qwen-2.5-Math-72B-Instruct,18,1,18.0
+Gemma2,18,1,18.0
+Trans-Sum-G,18,1,18.0
+Gemini-2.0-flash-thinking,18,1,18.0
+ChatGPT-4o-latest,18,1,18.0
+Summarize-then-Translate,18,1,18.0
+mBART cross-lingual fine-tuning,18,1,18.0
+Translate→Summarize,18,1,18.0
+Qwen-2.5-72B-Instruct,18,1,18.0
+GPT-4.5-preview,18,1,18.0
+Deepseek-R1-671B,18,1,18.0
+Qwen-2.5-Max,18,1,18.0
+Gemma2 (27B),17,1,17.0
+IndicBERT,17,3,5.67
+Command-R-Plus (104B),17,1,17.0
+Llama3.2 (1B),17,1,17.0
+Llama3.1 (70B),17,1,17.0
+Phi-4 (3.8B),17,1,17.0
+Command-A (111B),17,1,17.0
+Aya (35B),17,1,17.0
+Gemma2 (2B),17,1,17.0
+Claude-4-Sonnet,17,1,17.0
+Llama3.1 (8B),17,1,17.0
+Aya (23B),17,1,17.0
+Gemma2 (9B),17,1,17.0
+Command-R-Plus-R7B,17,1,17.0
+Aya (8B),17,1,17.0
+Llama3.2 (3B),17,1,17.0
+Gemma3 (4B),17,1,17.0
+Llama3.3 (70B),17,1,17.0
+Gemma3 (27B),17,1,17.0
+Phi-3.5 (3.8B),17,1,17.0
+joeddav/xlm-roberta-large-xnli,16,1,16.0
+Llama-3.1-8B-Instruct,16,4,4.0
+bag-of-words encoders,16,1,16.0
+multilingual-MiniLM,16,1,16.0
+Multilingual BERT variants,16,1,16.0
+translation-based baselines,16,1,16.0
+cross-lingual LSTM encoders,16,1,16.0
+BiLSTM,16,1,16.0
+parallel data encoders,16,1,16.0
+MoritzLaurer/mDeBERTa-v3-base-mnli-xnli,16,1,16.0
+mDeBERTa,16,1,16.0
+Gemini-Pro,16,3,5.33
+Multilingual LSTM encoder,15,1,15.0
+translate-test,15,1,15.0
+Multilingual bag-of-words encoder,15,1,15.0
+Machine Translation baselines,15,1,15.0
+translate-train,15,1,15.0
+XLM-T-base,14,1,14.0
+italianBERT,14,1,14.0
+MuRIL,14,1,14.0
+BERTimbau,14,1,14.0
+norBERT,14,1,14.0
+ML Ensemble,14,1,14.0
+AfriBERTa-large,14,1,14.0
+XLM-R-base,14,1,14.0
+XLM-R-large,14,1,14.0
+mDeBERTaV3-base,14,1,14.0
+FLAN-T5,14,1,14.0
+AfroXLM-R,13,1,13.0
+AfriCOMET,13,1,13.0
+various MT systems,13,1,13.0
+COMET,13,1,13.0
+MahaMarathi,12,1,12.0
+ELECTRA,12,1,12.0
+sequence-to-sequence models,12,1,12.0
+Navarasa,12,1,12.0
+ChatGPT,12,4,3.0
+DeepSeek-R1,12,3,4.0
+Claude-3.5-Sonnet,12,3,4.0
+multilingual BERT variants,12,1,12.0
+instruction-tuned models,12,1,12.0
+RemBERT,12,1,12.0
+TamilLlama,12,1,12.0
+Bloomz,11,1,11.0
+Gemma-IT (7B),11,1,11.0
+GPT-4V,11,3,3.67
+Gemini 1.5,11,2,5.5
+Bloom,11,1,11.0
+Llama2,11,1,11.0
+Gemma (7B),11,1,11.0
+Gemma-Instruct,11,1,11.0
+Openhathi,11,1,11.0
+Airavata (7B),11,1,11.0
+Aya-8B,11,1,11.0
+GPT-4-0613,11,2,5.5
+BloomZ,11,1,11.0
+OpenHathi (7B),11,1,11.0
+Aya-101 (13B),11,1,11.0
+Translate-Test paradigm with IndicTrans2,11,1,11.0
+text-babbage-001,11,1,11.0
+Llama-3-Instruct,11,1,11.0
+GeminiPro,11,1,11.0
+LLaMA-3.1-Instruct (8B),11,1,11.0
+Narvasa2.0,11,1,11.0
+PaLM-540B,11,1,11.0
+Mistral NeMo,11,1,11.0
+LLaMA-3 (8B),11,1,11.0
+multilingual BERT,11,1,11.0
+Bloom (176B),11,1,11.0
+Llama-3.1-70B-Instruct,11,3,3.67
+GPT-3 (text-ada-001,11,1,11.0
+LLaMA-3.1 (8B),11,1,11.0
+text-davinci-001,11,1,11.0
+AryaBhatta,11,1,11.0
+Aya-8-Instruct,11,1,11.0
+MAD-X,11,1,11.0
+text-davinci-002),11,1,11.0
+Sarvam 1,11,1,11.0
+LLaMA-3-Instruct (8B),11,1,11.0
+o1-mini,11,3,3.67
+text-curie-001,11,1,11.0
+Codex (code-davinci-002),11,1,11.0
+XLM?RoBERTa,11,1,11.0
+Tamil-Llama,11,1,11.0
+Mistral-7B,10,2,5.0
+Qwen2.5-72B-Instruct,10,4,2.5
+Claude-3.5 Sonnet,10,2,5.0
+DeepSeek-R1-Distill-Llama-8B,10,1,10.0
+Gemma3-27B-IT,10,1,10.0
+DeepSeek-R1-Distill-Qwen-14B,10,1,10.0
+Qwen2.5-32B-Instruct,10,1,10.0
+DeepSeek-R1-Distill-Qwen-32B,10,1,10.0
+DeepSeek-R1-Distill-Qwen-1.5B,10,1,10.0
+ChatGPT 3.5/4,10,1,10.0
+QwQ-32B,10,1,10.0
+DeepSeek-R1-Distill-Qwen-7B,10,1,10.0
+o3-mini,10,1,10.0
+GPT-3.5-turbo,10,2,5.0
+DeepSeek-R1-Distill,10,1,10.0
+LLaMA2 7B,10,1,10.0
+TextSquare,9,1,9.0
+InternLM-Xcomposer2-4KHD,9,1,9.0
+QwenVL Plus,9,1,9.0
+DeepSeek-V2.5,9,1,9.0
+YI-VL-34B,9,1,9.0
+Claude3 Sonnet,9,1,9.0
+MiniCPM-V 2.0,9,1,9.0
+TextMonkey,9,1,9.0
+Qwen2-VL 72B,9,1,9.0
+QwenVL Max,9,1,9.0
+Claude3 Opus,9,1,9.0
+Transformer,9,1,9.0
+Llava-Next-34B,9,1,9.0
+DeepSeek-VL,9,1,9.0
+mPLUG-DocOwl 1.5,9,1,9.0
+InternVL2 76B,9,1,9.0
+InternVL-V1.5,9,1,9.0
+Gemini Ultra,9,1,9.0
+Mini-Gemini-HD-34B,9,1,9.0
+NLLB_MBR_BLEU,8,1,8.0
+GPT-3.5 Turbo,8,4,2.0
+ONLINE?M,8,1,8.0
+HW?TSC,8,1,8.0
+ONLINE?Y,8,1,8.0
+GTCOM,8,1,8.0
+UVA?LTL,8,1,8.0
+SKIM,8,1,8.0
+IOL?RESEARCH,8,1,8.0
+TEAMKYB,8,1,8.0
+UPCITE?CLILLF,8,1,8.0
+NAIST?NICT,8,1,8.0
+ONLINE?G,8,1,8.0
+ONLINE?A,8,1,8.0
+Mistral Large 2,8,1,8.0
+ONLINE?B,8,1,8.0
+random models,8,1,8.0
+ANVITA,8,1,8.0
+o1-preview,8,1,8.0
+Gemini-1.5 flash,8,1,8.0
+Llama 3.1 8B,8,1,8.0
+PROMT,8,1,8.0
+SRPH,8,1,8.0
+CUNI?GA,8,1,8.0
+AIRC,8,1,8.0
+Claude-3-Haiku,8,1,8.0
+ONLINE?W,8,1,8.0
+MUNI?NLP,8,1,8.0
+YISHU,8,1,8.0
+Jais-13b-chat,8,2,4.0
+Gemini-1.5 pro,8,1,8.0
+Qwen-2.5 72B,8,1,8.0
+Claude-3-Sonnet,8,1,8.0
+Llama 3.1 70B,8,1,8.0
+CUNI?TRANSFORMER,8,1,8.0
+Llama 3.1 405B,8,1,8.0
+NLLB_GREEDY,8,1,8.0
+LANGUAGEX.,8,1,8.0
+CUNI?DOCTRANSFORMER,8,1,8.0
+LAN?BRIDGEMT,8,1,8.0
+Llama-3.1-8B,8,2,4.0
+GPT4?5SHOT,8,1,8.0
+mBert,7,1,7.0
+machine-translation based baseline,7,1,7.0
+BLIP2,7,1,7.0
+multilingual baseline,7,1,7.0
+LaBSE,7,1,7.0
+LLaMA 7B,7,1,7.0
+3-layer decoder),7,1,7.0
+ViT-L16,7,1,7.0
+SentencePiece,7,1,7.0
+Multilingual Transformer (35-layer encoder,7,1,7.0
+fasttext,7,1,7.0
+XLM-R Base,7,1,7.0
+PaLI-17B,7,1,7.0
+bert,7,1,7.0
+OFA-Large,7,1,7.0
+Google,7,1,7.0
+Simple-MPT,7,1,7.0
+ESIM,7,1,7.0
+IndicTrans2 baseline,7,1,7.0
+mMiniLM-L12xH384,7,1,7.0
+Gemini 2.0 Flash Thinking,7,1,7.0
+BOW,7,1,7.0
+Adam optimizer,7,1,7.0
+BERT-Large,7,1,7.0
+LLaMA 3.1 (8B,6,2,3.0
+SOTA NMT,6,1,6.0
+NLLB-3.3B (Baseline),6,1,6.0
+Unbabel-IT,6,1,6.0
+Gemma-2-27B,6,1,6.0
+SheffieldGATE,6,1,6.0
+Pointer-Generator,6,1,6.0
+CLTeam,6,1,6.0
+SETU-ADAPT,6,1,6.0
+Llama-3-8B-Instruct,6,1,6.0
+MSFT,6,1,6.0
+Random,6,1,6.0
+DCUGenNLP,6,1,6.0
+ChatGPT (GPT-3.5/4),6,1,6.0
+Multitan-GML,6,1,6.0
+TextRank,6,1,6.0
+DeepText-Lab,6,1,6.0
+Oracle,6,1,6.0
+NLLB-600M,6,1,6.0
+Tower-7B,6,1,6.0
+HW-TSC,6,1,6.0
+TowerInstruct-7B-v0.2,6,1,6.0
+NLLB-3.3B,6,1,6.0
+Transformer 25-6,6,1,6.0
+Mistral-7B (base/instruct),5,1,5.0
+Lima-X variants,5,1,5.0
+CodeGPT,5,1,5.0
+LLaMA-3-70B,5,1,5.0
+RigoChat-7B-v2,5,1,5.0
+Meta?Llama?3.1?8B,5,1,5.0
+EuroLLM-9B (base/instruct),5,1,5.0
+DeepSeek models,5,1,5.0
+Meta-Llama-3.1-8B (base/IT),5,1,5.0
+Qwen2.5-32B-IT-GPTQ-Int4,5,1,5.0
+gemma?2?9b?it,5,1,5.0
+SmolLM2-1.7B (base/instruct),5,1,5.0
+Transformer Baseline,5,1,5.0
+24EU-7B,5,1,5.0
+Gemma-2-9B (base/IT),5,1,5.0
+Aya-Expanse-8B,5,1,5.0
+salamandra?7b?instruct,5,1,5.0
+EuroLLM?1.7B?IT,5,1,5.0
+AraT5,5,1,5.0
+Qwen2.5?1.5B,5,1,5.0
+no models,5,1,5.0
+Salamandra-7B (base/instruct),5,1,5.0
+FLOR series,5,1,5.0
+Bactrian-X variants,5,1,5.0
+GPT-4 (as judge),5,1,5.0
+salamandra?2b?instruct,5,1,5.0
+Qwen2.5-14B-IT-GPTQ-Int8,5,1,5.0
+aya?expanse?8b,5,1,5.0
+gemma?2?9b,5,1,5.0
+Qwen2.5?1.5B?IT,5,1,5.0
+Qwen2.5 series (1.5B-32B),5,1,5.0
+gemma?2?2b,5,1,5.0
+Latxa-7B-v1.2,5,1,5.0
+salamandra?7b,5,1,5.0
+Qwen2.5?7B,5,1,5.0
+gemma?2?2b?it,5,1,5.0
+pretrained Transformer (encoder initialized with XLM-R),5,1,5.0
+leniachat?qwen2?1.5B?v0,5,1,5.0
+salamandra?2b,5,1,5.0
+Encoder-Decoder models,5,1,5.0
+Llama,5,3,1.67
+GPT-3.5-turbo-0301,5,2,2.5
+Meta?Llama?3.1?8B?IT,5,1,5.0
+standard transformer,5,1,5.0
+CodeBERT,5,1,5.0
+EuroLLM?9B,5,1,5.0
+Various systems,4,1,4.0
+Llama-3.1-405B-Instruct,4,4,1.0
+Graph-ExtractGenerate,4,1,4.0
+Aya-expanse-8b,4,3,1.33
+LLaMA2,4,1,4.0
+LLaMA 3.3 (70B),4,2,2.0
+PMC-LLaMA,4,1,4.0
+GPT-4-1106-preview,4,1,4.0
+DeepSeek-R1-70B,4,2,2.0
+Seamless M4T v2 (2.3B),4,1,4.0
+LLaMA 3.1,4,1,4.0
+70B),4,2,2.0
+Centroid+mT5 (extract-then-abstract),4,1,4.0
+Qwen 2.5 (7B,4,2,2.0
+Mistral (7B),4,2,2.0
+LLaMA 3.2 (3B),4,2,2.0
+Qwen 2,4,1,4.0
+Human Translators,4,1,4.0
+Seamless M4T,4,1,4.0
+DeepSeek-R1 (14B,4,2,2.0
+Human translators (Junior/Medium/Senior levels),4,1,4.0
+Llama-3.1,4,1,4.0
+BioMistral,4,1,4.0
+Mistral Small (24B),4,2,2.0
+LLaMA-3.2-3B,4,2,2.0
+72B),4,2,2.0
+DeepSeek-R1-14B,4,2,2.0
+Llama 2-chat 13B,3,1,3.0
+Claude-3.7-Sonnet-thinking,3,1,3.0
+Llava-Llama-3,3,1,3.0
+MAD-X+Domain,3,1,3.0
+Llama-4-Maverick,3,1,3.0
+XLM-RBase,3,1,3.0
+MAD-X2,3,1,3.0
+Attention-based soft layer sharing mechanism,3,1,3.0
+o3-pro,3,1,3.0
+o3-2025-04-16-high,3,1,3.0
+semi-supervised learning approaches,3,1,3.0
+X-Llava,3,1,3.0
+XLM-RDomain,3,1,3.0
+Llama 3-instruct 8B,3,1,3.0
+ResNet101 (image-level features),3,1,3.0
+Llava1.5,3,1,3.0
+DistilBERT,3,2,1.5
+Aya-23 8B,3,1,3.0
+Gemma-2-2b-it,3,3,1.0
+Nemotron-4-Mini-Hindi-4B-Instruct,3,3,1.0
+GPT-3.5-turbo-0613,3,1,3.0
+llama3-80b,3,1,3.0
+Multilingual word embeddings,3,1,3.0
+Deepseek-R1,3,1,3.0
+o3-2025-04-16-medium,3,1,3.0
+Bi-LSTM,3,1,3.0
+Qwen2.5-7B-Instruct,3,3,1.0
+Mistral 7B,3,1,3.0
+iNLTK,3,2,1.5
+Nemotron-Mini-4B-Instruct,3,3,1.0
+Gemini-2.5-Pro-Preview-06-05,3,1,3.0
+Qwen-VL-Chat,3,1,3.0
+CNN,3,1,3.0
+Gemma-2-9b-it,3,3,1.0
+Deepseek-R1-0528,3,1,3.0
+Claude-4-Sonnet-20250514,3,1,3.0
+Llama-3.2-3B-Instruct,3,3,1.0
+cross-dialect transfer methods,3,1,3.0
+IndicFT,3,2,1.5
+llama3-8b,3,1,3.0
+BongLLaMA,3,2,1.5
+Neural machine translation models,3,1,3.0
+o4-mini-high,3,1,3.0
+Qwen 2.5-7B,3,2,1.5
+Bi-linear attention with residual connection,3,1,3.0
+Gemini,3,2,1.5
+ChatGLM-6B,3,2,1.5
+Claude-4-Opus-20250514-thinking,3,1,3.0
+Qwen2,3,1,3.0
+GPT-OSS-120B,3,3,1.0
+Faster R-CNN (object-level features),3,1,3.0
+Self-attention (multi-head),3,1,3.0
+Claude-4-Opus-20250514,3,1,3.0
+Qwen2.5-1.5B,2,1,2.0
+InternVL3/3.5,2,1,2.0
+Gemma-3-27b-it,2,2,1.0
+InstructGPT davinci v2,2,1,2.0
+LLaMA-3.3-70B,2,1,2.0
+rStar2-Agent,2,1,2.0
+Ovis-2-34B,2,1,2.0
+embedding models,2,1,2.0
+Amazon Polly,2,1,2.0
+Qwen2.5-Coder-32B-Instruct,2,1,2.0
+Qwen-2.5-72B,2,1,2.0
+GLM-4.5,2,1,2.0
+USM,2,1,2.0
+InstructGPT ada v1,2,1,2.0
+UI-TARS,2,1,2.0
+Unbabel-Tower-70B,2,1,2.0
+Qwen-2.5-7B,2,1,2.0
+MiniCPM,2,1,2.0
+Cohere xlarge v20220609,2,1,2.0
+Anthropic-LM v4-s3,2,1,2.0
+Tesseract OCR,2,1,2.0
+Qwen3 (0.6B Think/4B Think/30B-A3B Think/235B-A22B Think),2,1,2.0
+70B) � Machine Translation; GPT-4o � Machine Translation; MBART-large-50 � Machine Translation; NLLB-200-1.3B (FT-NLLB 1.3B) � Machine Translation; LLaMA 3.1 70B (FSL) � Sentiment Analysis,2,1,2.0
+zero-shot learning,2,1,2.0
+OpenHathi-7B,2,1,2.0
+Ovis1.6-Gemma2-28B,2,1,2.0
+Llama-3.2-3B,2,1,2.0
+Light-R1-DS (7B/14B/32B),2,1,2.0
+Llama-3.2-Vision-11B,2,1,2.0
+MahaRoBERTa,2,1,2.0
+OpenMath-Nemotron (1.5B/7B/14B/32B),2,1,2.0
+TituLLM-3B,2,1,2.0
+Multiple-Choice Question Answering,2,1,2.0
+Claude3.5,2,1,2.0
+GPT-2,2,1,2.0
+Qwen2.5VL-7B,2,1,2.0
+MahaBERT,2,1,2.0
+Molmo,2,1,2.0
+AceMath-RL (7B),2,1,2.0
+Ovis-2-16B,2,1,2.0
+Phi-3.5-vision,2,1,2.0
+Gemini 2.5 Pro Experimental 0325,2,1,2.0
+Qwen2.5VL-3B,2,1,2.0
+PaliGemma2-ft-docci,2,1,2.0
+DeepSeek-v3,2,1,2.0
+Jirai-Qwen (fine-tuned),2,1,2.0
+ZMT,2,1,2.0
+Qwen-2.5-VL,2,1,2.0
+LLaVA-NeXT-7B,2,1,2.0
+AfriBERTa,2,2,1.0
+HindiLLM-Small (124M parameters),2,1,2.0
+LLaMA-3.1 405B,2,1,2.0
+LlavaOneVision,2,1,2.0
+Ovis1.6-Gemma2,2,1,2.0
+ChatGLM-6b,2,1,2.0
+ERNIE-Bot-turbo-0725,2,1,2.0
+attention mechanisms,2,1,2.0
+gpt-4o,2,1,2.0
+GPT-3 ada v1,2,1,2.0
+DeepL,2,1,2.0
+Multiple-Choice Question Answering; m-DistilBERT � Sentiment Analysis,2,1,2.0
+LLaMA 3.1-8B,2,1,2.0
+OpenThinker2 (7B/32B),2,1,2.0
+Hindi RoBERTa,2,1,2.0
+InternVL2-8B,2,1,2.0
+LLaMA-7b,2,1,2.0
+Ovis-2-8B,2,1,2.0
+prompt-based classification,2,1,2.0
+Multiple-Choice Question Answering; XLM-RoBERTa base � Sentiment Analysis,2,1,2.0
+Whisper-medium,2,1,2.0
+InternVL-2.5,2,1,2.0
+SmolVLM-500M,2,1,2.0
+mDistilBERT,2,1,2.0
+Qwen2.5-7B,2,1,2.0
+Skywork-OR1-Preview (7B/32B),2,1,2.0
+GPT-4o-1120,2,1,2.0
+LLeMMa-7B,2,1,2.0
+Custom deep CNN-RNN architecture,2,1,2.0
+FSL-LLAMA,2,1,2.0
+Qwen2.5-72B,2,1,2.0
+DeepSeek-R1-Distill (1.5B/7B/14B/32B),2,1,2.0
+LLaMA-3.1-70B,2,1,2.0
+HindiBERT,2,1,2.0
+LLaMA 3.2-3B,2,1,2.0
+LLaMA 3.1-70B,2,1,2.0
+Qwen2.5-3B,2,1,2.0
+MAmmoTH-7B,2,1,2.0
+FT-W,2,1,2.0
+GLM (Tsinghua University),2,1,2.0
+Whisper-small,2,1,2.0
+AgentFly,2,1,2.0
+Mistral Small-24B,2,1,2.0
+InstructGPT curie v1,2,1,2.0
+Whisper-large,2,1,2.0
+GPT-4-0314,2,1,2.0
+Multiple-Choice Question Answering; mT5-small � Sentiment Analysis,2,1,2.0
+Online-A,2,1,2.0
+Baichuan2-7b-Chat,2,1,2.0
+transformer-based language models,2,1,2.0
+Online-B,2,1,2.0
+LLaMA 3.3-70B,2,1,2.0
+GLM-Z1-Air (32B),2,1,2.0
+FT-WC,2,1,2.0
+NVIDIA-NeMo,2,1,2.0
+mPLUG-DocOwl2-8B,2,1,2.0
+HindiLLM-Medium (355M parameters),2,1,2.0
+ERNIE-Bot-0615,2,1,2.0
+LLaMA-3.1-8B,2,1,2.0
+DeepScaleR-Preview (1.5B),2,1,2.0
+GPT-3 davinci v1,2,1,2.0
+Llama-3.2-Vision,2,1,2.0
+InternVL-2.5-38B,2,1,2.0
+LLaMA-2-7B,2,1,2.0
+Skywork-OR1-Math (7B),2,1,2.0
+Baichuan2-13b-Chat,2,1,2.0
+Qwen 2.5-72B,2,1,2.0
+Llama3-70B,2,1,2.0
+DeepSeek-V3 (MoE),2,1,2.0
+Aria-MoE,2,1,2.0
+Mobile-Agent-v3,2,1,2.0
+Chinese-Alpaca-13B,2,2,1.0
+WizardMath-7B,2,1,2.0
+Baichuan2-7b-Base,2,1,2.0
+GPT-davinci-002,2,1,2.0
+ChatGLM2-6b,2,1,2.0
+STILL-3-Preview (1.5B),2,1,2.0
+Vicuna-7b,2,1,2.0
+Aquila-VL2,2,1,2.0
+Yandex.Translate,2,1,2.0
+OpenAI o3-mini (high),2,1,2.0
+OPT 175B,2,1,2.0
+Pixtral,2,1,2.0
+TituLLM-1B,2,1,2.0
+Llama-3.2-1B,2,1,2.0
+GPT-3 curie v1,2,1,2.0
+Mistral-Small-24B,2,1,2.0
+Qwen3 (all configs),2,1,2.0
+TransmissionMT,2,1,2.0
+qwen2.5-14b-instruct,1,1,1.0
+PHPCraft,1,1,1.0
+DeepSeek-Janus-1B,1,1,1.0
+Claude-2,1,1,1.0
+DeepSeek-Janus-7B,1,1,1.0
+Llama-2-7B-Chat,1,1,1.0
+GPT-Neo,1,1,1.0
+Mono/multilingual transformers,1,1,1.0
+JavaGen,1,1,1.0
+Gemma 2 (2B),1,1,1.0
+Mistral-7B instruct,1,1,1.0
+ChatGPT-4,1,1,1.0
+Ziya-LLaMA-13B,1,1,1.0
+Waseda RoBERTa large (s128/s512),1,1,1.0
+Sabia-2-small,1,1,1.0
+MUSS-Unsupervised,1,1,1.0
+BERT?base,1,1,1.0
+Gemma-2-9B-IT,1,1,1.0
+Dolphin-2.6-Phi-2,1,1,1.0
+qwen2-7b-instruct,1,1,1.0
+HindiLLM-Small,1,1,1.0
+BERT?wwm?ext?base,1,1,1.0
+CodeLlama,1,1,1.0
+llama-3.1-8b-instruct,1,1,1.0
+ALBERT-xlarge,1,1,1.0
+Minerva,1,1,1.0
+Claude-instant-v1.0,1,1,1.0
+Tohoku BERT base,1,1,1.0
+XLM-RLARGE,1,1,1.0
+Tamil-LLaMA-7B,1,1,1.0
+BERT-wwm-ext,1,1,1.0
+BERT-base,1,1,1.0
+Mistral-v0.3,1,1,1.0
+GoScript,1,1,1.0
+INLP,1,1,1.0
+Gemma2-9B-CPT-SEA-LIONv3-Instruct,1,1,1.0
+DeepSeek?V3,1,1,1.0
+PolyCoder,1,1,1.0
+GigaChat-A3B,1,1,1.0
+Phi,1,1,1.0
+MT-based approaches,1,1,1.0
+deepseek-r1-distill-qwen-32b,1,1,1.0
+VisCPM,1,1,1.0
+Recurrent Neural Networks,1,1,1.0
+Code-Millenials,1,1,1.0
+Claude-v1.3,1,1,1.0
+Llama?3.3?70B,1,1,1.0
+XLNet?mid,1,1,1.0
+Gemma-1,1,1,1.0
+RubyGem,1,1,1.0
+Bloomz-mt-176B,1,1,1.0
+InstructGPT,1,1,1.0
+ALBERT?tiny,1,1,1.0
+WizardMath,1,1,1.0
+Emu2-Chat,1,1,1.0
+Sabia-3,1,1,1.0
+GPT-4o mini,1,1,1.0
+Micro-CodeLM,1,1,1.0
+CppMini,1,1,1.0
+qwen2-72b-instruct,1,1,1.0
+UnifiedQA (0.7B/3B/11B),1,1,1.0
+Sarvam-2B-Hindi-v0.5,1,1,1.0
+Flan-T5,1,1,1.0
+RWKV-7B,1,1,1.0
+RoBERTa?large,1,1,1.0
+Yi-Coder,1,1,1.0
+Sarvam-2B-v0.5,1,1,1.0
+Pixtral-12B,1,1,1.0
+ChatGPT (gpt-3.5-turbo),1,1,1.0
+Minerva 3B,1,1,1.0
+ALBERT,1,1,1.0
+Jais?70B,1,1,1.0
+SPHINX-MoE,1,1,1.0
+Linear Regression,1,1,1.0
+DeepSeek-V3,1,1,1.0
+neural MT models,1,1,1.0
+deepseek-r1-distill-qwen-7b,1,1,1.0
+SeaLLMs-v3-7B-Chat,1,1,1.0
+Tohoku BERT large,1,1,1.0
+Gigachat (SBER),1,1,1.0
+GPT4o-mini,1,1,1.0
+Sabiá-3.1,1,1,1.0
+Llama 3 8B/70B instruct,1,1,1.0
+CodeLLaMA,1,1,1.0
+Qwen-VL-7B-Chat,1,1,1.0
+ALBERT-base,1,1,1.0
+Bangla BERT Base,1,1,1.0
+DeepSeek-Coder,1,1,1.0
+qwen2.5-7b-instruct,1,1,1.0
+Llama 3.3 70B-Instruct,1,1,1.0
+RoBERTa?wwm?ext?base,1,1,1.0
+mPLUG-OWL2,1,1,1.0
+LLaMA3.1,1,1,1.0
+Yi-VL-34B,1,1,1.0
+InternVL-Chat-ViT-6B-Vicuna-7B,1,1,1.0
+Chinese-LLaVA,1,1,1.0
+Gemma-2-27b-it,1,1,1.0
+gemma2-27b-it,1,1,1.0
+RoBERTa-wwm-ext,1,1,1.0
+InternVL-Chat-ViT-6B-Vicuna-13B,1,1,1.0
+Sailor2-8B-Chat,1,1,1.0
+Multiple LLMs (see leaderboard),1,1,1.0
+JSNinja,1,1,1.0
+Llama 2 70B chat,1,1,1.0
+Chinese-LLaMA-13B,1,1,1.0
+XLNet-mid,1,1,1.0
+Wikipedia FT-W,1,1,1.0
+Dolphin-2.6-Mistral-7B,1,1,1.0
+DeepSeek-V2,1,1,1.0
+PyCoder,1,1,1.0
+Qwen-VL-PLUS,1,1,1.0
+qwen2.5?7b-instruct,1,1,1.0
+Llama 3.2 (1B,1,1,1.0
+Yi-1.5,1,1,1.0
+Qwen2.5-Coder,1,1,1.0
+BongLLaMA (3B),1,1,1.0
+CamemBERT,1,1,1.0
+XLM RoBERTa base,1,1,1.0
+OpenHermes-2.5-Mistral-7B,1,1,1.0
+TeBERT,1,1,1.0
+GPT-2 Medium,1,1,1.0
+GPT-J,1,1,1.0
+3B),1,1,1.0
+qwen2.5-32b-instruct,1,1,1.0
+RoBERTa-wwm-large,1,1,1.0
+Various participant systems,1,1,1.0
+GPT-2 Small,1,1,1.0
+GigaChat2 Pro/MAX,1,1,1.0
+Grok-3,1,1,1.0
+XLM-RoBERTa-XL,1,1,1.0
+InternVL-Chat-V1.1,1,1,1.0
+Llama3.1-8b-CPT-SEA-LIONv3,1,1,1.0
+Logistic Regression,1,1,1.0
+ChatGLM2-6B,1,1,1.0
+Code-DaVinci-002,1,1,1.0
+Krutrim-spectre-v2,1,1,1.0
+Llemma,1,1,1.0
+Llama 3.1 70B/405B instruct,1,1,1.0
+Wiki+CommonCrawl FT-WC,1,1,1.0
+BanglaBERT,1,1,1.0
+CodeT5-base (220M),1,1,1.0
+HindiLLM-Medium,1,1,1.0
+Camoscio 2 70B instruct,1,1,1.0
+Qwen2.5-7B/72B,1,1,1.0
+TituLLM (1B,1,1,1.0
+RoBERTa?wwm?ext?large,1,1,1.0
+CodeGeeX2,1,1,1.0
+Llama-3.2-90B-Vision-Instruct,1,1,1.0
+ALBERT?xxlarge,1,1,1.0
+ChatGPT-4o,1,1,1.0
+ALBERT-large,1,1,1.0
+GPT3.5-Turbo,1,1,1.0
+Enhancing-PT-SS,1,1,1.0
+RoBERTa-large,1,1,1.0
+sahajBERT,1,1,1.0
+Command-r-08-2024,1,1,1.0
+GLM-130B,1,1,1.0
+Meta-Llama3-8B-Instruct,1,1,1.0
+SwiftCode,1,1,1.0
+Qwen 2.5 (1.5B),1,1,1.0
+Baichuan-7B,1,1,1.0
+ALBERT-xxlarge,1,1,1.0
+CogAgent-Chat,1,1,1.0
+aya-23-8b,1,1,1.0
+DigitalGenome-SLM,1,1,1.0
+QVQ-72B-Preview,1,1,1.0
+Qwen-14B,1,1,1.0
+SwahBERT,1,1,1.0
+Tamil-LLaMA-70B (based on LLaMA 2),1,1,1.0
+DeBERTa-large,1,1,1.0
+LLamantino 2 70B chat,1,1,1.0
+OPT (6.7B–30B),1,1,1.0
+facebook/bart-large-mnli,1,1,1.0
+ALBERT-tiny,1,1,1.0
+Phi-2,1,1,1.0
+RNN encoder-decoder,1,1,1.0
+baselines,1,1,1.0
+SLT-Code,1,1,1.0
+mistral-7b-instruct-v0.3,1,1,1.0
+Nemotron-4-340B-Instruct,1,1,1.0
+Bard,1,1,1.0
+MOSS-16B,1,1,1.0
+Gemini-2.0-Flash-Experimental,1,1,1.0
+Tamil-LLaMA-13B,1,1,1.0
+StarCoder2,1,1,1.0
+Facebook M2M,1,1,1.0
+ERNIE?base,1,1,1.0
+Mistral-7B-OpenOrca,1,1,1.0
+MOSS,1,1,1.0
+Qwen2.5-VL-72B-Instruct,1,1,1.0
+Mixtral-8x7B instruct,1,1,1.0
+Qwen2.5,1,1,1.0
+WizardCoder,1,1,1.0
+Chinese-Alpaca-33B,1,1,1.0
+ERNIE-base,1,1,1.0
+Galactica,1,1,1.0
+XLM RoBERTa large,1,1,1.0
+ChatGPT-3.5-turbo,1,1,1.0
+YandexGPT,1,1,1.0
+Mistral?Large,1,1,1.0
+Yi-VL-6B,1,1,1.0
+MetaMath,1,1,1.0
+NICT BERT base,1,1,1.0
+ChatGPT-o1,1,1,1.0
+ANITA 8B DPO,1,1,1.0

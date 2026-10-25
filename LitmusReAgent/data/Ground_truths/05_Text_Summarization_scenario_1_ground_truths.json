@@ -1,0 +1,1367 @@
+[
+  {
+    "unique_id": "9368e3b6-0d17-49ca-81ba-6ee7209dc7b3",
+    "complete_question": "What is the performance of mBART-multilingual-BART on Text Summarization for Amharic?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "38aaae71-c520-4a68-b687-a80875962604",
+    "complete_question": "How well does mT5-multilingual-T5 perform on Text Summarization for Burmese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "15.96",
+        "value_in_100_range": 15.96
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "5.15",
+        "value_in_100_range": 5.15
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "14.18",
+        "value_in_100_range": 14.18
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "6235ac39-5792-4ae2-8045-b2fd895430d3",
+    "complete_question": "What is the performance of mT5-official-baseline on Text Summarization for Igbo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.029",
+        "value_in_100_range": 2.9
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.608",
+        "value_in_100_range": 60.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b7656f05-7516-4df8-87f6-f07dbf4fee7f",
+    "complete_question": "How well does multilingual-transformer-models perform on Text Summarization for Kyrgyz?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.113",
+        "value_in_100_range": 11.3
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.648",
+        "value_in_100_range": 64.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "680d2a45-3bc5-4765-bc80-5483e03027bd",
+    "complete_question": "What score does mBART-multilingual-BART achieve for Text Summarization in Sinhala?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "0cb5126f-27ca-4992-9fdb-74efacb6f4b3",
+    "complete_question": "How well does mT5-multilingual-T5 perform on Text Summarization for Uzbek?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "19.29",
+        "value_in_100_range": 19.29
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "8.20",
+        "value_in_100_range": 8.2
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "17.62",
+        "value_in_100_range": 17.62
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2bb52b17-ee58-4cd6-b6f4-eb8db7b04dc9",
+    "complete_question": "What score does mT5-official-baseline achieve for Text Summarization in Tigrinya?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "25.32",
+        "value_in_100_range": 25.32
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "8.02",
+        "value_in_100_range": 8.02
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "21.17",
+        "value_in_100_range": 21.17
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "1e5e60f8-cecb-4965-bdc8-72fa1766e6dc",
+    "complete_question": "How well does multilingual-transformer-models perform on Text Summarization for Punjabi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.037",
+        "value_in_100_range": 3.7
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.635",
+        "value_in_100_range": 63.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "9cf1a2cf-3d0e-45a8-9f22-5998144c4d4c",
+    "complete_question": "What is the performance of mT5-official-baseline on Text Summarization for Oromo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "19.16",
+        "value_in_100_range": 19.16
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "7.11",
+        "value_in_100_range": 7.11
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "16.45",
+        "value_in_100_range": 16.45
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "7ccb3776-0268-4d98-89f8-cb2b69c32eae",
+    "complete_question": "What score does mBART-multilingual-BART achieve for Text Summarization in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "9.40",
+        "value_in_100_range": 9.4
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "1.91",
+        "value_in_100_range": 1.91
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "8.18",
+        "value_in_100_range": 8.18
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d5304411-1189-4ec5-8907-5d32d8f47bd3",
+    "complete_question": "What score does mBART-multilingual-BART achieve for Text Summarization in Azerbaijani?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "21.42",
+        "value_in_100_range": 21.42
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "9.52",
+        "value_in_100_range": 9.52
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "19.33",
+        "value_in_100_range": 19.33
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "4e273101-636b-4d6a-a006-7b5fbacdba12",
+    "complete_question": "How well does mT5-official-baseline perform on Text Summarization for Thai?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "37.40",
+        "value_in_100_range": 37.4
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "17.28",
+        "value_in_100_range": 17.28
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "28.88",
+        "value_in_100_range": 28.88
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "418fe314-b743-41c4-bf9f-20249cdee244",
+    "complete_question": "What is the performance of multilingual-transformer-models on Text Summarization for Yoruba?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.661",
+        "value_in_100_range": 66.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3316f96d-be1d-45bf-9e00-3eb7ef67bd9c",
+    "complete_question": "What score does mBART-multilingual-BART achieve for Text Summarization in Kirundi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "31.99",
+        "value_in_100_range": 31.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "14.37",
+        "value_in_100_range": 14.37
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "25.83",
+        "value_in_100_range": 25.83
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "41042d17-2d40-46e4-882a-22777bd83ac8",
+    "complete_question": "How well does mT5-multilingual-T5 perform on Text Summarization for Pashto?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1 (multilingual)",
+        "value": "17.49",
+        "value_in_100_range": 17.49
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2 (multilingual)",
+        "value": "6.34",
+        "value_in_100_range": 6.34
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L (multilingual)",
+        "value": "15.76",
+        "value_in_100_range": 15.76
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "8262c7a6-a558-498f-8486-ea4b8fc4f4f7",
+    "complete_question": "What score does mT5-official-baseline achieve for Text Summarization in Tigrinya?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "25.32",
+        "value_in_100_range": 25.32
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "8.02",
+        "value_in_100_range": 8.02
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "21.17",
+        "value_in_100_range": 21.17
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e294a5c0-b24d-4021-b5ac-9dc22c017e11",
+    "complete_question": "What is the performance of multilingual-transformer-models on Text Summarization for Bengali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "28.32",
+        "value_in_100_range": 28.32
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "11.43",
+        "value_in_100_range": 11.43
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "24.23",
+        "value_in_100_range": 24.23
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "18533296-ffab-4eb4-950d-ff7faeae2adb",
+    "complete_question": "How well does mBART-multilingual-BART perform on Text Summarization for Kyrgyz?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "18.38",
+        "value_in_100_range": 18.38
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "7.96",
+        "value_in_100_range": 7.96
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "16.50",
+        "value_in_100_range": 16.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2c2c1a1a-5a87-4dae-a009-841660f4d85a",
+    "complete_question": "What score does mT5-multilingual-T5 achieve for Text Summarization in Igbo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "31.61",
+        "value_in_100_range": 31.61
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "10.16",
+        "value_in_100_range": 10.16
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "24.53",
+        "value_in_100_range": 24.53
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "7d3ee1d1-c3a1-458c-aa48-ffb6a938197c",
+    "complete_question": "How well does mT5-official-baseline perform on Text Summarization for Burmese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "15.96",
+        "value_in_100_range": 15.96
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "5.15",
+        "value_in_100_range": 5.15
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "14.18",
+        "value_in_100_range": 14.18
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f897df74-68a3-4aa5-bc6e-b16fad03855f",
+    "complete_question": "What score does mBART-multilingual-BART achieve for Text Summarization in Scottish Gaelic?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "29.02",
+        "value_in_100_range": 29.02
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "10.99",
+        "value_in_100_range": 10.99
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "22.88",
+        "value_in_100_range": 22.88
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2f2f1ffd-c6e0-4f58-9bb7-75da4099d8ba",
+    "complete_question": "Which model performs best for Text Summarization in Kirundi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "ac1d8746-c136-4aca-a898-7b320b8f6f50",
+    "complete_question": "What is the top-performing model for Text Summarization in Igbo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.158",
+        "value_in_100_range": 15.8
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.647",
+        "value_in_100_range": 64.7
+      }
+    ],
+    "answer_text_for_qna": "bloomz-7b1"
+  },
+  {
+    "unique_id": "e99ec3e8-0130-432c-b474-4e10a6f2a2dd",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Scottish Gaelic?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "b33a141f-6792-45fc-bba9-9e2e54e6b509",
+    "complete_question": "For Text Summarization, which language shows the best performance with mBART-multilingual-BART?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Japanese"
+  },
+  {
+    "unique_id": "1e44a942-0f72-4d65-b220-b66ca2105ad5",
+    "complete_question": "Which model performs best for Text Summarization in Uzbek?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.697",
+        "value_in_100_range": 69.7
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "b8eedbeb-7e6f-43f0-9fd4-cc60a876d5b1",
+    "complete_question": "What is the top-performing model for Text Summarization in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "11.5",
+        "value_in_100_range": 11.5
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "64.1",
+        "value_in_100_range": 64.1
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "aed2d47e-68cf-4893-884e-7df9b872a351",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Tigrinya?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "12.5",
+        "value_in_100_range": 12.5
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "67.8",
+        "value_in_100_range": 67.8
+      }
+    ],
+    "answer_text_for_qna": "bloom-7b1"
+  },
+  {
+    "unique_id": "60e06bee-1dde-4dac-8feb-a1575f64181a",
+    "complete_question": "For Text Summarization, which language shows the best performance with Community-models?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-L F1",
+        "value": "37.09",
+        "value_in_100_range": 37.09
+      },
+      {
+        "metric_name": "ROUGE-L F1",
+        "value": "37.09",
+        "value_in_100_range": 37.09
+      },
+      {
+        "metric_name": "ROUGE-L F1",
+        "value": "37.09",
+        "value_in_100_range": 37.09
+      },
+      {
+        "metric_name": "ROUGE-L F1",
+        "value": "37.86",
+        "value_in_100_range": 37.86
+      }
+    ],
+    "answer_text_for_qna": "Turkish"
+  },
+  {
+    "unique_id": "e28145ce-ffe1-48c1-828d-f9368c07f95c",
+    "complete_question": "Which model performs best for Text Summarization in Pashto?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.127",
+        "value_in_100_range": 12.7
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.637",
+        "value_in_100_range": 63.7
+      }
+    ],
+    "answer_text_for_qna": "bloom-7b1"
+  },
+  {
+    "unique_id": "3e2ef743-a569-42e1-aebb-aad18d1b5776",
+    "complete_question": "What is the top-performing model for Text Summarization in Oromo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.697",
+        "value_in_100_range": 69.7
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "2186ce4f-514d-4bfc-807b-52be94355e98",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Kirundi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.164",
+        "value_in_100_range": 16.4
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.632",
+        "value_in_100_range": 63.2
+      }
+    ],
+    "answer_text_for_qna": "Qwen2-7B"
+  },
+  {
+    "unique_id": "7cc713b9-be61-4d56-9550-4a48f2ce1e2e",
+    "complete_question": "For Text Summarization, which language shows the best performance with mT5-multilingual-T5?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "f727acac-5012-4747-a558-c30d2f0ad49d",
+    "complete_question": "Which model performs best for Text Summarization in Amharic?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "26f51065-63dd-4598-887e-d94151702e27",
+    "complete_question": "What is the top-performing model for Text Summarization in Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.110",
+        "value_in_100_range": 11.0
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.691",
+        "value_in_100_range": 69.1
+      }
+    ],
+    "answer_text_for_qna": "Qwen2-7B"
+  },
+  {
+    "unique_id": "30cdfad6-5682-415c-8199-292ce7638301",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Burmese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "5a3e810f-f5d3-4341-8ff9-36285fe88cf1",
+    "complete_question": "For Text Summarization, which language shows the best performance with multilingual-transformer-models?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "6c132633-829f-4349-9577-21b9c150bf38",
+    "complete_question": "Which model performs best for Text Summarization in Thai?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "4.4",
+        "value_in_100_range": 4.4
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "67.9",
+        "value_in_100_range": 67.9
+      }
+    ],
+    "answer_text_for_qna": "Qwen2-7B"
+  },
+  {
+    "unique_id": "a8c82c2d-8ba9-46ae-9460-453f3b9360f6",
+    "complete_question": "What is the top-performing model for Text Summarization in Igbo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mBART, mT5"
+  },
+  {
+    "unique_id": "a24dd6a4-550a-4464-9e70-717a891649c7",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Azerbaijani?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "fee6f914-f8c2-4120-9a36-8c97c596c42f",
+    "complete_question": "For Text Summarization, which language shows the best performance with mT5-official-baseline?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "6c3c6196-1123-4d89-ac5c-51405298ba56",
+    "complete_question": "Which model performs best for Text Summarization in Kyrgyz?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.129",
+        "value_in_100_range": 12.9
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.690",
+        "value_in_100_range": 69.0
+      }
+    ],
+    "answer_text_for_qna": "Qwen2-7B"
+  },
+  {
+    "unique_id": "eca75376-f3a0-4383-aef1-4bd41b1c8051",
+    "complete_question": "What is the top-performing model for Text Summarization in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.672",
+        "value_in_100_range": 67.2
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "d9ebeef5-00c8-4e19-a396-8d9478dc8ec6",
+    "complete_question": "Which model performs best for Text Summarization in Punjabi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.055",
+        "value_in_100_range": 5.5
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.635",
+        "value_in_100_range": 63.5
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "c641e087-b0bd-4ff3-b2f8-8fb27956422c",
+    "complete_question": "What is the top-performing model for Text Summarization in Oromo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.697",
+        "value_in_100_range": 69.7
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "bbb77487-9004-454f-ab2f-7d20bc1e9284",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "bloom-7b1"
+  },
+  {
+    "unique_id": "de21e4d7-37b7-4c9d-a216-2b84663f91ea",
+    "complete_question": "For Text Summarization, which language shows the best performance with multilingual-transformer-models?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "e2bf0a2f-07b9-4031-bcf3-bcd8a9c4abed",
+    "complete_question": "Which model performs best for Text Summarization in Scottish Gaelic?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "15.6",
+        "value_in_100_range": 15.6
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "94.7",
+        "value_in_100_range": 94.7
+      }
+    ],
+    "answer_text_for_qna": "bloomz-7b1"
+  },
+  {
+    "unique_id": "de021279-e547-4329-83d7-2718b9631712",
+    "complete_question": "What is the top-performing model for Text Summarization in Pashto?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.127",
+        "value_in_100_range": 12.7
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.698",
+        "value_in_100_range": 69.8
+      }
+    ],
+    "answer_text_for_qna": "bloomz-7b1"
+  },
+  {
+    "unique_id": "cd296824-950c-4bfa-9295-91bef3ee8b81",
+    "complete_question": "What is the performance of mBART on Text Summarization for Amharic?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "9ac9b3de-f0f9-47ec-9f30-21c5697c3cbb",
+    "complete_question": "What score does mT5 achieve for Text Summarization in Burmese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "15.96",
+        "value_in_100_range": 15.96
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "5.15",
+        "value_in_100_range": 5.15
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "14.18",
+        "value_in_100_range": 14.18
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ce4a9481-b594-42bb-9c5f-3765fc06260c",
+    "complete_question": "What is the performance of mT5 on Text Summarization for Marathi?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "22.01",
+        "value_in_100_range": 22.01
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "9.54",
+        "value_in_100_range": 9.54
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "19.92",
+        "value_in_100_range": 19.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "092c2e54-1e16-44b6-a0a8-120eb7bccad5",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Welsh?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "c32db735-bb10-4a7a-89d2-ad06ff1512eb",
+    "complete_question": "How well does mT5 perform on Text Summarization for Vietnamese?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "32.88",
+        "value_in_100_range": 32.88
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "16.22",
+        "value_in_100_range": 16.22
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "26.08",
+        "value_in_100_range": 26.08
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "9f151750-eb1f-4113-b8e3-cbcf1a01076f",
+    "complete_question": "What is the top-performing model for Text Summarization in Yoruba?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4 + SITR"
+  },
+  {
+    "unique_id": "a7c091a2-8bae-48b6-942f-70a1d4e2a448",
+    "complete_question": "Which model performs best for Text Summarization in Telugu?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "3977f37f-95df-43f5-98d4-3902960944c1",
+    "complete_question": "How well does multilingual transformer models perform on Text Summarization for Hausa?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "39.44",
+        "value_in_100_range": 39.44
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "17.68",
+        "value_in_100_range": 17.68
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "31.67",
+        "value_in_100_range": 31.67
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c545d63a-cb9d-48da-aed1-d5ad15cca2e2",
+    "complete_question": "What score does mBART achieve for Text Summarization in Somali?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": null
+  },
+  {
+    "unique_id": "9527f1a5-3200-4882-bca8-9a10ca60945a",
+    "complete_question": "For Text Summarization, which language shows the best performance with mT5?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Japanese"
+  },
+  {
+    "unique_id": "5cf132d7-e2d7-476d-989e-bab896ca89d4",
+    "complete_question": "What score does mBART achieve for Text Summarization in Swahili?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "37.67",
+        "value_in_100_range": 37.67
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "17.85",
+        "value_in_100_range": 17.85
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "30.91",
+        "value_in_100_range": 30.91
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "611e608d-d72e-4c1c-bf77-e611c952a10b",
+    "complete_question": "How does mBART perform on Text Summarization in Urdu?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "39.56",
+        "value_in_100_range": 39.56
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "18.37",
+        "value_in_100_range": 18.37
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "32.84",
+        "value_in_100_range": 32.84
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "85472c62-da54-4168-8f28-7f5d188cf017",
+    "complete_question": "Compare GPT-4 and Mistral on Text Summarization for Russian and tell which one comes out ahead.",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "11.74",
+        "value_in_100_range": 11.74
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "2.28",
+        "value_in_100_range": 2.28
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "8.89",
+        "value_in_100_range": 8.89
+      }
+    ],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "0f1e1f3d-5498-46c3-8526-07c2eaf0cc50",
+    "complete_question": "How does Gemini-1.5 perform for Text Summarization in German?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "118244dd-b176-420b-bdcd-76ec4f503176",
+    "complete_question": "Which model achieves the strongest performance for Text Summarization in Turkish?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "32.93",
+        "value_in_100_range": 32.93
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.57",
+        "value_in_100_range": 15.57
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.26",
+        "value_in_100_range": 29.26
+      }
+    ],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "f16f6a65-1342-4e5e-9e49-69773fbb08d1",
+    "complete_question": "Does Qwen2.5-7B yield competitive results for Text Summarization on Japanese compared to other available models?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "4fcd2a26-0962-4d70-8b23-204281076e24",
+    "complete_question": "For Text Summarization, how does mT5 perform for Pidgin?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "37.96",
+        "value_in_100_range": 37.96
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.12",
+        "value_in_100_range": 15.12
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.87",
+        "value_in_100_range": 29.87
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "35b1af61-8fef-4e3a-a7e0-67b53dc1b256",
+    "complete_question": "How do the models mBART, mT5, and multilingual transformer models compare for Text Summarization in Vietnamese?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "32.88",
+        "value_in_100_range": 32.88
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "16.22",
+        "value_in_100_range": 16.22
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "26.08",
+        "value_in_100_range": 26.08
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "aa86db3d-b459-4d69-85a8-bc3f6cc264be",
+    "complete_question": "Which languages show the best Text Summarization scores for M-BERT?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "48.15",
+        "value_in_100_range": 48.15
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "23.85",
+        "value_in_100_range": 23.85
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "37.36",
+        "value_in_100_range": 37.36
+      }
+    ],
+    "answer_text_for_qna": "Japanese"
+  },
+  {
+    "unique_id": "114d9ac7-e97e-478a-aa4a-71bd413b503d",
+    "complete_question": "How well does Graph-ExtractGenerate perform on Text Summarization across French, German, and Spanish?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "5e7b380e-275b-4216-97c3-9a5db8dbdd4b",
+    "complete_question": "How does DeepSeek-V2 perform on Text Summarization in English?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3eea2091-cc31-4a19-812a-a59ce55573a7",
+    "complete_question": "What is the range of Text Summarization performance for GPT-4o across Chinese and English?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "19.08–25.08",
+        "value_in_100_range": null
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "4.27–6.72",
+        "value_in_100_range": null
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "14.24–18.41",
+        "value_in_100_range": null
+      }
+    ],
+    "answer_text_for_qna": ""
+  }
+]

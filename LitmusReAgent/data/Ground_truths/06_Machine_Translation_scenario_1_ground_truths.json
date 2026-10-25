@@ -1,0 +1,1460 @@
+[
+  {
+    "unique_id": "e2da723d-07bc-4313-b3b0-dcdb4d095383",
+    "complete_question": "What is the performance of GPT-4o on Machine Translation for Acehnese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB Translation ChrF++ (Africa, GPT-4o, S2TT Speech)",
+        "value": "28.5",
+        "value_in_100_range": 28.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c64dcfc9-d120-479f-80b2-125b83edce0d",
+    "complete_question": "How well does AfriCOMET perform on Machine Translation for Bambara?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB Translation ChrF++ (Africa, text)",
+        "value": "35.3",
+        "value_in_100_range": 35.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e070e745-c4e8-45b9-85a5-ec4e323869a4",
+    "complete_question": "How well does IndicTrans2 perform on Machine Translation for Dogri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "56.9",
+        "value_in_100_range": 56.9
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "43.3",
+        "value_in_100_range": 43.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d5d7f398-d184-4c8c-ad29-6de6b25c74a6",
+    "complete_question": "What score does COMET achieve for Machine Translation in Hausa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "spBLEU (En→Hausa)",
+        "value": "33.6",
+        "value_in_100_range": 33.6
+      },
+      {
+        "metric_name": "chrF++ (En→Hausa)",
+        "value": "53.5",
+        "value_in_100_range": 53.5
+      },
+      {
+        "metric_name": "spBLEU (Hausa→En)",
+        "value": "38.5",
+        "value_in_100_range": 38.5
+      },
+      {
+        "metric_name": "chrF++ (Hausa→En)",
+        "value": "57.3",
+        "value_in_100_range": 57.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "335b7455-f731-4f2b-aa6a-216e0adeda5b",
+    "complete_question": "What is the performance of Qwen-2-Audio on Machine Translation for Baule?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB S2TT ChrF++ (Africa region, proxy for Baule)",
+        "value": "13.2",
+        "value_in_100_range": 13.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "019a773d-3264-40a6-ac1d-bfddf092f6fc",
+    "complete_question": "What score does mT5 achieve for Machine Translation in Kashmiri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "59.7",
+        "value_in_100_range": 59.7
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "39.7",
+        "value_in_100_range": 39.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "6527ddf3-c348-4b3e-855f-eafdb2e9033f",
+    "complete_question": "How well does Gemma-3-27B perform on Machine Translation for Lao?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB Translation ChrF++ (Asia SE, Text, Gemma-3-27B)",
+        "value": "48.6",
+        "value_in_100_range": 48.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "bf5710a9-7524-4575-9dff-dab937b6769d",
+    "complete_question": "What score does IndicTrans2 achieve for Machine Translation in Maithili?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "69.5",
+        "value_in_100_range": 69.5
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "50.5",
+        "value_in_100_range": 50.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "358f2028-910c-4c0d-ac07-6c2d1fab16ba",
+    "complete_question": "How well does IndicTrans2 perform on Machine Translation for Sanskrit?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "51.6",
+        "value_in_100_range": 51.6
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "31.6",
+        "value_in_100_range": 31.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "31198648-001e-403b-8311-68a066c06682",
+    "complete_question": "How well does Qwen-2-Audio perform on Machine Translation for Tigrinya?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB S2TT ChrF++ (Africa region, proxy for Tigrinya)",
+        "value": "13.2",
+        "value_in_100_range": 13.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "49f6935b-6f39-44f1-bb4e-b57ab7c91338",
+    "complete_question": "What is the performance of Various-MT-systems on Machine Translation for Twi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB Translation ChrF++ (Africa)",
+        "value": "37.6",
+        "value_in_100_range": 37.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "39119f63-426f-4311-bc8b-dd624d1343a0",
+    "complete_question": "What score does Qwen-2-Audio achieve for Machine Translation in Wolof?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB Translation ChrF++ (Africa region, speech, Qwen-2-Audio)",
+        "value": "13.2",
+        "value_in_100_range": 13.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e4ae4fc5-b1b1-4e19-bd67-131bf89d6986",
+    "complete_question": "How well does Qwen-2-Audio perform on Machine Translation for Sundanese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB S2TT ChrF++ (Asia SE, Speech, Qwen-2-Audio)",
+        "value": "16.0",
+        "value_in_100_range": 16.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "86b415ad-cb18-4a96-a744-c458bfe89388",
+    "complete_question": "What score does Gemma-3-27B achieve for Machine Translation in Occitan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB Translation ChrF++ (Europe W/N/S, proxy for Occitan)",
+        "value": "36.5",
+        "value_in_100_range": 36.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3d706f9e-5968-4fd8-817b-73a737c4bda6",
+    "complete_question": "How well does IndicTrans2 perform on Machine Translation for Odia?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "64.9",
+        "value_in_100_range": 64.9
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "49.2",
+        "value_in_100_range": 49.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "42001ba1-21e6-4247-a88d-813947f9da31",
+    "complete_question": "What score does Gemini-2.0-Flash achieve for Machine Translation in Acehnese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB Translation ChrF++ (Africa region, S2TT, Speech, Gemini-2.0-Flash)",
+        "value": "37.6",
+        "value_in_100_range": 37.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d1a5106e-8a12-4066-a2d9-af46a2f2c608",
+    "complete_question": "What is the performance of Qwen-2-Audio on Machine Translation for Maltese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB S2TT ChrF++ (Europe W/N/S, regional average for Maltese, Qwen-2-Audio)",
+        "value": "29.6",
+        "value_in_100_range": 29.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "da795c1e-ab47-4dfd-bcb0-e7eb84a7ed7d",
+    "complete_question": "How well does mT5 perform on Machine Translation for Manipuri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "BLEU (English→Manipuri)",
+        "value": "19.13",
+        "value_in_100_range": 19.13
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d3bcecae-3d0e-4f3f-80ff-9eb7039f449b",
+    "complete_question": "What score does Qwen-2-Audio achieve for Machine Translation in Fulah?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB Translation ChrF++ (Africa, S2TT, Qwen-2-Audio)",
+        "value": "13.2",
+        "value_in_100_range": 13.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "7f2605af-8bea-4914-b423-d782155f2b39",
+    "complete_question": "Which model performs best for Machine Translation in Acehnese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "5b5eefb5-3b8f-48ac-9259-86a19932f5bd",
+    "complete_question": "What is the top-performing model for Machine Translation in Bambara?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "05bd3070-854e-46b1-a9ca-3c4129117a5f",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Dogri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "37a41016-4804-45b0-bce9-636180d6ca9d",
+    "complete_question": "For Machine Translation, which language shows the best performance with mBART-50?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "58904f04-2dcd-4367-89be-1983cbd14606",
+    "complete_question": "Which model performs best for Machine Translation in Baule?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "9f5bc63d-4b25-425e-b3c1-b23401969fec",
+    "complete_question": "What is the top-performing model for Machine Translation in Maithili?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "8f0cb4fa-5355-4983-9fda-8b384cf830a5",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Kashmiri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Token-F1 (Machine Translation, Kashmiri, PaLM-2-L, FLORES-In Test Set)",
+        "value": "62.2",
+        "value_in_100_range": 62.2
+      }
+    ],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "2e6d377e-520c-4905-8216-b72bffc816cc",
+    "complete_question": "For Machine Translation, which language shows the best performance with IndicTrans2?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "69.5",
+        "value_in_100_range": 69.5
+      }
+    ],
+    "answer_text_for_qna": "Maithili"
+  },
+  {
+    "unique_id": "3d77467f-aaa6-498e-9a57-55c35cc22743",
+    "complete_question": "Which model performs best for Machine Translation in Luganda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "a9c1ec5f-a4b4-4676-b592-a248a1f5d805",
+    "complete_question": "What is the top-performing model for Machine Translation in Occitan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "d3c19b33-c761-4d7d-b6cf-0bc008f8e47a",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Maltese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "M2M-124"
+  },
+  {
+    "unique_id": "09540835-f973-4c9d-9119-adaf21fbd79b",
+    "complete_question": "For Machine Translation, which language shows the best performance with Gemini-2.0-Flash?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "82.5",
+        "value_in_100_range": 82.5
+      }
+    ],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "dae46596-0de6-4436-949f-066d301cc8e1",
+    "complete_question": "Which model performs best for Machine Translation in Santali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "c5f0d1a3-23f2-43ae-a78c-15b7bfeaa23d",
+    "complete_question": "What is the top-performing model for Machine Translation in Fulah?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "M2M-124"
+  },
+  {
+    "unique_id": "058138f3-c061-456e-b446-8ec554f48bc6",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Wolof?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "58977385-43dd-48ff-bf3c-51e4f26a192e",
+    "complete_question": "For Machine Translation, which language shows the best performance with PaLM-X?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "83.75",
+        "value_in_100_range": 83.75
+      }
+    ],
+    "answer_text_for_qna": "Hungarian"
+  },
+  {
+    "unique_id": "25724bfb-5237-42f7-b7d0-744c6a4bc79a",
+    "complete_question": "Which model performs best for Machine Translation in Sundanese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "59ff30e4-f805-4fc6-b9b8-37aa88eaeefb",
+    "complete_question": "What is the top-performing model for Machine Translation in Twi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "7173134e-0b7d-4a00-a70a-863367639918",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Sindhi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "6a6a2696-57ec-4851-9a12-4dcca44dde74",
+    "complete_question": "For Machine Translation, which language shows the best performance with mT5?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "69.5",
+        "value_in_100_range": 69.5
+      }
+    ],
+    "answer_text_for_qna": "Maithili"
+  },
+  {
+    "unique_id": "bb38da3d-d897-4359-8d8d-7a65bc2db384",
+    "complete_question": "Which model performs best for Machine Translation in Manipuri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "f7632020-2070-4b4c-a42f-60e19c81381d",
+    "complete_question": "What is the top-performing model for Machine Translation in Kashmiri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "a8b87220-aaaf-445f-a6a9-3d6369d57075",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Persian-Farsi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "e2f0452b-1e6b-4dc9-a7c5-1c2596af490e",
+    "complete_question": "For Machine Translation, which language shows the best performance with Gemma-3-27B?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Asia (E)"
+  },
+  {
+    "unique_id": "133bb934-94b3-4582-aaa0-abf50521f740",
+    "complete_question": "Which model performs best for Machine Translation in Sanskrit?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Token-F1",
+        "value": "21.9",
+        "value_in_100_range": 21.9
+      }
+    ],
+    "answer_text_for_qna": "LLaMA-65B"
+  },
+  {
+    "unique_id": "ed1f1a65-9a30-44b1-8136-036af55202fc",
+    "complete_question": "What is the top-performing model for Machine Translation in Yoruba?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "2ca82dbf-0993-4d9a-bf9f-e633dd3b3587",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Dogri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "df00076b-b1eb-40ef-804d-a06d764bf4e4",
+    "complete_question": "For Machine Translation, which language shows the best performance with Qwen-2-Audio?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "INCLUDE",
+        "value": "94.1",
+        "value_in_100_range": 94.1
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "a77e10ce-9ba9-47e6-8a5b-5bcb2d3e3ee1",
+    "complete_question": "Which model performs best for Machine Translation in Baule?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "52e7c52a-c0c1-4421-8856-5cddb0825bf4",
+    "complete_question": "What is the performance of Qwen-2-Audio on Machine Translation for Acehnese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB S2TT ChrF++ (Asia (SE), Qwen-2-Audio, proxy for Acehnese)",
+        "value": "16.0",
+        "value_in_100_range": 16.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d42ed786-8c96-4ce5-9c73-2cc95a1de90a",
+    "complete_question": "What is the performance of IndicTrans2 on Machine Translation for Bodo?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b7515d66-55e5-470b-82c5-72d8bf6036d6",
+    "complete_question": "What is the performance of Gemini-2.0-Flash on Machine Translation for Dinka?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Dinka→English, Combined)",
+        "value": "17.0",
+        "value_in_100_range": 17.0
+      },
+      {
+        "metric_name": "chrF++ (English→Dinka, NLLB-Seed)",
+        "value": "13.7",
+        "value_in_100_range": 13.7
+      },
+      {
+        "metric_name": "chrF++ (English→Dinka, Combined)",
+        "value": "13.1",
+        "value_in_100_range": 13.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ddd6bbc7-c82c-499f-bab2-c97526c4f562",
+    "complete_question": "What is the performance of Qwen-2-Audio on Machine Translation for Faroese?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "BLEU (En→X)",
+        "value": "23.60",
+        "value_in_100_range": 23.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "dbeacedd-eb07-4e9e-9092-f725e0820956",
+    "complete_question": "What is the performance of mBART-50 on Machine Translation for Konkani?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "6b0196f3-3d11-4b38-8fa1-b41ce6da5aef",
+    "complete_question": "Which model performs best for Machine Translation in Aranese?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Meta-Llama-3.1-8B"
+  },
+  {
+    "unique_id": "2f24f3df-ddb5-446b-9493-98795a7157f5",
+    "complete_question": "What is the performance of T5 on Machine Translation for Pashto?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "6907cfd5-7a53-4f4a-94f4-a7c9f25b72bd",
+    "complete_question": "Which model performs best for Machine Translation in Congolese-Swahili?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "NLLB-200"
+  },
+  {
+    "unique_id": "26c2e181-9c39-46e5-997c-c10e6b7e5ae9",
+    "complete_question": "Which model performs best for Machine Translation in Bodo?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "54086465-6f0f-4d96-b16e-080721f87801",
+    "complete_question": "Which model performs best for Machine Translation in Kinyarwanda?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "0e73579c-1678-44b7-8003-16b9f482ebf9",
+    "complete_question": "What is the performance of NLLB-200 on Machine Translation for Assamese?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (En→X)",
+        "value": "42.9",
+        "value_in_100_range": 42.9
+      },
+      {
+        "metric_name": "chrF++ (X→En)",
+        "value": "66.5",
+        "value_in_100_range": 66.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "0645ff75-cb8f-4c21-bd6d-b6964fe00afe",
+    "complete_question": "Which model performs best for Machine Translation in Kashmiri?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "e02e5a05-a817-4cd9-9964-15881760cea1",
+    "complete_question": "How does Gemma-3-27B perform on Machine Translation for Basque?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a5cc7d2d-257a-4e36-810d-7ea8982838f9",
+    "complete_question": "What is the performance of mT5 on Machine Translation for Gujarati?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "9523c3de-0c8a-4389-aed4-b16e7d0e5083",
+    "complete_question": "How do GPT-4o and GPT-4o-Audio compare for Machine Translation in Lithuanian?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "BLEU (English→Lithuanian, WMT19)",
+        "value": "20.7",
+        "value_in_100_range": 20.7
+      },
+      {
+        "metric_name": "BLEU (Lithuanian→English, WMT19)",
+        "value": "32.9",
+        "value_in_100_range": 32.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "10dccd6e-1c5f-463c-a684-772131e8e72f",
+    "complete_question": "Which model among Gemini-2.0-Flash, T5, and mBERT performs best for Machine Translation in Portuguese?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "1d4f00a3-c6db-4241-9909-50e03da71f28",
+    "complete_question": "For Machine Translation, which languages have been evaluated using NLLB-200 and what are the performance differences among them?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (ban_Latn-eng_Latn, Combined)",
+        "value": "22.2",
+        "value_in_100_range": 22.2
+      },
+      {
+        "metric_name": "chrF++ (eng_Latn-ban_Latn, Combined)",
+        "value": "21.9",
+        "value_in_100_range": 21.9
+      },
+      {
+        "metric_name": "chrF++ (dik_Latn-eng_Latn, Combined)",
+        "value": "17.0",
+        "value_in_100_range": 17.0
+      },
+      {
+        "metric_name": "chrF++ (eng_Latn-dik_Latn, NLLB-Seed)",
+        "value": "13.7",
+        "value_in_100_range": 13.7
+      },
+      {
+        "metric_name": "chrF++ (fuv_Latn-eng_Latn, Combined)",
+        "value": "18.1",
+        "value_in_100_range": 18.1
+      },
+      {
+        "metric_name": "chrF++ (eng_Latn-fuv_Latn, Combined)",
+        "value": "13.5",
+        "value_in_100_range": 13.5
+      },
+      {
+        "metric_name": "chrF++ (mri_Latn-eng_Latn, Combined)",
+        "value": "26.8",
+        "value_in_100_range": 26.8
+      },
+      {
+        "metric_name": "chrF++ (eng_Latn-mri_Latn, Combined)",
+        "value": "31.5",
+        "value_in_100_range": 31.5
+      },
+      {
+        "metric_name": "chrF++ (hau_Latn-eng_Latn, NLLB-200, eng→xx)",
+        "value": "53.5",
+        "value_in_100_range": 53.5
+      },
+      {
+        "metric_name": "chrF++ (hau_Latn-eng_Latn, NLLB-200, xx→eng)",
+        "value": "57.3",
+        "value_in_100_range": 57.3
+      },
+      {
+        "metric_name": "chrF++ (ibo_Latn-eng_Latn, NLLB-200, eng→xx)",
+        "value": "41.4",
+        "value_in_100_range": 41.4
+      },
+      {
+        "metric_name": "chrF++ (ibo_Latn-eng_Latn, NLLB-200, xx→eng)",
+        "value": "54.4",
+        "value_in_100_range": 54.4
+      },
+      {
+        "metric_name": "chrF++ (lug_Latn-eng_Latn, NLLB-200, eng→xx)",
+        "value": "39.8",
+        "value_in_100_range": 39.8
+      },
+      {
+        "metric_name": "chrF++ (lug_Latn-eng_Latn, NLLB-200, xx→eng)",
+        "value": "46.7",
+        "value_in_100_range": 46.7
+      },
+      {
+        "metric_name": "chrF++ (luo_Latn-eng_Latn, NLLB-200, eng→xx)",
+        "value": "38.5",
+        "value_in_100_range": 38.5
+      },
+      {
+        "metric_name": "chrF++ (luo_Latn-eng_Latn, NLLB-200, xx→eng)",
+        "value": "43.7",
+        "value_in_100_range": 43.7
+      },
+      {
+        "metric_name": "chrF++ (swh_Latn-eng_Latn, NLLB-200, eng→xx)",
+        "value": "58.6",
+        "value_in_100_range": 58.6
+      },
+      {
+        "metric_name": "chrF++ (swh_Latn-eng_Latn, NLLB-200, xx→eng)",
+        "value": "66.1",
+        "value_in_100_range": 66.1
+      },
+      {
+        "metric_name": "chrF++ (wol_Latn-eng_Latn, NLLB-200, eng→xx)",
+        "value": "29.7",
+        "value_in_100_range": 29.7
+      },
+      {
+        "metric_name": "chrF++ (wol_Latn-eng_Latn, NLLB-200, xx→eng)",
+        "value": "41.2",
+        "value_in_100_range": 41.2
+      },
+      {
+        "metric_name": "chrF++ (xho_Latn-eng_Latn, NLLB-200, eng→xx)",
+        "value": "48.6",
+        "value_in_100_range": 48.6
+      },
+      {
+        "metric_name": "chrF++ (xho_Latn-eng_Latn, NLLB-200, xx→eng)",
+        "value": "59.9",
+        "value_in_100_range": 59.9
+      },
+      {
+        "metric_name": "chrF++ (yor_Latn-eng_Latn, NLLB-200, eng→xx)",
+        "value": "25.5",
+        "value_in_100_range": 25.5
+      },
+      {
+        "metric_name": "chrF++ (yor_Latn-eng_Latn, NLLB-200, xx→eng)",
+        "value": "46.3",
+        "value_in_100_range": 46.3
+      },
+      {
+        "metric_name": "chrF++ (zul_Latn-eng_Latn, NLLB-200, eng→xx)",
+        "value": "53.3",
+        "value_in_100_range": 53.3
+      },
+      {
+        "metric_name": "chrF++ (zul_Latn-eng_Latn, NLLB-200, xx→eng)",
+        "value": "61.5",
+        "value_in_100_range": 61.5
+      },
+      {
+        "metric_name": "BLEU (asm, eng→xx)",
+        "value": "7.9",
+        "value_in_100_range": 7.9
+      },
+      {
+        "metric_name": "chrF++ (asm, eng→xx)",
+        "value": "35.9",
+        "value_in_100_range": 35.9
+      },
+      {
+        "metric_name": "BLEU (asm, xx→eng)",
+        "value": "33.9",
+        "value_in_100_range": 33.9
+      },
+      {
+        "metric_name": "chrF++ (asm, xx→eng)",
+        "value": "57.8",
+        "value_in_100_range": 57.8
+      },
+      {
+        "metric_name": "BLEU (ben, eng→xx)",
+        "value": "19.4",
+        "value_in_100_range": 19.4
+      },
+      {
+        "metric_name": "chrF++ (ben, eng→xx)",
+        "value": "50.0",
+        "value_in_100_range": 50.0
+      },
+      {
+        "metric_name": "BLEU (ben, xx→eng)",
+        "value": "38.7",
+        "value_in_100_range": 38.7
+      },
+      {
+        "metric_name": "chrF++ (ben, xx→eng)",
+        "value": "62.2",
+        "value_in_100_range": 62.2
+      },
+      {
+        "metric_name": "BLEU (guj, eng→xx)",
+        "value": "25.0",
+        "value_in_100_range": 25.0
+      },
+      {
+        "metric_name": "chrF++ (guj, eng→xx)",
+        "value": "53.3",
+        "value_in_100_range": 53.3
+      },
+      {
+        "metric_name": "BLEU (guj, xx→eng)",
+        "value": "44.6",
+        "value_in_100_range": 44.6
+      },
+      {
+        "metric_name": "chrF++ (guj, xx→eng)",
+        "value": "66.6",
+        "value_in_100_range": 66.6
+      },
+      {
+        "metric_name": "BLEU (hin, eng→xx)",
+        "value": "34.6",
+        "value_in_100_range": 34.6
+      },
+      {
+        "metric_name": "chrF++ (hin, eng→xx)",
+        "value": "57.3",
+        "value_in_100_range": 57.3
+      },
+      {
+        "metric_name": "BLEU (hin, xx→eng)",
+        "value": "44.4",
+        "value_in_100_range": 44.4
+      },
+      {
+        "metric_name": "chrF++ (hin, xx→eng)",
+        "value": "66.5",
+        "value_in_100_range": 66.5
+      },
+      {
+        "metric_name": "BLEU (kan, eng→xx)",
+        "value": "21.3",
+        "value_in_100_range": 21.3
+      },
+      {
+        "metric_name": "chrF++ (kan, eng→xx)",
+        "value": "53.4",
+        "value_in_100_range": 53.4
+      },
+      {
+        "metric_name": "BLEU (kan, xx→eng)",
+        "value": "36.9",
+        "value_in_100_range": 36.9
+      },
+      {
+        "metric_name": "chrF++ (kan, xx→eng)",
+        "value": "61.0",
+        "value_in_100_range": 61.0
+      },
+      {
+        "metric_name": "BLEU (mal, eng→xx)",
+        "value": "17.1",
+        "value_in_100_range": 17.1
+      },
+      {
+        "metric_name": "chrF++ (mal, eng→xx)",
+        "value": "51.6",
+        "value_in_100_range": 51.6
+      },
+      {
+        "metric_name": "BLEU (mal, xx→eng)",
+        "value": "39.1",
+        "value_in_100_range": 39.1
+      },
+      {
+        "metric_name": "chrF++ (mal, xx→eng)",
+        "value": "62.9",
+        "value_in_100_range": 62.9
+      },
+      {
+        "metric_name": "BLEU (mar, eng→xx)",
+        "value": "17.6",
+        "value_in_100_range": 17.6
+      },
+      {
+        "metric_name": "chrF++ (mar, eng→xx)",
+        "value": "48.0",
+        "value_in_100_range": 48.0
+      },
+      {
+        "metric_name": "BLEU (mar, xx→eng)",
+        "value": "40.3",
+        "value_in_100_range": 40.3
+      },
+      {
+        "metric_name": "chrF++ (mar, xx→eng)",
+        "value": "63.8",
+        "value_in_100_range": 63.8
+      },
+      {
+        "metric_name": "BLEU (ory, eng→xx)",
+        "value": "15.1",
+        "value_in_100_range": 15.1
+      },
+      {
+        "metric_name": "chrF++ (ory, eng→xx)",
+        "value": "45.7",
+        "value_in_100_range": 45.7
+      },
+      {
+        "metric_name": "BLEU (ory, xx→eng)",
+        "value": "41.6",
+        "value_in_100_range": 41.6
+      },
+      {
+        "metric_name": "chrF++ (ory, xx→eng)",
+        "value": "64.4",
+        "value_in_100_range": 64.4
+      },
+      {
+        "metric_name": "BLEU (pan, eng→xx)",
+        "value": "24.5",
+        "value_in_100_range": 24.5
+      },
+      {
+        "metric_name": "chrF++ (pan, eng→xx)",
+        "value": "49.0",
+        "value_in_100_range": 49.0
+      },
+      {
+        "metric_name": "BLEU (pan, xx→eng)",
+        "value": "44.8",
+        "value_in_100_range": 44.8
+      },
+      {
+        "metric_name": "chrF++ (pan, xx→eng)",
+        "value": "66.3",
+        "value_in_100_range": 66.3
+      },
+      {
+        "metric_name": "BLEU (tam, eng→xx)",
+        "value": "19.8",
+        "value_in_100_range": 19.8
+      },
+      {
+        "metric_name": "chrF++ (tam, eng→xx)",
+        "value": "53.7",
+        "value_in_100_range": 53.7
+      },
+      {
+        "metric_name": "BLEU (tam, xx→eng)",
+        "value": "36.8",
+        "value_in_100_range": 36.8
+      },
+      {
+        "metric_name": "chrF++ (tam, xx→eng)",
+        "value": "60.8",
+        "value_in_100_range": 60.8
+      },
+      {
+        "metric_name": "BLEU (tel, eng→xx)",
+        "value": "24.8",
+        "value_in_100_range": 24.8
+      },
+      {
+        "metric_name": "chrF++ (tel, eng→xx)",
+        "value": "55.9",
+        "value_in_100_range": 55.9
+      },
+      {
+        "metric_name": "BLEU (tel, xx→eng)",
+        "value": "43.6",
+        "value_in_100_range": 43.6
+      },
+      {
+        "metric_name": "chrF++ (tel, xx→eng)",
+        "value": "65.5",
+        "value_in_100_range": 65.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c8ec44da-1263-4060-aa0c-c153d2f397e8",
+    "complete_question": "How does Qwen-2-Audio perform on Machine Translation across Sundanese, Twi, and Wolof?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ChrF++ (En→Sundanese)",
+        "value": "17.64",
+        "value_in_100_range": 17.64
+      },
+      {
+        "metric_name": "ChrF++ (En→Twi)",
+        "value": "3.99",
+        "value_in_100_range": 3.99
+      },
+      {
+        "metric_name": "ChrF++ (En→Wolof)",
+        "value": "2.91",
+        "value_in_100_range": 2.91
+      },
+      {
+        "metric_name": "ChrF++ (Sundanese→En)",
+        "value": "16.83",
+        "value_in_100_range": 16.83
+      },
+      {
+        "metric_name": "ChrF++ (Twi→En)",
+        "value": "8.56",
+        "value_in_100_range": 8.56
+      },
+      {
+        "metric_name": "ChrF++ (Wolof→En)",
+        "value": "18.41",
+        "value_in_100_range": 18.41
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "851359c4-4aff-4865-a9e2-9167593a7316",
+    "complete_question": "Which model between GPT-4o and Gemini-2.0-Flash achieves higher scores for Machine Translation in Estonian?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "16b41ef6-479c-4bd7-a575-a648065c8961",
+    "complete_question": "What are the performance results of Llama-3-8B-Instruct on Machine Translation for German?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "BLEU (En→deu_Latn)",
+        "value": "9.49",
+        "value_in_100_range": 9.49
+      },
+      {
+        "metric_name": "chrF (En→deu_Latn)",
+        "value": "23.40",
+        "value_in_100_range": 23.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "65f2288e-c404-4382-b585-6ccebb3b606e",
+    "complete_question": "Compare XLM-R and mBart accuracy for Machine Translation in Kurdish-Kurmanji.",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a7fca2a3-d4f5-4474-b232-ed8df1d2e2f9",
+    "complete_question": "How does Gemma-2-27B perform on Machine Translation for Brazilian-Portuguese?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "BLEU (English→Brazilian-Portuguese)",
+        "value": "20.13",
+        "value_in_100_range": 20.13
+      },
+      {
+        "metric_name": "ChrF (English→Brazilian-Portuguese)",
+        "value": "44.93",
+        "value_in_100_range": 44.93
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "bf18845b-5ffa-4d46-9f90-4afa0b8409b5",
+    "complete_question": "For Machine Translation, are there notable differences in performance among mT5, PaLM-X, and XLM-R across Vietnamese?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "7148155a-3ab8-44ed-8195-29a076262d69",
+    "complete_question": "Which languages see the highest Machine Translation scores when using mBART for evaluation?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "67.5",
+        "value_in_100_range": 67.5
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "59.6",
+        "value_in_100_range": 59.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ab002b59-cd97-429f-b0dd-e95fd0669188",
+    "complete_question": "How does GPT-4o perform on Machine Translation for Ewe?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (fr→ewe_Latn)",
+        "value": "8.3",
+        "value_in_100_range": 8.3
+      },
+      {
+        "metric_name": "chrF++ (ewe_Latn→fr)",
+        "value": "42.6",
+        "value_in_100_range": 42.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "90321720-4a5f-4aac-a610-2f86cfac125b",
+    "complete_question": "What score does Qwen-2-Audio achieve for Machine Translation in Faroese?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ab904b17-fa34-4996-a24d-311f6d71396f",
+    "complete_question": "What is the Machine Translation quality of Gemini-2.0-Flash in Dinka?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "29d6e3eb-b915-4827-a0b4-eb0c54a9dd3f",
+    "complete_question": "How well does Qwen-2-Audio perform on Machine Translation in Maltese?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "0679764a-d006-4d54-b727-758c962457c6",
+    "complete_question": "What performance does AfriCOMET achieve for Machine Translation with Bambara?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2bdc786d-fdd0-439d-a4a5-0c74ffae7ea0",
+    "complete_question": "How does NLLB-200 perform on Machine Translation for Assamese?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (En→Assamese)",
+        "value": "42.9",
+        "value_in_100_range": 42.9
+      },
+      {
+        "metric_name": "chrF++ (Assamese→En)",
+        "value": "66.5",
+        "value_in_100_range": 66.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "4a9b9094-90cf-46b4-8961-d6042b69db21",
+    "complete_question": "How accurate is Gemini-2.0-Flash on Machine Translation for Acehnese compared to Qwen-2-Audio?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ChrF++ (Acehnese, En→Ace_Arab, Gemini-2.0-Flash)",
+        "value": "6.31",
+        "value_in_100_range": 6.31
+      },
+      {
+        "metric_name": "ChrF++ (Acehnese, En→Ace_Arab, Qwen-2-Audio)",
+        "value": "0.05",
+        "value_in_100_range": 0.05
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3ac01b8d-ceff-4ed0-b685-5b90d0ef24de",
+    "complete_question": "How does the performance of Qwen-2-Audio and GPT-4o compare for Machine Translation in Baule?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b1177df5-dba8-4d9e-ac42-1147c1706ad5",
+    "complete_question": "What is the Machine Translation score of mT5 for Manipuri?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "BLEU (En→Manipuri)",
+        "value": "19.13",
+        "value_in_100_range": 19.13
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3c942a08-9d4c-462e-a9f9-6e8757f99400",
+    "complete_question": "How does IndicTrans2 perform on Machine Translation for Odia?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (En→Odia)",
+        "value": "64.9",
+        "value_in_100_range": 64.9
+      },
+      {
+        "metric_name": "chrF++ (Odia→En)",
+        "value": "49.2",
+        "value_in_100_range": 49.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3cf042ee-df06-4cf5-8098-a6cd461b6f4a",
+    "complete_question": "What is the achieved Machine Translation performance by various-MT-systems on Twi?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  }
+]

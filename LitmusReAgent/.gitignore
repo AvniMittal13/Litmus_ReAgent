@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+code/outputs/
+code/agent_outputs/
+code/tmp/
+code/expert_knowledge_cache.pkl
+code/query_cache.pkl

@@ -1,0 +1,178 @@
+[
+  {
+    "url": "https://arxiv.org/html/2406.13713v2",
+    "task": "French LLM evaluation / Summarization",
+    "languages": "French",
+    "models": "GPT-3.5, GPT-4, Mistral-7B-Instruct-v0.2, Mistral-7B-OpenOrca, Llama-2-7B-Chat, Dolphin-2.6-Mistral-7B, Dolphin-2.6-Phi-2, LLaMA-2, Phi-2",
+    "description": "arXiv:2406.13713 (2024): Comparative analysis between open-source and proprietary LLMs for Machine Reading Comprehension (MRC) and text summarization in French industrial applications. Benchmarks multiple LLMs (GPT-3.5, GPT-4, Mistral-7B, LLaMA-2, Phi-2) on French summarization (industry dataset, 40 samples). Evaluates performance on factual comprehension and structured information extraction from French documents. Reports exact match (EM) and ROUGE-L scores; GPT-4 and Mistral-7B show strong open-source vs proprietary results.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 0,
+    "embedding_text": "Description: arXiv:2406.13713 (2024): Comparative analysis between open-source and proprietary LLMs for Machine Reading Comprehension (MRC) and text summarization in French industrial applications. Benchmarks multiple LLMs (GPT-3.5, GPT-4, Mistral-7B, LLaMA-2, Phi-2) on French summarization (industry dataset, 40 samples). Evaluates performance on factual comprehension and structured information extraction from French documents. Reports exact match (EM) and ROUGE-L scores; GPT-4 and Mistral-7B show strong open-source vs proprietary results.\n\nModels: GPT-3.5, GPT-4, Mistral-7B-Instruct-v0.2, Mistral-7B-OpenOrca, Llama-2-7B-Chat, Dolphin-2.6-Mistral-7B, Dolphin-2.6-Phi-2, LLaMA-2, Phi-2\n\nLanguages: French",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://arxiv.org/html/2506.18082v1",
+    "task": "Summarization",
+    "languages": "German",
+    "models": "Qwen 2.5-7B",
+    "description": "arXiv:2506.18082 (2024): Evaluates Qwen 2.5-7B on German text summarization using Wikitext/Wikinews. Includes multicriteria and human evaluation; Qwen statistically underperforms human generated text. Rare multicriteria approach highlights gaps in LLM text quality.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 1,
+    "embedding_text": "Description: arXiv:2506.18082 (2024): Evaluates Qwen 2.5-7B on German text summarization using Wikitext/Wikinews. Includes multicriteria and human evaluation; Qwen statistically underperforms human generated text. Rare multicriteria approach highlights gaps in LLM text quality.\n\nModels: Qwen 2.5-7B\n\nLanguages: German",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://aclanthology.org/2020.emnlp-main.647/",
+    "task": "MLSUM - Multilingual News Summarization",
+    "languages": "French, German, Spanish, Russian, Turkish, English",
+    "models": "Oracle, Random, Lead-3, TextRank, Pointer-Generator, M-BERT, mBERT",
+    "description": "MLSUM: The Multilingual Summarization Corpus (EMNLP 2020): The first large-scale MultiLingual SUMmarization dataset obtained from online newspapers, containing 1.5M+ article/summary pairs across French, German, Spanish, Russian, and Turkish languages. Combined with English data from CNN/Daily Mail, MLSUM forms a comprehensive multilingual dataset enabling new research directions in text summarization. The benchmark provides cross-lingual comparative analyses using state-of-the-art systems including Oracle, Random, Lead-3, TextRank, Pointer-Generator, M-BERT, and mBERT models, highlighting existing biases and demonstrating the importance of multilingual evaluation in summarization research. MLSUM addresses the gap in large-scale multilingual summarization resources and motivates development of more inclusive summarization models.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 2,
+    "embedding_text": "Description: MLSUM: The Multilingual Summarization Corpus (EMNLP 2020): The first large-scale MultiLingual SUMmarization dataset obtained from online newspapers, containing 1.5M+ article/summary pairs across French, German, Spanish, Russian, and Turkish languages. Combined with English data from CNN/Daily Mail, MLSUM forms a comprehensive multilingual dataset enabling new research directions in text summarization. The benchmark provides cross-lingual comparative analyses using state-of-the-art systems including Oracle, Random, Lead-3, TextRank, Pointer-Generator, M-BERT, and mBERT models, highlighting existing biases and demonstrating the importance of multilingual evaluation in summarization research. MLSUM addresses the gap in large-scale multilingual summarization resources and motivates development of more inclusive summarization models.\n\nModels: Oracle, Random, Lead-3, TextRank, Pointer-Generator, M-BERT, mBERT\n\nLanguages: French, German, Spanish, Russian, Turkish, English",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://arxiv.org/pdf/1506.05865",
+    "task": "Text Summarization",
+    "languages": "Chinese",
+    "models": "RNN encoder-decoder, Recurrent Neural Networks",
+    "description": "LCSTS: A Large Scale Chinese Short Text Summarization Dataset (arXiv 2015): Introduces largest Chinese short text summarization corpus with over 2 million real Chinese text-summary pairs from Sina Weibo microblogging platform. Uses RNN encoder-decoder architecture for summary generation, achieving promising results with ROUGE-1/2/L evaluation metrics.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 3,
+    "embedding_text": "Description: LCSTS: A Large Scale Chinese Short Text Summarization Dataset (arXiv 2015): Introduces largest Chinese short text summarization corpus with over 2 million real Chinese text-summary pairs from Sina Weibo microblogging platform. Uses RNN encoder-decoder architecture for summary generation, achieving promising results with ROUGE-1/2/L evaluation metrics.\n\nModels: RNN encoder-decoder, Recurrent Neural Networks\n\nLanguages: Chinese",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+    "task": "Text Summarization",
+    "languages": "Chinese",
+    "models": "DeepSeek-R1, Qwen-14B, GPT-4o, Claude-3.5-Sonnet",
+    "description": "DeepSeek-R1-Distill-Qwen-14B: Chinese NLU and reasoning model distilled from DeepSeek-R1 using reasoning patterns. Achieves CLUEWSC: 92.8 EM, C-Eval: 91.8 EM scores. Outperforms GPT-4o and Claude-3.5 on Chinese language understanding and text summarization tasks through reinforcement learning from larger models.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 4,
+    "embedding_text": "Description: DeepSeek-R1-Distill-Qwen-14B: Chinese NLU and reasoning model distilled from DeepSeek-R1 using reasoning patterns. Achieves CLUEWSC: 92.8 EM, C-Eval: 91.8 EM scores. Outperforms GPT-4o and Claude-3.5 on Chinese language understanding and text summarization tasks through reinforcement learning from larger models.\n\nModels: DeepSeek-R1, Qwen-14B, GPT-4o, Claude-3.5-Sonnet\n\nLanguages: Chinese",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://github.com/yahoojapan/JGLUE",
+    "task": "Text Summarization",
+    "languages": "Japanese",
+    "models": "Waseda RoBERTa large (s128/s512), Tohoku BERT base, Tohoku BERT large, NICT BERT base, XLM RoBERTa base, XLM RoBERTa large",
+    "description": "JGLUE: Japanese General Language Understanding Evaluation (LREC 2022): Comprehensive Japanese NLU benchmark including JSTS (semantic textual similarity) for text summarization evaluation. Waseda RoBERTa large (s128) achieves Pearson 0.930, Spearman 0.896 on semantic similarity tasks. Built from scratch without translation for Japanese language understanding.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 5,
+    "embedding_text": "Description: JGLUE: Japanese General Language Understanding Evaluation (LREC 2022): Comprehensive Japanese NLU benchmark including JSTS (semantic textual similarity) for text summarization evaluation. Waseda RoBERTa large (s128) achieves Pearson 0.930, Spearman 0.896 on semantic similarity tasks. Built from scratch without translation for Japanese language understanding.\n\nModels: Waseda RoBERTa large (s128/s512), Tohoku BERT base, Tohoku BERT large, NICT BERT base, XLM RoBERTa base, XLM RoBERTa large\n\nLanguages: Japanese",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://tech.revcomm.co.jp/evaluating-summarization-evaluation",
+    "task": "Text Summarization",
+    "languages": "Japanese",
+    "models": "GPT-3, ChatGPT, Flan-T5, T5",
+    "description": "Evaluating Summarization Evaluation (RevComm Tech Blog 2023): Comprehensive evaluation of Japanese text summarization metrics comparing ROUGE, BERTScore, and factual consistency metrics across GPT-3, ChatGPT, Flan-T5, and T5 models. Studies relevance vs factual consistency metrics on dialogue vs narrative summarization, revealing different metric behaviors for Japanese language adaptation.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 6,
+    "embedding_text": "Description: Evaluating Summarization Evaluation (RevComm Tech Blog 2023): Comprehensive evaluation of Japanese text summarization metrics comparing ROUGE, BERTScore, and factual consistency metrics across GPT-3, ChatGPT, Flan-T5, and T5 models. Studies relevance vs factual consistency metrics on dialogue vs narrative summarization, revealing different metric behaviors for Japanese language adaptation.\n\nModels: GPT-3, ChatGPT, Flan-T5, T5\n\nLanguages: Japanese",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://arxiv.org/html/2503.21679v1",
+    "task": "Text Summarization/Detection",
+    "languages": "Chinese, Japanese",
+    "models": "Qwen2.5-7B, Jirai-Qwen (fine-tuned), Llama-3.1-8B, DeepSeek-v3",
+    "description": "JiraiBench introduces the first bilingual benchmark evaluating LLMs' effectiveness in detecting self-destructive content across Chinese and Japanese social media communities. The dataset comprises 10,419 Chinese posts and 5,000 Japanese posts from Jirai community spanning three behavioral categories: drug overdose (OD), eating disorders (ED), and self-harm (SH). Models evaluated include Qwen2.5-7B, Jirai-Qwen (fine-tuned on Chinese data), Llama-3.1-8B, and DeepSeek-v3. Experiments revealed significant cross-cultural transfer effects where Japanese instruction prompts outperformed Chinese prompts when processing Chinese content, suggesting cultural proximity can outweigh linguistic similarity. Zero-shot approaches consistently outperformed few-shot methods. Evaluation used Macro-F1 scores across multidimensional annotation scheme. The fine-tuned Jirai-Qwen achieved highest performance on Chinese data, and cross-lingual transfer experiments demonstrated knowledge transfer between Chinese and Japanese without explicit target language training.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 7,
+    "embedding_text": "Description: JiraiBench introduces the first bilingual benchmark evaluating LLMs' effectiveness in detecting self-destructive content across Chinese and Japanese social media communities. The dataset comprises 10,419 Chinese posts and 5,000 Japanese posts from Jirai community spanning three behavioral categories: drug overdose (OD), eating disorders (ED), and self-harm (SH). Models evaluated include Qwen2.5-7B, Jirai-Qwen (fine-tuned on Chinese data), Llama-3.1-8B, and DeepSeek-v3. Experiments revealed significant cross-cultural transfer effects where Japanese instruction prompts outperformed Chinese prompts when processing Chinese content, suggesting cultural proximity can outweigh linguistic similarity. Zero-shot approaches consistently outperformed few-shot methods. Evaluation used Macro-F1 scores across multidimensional annotation scheme. The fine-tuned Jirai-Qwen achieved highest performance on Chinese data, and cross-lingual transfer experiments demonstrated knowledge transfer between Chinese and Japanese without explicit target language training.\n\nModels: Qwen2.5-7B, Jirai-Qwen (fine-tuned), Llama-3.1-8B, DeepSeek-v3\n\nLanguages: Chinese, Japanese",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://arxiv.org/html/2504.15521v1",
+    "task": "Multilingual Evaluation Meta-Study",
+    "languages": "English, Chinese, Spanish, French, German, Russian, Italian, Arabic, Hindi, Japanese, Korean, Portuguese, Turkish, Vietnamese, Bengali, Gujarati, Marathi, Tamil, Telugu, Urdu, Indonesian, Persian, Hausa, Swahili, Ukrainian, Welsh, Yoruba (148 countries represented)",
+    "models": "GPT-3, GPT-4, Mistral, Phi-3, Qwen, DeepSeek, Gemma, Llama-3, SOLAR, Antares, InternLM, Yi, mT5, mBART, BLOOM, Cohere, Anthropic-LM, GLM, OPT",
+    "description": "Comprehensive meta-analysis examining over 2,000 multilingual benchmarks from 148 countries (2021-2024). Reveals persistent language disparities with English overrepresented despite exclusion from collection. Study covers text classification (66.5%), question answering, summarization, and other NLP tasks across news (17%), social media (13.3%), Wikipedia (9.6%), and specialized domains. Key findings: STEM tasks (ARC, MGSM) show stronger correlation with human judgments (0.70-0.85) than NLP tasks like XQuAD (0.11-0.30). Localized benchmarks (CMMLU) significantly outperform translated equivalents in human alignment (0.68 vs 0.47). Estimated $11M investment in benchmark development. Advocates for culturally authentic, linguistically diverse evaluation beyond translation-based approaches.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 8,
+    "embedding_text": "Description: Comprehensive meta-analysis examining over 2,000 multilingual benchmarks from 148 countries (2021-2024). Reveals persistent language disparities with English overrepresented despite exclusion from collection. Study covers text classification (66.5%), question answering, summarization, and other NLP tasks across news (17%), social media (13.3%), Wikipedia (9.6%), and specialized domains. Key findings: STEM tasks (ARC, MGSM) show stronger correlation with human judgments (0.70-0.85) than NLP tasks like XQuAD (0.11-0.30). Localized benchmarks (CMMLU) significantly outperform translated equivalents in human alignment (0.68 vs 0.47). Estimated $11M investment in benchmark development. Advocates for culturally authentic, linguistically diverse evaluation beyond translation-based approaches.\n\nModels: GPT-3, GPT-4, Mistral, Phi-3, Qwen, DeepSeek, Gemma, Llama-3, SOLAR, Antares, InternLM, Yi, mT5, mBART, BLOOM, Cohere, Anthropic-LM, GLM, OPT\n\nLanguages: English, Chinese, Spanish, French, German, Russian, Italian, Arabic, Hindi, Japanese, Korean, Portuguese, Turkish, Vietnamese, Bengali, Gujarati, Marathi, Tamil, Telugu, Urdu, Indonesian, Persian, Hausa, Swahili, Ukrainian, Welsh, Yoruba (148 countries represented)",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://arxiv.org/pdf/2410.14166",
+    "task": "Character-Level Counting Problems",
+    "languages": "English",
+    "models": "GPT-4o, Llama-3, Qwen-1.5, Gemma-1, Phi-3, Mistral-v0.3, DeepSeek-V2, InternLM, Yi-1.5",
+    "description": "Investigation of LLMs' struggle with basic character counting tasks (e.g., counting 'r' in 'strawberry'). Evaluates multiple advanced LLMs including GPT-4o, Llama-3, Qwen-1.5, Gemma-1, Phi-3, Mistral-v0.3, DeepSeek-V2, InternLM, and Yi-1.5. Tests various conjectures about tokenization, architecture, and training data as causes for counting failures. Demonstrates that engaging reasoning mechanisms is most robust approach for improving performance. Challenges prevalent assumptions about inherent LLM deficiencies and highlights importance of reasoning-before-responding during model training. Published at NAACL 2025.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 9,
+    "embedding_text": "Description: Investigation of LLMs' struggle with basic character counting tasks (e.g., counting 'r' in 'strawberry'). Evaluates multiple advanced LLMs including GPT-4o, Llama-3, Qwen-1.5, Gemma-1, Phi-3, Mistral-v0.3, DeepSeek-V2, InternLM, and Yi-1.5. Tests various conjectures about tokenization, architecture, and training data as causes for counting failures. Demonstrates that engaging reasoning mechanisms is most robust approach for improving performance. Challenges prevalent assumptions about inherent LLM deficiencies and highlights importance of reasoning-before-responding during model training. Published at NAACL 2025.\n\nModels: GPT-4o, Llama-3, Qwen-1.5, Gemma-1, Phi-3, Mistral-v0.3, DeepSeek-V2, InternLM, Yi-1.5\n\nLanguages: English",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://arxiv.org/pdf/2301.13848",
+    "task": "News Summarization Benchmarking",
+    "languages": "English (CNN/DailyMail, XSUM)",
+    "models": "GPT-3 davinci v1, GPT-3 curie v1, GPT-3 ada v1, InstructGPT davinci v2, InstructGPT curie v1, InstructGPT ada v1, OPT 175B, GLM (Tsinghua University), Cohere xlarge v20220609, Anthropic-LM v4-s3",
+    "description": "Comprehensive human evaluation study of 10 LLMs across different pretraining methods, prompts, and model scales for news summarization. Key findings: (1) Instruction tuning, not model size, is crucial for zero-shot summarization capability; (2) Previous studies underestimated human performance due to low-quality references. Conducted human evaluation using high-quality summaries from freelance writers. Found LLM summaries comparable to human-written summaries despite stylistic differences in paraphrasing. Evaluated on CNN/DailyMail and XSUM datasets. Demonstrates importance of instruction tuning for summarization tasks and challenges existing evaluation paradigms with better human baselines.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 10,
+    "embedding_text": "Description: Comprehensive human evaluation study of 10 LLMs across different pretraining methods, prompts, and model scales for news summarization. Key findings: (1) Instruction tuning, not model size, is crucial for zero-shot summarization capability; (2) Previous studies underestimated human performance due to low-quality references. Conducted human evaluation using high-quality summaries from freelance writers. Found LLM summaries comparable to human-written summaries despite stylistic differences in paraphrasing. Evaluated on CNN/DailyMail and XSUM datasets. Demonstrates importance of instruction tuning for summarization tasks and challenges existing evaluation paradigms with better human baselines.\n\nModels: GPT-3 davinci v1, GPT-3 curie v1, GPT-3 ada v1, InstructGPT davinci v2, InstructGPT curie v1, InstructGPT ada v1, OPT 175B, GLM (Tsinghua University), Cohere xlarge v20220609, Anthropic-LM v4-s3\n\nLanguages: English (CNN/DailyMail, XSUM)",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://arxiv.org/pdf/2106.13822",
+    "task": "XL-Sum Multilingual Summarization",
+    "languages": "Amharic, Arabic, Azerbaijani, Bengali, Burmese, Chinese (Simplified), Chinese (Traditional), English, French, Gujarati, Hausa, Hindi, Igbo, Indonesian, Japanese, Kirundi, Korean, Kyrgyz, Marathi, Nepali, Oromo, Pashto, Persian, Pidgin (West African), Portuguese, Punjabi, Russian, Scottish Gaelic, Serbian (Cyrillic), Serbian (Latin), Sinhala, Somali, Spanish, Swahili, Tamil, Telugu, Thai, Tigrinya, Turkish, Ukrainian, Urdu, Uzbek, Vietnamese, Welsh, Yoruba",
+    "models": "mT5 (multilingual T5), mBART (multilingual BART), multilingual transformer models, mT5 (official baseline), Community models",
+    "description": "XL-Sum: Largest multilingual abstractive summarization dataset with 1 million professionally annotated article-summary pairs from BBC across 44 languages. Covers low to high-resource languages with highly abstractive, concise summaries. Portuguese: 71k+ pairs (ROUGE-1=37.17, ROUGE-L=28.56). Swahili: 9,872 pairs (ROUGE-1=37.67, ROUGE-2=17.85, ROUGE-L=30.91). Tamil: 20k+ pairs (ROUGE-1=24.33, ROUGE-2=11.06, ROUGE-L=22.07). Fine-tuned mT5 achieving >11 ROUGE-2 scores on 10 languages, with some exceeding 15 through multilingual training. Demonstrates competitive performance for low-resource summarization. Standard benchmark for multilingual news summarization research. XL-Sum addresses the limited availability of datasets for low/mid-resource languages in text summarization, featuring highly abstractive, concise, and high-quality summaries validated through human and intrinsic evaluation. The benchmark demonstrates competitive performance with mT5 fine-tuning, achieving over 11 ROUGE-2 scores across 10 languages and exceeding 15 on some through multilingual training.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 11,
+    "embedding_text": "Description: XL-Sum: Largest multilingual abstractive summarization dataset with 1 million professionally annotated article-summary pairs from BBC across 44 languages. Covers low to high-resource languages with highly abstractive, concise summaries. Portuguese: 71k+ pairs (ROUGE-1=37.17, ROUGE-L=28.56). Swahili: 9,872 pairs (ROUGE-1=37.67, ROUGE-2=17.85, ROUGE-L=30.91). Tamil: 20k+ pairs (ROUGE-1=24.33, ROUGE-2=11.06, ROUGE-L=22.07). Fine-tuned mT5 achieving >11 ROUGE-2 scores on 10 languages, with some exceeding 15 through multilingual training. Demonstrates competitive performance for low-resource summarization. Standard benchmark for multilingual news summarization research. XL-Sum addresses the limited availability of datasets for low/mid-resource languages in text summarization, featuring highly abstractive, concise, and high-quality summaries validated through human and intrinsic evaluation. The benchmark demonstrates competitive performance with mT5 fine-tuning, achieving over 11 ROUGE-2 scores across 10 languages and exceeding 15 on some through multilingual training.\n\nModels: mT5 (multilingual T5), mBART (multilingual BART), multilingual transformer models, mT5 (official baseline), Community models\n\nLanguages: Amharic, Arabic, Azerbaijani, Bengali, Burmese, Chinese (Simplified), Chinese (Traditional), English, French, Gujarati, Hausa, Hindi, Igbo, Indonesian, Japanese, Kirundi, Korean, Kyrgyz, Marathi, Nepali, Oromo, Pashto, Persian, Pidgin (West African), Portuguese, Punjabi, Russian, Scottish Gaelic, Serbian (Cyrillic), Serbian (Latin), Sinhala, Somali, Spanish, Swahili, Tamil, Telugu, Thai, Tigrinya, Turkish, Ukrainian, Urdu, Uzbek, Vietnamese, Welsh, Yoruba",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://arxiv.org/html/2411.11072v1",
+    "task": "Multilingual Summarization Benchmarks (Survey)",
+    "languages": "Portuguese, Russian",
+    "models": "GPT-3, GPT-4, Mistral, Qwen, DeepSeek, Mixtral, BLOOM",
+    "description": "Comprehensive systematic survey of Multilingual Large Language Models covering evaluation benchmarks including XL-Sum, SEAHORSE, and WikiLingua datasets which include Portuguese and Russian languages. Survey analyzes models including GPT-3/4, Mistral, Qwen, DeepSeek, Mixtral, and BLOOM across diverse evaluation frameworks. SEAHORSE dataset provides multilingual summarization evaluation with human ratings across 6 languages including Portuguese, with 96K summaries from multiple models. WikiLingua supports multilingual Wikipedia summarization including Portuguese and Russian. Research covers 122+ languages across various language families with comprehensive evaluation of multilingual capabilities, safety, and performance across high-resource and low-resource languages including detailed analysis of summarization task performance.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 12,
+    "embedding_text": "Description: Comprehensive systematic survey of Multilingual Large Language Models covering evaluation benchmarks including XL-Sum, SEAHORSE, and WikiLingua datasets which include Portuguese and Russian languages. Survey analyzes models including GPT-3/4, Mistral, Qwen, DeepSeek, Mixtral, and BLOOM across diverse evaluation frameworks. SEAHORSE dataset provides multilingual summarization evaluation with human ratings across 6 languages including Portuguese, with 96K summaries from multiple models. WikiLingua supports multilingual Wikipedia summarization including Portuguese and Russian. Research covers 122+ languages across various language families with comprehensive evaluation of multilingual capabilities, safety, and performance across high-resource and low-resource languages including detailed analysis of summarization task performance.\n\nModels: GPT-3, GPT-4, Mistral, Qwen, DeepSeek, Mixtral, BLOOM\n\nLanguages: Portuguese, Russian",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://arxiv.org/pdf/2010.03093",
+    "task": "WikiLingua Abstractive Summarization",
+    "languages": "English, Spanish, Portuguese, French, German, Russian, Italian, Indonesian, Dutch, Arabic, Vietnamese, Chinese, Thai, Japanese, Korean, Hindi, Czech, Turkish, Spanish, Russian, Vietnamese, Turkish",
+    "models": "lead-3, Summarize→Translate, Translate→Summarize, Trans-Sum-R, Trans-Sum-G, mBART monolingual fine-tuning, mBART cross-lingual fine-tuning, DC+Synth, mT5, mBART-50, mBART (fine-tuned), Lead-3, Summarize-then-Translate, Translate-then-Summarize",
+    "description": "WikiLingua: Large-scale multilingual benchmark dataset for cross-lingual abstractive summarization extracted from WikiHow collaborative how-to guides across 18 languages including English, Spanish, Portuguese, French, German, Russian, Italian, Indonesian, Dutch, Arabic, Vietnamese, Chinese, Thai, Japanese, Korean, Hindi, Czech, and Turkish. Dataset features gold-standard article-summary alignments across languages using image alignment methodology. Research evaluates cross-lingual summarization approaches including direct crosslingual methods without translation at inference time, leveraging synthetic data and Neural Machine Translation for pre-training. Baseline comparisons include traditional pipeline approaches (Summarize→Translate, Translate→Summarize) and advanced multilingual models (mT5, mBART-50) with both monolingual and cross-lingual fine-tuning strategies. WikiLingua Enhanced provides enhanced methodologies for cross-lingual transfer learning, evaluating various approaches including fine-tuned mBART models, Lead-3 baselines, and pipeline methods across multiple language pairs. The study demonstrates improved performance through enhanced cross-lingual training techniques, addressing challenges in cross-lingual summarization such as maintaining content quality across language boundaries while ensuring semantic preservation and factual accuracy. Evaluation uses automatic metrics (ROUGE, BLEU) with human evaluation studies, demonstrating significant performance improvements for direct cross-lingual approaches while maintaining cost efficiency during inference.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 13,
+    "embedding_text": "Description: WikiLingua: Large-scale multilingual benchmark dataset for cross-lingual abstractive summarization extracted from WikiHow collaborative how-to guides across 18 languages including English, Spanish, Portuguese, French, German, Russian, Italian, Indonesian, Dutch, Arabic, Vietnamese, Chinese, Thai, Japanese, Korean, Hindi, Czech, and Turkish. Dataset features gold-standard article-summary alignments across languages using image alignment methodology. Research evaluates cross-lingual summarization approaches including direct crosslingual methods without translation at inference time, leveraging synthetic data and Neural Machine Translation for pre-training. Baseline comparisons include traditional pipeline approaches (Summarize→Translate, Translate→Summarize) and advanced multilingual models (mT5, mBART-50) with both monolingual and cross-lingual fine-tuning strategies. WikiLingua Enhanced provides enhanced methodologies for cross-lingual transfer learning, evaluating various approaches including fine-tuned mBART models, Lead-3 baselines, and pipeline methods across multiple language pairs. The study demonstrates improved performance through enhanced cross-lingual training techniques, addressing challenges in cross-lingual summarization such as maintaining content quality across language boundaries while ensuring semantic preservation and factual accuracy. Evaluation uses automatic metrics (ROUGE, BLEU) with human evaluation studies, demonstrating significant performance improvements for direct cross-lingual approaches while maintaining cost efficiency during inference.\n\nModels: lead-3, Summarize→Translate, Translate→Summarize, Trans-Sum-R, Trans-Sum-G, mBART monolingual fine-tuning, mBART cross-lingual fine-tuning, DC+Synth, mT5, mBART-50, mBART (fine-tuned), Lead-3, Summarize-then-Translate, Translate-then-Summarize\n\nLanguages: English, Spanish, Portuguese, French, German, Russian, Italian, Indonesian, Dutch, Arabic, Vietnamese, Chinese, Thai, Japanese, Korean, Hindi, Czech, Turkish, Spanish, Russian, Vietnamese, Turkish",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://arxiv.org/pdf/1910.00421",
+    "task": "Cross-lingual Abstractive Summarization",
+    "languages": "English, spanish, french, german, arabic",
+    "models": "standard transformer",
+    "description": "Global Voices is a multilingual dataset for evaluating cross-lingual summarization methods across 15 languages, extracting social-network descriptions of Global Voices news articles to collect evaluation data for into-English and from-English summarization tasks. The study constructs a high-quality evaluation dataset based on guidelines emphasizing accuracy, coverage, and understandability, with crowd-sourced summaries filtered through human ratings. The benchmark examines translation quality effects in cross-lingual summarization, comparing translate-then-summarize approaches with various baselines. Results highlight limitations of the ROUGE metric overlooked in monolingual summarization, providing insights into cross-lingual summarization challenges and evaluation methodologies.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 14,
+    "embedding_text": "Description: Global Voices is a multilingual dataset for evaluating cross-lingual summarization methods across 15 languages, extracting social-network descriptions of Global Voices news articles to collect evaluation data for into-English and from-English summarization tasks. The study constructs a high-quality evaluation dataset based on guidelines emphasizing accuracy, coverage, and understandability, with crowd-sourced summaries filtered through human ratings. The benchmark examines translation quality effects in cross-lingual summarization, comparing translate-then-summarize approaches with various baselines. Results highlight limitations of the ROUGE metric overlooked in monolingual summarization, providing insights into cross-lingual summarization challenges and evaluation methodologies.\n\nModels: standard transformer\n\nLanguages: English, spanish, french, german, arabic",
+    "embedding_dim": 1536
+  },
+  {
+    "url": "https://arxiv.org/pdf/2410.09773",
+    "task": "Mixed-Language Multi-document",
+    "languages": "English, German, French, Spanish",
+    "models": "Centroid+mT5 (extract-then-abstract), mT5, mBART, GPT-3.5, GPT-4, Llama-3.1, Gemini-1.5, Graph-ExtractGenerate",
+    "description": "MLMD-news is a mixed-language multi-document news summarization dataset addressing real-world scenarios where international events involve multiple documents in different languages. The benchmark contains four different languages with 10,992 source document cluster and target summary pairs, filling the gap in mixed-language multi-document (MLMD) summarization research. The study proposes a graph-based extract-generate model evaluating various approaches including Centroid+mT5, mBART, GPT-3.5, GPT-4, LLaMA-3.1, and Gemini-1.5 across English, German, French, and Spanish. This work advances research in summarization scenarios involving multiple languages within single document clusters, providing benchmarks and methodologies for complex multilingual summarization tasks.",
+    "source_file": "05_Text_Summarization\\reduced_combined_05_text_summarization.csv",
+    "row_index": 15,
+    "embedding_text": "Description: MLMD-news is a mixed-language multi-document news summarization dataset addressing real-world scenarios where international events involve multiple documents in different languages. The benchmark contains four different languages with 10,992 source document cluster and target summary pairs, filling the gap in mixed-language multi-document (MLMD) summarization research. The study proposes a graph-based extract-generate model evaluating various approaches including Centroid+mT5, mBART, GPT-3.5, GPT-4, LLaMA-3.1, and Gemini-1.5 across English, German, French, and Spanish. This work advances research in summarization scenarios involving multiple languages within single document clusters, providing benchmarks and methodologies for complex multilingual summarization tasks.\n\nModels: Centroid+mT5 (extract-then-abstract), mT5, mBART, GPT-3.5, GPT-4, Llama-3.1, Gemini-1.5, Graph-ExtractGenerate\n\nLanguages: English, German, French, Spanish",
+    "embedding_dim": 1536
+  }
+]

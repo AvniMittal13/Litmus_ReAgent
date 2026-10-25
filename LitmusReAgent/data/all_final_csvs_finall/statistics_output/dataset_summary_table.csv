@@ -1,0 +1,7 @@
+Task,Combined_Papers,Combined_Languages,Combined_Models,Reduced_Papers,Reduced_Languages,Reduced_Models,Papers_Reduction_%,Languages_Reduction_%,Models_Reduction_%
+Code Generation,17,82,103,12,33,82,29.4,59.8,20.4
+Math Reasoning,20,82,178,9,27,87,55.0,67.1,51.1
+QA/VQA,35,125,243,20,80,155,42.9,36.0,36.2
+Classification/NLI,33,168,246,22,94,172,33.3,44.0,30.1
+Text Summarization,21,59,147,14,53,71,33.3,10.2,51.7
+Machine Translation,32,171,166,22,137,135,31.2,19.9,18.7

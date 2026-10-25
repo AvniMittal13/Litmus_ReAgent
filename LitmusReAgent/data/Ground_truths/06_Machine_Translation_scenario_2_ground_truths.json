@@ -1,0 +1,1029 @@
+[
+  {
+    "unique_id": "5c3ce9bc-c6fc-4a1d-b190-cb517ca376ca",
+    "complete_question": "How well does M2M-100-various-sizes perform on Machine Translation for Basque?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB Translation ChrF++ (Europe W, N, S)",
+        "value": "58.3",
+        "value_in_100_range": 58.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "41f03cf9-fd3e-443c-92df-6ade466d960f",
+    "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Bodo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "BLEU (En→X)",
+        "value": "18.5",
+        "value_in_100_range": 18.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f33bdd5c-68f3-4737-8892-03fb48478d94",
+    "complete_question": "How well does NLLB-200 family perform on Machine Translation for Chichewa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "17.7",
+        "value_in_100_range": 17.7
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "44.0",
+        "value_in_100_range": 44.0
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "32.7",
+        "value_in_100_range": 32.7
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "51.3",
+        "value_in_100_range": 51.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d1c06348-7b43-4d11-9df6-e4895a6bbf1e",
+    "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Ewe?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "17.2",
+        "value_in_100_range": 17.2
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "39.0",
+        "value_in_100_range": 39.0
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "20.9",
+        "value_in_100_range": 20.9
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "40.1",
+        "value_in_100_range": 40.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "8daa07ee-7ab1-487a-a4a8-c34f494a77ea",
+    "complete_question": "How well does NLLB-200 family perform on Machine Translation for Filipino?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "38.3",
+        "value_in_100_range": 38.3
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "60.5",
+        "value_in_100_range": 60.5
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "54.6",
+        "value_in_100_range": 54.6
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "70.1",
+        "value_in_100_range": 70.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "eefe499b-82d1-414e-8a34-bc50f55ace67",
+    "complete_question": "What is the performance of NLLB-200 family on Machine Translation for Guarani?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "16.4",
+        "value_in_100_range": 16.4
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "36.6",
+        "value_in_100_range": 36.6
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "31.0",
+        "value_in_100_range": 31.0
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "50.3",
+        "value_in_100_range": 50.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2d84120f-7ee7-4b92-adb7-59c1e971e1cc",
+    "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Hausa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "31.4",
+        "value_in_100_range": 31.4
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "53.5",
+        "value_in_100_range": 53.5
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "39.1",
+        "value_in_100_range": 39.1
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "57.3",
+        "value_in_100_range": 57.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2c1b5dca-bcab-46d1-8ee2-ea7a5bc54af3",
+    "complete_question": "What is the performance of NLLB-200 family on Machine Translation for Ilocano?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "29.0",
+        "value_in_100_range": 29.0
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "53.3",
+        "value_in_100_range": 53.3
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "44.4",
+        "value_in_100_range": 44.4
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "62.1",
+        "value_in_100_range": 62.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f7fa4f3f-5f4b-40b1-b7fa-9397a49ef8d6",
+    "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Javanese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "30.3",
+        "value_in_100_range": 30.3
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "54.8",
+        "value_in_100_range": 54.8
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "46.5",
+        "value_in_100_range": 46.5
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "63.7",
+        "value_in_100_range": 63.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b74ec304-aaee-48fe-ab7a-71038a075da8",
+    "complete_question": "How well does NLLB-200 family perform on Machine Translation for Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "27.2",
+        "value_in_100_range": 27.2
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "49.7",
+        "value_in_100_range": 49.7
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "37.3",
+        "value_in_100_range": 37.3
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "56.0",
+        "value_in_100_range": 56.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b27174b4-33ef-4171-a600-ccc9fed92dc8",
+    "complete_question": "What is the performance of NLLB-200 family on Machine Translation for Samoan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "26.9",
+        "value_in_100_range": 26.9
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "50.0",
+        "value_in_100_range": 50.0
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "38.7",
+        "value_in_100_range": 38.7
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "56.8",
+        "value_in_100_range": 56.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d0cea775-803d-4ea8-ac3e-29d2e7cf161c",
+    "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Sesotho?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "20.7",
+        "value_in_100_range": 20.7
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "46.1",
+        "value_in_100_range": 46.1
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "44.1",
+        "value_in_100_range": 44.1
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "61.6",
+        "value_in_100_range": 61.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "9d1a742a-08df-45e1-9cc7-79d08b93d822",
+    "complete_question": "How well does NLLB-200 family perform on Machine Translation for Shona?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "19.7",
+        "value_in_100_range": 19.7
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "43.4",
+        "value_in_100_range": 43.4
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "32.1",
+        "value_in_100_range": 32.1
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "50.5",
+        "value_in_100_range": 50.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3b7fefe4-7f31-4ae2-8e88-b4baa03c6b3c",
+    "complete_question": "What is the performance of NLLB-200 family on Machine Translation for Sundanese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "21.6",
+        "value_in_100_range": 21.6
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "44.7",
+        "value_in_100_range": 44.7
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "43.6",
+        "value_in_100_range": 43.6
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "61.9",
+        "value_in_100_range": 61.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f4018839-eb19-45a4-8ee3-68cfa61e9488",
+    "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Xhosa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "25.4",
+        "value_in_100_range": 25.4
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "48.6",
+        "value_in_100_range": 48.6
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "42.3",
+        "value_in_100_range": 42.3
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "59.9",
+        "value_in_100_range": 59.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "4388baa8-6b82-449c-abf3-7684e0e9f36e",
+    "complete_question": "How well does NLLB-200 family perform on Machine Translation for Yiddish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "18.4",
+        "value_in_100_range": 18.4
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "38.6",
+        "value_in_100_range": 38.6
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "55.7",
+        "value_in_100_range": 55.7
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "71.4",
+        "value_in_100_range": 71.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b006b757-868d-4590-b40a-2df1154a98b2",
+    "complete_question": "What is the performance of NLLB-200 family on Machine Translation for Yoruba?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "10.5",
+        "value_in_100_range": 10.5
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "25.5",
+        "value_in_100_range": 25.5
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "26.9",
+        "value_in_100_range": 26.9
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "46.3",
+        "value_in_100_range": 46.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "42e2cccf-682a-4d41-9415-72a8978b9e47",
+    "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Zulu?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "31.4",
+        "value_in_100_range": 31.4
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "53.3",
+        "value_in_100_range": 53.3
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "44.1",
+        "value_in_100_range": 44.1
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "61.5",
+        "value_in_100_range": 61.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "7d37c4af-51b3-4ef8-b833-6405006e0dd0",
+    "complete_question": "How well does NLLB-200 family perform on Machine Translation for Igbo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "BLEU",
+        "value": "15.8",
+        "value_in_100_range": 15.8
+      },
+      {
+        "metric_name": "chrF",
+        "value": "26.3",
+        "value_in_100_range": 26.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "4d68f404-98c5-4a7c-bdc6-61e4073cd229",
+    "complete_question": "What is the performance of NLLB-200 family on Machine Translation for Luxembourgish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "36.7",
+        "value_in_100_range": 36.7
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "56.0",
+        "value_in_100_range": 56.0
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "52.6",
+        "value_in_100_range": 52.6
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "69.6",
+        "value_in_100_range": 69.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "40c79912-e5b3-4321-97e8-b7c831cdc6ca",
+    "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Lao?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "29.6",
+        "value_in_100_range": 29.6
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "46.2",
+        "value_in_100_range": 46.2
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "42.4",
+        "value_in_100_range": 42.4
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "61.7",
+        "value_in_100_range": 61.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "6afa3db9-7fce-42b3-9d70-32b35dee51b6",
+    "complete_question": "How well does NLLB-200 family perform on Machine Translation for Maltese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "50.3",
+        "value_in_100_range": 50.3
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "66.0",
+        "value_in_100_range": 66.0
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "62.1",
+        "value_in_100_range": 62.1
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "76.2",
+        "value_in_100_range": 76.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "de5a755c-83be-4096-a535-68da54995e8f",
+    "complete_question": "What is the performance of NLLB-200 family on Machine Translation for Latin?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "BLEU (En→Latin)",
+        "value": "N/A",
+        "value_in_100_range": null
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "969ab1dc-5cfa-4352-899d-bb3d03487103",
+    "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Burmese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "17.7",
+        "value_in_100_range": 17.7
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "32.0",
+        "value_in_100_range": 32.0
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "34.7",
+        "value_in_100_range": 34.7
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "56.2",
+        "value_in_100_range": 56.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "1ed4bc34-67ff-4759-98b7-16e6231aca23",
+    "complete_question": "How well does NLLB-200 family perform on Machine Translation for Quechua?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "5.8",
+        "value_in_100_range": 5.8
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "26.9",
+        "value_in_100_range": 26.9
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "16.4",
+        "value_in_100_range": 16.4
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "34.6",
+        "value_in_100_range": 34.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f4917ab7-9693-4f37-b889-08dba533e83a",
+    "complete_question": "What is the top-performing model for Machine Translation in Afar?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "b9b67cd7-e8f2-46c2-b758-537ed9e10127",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Basque?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "271482ad-c68e-47e4-a863-ff561fb7f56b",
+    "complete_question": "For Machine Translation, which model is best for Bislama?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4o"
+  },
+  {
+    "unique_id": "5feeba06-f3fc-4013-8548-744aa96f409c",
+    "complete_question": "Which model performs best for Machine Translation in Bodo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "768c4c2b-af9b-45a0-ad60-4b8f4c13c02c",
+    "complete_question": "What is the top-performing model for Machine Translation in Chichewa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "d0b0286b-f68a-4f17-bbf3-fc26d61ce994",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Corsican?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "dfb2e6e5-327b-4be3-ae35-251bfab98a93",
+    "complete_question": "For Machine Translation, which model is best for Ewe?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "f24bf0c0-9f9a-4b9f-b1cf-c303179a82bc",
+    "complete_question": "Which model performs best for Machine Translation in Filipino?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "918baa70-7a34-44f2-a90d-5b4b6119509a",
+    "complete_question": "What is the top-performing model for Machine Translation in Guarani?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "fc6f143c-a6da-45bb-9332-7de97cf20cef",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Hausa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "e4ffdc2b-cbe2-4e4e-8ca3-74ef4d56a3ac",
+    "complete_question": "Which model performs best for Machine Translation in Ilocano?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "d89d5c17-336f-439d-a2bf-d65bb8209be3",
+    "complete_question": "What is the top-performing model for Machine Translation in Javanese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "913d6f97-a37c-4161-a86d-3d679638e7cb",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "3295ffe1-28be-448c-8798-1419b4dd2933",
+    "complete_question": "For Machine Translation, which model is best for Samoan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4o"
+  },
+  {
+    "unique_id": "b2bda43a-fec4-471e-a87e-d6d9a1d8259b",
+    "complete_question": "Which model performs best for Machine Translation in Sesotho?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "bd9379e1-920b-4d6e-8cfe-6c333589a0ce",
+    "complete_question": "What is the top-performing model for Machine Translation in Shona?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "b1096887-1b81-41be-90c7-18a0f2195467",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Sundanese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "df50bb0a-8368-41a5-ae2d-dce232082195",
+    "complete_question": "For Machine Translation, which model is best for Xhosa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "211bd59a-41a9-4c72-8915-e875a2da87e8",
+    "complete_question": "Which model performs best for Machine Translation in Yiddish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "emma-500-llama2-7b"
+  },
+  {
+    "unique_id": "a1a684a7-52c7-4d90-a5fc-0592d5eb71ea",
+    "complete_question": "What is the top-performing model for Machine Translation in Yoruba?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "e4fd69f6-1215-481a-8de3-b06d6f99d97c",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Zulu?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "c19001e2-e97e-4ca0-903d-f53732249bb6",
+    "complete_question": "For Machine Translation, which model is best for Igbo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "cff12674-cd77-438a-b658-c3abbc094f8a",
+    "complete_question": "Which model performs best for Machine Translation in Luxembourgish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "bd5fbcec-af04-4a42-80c7-4da55f9fc0b3",
+    "complete_question": "What is the top-performing model for Machine Translation in Lao?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "1c7b155a-a79a-4c1a-b473-295bbe2c0f53",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Maltese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "M2M-124"
+  },
+  {
+    "unique_id": "1c16a84a-2a3e-4bba-a421-a4e514ba44a8",
+    "complete_question": "Which model performs best for Machine Translation in Burmese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "73a17a76-f6a3-4d7f-8e7d-6f6330bddfca",
+    "complete_question": "What is the top-performing model for Machine Translation in Quechua?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "7ee085b3-e63a-45a2-a0bb-f5d7de145810",
+    "complete_question": "What score does Claude-3 achieve for Machine Translation in Santali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "39.3",
+        "value_in_100_range": 39.3
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "28.4",
+        "value_in_100_range": 28.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b19bb8b4-daeb-4f02-8e4c-046ee9ee11f4",
+    "complete_question": "Which model performs best for Machine Translation in Bambara?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Adelani et al."
+  },
+  {
+    "unique_id": "2d83cc34-6f8d-47aa-827f-a607d0f4d8fa",
+    "complete_question": "What is the performance of GPT-4o-Audio on Machine Translation for Fulah?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "843bb87b-4be3-4470-bc0a-be86c943de4b",
+    "complete_question": "What is the performance of AfriCOMET on Machine Translation for Luganda?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "21353cc5-7321-4d90-82b1-be8e5ddf4735",
+    "complete_question": "Which model performs best for Machine Translation in Baule?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "30ef7674-d33b-4044-afc9-7b82c8327cbd",
+    "complete_question": "What is the performance of Gemini-2.0-Flash on Machine Translation for Acehnese?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "BLEU (En→X)",
+        "value": "18.5",
+        "value_in_100_range": 18.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d2bdc065-4f31-4d8a-a0cc-c761f01e8575",
+    "complete_question": "Which model performs best for Machine Translation in Dinka?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Diminished+NLLB-Seed with Back-translation"
+  },
+  {
+    "unique_id": "4cc75d7a-ce23-4499-bd85-0149828191e7",
+    "complete_question": "What is the performance of Gemma-3-27B on Machine Translation for Baule?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": false,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  }
+]
