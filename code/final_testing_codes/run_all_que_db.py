@@ -2,7 +2,7 @@
 
 #!/usr/bin/env python3
 """
-Main testing script to run ThoughtAgent for questions from specific tasks and scenarios
+Main testing script to run MainAgent for questions from specific tasks and scenarios
 with configurable database paths and organized output structure.
 """
 
@@ -13,6 +13,7 @@ from pathlib import Path
 from datetime import datetime
 import traceback
 import time
+import shutil
 
 # Configuration: Number of questions to process from each JSON file
 MAX_QUESTIONS_PER_JSON = 50
@@ -20,22 +21,33 @@ MAX_QUESTIONS_PER_JSON = 50
 # Add the parent directory to the path to import agents
 sys.path.append(str(Path(__file__).parent.parent))
 
-from agents.thought_agent_db import ThoughtAgent
+from agents.main_agent_db import MainAgent
 
 
 class TaskScenarioProcessor:
     """
-    Process questions from specific task and scenario combinations using ThoughtAgent.
+    Process questions from specific task and scenario combinations using MainAgent.
     """
+    
+    @staticmethod
+    def sanitize_filename(name):
+        """Remove invalid characters from filename for Windows compatibility."""
+        invalid_chars = '<>:"/\\|?*'
+        for char in invalid_chars:
+            name = name.replace(char, '_')
+        name = name.rstrip('. ')
+        if len(name) > 200:
+            name = name[:200]
+        return name
     
     def __init__(self):
         self.base_dir = Path(__file__).parent.parent
-        self.gt_dir = self.base_dir.parent / "data" / "Ground_truths"
+        self.gt_dir = Path(r"./final_testing_codes\GET_GTS_FINAL\Ground_truths_5")
         self.questions_dir = self.base_dir / "generated_questions"
-        self.responses_base_dir = self.base_dir / "outputs" / "thought_agent_1_responses"
-        self.progress_file = self.base_dir / "outputs" /  "thought_agent_1_progress.json"
-        self.log_file = self.base_dir / "outputs" / "thought_agent_1_log.txt"
-        self.db_base_dir = self.base_dir.parent / "data" / "all_final_csvs_finall"
+        self.responses_base_dir = self.base_dir / "final_testing_codes" / "FINAL_RUS" / "litmus_reagent_1_responses"
+        self.progress_file = self.base_dir / "final_testing_codes" / "FINAL_RUS" / "litmus_reagent_1_progress.json"
+        self.log_file = self.base_dir / "final_testing_codes" / "FINAL_RUS" / "litmus_reagent_1_log.txt"
+        self.db_base_dir = self.base_dir / "all_final_csvs_finall"
         
         # This will be set during runtime based on case type
         self.current_responses_dir = self.responses_base_dir
@@ -52,29 +64,30 @@ class TaskScenarioProcessor:
         
         # Scenario pair mappings
         self.scenario_pairs = {
-            1: [1, 2],  # Scenarios 1 and 2
+            1: [1, 2],  # Scenarios 1, 2, 3, 4 and 5
             2: [3, 4, 5]  # Scenarios 3, 4 and 5
+            # 2: [2,3]
         }
         
         # Ensure directories exist
-        self.responses_base_dir.mkdir(parents=True, exist_ok=True)
-        (self.base_dir / "outputs").mkdir(parents=True, exist_ok=True)
+        self.responses_base_dir.mkdir(exist_ok=True)
+        (self.base_dir / "final_testing_codes").mkdir(exist_ok=True)
         
         # Initialize progress tracking
         self.progress = self.load_progress()
         
-        # ThoughtAgent will be initialized fresh for each question
+        # MainAgent will be initialized fresh for each question
         self.main_agent = None
     
     def set_responses_directory(self, case_type):
         """Set the appropriate responses directory based on case type."""
         if case_type == "combined":
-            self.current_responses_dir = self.base_dir / "outputs" / "task_scenario_responses_combined"
+            self.current_responses_dir = self.base_dir / "final_testing_codes" / "task_scenario_new_final_2_responses_combined"
         else:
             self.current_responses_dir = self.responses_base_dir
         
         # Ensure the directory exists
-        self.current_responses_dir.mkdir(parents=True, exist_ok=True)
+        self.current_responses_dir.mkdir(exist_ok=True)
         self.log(f"Set responses directory to: {self.current_responses_dir}")
         
     def load_progress(self):
@@ -289,21 +302,21 @@ class TaskScenarioProcessor:
             self.log(f"Error loading questions from {json_file}: {e}")
             return []
     
-    def initialize_agent(self):
-        """Initialize a fresh ThoughtAgent instance."""
+    def initialize_agent(self, working_dir=None):
+        """Initialize a fresh MainAgent instance with optional working directory."""
         try:
-            self.log("Initializing fresh ThoughtAgent...")
-            self.main_agent = ThoughtAgent()
-            self.log("ThoughtAgent initialized successfully")
+            self.log("Initializing fresh MainAgent...")
+            self.main_agent = MainAgent(base_working_dir=working_dir)
+            self.log("MainAgent initialized successfully")
             return True
         except Exception as e:
-            self.log(f"Failed to initialize ThoughtAgent: {e}")
+            self.log(f"Failed to initialize MainAgent: {e}")
             self.log(f"Traceback: {traceback.format_exc()}")
             return False
     
     def create_response_directory(self, task_name, scenario_pair_num, question_id):
         """Create directory structure for storing responses."""
-        # Create: task_scenario_responses/TaskName/ScenarioPair_X/QuestionID/
+        # Create: task_scenario_new_final_1_responses/TaskName/ScenarioPair_X/QuestionID/
         task_dir = self.current_responses_dir / task_name
         scenario_dir = task_dir / f"ScenarioPair_{scenario_pair_num}"
         question_dir = scenario_dir / question_id
@@ -314,9 +327,9 @@ class TaskScenarioProcessor:
     def should_recompute_question(self, unique_id, task_name, scenario_pair_num, session_key):
         """
         Determine if a question needs to be recomputed based on:
-        - Folder doesn't exist -> run
-        - Folder exists + error.txt present -> rerun (failed previously)
-        - Folder exists + no error.txt -> skip (completed successfully)
+        1. Whether the queryid named folder exists
+        2. If folder exists, check if it was successfully completed or failed
+        3. Recompute if: folder doesn't exist OR previous attempt failed
         """
         # Check if the question folder exists
         task_dir = self.current_responses_dir / task_name
@@ -327,17 +340,37 @@ class TaskScenarioProcessor:
             self.log(f"Question {unique_id} folder does not exist, will compute")
             return True
         
-        # Folder exists, check if it failed previously
+        # Folder exists, check if it was successful or failed
+        metadata_file = question_dir / "question_metadata.json"
         error_file = question_dir / "error.txt"
+        
+        # If error.txt exists, it was a failed attempt - recompute
         if error_file.exists():
             self.log(f"Question {unique_id} previously failed (error.txt found), will recompute")
             return True
         
-        self.log(f"Question {unique_id} folder exists and completed successfully, skipping")
+        # Check metadata for status
+        if metadata_file.exists():
+            try:
+                with open(metadata_file, 'r', encoding='utf-8') as f:
+                    metadata = json.load(f)
+                    status = metadata.get('status', 'unknown')
+                    if status == 'completed':
+                        self.log(f"Question {unique_id} previously completed successfully, skipping")
+                        return False
+                    else:
+                        self.log(f"Question {unique_id} has status '{status}', will recompute")
+                        return True
+            except Exception as e:
+                self.log(f"Error reading metadata for {unique_id}: {e}, will recompute")
+                return True
+        
+        # Folder exists but no clear success indicator - skip to be safe
+        self.log(f"Question {unique_id} folder exists but status unclear, skipping")
         return False
     
     def process_question(self, question_info, task_name, scenario_pair_num):
-        """Process a single question using a fresh ThoughtAgent instance."""
+        """Process a single question using a fresh MainAgent instance."""
         unique_id = question_info['unique_id']
         complete_question = question_info['complete_question']
         
@@ -354,54 +387,89 @@ class TaskScenarioProcessor:
         self.log(f"Question: {complete_question}")
         
         try:
-            # Initialize fresh ThoughtAgent for this question
-            if not self.initialize_agent():
-                self.log(f"Failed to initialize ThoughtAgent for question: {unique_id}")
-                raise Exception("ThoughtAgent initialization failed")
-            
-            # Create response directory for this question
+            # Create response directory for this question first
             response_dir = self.create_response_directory(task_name, scenario_pair_num, unique_id)
             
-            # Run ThoughtAgent
+            # Initialize fresh MainAgent with this question's response directory as working dir
+            if not self.initialize_agent(working_dir=str(response_dir)):
+                self.log(f"Failed to initialize MainAgent for question: {unique_id}")
+                raise Exception("MainAgent initialization failed")
+            
+            # Run MainAgent
             start_time = time.time()
             formatted_question = f"""
 Run the following Question without asking any clarifications. Assume answers/responses to the questions and continue
 Use coder agent to generate code for performing predictive analysis by training intelligent regressors wherever required.
-First gather all information required for coding like features and their values using web search and crawl then use coder_agent to write code to train regressors for predictions.
 
 Question: {complete_question}
 """
-            # ThoughtAgent.run() returns a tuple: (formatted_response, log_filename, agent_intermediates)
-            response_tuple = self.main_agent.run(formatted_question)
-            formatted_response = response_tuple[0] if isinstance(response_tuple, tuple) else response_tuple
-            log_filename = response_tuple[1] if isinstance(response_tuple, tuple) and len(response_tuple) > 1 else None
-            agent_intermediates = response_tuple[2] if isinstance(response_tuple, tuple) and len(response_tuple) > 2 else {}
+            response = self.main_agent.run(formatted_question)
             end_time = time.time()
+            
+            # Get conversation hierarchy with all intermediate outputs
+            try:
+                conversation_hierarchy = self.main_agent.get_conversation_hierarchy()
+            except Exception as e:
+                self.log(f"Warning: Could not get conversation hierarchy: {e}")
+                conversation_hierarchy = {}
             
             # Save response to markdown file
             response_file = response_dir / "response.md"
             with open(response_file, 'w', encoding='utf-8') as f:
-                f.write(formatted_response)
+                f.write(response)
             
-            # Save agent intermediates (tool invocations and RAG queries)
+            # Save conversation hierarchy
             try:
-                if agent_intermediates:
-                    intermediates_file = response_dir / "agent_intermediates.json"
-                    with open(intermediates_file, 'w', encoding='utf-8') as f:
-                        json.dump(agent_intermediates, f, ensure_ascii=False, indent=2)
-                    self.log(f"Saved agent intermediates for {unique_id}")
+                hierarchy_file = response_dir / "conversation_hierarchy.json"
+                with open(hierarchy_file, 'w', encoding='utf-8') as f:
+                    json.dump(conversation_hierarchy, f, ensure_ascii=False, indent=2)
+                self.log(f"Saved conversation hierarchy for {unique_id}")
             except Exception as e:
-                self.log(f"Warning: Could not save agent intermediates: {e}")
+                self.log(f"Warning: Could not save conversation hierarchy: {e}")
             
-            # Save log filename reference if available
+            # Groupchat logs are already in response_dir/groupchat_logs/
+            # because GroupChat saves them directly to the custom log directory
+            # Just log confirmation
             try:
-                if log_filename:
-                    log_ref_file = response_dir / "groupchat_log_reference.txt"
-                    with open(log_ref_file, 'w', encoding='utf-8') as f:
-                        f.write(f"Groupchat log file: {log_filename}\n")
-                    self.log(f"Saved groupchat log reference for {unique_id}")
+                groupchat_logs_dir = response_dir / "groupchat_logs"
+                if groupchat_logs_dir.exists():
+                    log_files = list(groupchat_logs_dir.glob("groupchat_log_*.json"))
+                    if log_files:
+                        self.log(f"Found {len(log_files)} groupchat logs for {unique_id}")
             except Exception as e:
-                self.log(f"Warning: Could not save log reference: {e}")
+                self.log(f"Warning: Could not count groupchat logs: {e}")
+            
+            # Save intermediates (RAG queries and tool invocations)
+            try:
+                intermediates_dir = response_dir / "intermediates"
+                intermediates_dir.mkdir(exist_ok=True)
+                
+                thought_agents = conversation_hierarchy.get("thought_agents", {})
+                for agent_name, agent_data in thought_agents.items():
+                    intermediates = agent_data.get("intermediates", {})
+                    if intermediates:
+                        safe_agent_name = self.sanitize_filename(agent_name)
+                        intermediates_file = intermediates_dir / f"{safe_agent_name}_intermediates.json"
+                        with open(intermediates_file, 'w', encoding='utf-8') as f:
+                            json.dump(intermediates, f, ensure_ascii=False, indent=2)
+                        self.log(f"Saved intermediates for {agent_name}")
+                
+                if thought_agents:
+                    self.log(f"Saved intermediates for {len(thought_agents)} agents for {unique_id}")
+            except Exception as e:
+                self.log(f"Warning: Could not save intermediates: {e}")
+            
+            # Generated files are already in response_dir/generated_files/{agent_name}/
+            # because we set custom working directories for each thought agent
+            # Just log confirmation
+            try:
+                generated_files_dir = response_dir / "generated_files"
+                if generated_files_dir.exists():
+                    total_files = sum(1 for _ in generated_files_dir.rglob('*') if _.is_file())
+                    if total_files > 0:
+                        self.log(f"Found {total_files} generated files in output directory for {unique_id}")
+            except Exception as e:
+                self.log(f"Warning: Could not count generated files: {e}")
             
             # Clean up the agent after use to free memory
             self.main_agent = None
@@ -631,8 +699,8 @@ def main():
         print(f"Fatal error: {e}")
         traceback.print_exc()
     
-    print(f"\nProcessing complete. Check '{processor.current_responses_dir}' for responses.")
-    print(f"Progress and logs saved in '{processor.base_dir / 'outputs'}'")
+    print(f"\nProcessing complete. Check '{processor.responses_base_dir}' for responses.")
+    print(f"Progress and logs saved in '{processor.base_dir / 'final_testing_codes'}'")
 
 
 if __name__ == "__main__":

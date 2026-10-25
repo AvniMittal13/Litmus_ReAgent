@@ -1,0 +1,414 @@
+{
+  "task": "05_Text_Summarization",
+  "scenario": "different_language_different_model",
+  "questions": [
+    {
+      "complete_question": "What score does RigoChat-7B-v2 achieve for Text Summarization in Galician?",
+      "task": "Text Summarization",
+      "models": "RigoChat-7B-v2",
+      "languages": "Galician",
+      "question_type": "Predictive",
+      "unique_id": "586f5d6e-7975-4b9d-80f4-325422cd2959"
+    },
+    {
+      "complete_question": "How well does Salamandra-7B-instruct perform on Text Summarization for Galician?",
+      "task": "Text Summarization",
+      "models": "Salamandra-7B-instruct",
+      "languages": "Galician",
+      "question_type": "Predictive",
+      "unique_id": "d14545dd-248d-40da-b2be-4ae3fa10e7a0"
+    },
+    {
+      "complete_question": "What score does FLOR series achieve for Text Summarization in Galician?",
+      "task": "Text Summarization",
+      "models": "FLOR series",
+      "languages": "Galician",
+      "question_type": "Predictive",
+      "unique_id": "73ceada5-a85c-44d5-98c7-7ebff8113c05"
+    },
+    {
+      "complete_question": "What is the performance of SmolLM2-1.7B-base on Text Summarization for Catalan?",
+      "task": "Text Summarization",
+      "models": "SmolLM2-1.7B-base",
+      "languages": "Catalan",
+      "question_type": "Predictive",
+      "unique_id": "c4be7658-ebb2-4c03-aeeb-a8b2b4fe249a"
+    },
+    {
+      "complete_question": "What is the performance of Aya-Expanse-8B on Text Summarization for Basque?",
+      "task": "Text Summarization",
+      "models": "Aya-Expanse-8B",
+      "languages": "Basque",
+      "question_type": "Predictive",
+      "unique_id": "93b3e2f1-0243-457c-8b0c-34339d7298b7"
+    },
+    {
+      "complete_question": "What is the performance of Qwen2.5?7B on Text Summarization for Catalna?",
+      "task": "Text Summarization",
+      "models": "Qwen2.5?7B",
+      "languages": "Catalna",
+      "question_type": "Predictive",
+      "unique_id": "5e377014-fe1e-4017-a119-0634c184357f"
+    },
+    {
+      "complete_question": "How well does Salamandra-7B perform on Text Summarization for Galician?",
+      "task": "Text Summarization",
+      "models": "Salamandra-7B",
+      "languages": "Galician",
+      "question_type": "Predictive",
+      "unique_id": "1a26573a-b7a5-434d-b274-9cc9b73eef81"
+    },
+    {
+      "complete_question": "How well does Salamandra-2B-instruct perform on Text Summarization for Galician?",
+      "task": "Text Summarization",
+      "models": "Salamandra-2B-instruct",
+      "languages": "Galician",
+      "question_type": "Predictive",
+      "unique_id": "c579cb78-d2b4-42cc-8738-4b199ebf4647"
+    },
+    {
+      "complete_question": "What score does Gemma-2-2B achieve for Text Summarization in Galician?",
+      "task": "Text Summarization",
+      "models": "Gemma-2-2B",
+      "languages": "Galician",
+      "question_type": "Predictive",
+      "unique_id": "a5e18445-c8ab-4849-9842-bad25774de89"
+    },
+    {
+      "complete_question": "How well does Qwen2.5-32B-IT-GPTQ-Int4 perform on Text Summarization for Basque?",
+      "task": "Text Summarization",
+      "models": "Qwen2.5-32B-IT-GPTQ-Int4",
+      "languages": "Basque",
+      "question_type": "Predictive",
+      "unique_id": "c3a39955-118e-4a6e-b10c-d194d812dcb9"
+    },
+    {
+      "complete_question": "What score does Qwen2.5-1.5B-IT achieve for Text Summarization in Galician?",
+      "task": "Text Summarization",
+      "models": "Qwen2.5-1.5B-IT",
+      "languages": "Galician",
+      "question_type": "Predictive",
+      "unique_id": "94af2a45-7af0-4d97-99c5-912d1f7f0585"
+    },
+    {
+      "complete_question": "How well does Gemma-2-2B-IT perform on Text Summarization for Basque?",
+      "task": "Text Summarization",
+      "models": "Gemma-2-2B-IT",
+      "languages": "Basque",
+      "question_type": "Predictive",
+      "unique_id": "19840370-482f-42f5-bcb4-71bb47be7944"
+    },
+    {
+      "complete_question": "What score does gemma?2?2b achieve for Text Summarization in Basque?",
+      "task": "Text Summarization",
+      "models": "gemma?2?2b",
+      "languages": "Basque",
+      "question_type": "Predictive",
+      "unique_id": "4ca8c574-f908-4188-8841-e5913f2da68d"
+    },
+    {
+      "complete_question": "What is the performance of Salamandra-7B-instruct on Text Summarization for Catalan?",
+      "task": "Text Summarization",
+      "models": "Salamandra-7B-instruct",
+      "languages": "Catalan",
+      "question_type": "Predictive",
+      "unique_id": "8b79a2a1-7149-4dad-9b76-4e8f42919b41"
+    },
+    {
+      "complete_question": "What score does Salamandra-2B achieve for Text Summarization in Galician?",
+      "task": "Text Summarization",
+      "models": "Salamandra-2B",
+      "languages": "Galician",
+      "question_type": "Predictive",
+      "unique_id": "0195b7c6-88e3-4662-822e-e6fe835d8d47"
+    },
+    {
+      "complete_question": "What score does SmolLM2-1.7B-instruct achieve for Text Summarization in Galician?",
+      "task": "Text Summarization",
+      "models": "SmolLM2-1.7B-instruct",
+      "languages": "Galician",
+      "question_type": "Predictive",
+      "unique_id": "311d1782-b27c-4412-b373-791240da46cd"
+    },
+    {
+      "complete_question": "What is the performance of RigoChat-7B-v2 on Text Summarization for Catalan?",
+      "task": "Text Summarization",
+      "models": "RigoChat-7B-v2",
+      "languages": "Catalan",
+      "question_type": "Predictive",
+      "unique_id": "bd3e1e42-ba65-4ad5-8f6b-f37bd4f1da92"
+    },
+    {
+      "complete_question": "What is the performance of Salamandra-7B-base on Text Summarization for Catalan?",
+      "task": "Text Summarization",
+      "models": "Salamandra-7B-base",
+      "languages": "Catalan",
+      "question_type": "Predictive",
+      "unique_id": "f76ff0b2-59f2-4381-9d68-b4c2af3fc1f2"
+    },
+    {
+      "complete_question": "How well does Mistral-7B perform on Text Summarization for Catalan?",
+      "task": "Text Summarization",
+      "models": "Mistral-7B",
+      "languages": "Catalan",
+      "question_type": "Predictive",
+      "unique_id": "a54ecbd0-fa14-43a1-9095-e3ee409a1401"
+    },
+    {
+      "complete_question": "What is the performance of DeepSeek-models on Text Summarization for Basque?",
+      "task": "Text Summarization",
+      "models": "DeepSeek-models",
+      "languages": "Basque",
+      "question_type": "Predictive",
+      "unique_id": "267038b6-8396-4e51-ae52-f5159749845e"
+    },
+    {
+      "complete_question": "How well does Gemma-2-9B-IT perform on Text Summarization for Basque?",
+      "task": "Text Summarization",
+      "models": "Gemma-2-9B-IT",
+      "languages": "Basque",
+      "question_type": "Predictive",
+      "unique_id": "04ba6c33-c8b7-4595-9513-e77cc39d1e0f"
+    },
+    {
+      "complete_question": "What score does Qwen2.5?1.5B achieve for Text Summarization in Catalan?",
+      "task": "Text Summarization",
+      "models": "Qwen2.5?1.5B",
+      "languages": "Catalan",
+      "question_type": "Predictive",
+      "unique_id": "edf51c45-0983-4a8a-89d2-02649da7342f"
+    },
+    {
+      "complete_question": "What is the performance of Mistral-7B-instruct on Text Summarization for Catalan?",
+      "task": "Text Summarization",
+      "models": "Mistral-7B-instruct",
+      "languages": "Catalan",
+      "question_type": "Predictive",
+      "unique_id": "a90b0b9e-9c26-433a-ba8e-47268a182b71"
+    },
+    {
+      "complete_question": "How well does Salamandra-7B perform on Text Summarization for Catalan?",
+      "task": "Text Summarization",
+      "models": "Salamandra-7B",
+      "languages": "Catalan",
+      "question_type": "Predictive",
+      "unique_id": "bdba6aec-c7c4-4f7e-b476-7a45d3397e72"
+    },
+    {
+      "complete_question": "What is the performance of EuroLLM-1.7B-IT on Text Summarization for Catalan?",
+      "task": "Text Summarization",
+      "models": "EuroLLM-1.7B-IT",
+      "languages": "Catalan",
+      "question_type": "Predictive",
+      "unique_id": "e627157e-63c3-40a8-ad52-92ce11250eaa"
+    },
+    {
+      "complete_question": "How might one approach measuring mT5-small's performance on Text Summarization in Gujurati when neither model nor language resources exist in our dataset?",
+      "task": "Text Summarization",
+      "models": "mT5-small",
+      "languages": "Gujurati",
+      "question_type": "QnA",
+      "unique_id": "8c96e524-9116-4333-bc01-89795f0e8ea2"
+    },
+    {
+      "complete_question": "Is it possible to predict how mT5-base would operate for Text Summarization in Ukranian without any prior data?",
+      "task": "Text Summarization",
+      "models": "mT5-base",
+      "languages": "Ukranian",
+      "question_type": "QnA",
+      "unique_id": "5a21445b-1b0a-4196-9986-57a04b1c7c56"
+    },
+    {
+      "complete_question": "Which model performs best for Text Summarization in Basque?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Basque",
+      "question_type": "QnA",
+      "unique_id": "a20fa7a6-3f41-4551-ade3-b5ffbcb83ea5"
+    },
+    {
+      "complete_question": "For Text Summarization, which language shows the best performance with DeepSeek-models?",
+      "task": "Text Summarization",
+      "models": "DeepSeek-models",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "a3391102-0227-4501-a2a1-f34d1ce0ef85"
+    },
+    {
+      "complete_question": "For Text Summarization, which language shows the best performance with Qwen2.5-32B-IT-GPTQ-Int4?",
+      "task": "Text Summarization",
+      "models": "Qwen2.5-32B-IT-GPTQ-Int4",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "215bbd81-3139-498a-b296-ad084eec1fe9"
+    },
+    {
+      "complete_question": "What is the top-performing model for Text Summarization in Czech?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Czech",
+      "question_type": "QnA",
+      "unique_id": "4f70cb4b-f167-4923-968d-60decde8d687"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Text Summarization in Galician?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Galician",
+      "question_type": "QnA",
+      "unique_id": "ea20132a-cb86-49c6-9720-95c2e29235cd"
+    },
+    {
+      "complete_question": "What is the top-performing model for Text Summarization in Galician using Salamandra-2B?",
+      "task": "Text Summarization",
+      "models": "Salamandra-2B",
+      "languages": "Galician",
+      "question_type": "QnA",
+      "unique_id": "5b1bafc1-7c42-4034-a53e-bbbdbb4a177d"
+    },
+    {
+      "complete_question": "How might expert judgment or cross-lingual transfer be utilized to evaluate Gemma2 for Text Summarization in Gujurati where there are no annotated datasets?",
+      "task": "Text Summarization",
+      "models": "Gemma2",
+      "languages": "Gujurati",
+      "question_type": "QnA",
+      "unique_id": "41b636fe-b63d-43a2-854f-223c58700010"
+    },
+    {
+      "complete_question": "What is the top-performing model for Text Summarization in Catalan?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Catalan",
+      "question_type": "QnA",
+      "unique_id": "475a091f-2659-4d5a-a4c0-24ce2050995c"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Text Summarization in Basque using Gemma-2-2B-IT?",
+      "task": "Text Summarization",
+      "models": "Gemma-2-2B-IT",
+      "languages": "Basque",
+      "question_type": "QnA",
+      "unique_id": "c7a81364-21f6-44aa-bbf6-bb1bb6f08b95"
+    },
+    {
+      "complete_question": "What are the prospects for using related languages or models as proxies to assess mBART-50's performance in Text Summarization for Gujurati and Ukranian?",
+      "task": "Text Summarization",
+      "models": "mBART-50",
+      "languages": "Gujurati,Ukranian",
+      "question_type": "QnA",
+      "unique_id": "42574cbe-3233-4689-96b6-53effc624acc"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Text Summarization in Galician using Gemma-2-2B?",
+      "task": "Text Summarization",
+      "models": "Gemma-2-2B",
+      "languages": "Galician",
+      "question_type": "QnA",
+      "unique_id": "61bc89a3-8f20-4499-ba7e-7896de85a246"
+    },
+    {
+      "complete_question": "Which model performs best for Text Summarization in Dutch?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Dutch",
+      "question_type": "QnA",
+      "unique_id": "555c3993-9dc1-48cb-acad-3707926e5ffc"
+    },
+    {
+      "complete_question": "How can we evaluate mBART-50's ability to perform Text Summarization tasks in Ukranian when no direct data is available for either the model or the language?",
+      "task": "Text Summarization",
+      "models": "mBART-50",
+      "languages": "Ukranian",
+      "question_type": "QnA",
+      "unique_id": "b4226843-3201-4285-a860-e666ca582f21"
+    },
+    {
+      "complete_question": "For Text Summarization, which language shows the best performance with Latxa-7B-v1.2?",
+      "task": "Text Summarization",
+      "models": "Latxa-7B-v1.2",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "31f2c277-4e92-4341-a4cb-305b1a0d9c27"
+    },
+    {
+      "complete_question": "In situations where there is no direct evaluation data, how can Llama3's effectiveness for Text Summarization in Gujurati be estimated?",
+      "task": "Text Summarization",
+      "models": "Llama3",
+      "languages": "Gujurati",
+      "question_type": "QnA",
+      "unique_id": "ab710cfe-a31d-4ac8-ac39-bf6aa9a877e1"
+    },
+    {
+      "complete_question": "How could cross-lingual benchmarks inform us about mT5-base's potential Text Summarization accuracy in Gujurati with zero-shot data?",
+      "task": "Text Summarization",
+      "models": "mT5-base",
+      "languages": "Gujurati",
+      "question_type": "QnA",
+      "unique_id": "c8280859-90ca-4bc6-b185-a969f51860e0"
+    },
+    {
+      "complete_question": "For Text Summarization, which language shows the best performance with EuroLLM-9B-instruct?",
+      "task": "Text Summarization",
+      "models": "EuroLLM-9B-instruct",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "bddc1577-f925-40b8-af94-bf7585b17bf5"
+    },
+    {
+      "complete_question": "What is the top-performing model for Text Summarization in Catalan?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Catalan",
+      "question_type": "QnA",
+      "unique_id": "427d4b2c-6a4c-430f-a551-fd88451d275d"
+    },
+    {
+      "complete_question": "Can we estimate how well Gemma2 would perform on Text Summarization in Ukranian without having access to model or language benchmarks?",
+      "task": "Text Summarization",
+      "models": "Gemma2",
+      "languages": "Ukranian",
+      "question_type": "QnA",
+      "unique_id": "a181615c-9b45-493f-a921-a5e878cda7fb"
+    },
+    {
+      "complete_question": "Without any accessible benchmarks, how could we infer Llama3's Text Summarization quality for Ukranian?",
+      "task": "Text Summarization",
+      "models": "Llama3",
+      "languages": "Ukranian",
+      "question_type": "QnA",
+      "unique_id": "7d8ca587-894e-47b2-8c73-5878b883d0f4"
+    },
+    {
+      "complete_question": "What are alternative approaches to judge the Text Summarization capabilities of mBART-50 in Gujurati with no direct evidence?",
+      "task": "Text Summarization",
+      "models": "mBART-50",
+      "languages": "Gujurati",
+      "question_type": "QnA",
+      "unique_id": "02340924-bc92-49c2-8403-4f3861235e3c"
+    },
+    {
+      "complete_question": "For Text Summarization, which language shows the best performance with Salamandra-2B-instruct?",
+      "task": "Text Summarization",
+      "models": "Salamandra-2B-instruct",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "1562207f-abf1-4390-af6d-6ed4166ce55e"
+    },
+    {
+      "complete_question": "Which model performs best for Text Summarization in Catalan using EuroLLM-1.7B-IT?",
+      "task": "Text Summarization",
+      "models": "EuroLLM-1.7B-IT",
+      "languages": "Catalan",
+      "question_type": "QnA",
+      "unique_id": "b654073c-2a81-4224-8e01-a86c329f7df4"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 42,
+    "available_qna": 32
+  }
+}

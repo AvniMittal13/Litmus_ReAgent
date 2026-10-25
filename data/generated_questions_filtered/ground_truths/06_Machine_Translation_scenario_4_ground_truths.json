@@ -1,0 +1,812 @@
+[
+  {
+    "unique_id": "f095e6dd-c4f0-4dc8-81b1-ea556472de96",
+    "complete_question": "What is the performance of Qwen-2-Audio on Machine Translation for Fulah?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "BLEU (En→X)",
+        "value": "9.35",
+        "value_in_100_range": 9.35
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "00e55334-481b-429e-9a20-f9a1875622e2",
+    "complete_question": "What score does M2M-100 achieve for Machine Translation in Oriya?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "64.9",
+        "value_in_100_range": 64.9
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "49.2",
+        "value_in_100_range": 49.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "452b5a7f-1ebc-454b-bcb2-de5140e0cdf7",
+    "complete_question": "What is the performance of NLLB-200-family on Machine Translation for Bislama?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "BLEU (En→X)",
+        "value": "18.5",
+        "value_in_100_range": 18.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c02af26a-93bb-467c-80d8-8152e4a5da9b",
+    "complete_question": "How well does PaLM-2 perform on Machine Translation for Khasi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "56.9",
+        "value_in_100_range": 56.9
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "43.3",
+        "value_in_100_range": 43.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "debaeb10-e763-4d64-9a6e-0b832bb857f3",
+    "complete_question": "What score does NLLB achieve for Machine Translation in South-Azerbaijani?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "5.4",
+        "value_in_100_range": 5.4
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "23.5",
+        "value_in_100_range": 23.5
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "23.7",
+        "value_in_100_range": 23.7
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "45.3",
+        "value_in_100_range": 45.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b0729c60-74e4-43e0-b570-6b1a6cf16dd1",
+    "complete_question": "Can GPT-4 reliably transfer Machine Translation abilities from distant languages to EN→AR tasks?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ChrF++ (EN→AR)",
+        "value": "47.2",
+        "value_in_100_range": 47.2
+      },
+      {
+        "metric_name": "BLEU (EN→AR)",
+        "value": "25",
+        "value_in_100_range": 25.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b4e173bc-74e1-4113-bf47-f6a2c339ed82",
+    "complete_question": "How well does M2M-100 perform on Machine Translation for Khasi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "56.9",
+        "value_in_100_range": 56.9
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "43.3",
+        "value_in_100_range": 43.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "971053ba-6ecd-42f0-8c8c-dd6e815a2f26",
+    "complete_question": "What is the performance of AfriCOMET on Machine Translation for Shona?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "BLEU (English→Shona)",
+        "value": "8.19",
+        "value_in_100_range": 8.19
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "be8c80cf-9f1b-461d-8cf0-7e4d72b35372",
+    "complete_question": "How well does NLLB-200 perform on Machine Translation for Mizo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "15.1",
+        "value_in_100_range": 15.1
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "38.0",
+        "value_in_100_range": 38.0
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "22.0",
+        "value_in_100_range": 22.0
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "41.4",
+        "value_in_100_range": 41.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "747f7e94-fb98-4c48-ae18-2f4a8faa6fa9",
+    "complete_question": "What is the performance of IndicTrans2 on Machine Translation for Khasi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "56.9",
+        "value_in_100_range": 56.9
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "43.3",
+        "value_in_100_range": 43.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "20b5aad2-64b3-4353-a175-a96db5f38b03",
+    "complete_question": "What score does Transformer achieve for Machine Translation in Mizo?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "56.9",
+        "value_in_100_range": 56.9
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "43.3",
+        "value_in_100_range": 43.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e14b53a0-ccc1-426e-a655-8a4c079c7692",
+    "complete_question": "How well does GPT-4o perform on Machine Translation for Mizo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB Translation ChrF++ (Asia S, GPT-4o)",
+        "value": "47.3",
+        "value_in_100_range": 47.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "805add9b-4785-45a7-a75a-1a1a01c7a3f3",
+    "complete_question": "What score does M2M-100 achieve for Machine Translation in Mizo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "56.9",
+        "value_in_100_range": 56.9
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "43.3",
+        "value_in_100_range": 43.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "095a96ac-24d0-4357-a06e-1d37ba45acdf",
+    "complete_question": "What score does NLLB-200 achieve for Machine Translation in Oriya?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "30.2",
+        "value_in_100_range": 30.2
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "45.7",
+        "value_in_100_range": 45.7
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "45.2",
+        "value_in_100_range": 45.2
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "64.4",
+        "value_in_100_range": 64.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ebda3ecc-ac2f-4a6c-bc6e-93a763b58c8f",
+    "complete_question": "How does GPT-4o fare in handling Machine Translation for Khasi when only non-similar languages are available for transfer?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (En→Khasi, GPT-4o, only non-similar languages for transfer)",
+        "value": "40.4",
+        "value_in_100_range": 40.4
+      },
+      {
+        "metric_name": "BLEU (En→Khasi, GPT-4o, only non-similar languages for transfer)",
+        "value": "17.4",
+        "value_in_100_range": 17.4
+      },
+      {
+        "metric_name": "chrF++ (Khasi→En, GPT-4o, only non-similar languages for transfer)",
+        "value": "37.7",
+        "value_in_100_range": 37.7
+      },
+      {
+        "metric_name": "BLEU (Khasi→En, GPT-4o, only non-similar languages for transfer)",
+        "value": "15.1",
+        "value_in_100_range": 15.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b98170ea-9c4b-459e-b9f7-675ac7dd3bd9",
+    "complete_question": "How well does GPT-4 perform on Machine Translation for Tajik?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "mSTEB Translation ChrF++ (Asia W, C region; proxy for Tajik)",
+        "value": "47.5",
+        "value_in_100_range": 47.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3b23d8b2-a0dc-49b5-938b-3e9e61ad7958",
+    "complete_question": "How effective is Transformer at handling Machine Translation for Mizo when similar languages are not used in training?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (En→Mizo; Transformer, no similar languages in training)",
+        "value": "51.6",
+        "value_in_100_range": 51.6
+      },
+      {
+        "metric_name": "chrF++ (Mizo→En; Transformer, no similar languages in training)",
+        "value": "48.2",
+        "value_in_100_range": 48.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "37d05768-bc67-49ae-930d-030074026453",
+    "complete_question": "What score does DeepSeek-V2.5 achieve for Machine Translation in Khasi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "56.9",
+        "value_in_100_range": 56.9
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "43.3",
+        "value_in_100_range": 43.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d19eaaa2-8450-423e-a9a3-353887f9bbae",
+    "complete_question": "How does the model IndicTrans2 perform on Machine Translation for Mizo when only distant languages are leveraged for training?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ChrF++ (En→Mizo, Multilingual base – distant languages only)",
+        "value": "51.6",
+        "value_in_100_range": 51.6
+      },
+      {
+        "metric_name": "BLEU (En→Mizo, Multilingual base – distant languages only)",
+        "value": "25.0",
+        "value_in_100_range": 25.0
+      },
+      {
+        "metric_name": "ChrF++ (Mz→En, Multilingual base – distant languages only)",
+        "value": "48.2",
+        "value_in_100_range": 48.2
+      },
+      {
+        "metric_name": "BLEU (Mz→En, Multilingual base – distant languages only)",
+        "value": "26.7",
+        "value_in_100_range": 26.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "daf0864e-31d1-4bcb-9092-5925cdd6036d",
+    "complete_question": "What is the performance of NLLB-200-family on Machine Translation for Yiddish?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "BLEU (En→X)",
+        "value": "18.5",
+        "value_in_100_range": 18.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a829d6c3-c1c2-45ae-95da-920524e5fe56",
+    "complete_question": "What score does NLLB-200 achieve for Machine Translation in Tajik?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "35.3",
+        "value_in_100_range": 35.3
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "51.2",
+        "value_in_100_range": 51.2
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "40.0",
+        "value_in_100_range": 40.0
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "59.9",
+        "value_in_100_range": 59.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "815a949b-719e-4363-9534-c7a55063450f",
+    "complete_question": "What is the performance of Claude-3 on Machine Translation for Oriya?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "64.9",
+        "value_in_100_range": 64.9
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "49.2",
+        "value_in_100_range": 49.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "55ccb15e-3cb0-4f0f-82d3-871df494620b",
+    "complete_question": "How well does NLLB perform on Machine Translation for Asante-Twi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "NLLB-200 spBLEU (En→X)",
+        "value": "15.2",
+        "value_in_100_range": 15.2
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (En→X)",
+        "value": "37.9",
+        "value_in_100_range": 37.9
+      },
+      {
+        "metric_name": "NLLB-200 spBLEU (X→En)",
+        "value": "29.4",
+        "value_in_100_range": 29.4
+      },
+      {
+        "metric_name": "NLLB-200 chrF++ (X→En)",
+        "value": "47.6",
+        "value_in_100_range": 47.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "97697e11-3b5e-4a95-8dc9-9383e9468650",
+    "complete_question": "What score can IndicTrans2 achieve for Machine Translation in Khasi when leveraging only distant language data?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (En→Khasi, distant data only, Multilingual base)",
+        "value": "40.4",
+        "value_in_100_range": 40.4
+      },
+      {
+        "metric_name": "chrF++ (Khasi→En, distant data only, Multilingual base)",
+        "value": "37.7",
+        "value_in_100_range": 37.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "be09d877-9dd2-4ebc-9959-e47b4aa43c5f",
+    "complete_question": "How well does IndicTrans2 perform on Machine Translation for Mizo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "56.9",
+        "value_in_100_range": 56.9
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "43.3",
+        "value_in_100_range": 43.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "085cb369-5784-4155-af20-492c8dcef86c",
+    "complete_question": "Which model achieves the highest score for Machine Translation in EN→AR?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "3e6b1fd3-672c-4baa-a935-7946b49bbaf1",
+    "complete_question": "Which model performs best for Machine Translation in Guarani?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "08a638f6-cd85-4b3c-9e5f-adc4924b3395",
+    "complete_question": "What is the top-performing model for Machine Translation in MSA?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "79a75c10-5505-465c-a537-9fa85847e6ac",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Levantine?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "95fc4ce3-8b1f-432c-b64d-a00bd6d6760b",
+    "complete_question": "Which model performs best for Machine Translation in Tajik?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "28b521eb-53e1-42f0-92b7-47a0ab3c8a7c",
+    "complete_question": "Which language shows the best performance with Opus-MT for Machine Translation?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "23.75",
+        "value_in_100_range": 23.75
+      }
+    ],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "6c8560df-3330-4a90-a136-2b71cf02b417",
+    "complete_question": "Which model performs best for Machine Translation in Khasi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "+TEL (best)"
+  },
+  {
+    "unique_id": "21c859a6-6b48-4097-a73c-cf904848bdf7",
+    "complete_question": "What is the top-performing model for Machine Translation in Levantine?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "440d1718-be53-4f2e-abf2-5aa3843e6c80",
+    "complete_question": "What is the top-performing model for Machine Translation in Gulf?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "7b465a1b-66f1-4bd5-ac21-9dfb79e4de7a",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Jinghpaw?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "emma-500-llama2-7b"
+  },
+  {
+    "unique_id": "4b690021-cf08-45b5-a75d-6ac4e8ec3df6",
+    "complete_question": "Which model performs best for Machine Translation in Maltese?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Meta-Llama-3.1-8B"
+  },
+  {
+    "unique_id": "cdfcd612-e225-4d30-8661-3c2b278145b8",
+    "complete_question": "What is the top-performing model for Machine Translation in Farsi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "e4319b95-ab4c-49c7-98ac-594fd78beb03",
+    "complete_question": "Which language shows the best performance with LibreTranslate for Machine Translation?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "82.50",
+        "value_in_100_range": 82.5
+      }
+    ],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "75f12077-1942-46ab-97d5-5d7217d56e5c",
+    "complete_question": "Which model performs best for Machine Translation in Cebuano?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "87061957-fe79-4933-8e54-42fc9d6a76b1",
+    "complete_question": "What is the top-performing model for Machine Translation in Gulf?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Gemini"
+  },
+  {
+    "unique_id": "06370989-f375-42f3-a81b-659f083186bd",
+    "complete_question": "Which language has the best performance for Machine Translation with Claude-3?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Math Accuracy",
+        "value": "32.5",
+        "value_in_100_range": 32.5
+      },
+      {
+        "metric_name": "Math Accuracy",
+        "value": "26.4",
+        "value_in_100_range": 26.4
+      },
+      {
+        "metric_name": "Math Accuracy",
+        "value": "20.5",
+        "value_in_100_range": 20.5
+      }
+    ],
+    "answer_text_for_qna": "French"
+  },
+  {
+    "unique_id": "c66e880b-8c64-44c2-9865-da922956dea9",
+    "complete_question": "Which language shows the best performance with mBART50 for Machine Translation?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "NLLB-200"
+  },
+  {
+    "unique_id": "b488c424-f300-48ee-b938-55e4a393a4b0",
+    "complete_question": "Which language shows the best performance with DeepSeek-V2.5 for Machine Translation?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "chrF++ (Indic-En)",
+        "value": "67.5",
+        "value_in_100_range": 67.5
+      },
+      {
+        "metric_name": "chrF++ (En-Indic)",
+        "value": "59.6",
+        "value_in_100_range": 59.6
+      }
+    ],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "d7a2caad-3107-48e0-8d82-d268b0f8b2c4",
+    "complete_question": "Which language has the best performance for Machine Translation with M2M-100?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "c424269c-2880-491d-99a5-652348ab4755",
+    "complete_question": "Which model performs best for Machine Translation in Samoan?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Multilingual Dense"
+  },
+  {
+    "unique_id": "896cc3dd-98ab-408e-8059-580a4b3bad8f",
+    "complete_question": "Which language shows the best performance with PaLM-2 for Machine Translation?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "83.75",
+        "value_in_100_range": 83.75
+      }
+    ],
+    "answer_text_for_qna": "Hungarian"
+  },
+  {
+    "unique_id": "7c81d548-0c40-4d6e-b395-0d53c4a5e2ac",
+    "complete_question": "Which model achieves the highest score for Machine Translation in South-Azerbaijani?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Meta-Llama-3.1-8B"
+  },
+  {
+    "unique_id": "ffb265d0-ba20-409f-84ee-c47965a51427",
+    "complete_question": "Which model performs best for Machine Translation in Jinghpaw?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "b9426f25-1f17-4644-9d7e-52fada34d781",
+    "complete_question": "Which model achieves the highest score for Machine Translation in Mizo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  },
+  {
+    "unique_id": "e3074b66-fa9e-4af7-aae1-19f36b637365",
+    "complete_question": "Which model performs best for Machine Translation in Ilocano?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "IndicTrans2"
+  }
+]

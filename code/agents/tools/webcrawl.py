@@ -7,7 +7,7 @@ import time
 load_dotenv()
 
 def firecrawl_search(query: str):
-    app = FirecrawlApp(api_key=os.getenv("FIRECRAWL_API_KEY"))
+    app = FirecrawlApp(api_key=os.getenv("FIRECRAWL_API_KEY_M"))
     response = app.search(
         query=query,
         limit=1,

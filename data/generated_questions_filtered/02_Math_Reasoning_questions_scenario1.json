@@ -1,0 +1,414 @@
+{
+  "task": "02_Math_Reasoning",
+  "scenario": "GT_available",
+  "questions": [
+    {
+      "complete_question": "What score does Llama-3-Instruct achieve for Math Reasoning in Gujarati?",
+      "task": "Math Reasoning",
+      "models": "Llama-3-Instruct",
+      "languages": "Gujarati",
+      "question_type": "Predictive",
+      "unique_id": "37e9c11c-371a-4a3a-bb8c-3facb7a8f977"
+    },
+    {
+      "complete_question": "How well does Bloom perform on Math Reasoning for Assamese?",
+      "task": "Math Reasoning",
+      "models": "Bloom",
+      "languages": "Assamese",
+      "question_type": "Predictive",
+      "unique_id": "67acb070-7c28-4182-8f06-68d4498195f9"
+    },
+    {
+      "complete_question": "What is the performance of Bloom on Math Reasoning for Malayalam?",
+      "task": "Math Reasoning",
+      "models": "Bloom",
+      "languages": "Malayalam",
+      "question_type": "Predictive",
+      "unique_id": "39efa340-9174-475e-bd18-b7ea75a29200"
+    },
+    {
+      "complete_question": "How well does Gemma-Instruct perform on Math Reasoning for Punjabi?",
+      "task": "Math Reasoning",
+      "models": "Gemma-Instruct",
+      "languages": "Punjabi",
+      "question_type": "Predictive",
+      "unique_id": "87fab395-c59f-4d6b-959d-255c924c6567"
+    },
+    {
+      "complete_question": "How well does Gemma perform on Math Reasoning for Tamil?",
+      "task": "Math Reasoning",
+      "models": "Gemma",
+      "languages": "Tamil",
+      "question_type": "Predictive",
+      "unique_id": "d499b1ec-74d6-4f14-9bcd-2d4f5fe57fbf"
+    },
+    {
+      "complete_question": "How well does Openhathi perform on Math Reasoning for Kannada?",
+      "task": "Math Reasoning",
+      "models": "Openhathi",
+      "languages": "Kannada",
+      "question_type": "Predictive",
+      "unique_id": "711ce41c-d249-4f09-a524-7b7ad1fe6d2b"
+    },
+    {
+      "complete_question": "What is the performance of Llama-3-Instruct on Math Reasoning for Assamese?",
+      "task": "Math Reasoning",
+      "models": "Llama-3-Instruct",
+      "languages": "Assamese",
+      "question_type": "Predictive",
+      "unique_id": "8b373f25-f5c2-4b05-8873-8e6d4da762c7"
+    },
+    {
+      "complete_question": "What is the performance of Gemma-Instruct on Math Reasoning for Gujarati?",
+      "task": "Math Reasoning",
+      "models": "Gemma-Instruct",
+      "languages": "Gujarati",
+      "question_type": "Predictive",
+      "unique_id": "a3322022-c58d-4cf5-ac3b-9b906406c055"
+    },
+    {
+      "complete_question": "What score does Aya-8-Instruct achieve for Math Reasoning in Kannada?",
+      "task": "Math Reasoning",
+      "models": "Aya-8-Instruct",
+      "languages": "Kannada",
+      "question_type": "Predictive",
+      "unique_id": "859b830e-6430-4106-bdc2-65ab9324e06a"
+    },
+    {
+      "complete_question": "What is the performance of Bloom on Math Reasoning for Kannada?",
+      "task": "Math Reasoning",
+      "models": "Bloom",
+      "languages": "Kannada",
+      "question_type": "Predictive",
+      "unique_id": "a51835d7-243b-4dd3-8231-73c70132fe8c"
+    },
+    {
+      "complete_question": "What is the performance of Bloomz on Math Reasoning for Kannada?",
+      "task": "Math Reasoning",
+      "models": "Bloomz",
+      "languages": "Kannada",
+      "question_type": "Predictive",
+      "unique_id": "7ef569bf-456c-4fb1-acb5-56397e7a1962"
+    },
+    {
+      "complete_question": "What score does XLM-RoBERTa achieve on Math Reasoning for Marathi?",
+      "task": "Math Reasoning",
+      "models": "XLM-RoBERTa",
+      "languages": "Marathi",
+      "question_type": "Predictive",
+      "unique_id": "9d7acefb-7c83-411b-98fd-a54180fe0d36"
+    },
+    {
+      "complete_question": "What score does Bloomz achieve for Math Reasoning in Malayalam?",
+      "task": "Math Reasoning",
+      "models": "Bloomz",
+      "languages": "Malayalam",
+      "question_type": "Predictive",
+      "unique_id": "e1559bc9-6ef3-4d8c-b05d-86566d8e7de3"
+    },
+    {
+      "complete_question": "How well does Aya-8-Instruct perform on Math Reasoning for Malayalam?",
+      "task": "Math Reasoning",
+      "models": "Aya-8-Instruct",
+      "languages": "Malayalam",
+      "question_type": "Predictive",
+      "unique_id": "8b140b43-ebb3-4498-a1f9-3a8bbfd6b28e"
+    },
+    {
+      "complete_question": "What is the performance of Openhathi on Math Reasoning for Telugu?",
+      "task": "Math Reasoning",
+      "models": "Openhathi",
+      "languages": "Telugu",
+      "question_type": "Predictive",
+      "unique_id": "95eb7917-1fbd-4a8d-8334-4ff08e66dbe4"
+    },
+    {
+      "complete_question": "How well does Airavata perform on Math Reasoning for Telugu?",
+      "task": "Math Reasoning",
+      "models": "Airavata",
+      "languages": "Telugu",
+      "question_type": "Predictive",
+      "unique_id": "93014c0f-91ee-4ddd-b6c3-0c09ea99f81b"
+    },
+    {
+      "complete_question": "How well does Airavata perform on Math Reasoning for Gujarati?",
+      "task": "Math Reasoning",
+      "models": "Airavata",
+      "languages": "Gujarati",
+      "question_type": "Predictive",
+      "unique_id": "713ed4d6-761b-4570-9fe6-90caef9366a0"
+    },
+    {
+      "complete_question": "What score does Aya-8-Instruct achieve for Math Reasoning in Punjabi?",
+      "task": "Math Reasoning",
+      "models": "Aya-8-Instruct",
+      "languages": "Punjabi",
+      "question_type": "Predictive",
+      "unique_id": "d997bd0c-c63c-48f0-8221-492fb460b7b7"
+    },
+    {
+      "complete_question": "What is the performance of XLM-RoBERTa on Math Reasoning for Telugu?",
+      "task": "Math Reasoning",
+      "models": "XLM-RoBERTa",
+      "languages": "Telugu",
+      "question_type": "Predictive",
+      "unique_id": "45c09854-49e4-4e80-afff-5d4b5c83d8b3"
+    },
+    {
+      "complete_question": "What is the performance of Gemma-Instruct on Math Reasoning for Marathi?",
+      "task": "Math Reasoning",
+      "models": "Gemma-Instruct",
+      "languages": "Marathi",
+      "question_type": "Predictive",
+      "unique_id": "3842c7dd-89c7-4a7c-95f2-61083b7c44c1"
+    },
+    {
+      "complete_question": "What score does Bloomz achieve for Math Reasoning in Odia?",
+      "task": "Math Reasoning",
+      "models": "Bloomz",
+      "languages": "Odia",
+      "question_type": "Predictive",
+      "unique_id": "8617e064-3729-4456-8d01-0a5e19d73bdf"
+    },
+    {
+      "complete_question": "What score does Llama-3-Instruct achieve for Math Reasoning in Gujarati?",
+      "task": "Math Reasoning",
+      "models": "Llama-3-Instruct",
+      "languages": "Gujarati",
+      "question_type": "Predictive",
+      "unique_id": "dc943ea5-f45c-4925-ac6e-09b0141c0302"
+    },
+    {
+      "complete_question": "What is the performance of Bloom on Math Reasoning for Marathi?",
+      "task": "Math Reasoning",
+      "models": "Bloom",
+      "languages": "Marathi",
+      "question_type": "Predictive",
+      "unique_id": "fa5dac4c-2786-415f-b0c3-9cc6f94e17b2"
+    },
+    {
+      "complete_question": "What is the performance of Bloomz on Math Reasoning for Odia?",
+      "task": "Math Reasoning",
+      "models": "Bloomz",
+      "languages": "Odia",
+      "question_type": "Predictive",
+      "unique_id": "597906e4-ae88-4134-b31c-86562550ef55"
+    },
+    {
+      "complete_question": "What score does Openhathi achieve for Math Reasoning in Punjabi?",
+      "task": "Math Reasoning",
+      "models": "Openhathi",
+      "languages": "Punjabi",
+      "question_type": "Predictive",
+      "unique_id": "fb78876d-ff55-4796-afe8-da204161d406"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Assamese?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Assamese",
+      "question_type": "QnA",
+      "unique_id": "4aa44f9e-bec9-4a2e-85df-6bb2e040c0d0"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Punjabi?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Punjabi",
+      "question_type": "QnA",
+      "unique_id": "1cbea011-87ef-41fb-a055-45924b92e0b6"
+    },
+    {
+      "complete_question": "For Math Reasoning, which language shows the best performance with Bloomz?",
+      "task": "Math Reasoning",
+      "models": "Bloomz",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "6d76aa71-2d5e-4842-a43a-8e3b82436857"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Teluga?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Telugu",
+      "question_type": "QnA",
+      "unique_id": "1c3bb714-db21-42b4-b750-757fe4887a0b"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Marathi?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Marathi",
+      "question_type": "QnA",
+      "unique_id": "309cc3fc-a4ac-43e1-aa77-c8f0faa41760"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Malayalam?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Malayalam",
+      "question_type": "QnA",
+      "unique_id": "9948360b-7d83-403e-be27-424e5f9ec9f2"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Hindi?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Hindi",
+      "question_type": "QnA",
+      "unique_id": "cb9c1d0a-8220-467a-a643-1bd6e94c8706"
+    },
+    {
+      "complete_question": "For Math Reasoning, which language shows the best performance with Gemma-Instruct?",
+      "task": "Math Reasoning",
+      "models": "Gemma-Instruct",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "2241cb26-cabb-4a9a-a37d-230ce302ebaa"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Odia?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Odia",
+      "question_type": "QnA",
+      "unique_id": "68e0bbb3-6f87-4c78-a43e-78ec7d0731f5"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Kannada?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Kannada",
+      "question_type": "QnA",
+      "unique_id": "de51ff1b-a7ac-4d21-9d3a-056c6108b68f"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Malayalam?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Malayalam",
+      "question_type": "QnA",
+      "unique_id": "67f52990-3c7d-41a5-9dd4-c22dda3042d4"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Tamil?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Tamil",
+      "question_type": "QnA",
+      "unique_id": "0af8a5df-1fb3-4423-ad04-69ffb1a3aaf8"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Assamese?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Assamese",
+      "question_type": "QnA",
+      "unique_id": "82a49e6e-8352-4e44-9a90-869477469b83"
+    },
+    {
+      "complete_question": "For Math Reasoning, which language shows the best performance with Aya-8-Instruct?",
+      "task": "Math Reasoning",
+      "models": "Aya-8-Instruct",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "a4aa353c-bb61-41fd-80d5-92ce8a961c7a"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Gujarati?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Gujarati",
+      "question_type": "QnA",
+      "unique_id": "e633d0fa-7857-4a6d-9523-3f86dd795b3c"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Gujarati?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Gujarati",
+      "question_type": "QnA",
+      "unique_id": "80479b73-1ccb-4dce-8c0c-4b9428e36419"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Bengali?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Bengali",
+      "question_type": "QnA",
+      "unique_id": "9eb1e566-9503-4e63-88d6-46c712c5b778"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Punjabi?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Punjabi",
+      "question_type": "QnA",
+      "unique_id": "36601dd6-1401-4338-afa2-3d86992a1780"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Kannada?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Kannada",
+      "question_type": "QnA",
+      "unique_id": "63f1fd7a-1b78-42e8-b9a9-cde4fb811171"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Marathi?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Marathi",
+      "question_type": "QnA",
+      "unique_id": "c05a77bd-3c27-41b9-8442-35a8fabf4692"
+    },
+    {
+      "complete_question": "For Math Reasoning, which language shows the best performance with Bloom?",
+      "task": "Math Reasoning",
+      "models": "Bloom",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "875c5a0d-e3b3-4a04-b3d6-678ead0c7b7c"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Telugu?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Telugu",
+      "question_type": "QnA",
+      "unique_id": "3d5aa4eb-6a67-493e-be4a-32f8dca77e20"
+    },
+    {
+      "complete_question": "For Math Reasoning, which language shows the best performance with Bloomz?",
+      "task": "Math Reasoning",
+      "models": "Bloomz",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "bf1ded6c-b6f7-424f-bac0-d178cd181cf3"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Malayalam?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Malayalam",
+      "question_type": "QnA",
+      "unique_id": "fb4ee3ca-835a-4408-9cd9-ff7245c806a0"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Malayalam?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Malayalam",
+      "question_type": "QnA",
+      "unique_id": "f3d0a1a8-78d8-43eb-b0c9-65d822e01a77"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 30,
+    "available_qna": 30
+  }
+}

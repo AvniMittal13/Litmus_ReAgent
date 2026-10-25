@@ -3,6 +3,8 @@ from autogen.agentchat.contrib.retrieve_user_proxy_agent import RetrieveUserProx
 
 from utils.aoai_chat import model_config
 from agents.custom_agents.expert_knowledge import Expert_Knowledge_Agent
+from agents.custom_agents.expert_knowledge_original import Expert_Knowledge_Agent as Expert_Knowledge_Agent_Original
+# from agents.custom_agents.expert_knowledge_lightrag import Expert_Knowledge_Agent
 from agents.custom_agents.websearch_and_crawl import WebSearch_And_Crawl_Agent
 from agents.custom_agents.db_search_and_crawl import DB_Search_And_Crawl_Agent
 
@@ -75,6 +77,16 @@ class Agent:
         elif self.type == "websearch_and_crawl":
             return WebSearch_And_Crawl_Agent(
                 # n_iters=10,
+                name=self.name,
+                system_message=self.system_message,
+                llm_config=self.llm_config,
+                description=self.description,
+                human_input_mode=self.human_input_mode,
+                code_execution_config=self.code_execution_config
+            )
+        elif self.type == "expert_knowledge_original":
+            return Expert_Knowledge_Agent_Original(
+                n_iters=2,
                 name=self.name,
                 system_message=self.system_message,
                 llm_config=self.llm_config,

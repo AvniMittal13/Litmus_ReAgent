@@ -1,0 +1,414 @@
+{
+  "task": "02_Math_Reasoning",
+  "scenario": "similar_language_same_model",
+  "questions": [
+    {
+      "complete_question": "What is the performance of OpenAI-o3-mini-medium on Math Reasoning for French?",
+      "task": "Math Reasoning",
+      "models": "OpenAI-o3-mini-medium",
+      "languages": "French",
+      "question_type": "Predictive",
+      "unique_id": "9980a965-f4c7-4809-a230-acfc41356b47"
+    },
+    {
+      "complete_question": "What score does Gemini-Pro achieve for Math Reasoning in Danish?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Danish",
+      "question_type": "Predictive",
+      "unique_id": "92ebfea3-146a-4a93-b251-865d9f34b6b0"
+    },
+    {
+      "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Norwegian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Norwegian",
+      "question_type": "Predictive",
+      "unique_id": "ed278d0f-3e8b-4155-bf54-85ce5af61f81"
+    },
+    {
+      "complete_question": "What score does ChatGPT-4o-latest achieve for Math Reasoning in Spanish?",
+      "task": "Math Reasoning",
+      "models": "ChatGPT-4o-latest",
+      "languages": "Spanish",
+      "question_type": "Predictive",
+      "unique_id": "64f94751-b350-4072-8237-4fce7a23e723"
+    },
+    {
+      "complete_question": "What score does DeepSeek-R1-Distill-Qwen-1.5B achieve for Math Reasoning in Spanish?",
+      "task": "Math Reasoning",
+      "models": "DeepSeek-R1-Distill-Qwen-1.5B",
+      "languages": "Spanish",
+      "question_type": "Predictive",
+      "unique_id": "f1d9ec9b-3caf-4416-a223-e2d7d9488135"
+    },
+    {
+      "complete_question": "What score does DeepSeek-R1-671B achieve for Math Reasoning in Spanish?",
+      "task": "Math Reasoning",
+      "models": "DeepSeek-R1-671B",
+      "languages": "Spanish",
+      "question_type": "Predictive",
+      "unique_id": "7efcdc36-ebe2-4265-9dac-daaf444dc686"
+    },
+    {
+      "complete_question": "How well does DeepSeek-R1-Distill-Qwen-14B perform on Math Reasoning for Spanish?",
+      "task": "Math Reasoning",
+      "models": "DeepSeek-R1-Distill-Qwen-14B",
+      "languages": "Spanish",
+      "question_type": "Predictive",
+      "unique_id": "7c9c681d-f756-462b-8fe3-5823834fb5d6"
+    },
+    {
+      "complete_question": "What is the performance of DeepSeek-R1-Distill-Llama-8B on Math Reasoning for Spanish?",
+      "task": "Math Reasoning",
+      "models": "DeepSeek-R1-Distill-Llama-8B",
+      "languages": "Spanish",
+      "question_type": "Predictive",
+      "unique_id": "e4f78d28-c8a6-42d4-96c5-dedb71250369"
+    },
+    {
+      "complete_question": "What is the performance of GPT-4.5-preview on Math Reasoning for Spanish?",
+      "task": "Math Reasoning",
+      "models": "GPT-4.5-preview",
+      "languages": "Spanish",
+      "question_type": "Predictive",
+      "unique_id": "4ae70253-c283-4f5c-aabb-c9b6e6f9194b"
+    },
+    {
+      "complete_question": "How well does OpenAI-o1-mini perform on Math Reasoning for French?",
+      "task": "Math Reasoning",
+      "models": "OpenAI-o1-mini",
+      "languages": "French",
+      "question_type": "Predictive",
+      "unique_id": "a07e6564-c43f-411e-9373-6db81c5c8c25"
+    },
+    {
+      "complete_question": "How well does Claude-3.7-sonnet perform on Math Reasoning for Spanish?",
+      "task": "Math Reasoning",
+      "models": "Claude-3.7-sonnet",
+      "languages": "Spanish",
+      "question_type": "Predictive",
+      "unique_id": "39ccfe68-cb88-4474-9d68-ad8c7a237bae"
+    },
+    {
+      "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Hebrew?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Hebrew",
+      "question_type": "Predictive",
+      "unique_id": "4a35d36a-ad18-47a4-8f31-30ec04ec507b"
+    },
+    {
+      "complete_question": "What is the performance of Gemma3-27B-IT on Math Reasoning for Spanish?",
+      "task": "Math Reasoning",
+      "models": "Gemma3-27B-IT",
+      "languages": "Spanish",
+      "question_type": "Predictive",
+      "unique_id": "33c78c9c-be9c-46c5-bed2-2ce52f0ce8db"
+    },
+    {
+      "complete_question": "What score does Llama-3.3-70B-Instruct achieve for Math Reasoning in French?",
+      "task": "Math Reasoning",
+      "models": "Llama-3.3-70B-Instruct",
+      "languages": "French",
+      "question_type": "Predictive",
+      "unique_id": "e5dadeec-a9e3-4168-ab77-8acbac7486f4"
+    },
+    {
+      "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Dutch?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Dutch",
+      "question_type": "Predictive",
+      "unique_id": "c62bdd4c-9d1e-46ce-82db-db6a0ac0834c"
+    },
+    {
+      "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Afrikaans?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Afrikaans",
+      "question_type": "Predictive",
+      "unique_id": "9f5d7fa9-8a52-4ec7-8620-91704e4ce54a"
+    },
+    {
+      "complete_question": "How well does Gemini-2.5-pro perform on Math Reasoning for Spanish?",
+      "task": "Math Reasoning",
+      "models": "Gemini-2.5-pro",
+      "languages": "Spanish",
+      "question_type": "Predictive",
+      "unique_id": "cf84bffd-18f4-4bfe-8f67-bcf9799dd89f"
+    },
+    {
+      "complete_question": "What score does DeepSeek-R1-Distill-Qwen-7B achieve for Math Reasoning in Spanish?",
+      "task": "Math Reasoning",
+      "models": "DeepSeek-R1-Distill-Qwen-7B",
+      "languages": "Spanish",
+      "question_type": "Predictive",
+      "unique_id": "f37d7b12-35d6-4f5a-8f54-585c97c4740a"
+    },
+    {
+      "complete_question": "How well does DeepSeek-R1 perform on Math Reasoning for French?",
+      "task": "Math Reasoning",
+      "models": "DeepSeek-R1",
+      "languages": "French",
+      "question_type": "Predictive",
+      "unique_id": "ce7ce207-3647-43f3-8762-a1bc2be682d7"
+    },
+    {
+      "complete_question": "What score does QwQ-32B achieve for Math Reasoning in French?",
+      "task": "Math Reasoning",
+      "models": "QwQ-32B",
+      "languages": "French",
+      "question_type": "Predictive",
+      "unique_id": "2916ac08-bd1a-41ab-862a-4d12020b02a9"
+    },
+    {
+      "complete_question": "What score does Claude-3.7-sonnet achieve for Math Reasoning in French?",
+      "task": "Math Reasoning",
+      "models": "Claude-3.7-sonnet",
+      "languages": "French",
+      "question_type": "Predictive",
+      "unique_id": "3443696d-8477-48a6-adc0-b21f53e5aad1"
+    },
+    {
+      "complete_question": "How well does DeepSeek-V3 perform on Math Reasoning for Spanish?",
+      "task": "Math Reasoning",
+      "models": "DeepSeek-V3",
+      "languages": "Spanish",
+      "question_type": "Predictive",
+      "unique_id": "075562cb-c1e8-4c6c-b372-629aabfa9708"
+    },
+    {
+      "complete_question": "How well does DeepSeek-R1-Distill perform on Math Reasoning for Spanish?",
+      "task": "Math Reasoning",
+      "models": "DeepSeek-R1-Distill",
+      "languages": "Spanish",
+      "question_type": "Predictive",
+      "unique_id": "42d83020-6f55-4236-9b8a-0fcca0a4ef56"
+    },
+    {
+      "complete_question": "What is the performance of DeepSeek-R1-Distill-Qwen-32B on Math Reasoning for Spanish?",
+      "task": "Math Reasoning",
+      "models": "DeepSeek-R1-Distill-Qwen-32B",
+      "languages": "Spanish",
+      "question_type": "Predictive",
+      "unique_id": "d2bf64de-4cfb-4e43-ad67-bf40f81e409f"
+    },
+    {
+      "complete_question": "What is the performance of DeepSeek-R1 on Math Reasoning for Spanish?",
+      "task": "Math Reasoning",
+      "models": "DeepSeek-R1",
+      "languages": "Spanish",
+      "question_type": "Predictive",
+      "unique_id": "e752ca21-45e4-40af-be81-01fe33bbf2ef"
+    },
+    {
+      "complete_question": "For Math Reasoning, which language shows the best performance with Gemini-Pro?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "f00e4963-7c3d-4f49-a19b-c0fc1f3676f4"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Hebrew?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Hebrew",
+      "question_type": "QnA",
+      "unique_id": "c6a84c7a-c4ce-4c93-a9c0-9d9b8ff319a3"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Hebrew?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Hebrew",
+      "question_type": "QnA",
+      "unique_id": "520f8c05-fb74-4704-826b-5c91347e314f"
+    },
+    {
+      "complete_question": "For Math Reasoning, which language shows the best performance with Gemma3-27B-IT?",
+      "task": "Math Reasoning",
+      "models": "Gemma3-27B-IT",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "2f2c76f9-265b-4715-8fb3-14d7a7511a64"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Danish?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Danish",
+      "question_type": "QnA",
+      "unique_id": "78a3c3af-3f54-43cb-a05b-8f8ad23bc516"
+    },
+    {
+      "complete_question": "For Math Reasoning, which language shows the best performance with DeepSeek-R1-Distill-Qwen-32B?",
+      "task": "Math Reasoning",
+      "models": "DeepSeek-R1-Distill-Qwen-32B",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "dab391c9-dd8f-4efd-b300-c137c2754112"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Spanish?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Spanish",
+      "question_type": "QnA",
+      "unique_id": "1a425f42-fb03-4a65-8ad3-106fa4bc9eb1"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in French?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "French",
+      "question_type": "QnA",
+      "unique_id": "2118a610-8120-4773-9314-48323b0ba6d5"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Danish?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Danish",
+      "question_type": "QnA",
+      "unique_id": "e037021d-3999-4125-8add-8ef9684dcd73"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Norwegian?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Norwegian",
+      "question_type": "QnA",
+      "unique_id": "2f084cb4-cd42-4683-80b7-f8e6772edc65"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in French?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "French",
+      "question_type": "QnA",
+      "unique_id": "33d32894-f9d1-4185-89f6-1c2c09ed4144"
+    },
+    {
+      "complete_question": "For Math Reasoning, which language shows the best performance with Gemini-2.0-flash-thinking?",
+      "task": "Math Reasoning",
+      "models": "Gemini-2.0-flash-thinking",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "34de5217-90f0-423e-abd8-af046beaa63c"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Dutch?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Dutch",
+      "question_type": "QnA",
+      "unique_id": "d9b99606-bbfc-480c-867a-80a7300fb6cf"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Spanish?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Spanish",
+      "question_type": "QnA",
+      "unique_id": "25cba474-a4e1-4501-94dd-a8ae50f40201"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Nepali?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Nepali",
+      "question_type": "QnA",
+      "unique_id": "76b34b11-15f9-4b28-abb7-7211df851007"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in French?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "French",
+      "question_type": "QnA",
+      "unique_id": "9c037fc9-7148-48a3-b4bf-ee220c214d2a"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Dutch?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Dutch",
+      "question_type": "QnA",
+      "unique_id": "9b28643e-8f5c-45ee-b8be-0779e5983093"
+    },
+    {
+      "complete_question": "For Math Reasoning, which language shows the best performance with Mistral-Large?",
+      "task": "Math Reasoning",
+      "models": "Mistral-Large",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "6bf71a03-7e14-4142-af41-ce2ea315c151"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in French?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "French",
+      "question_type": "QnA",
+      "unique_id": "9fb37034-04c9-48b2-baed-d7a3bf0ccd19"
+    },
+    {
+      "complete_question": "For Math Reasoning, which language shows the best performance with Claude-3.7-sonnet?",
+      "task": "Math Reasoning",
+      "models": "Claude-3.7-sonnet",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "0cdcab1c-98aa-4494-9527-ef6eae058676"
+    },
+    {
+      "complete_question": "For Math Reasoning, which language shows the best performance with Qwen-QwQ-32B?",
+      "task": "Math Reasoning",
+      "models": "Qwen-QwQ-32B",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "46a099c9-8daa-433f-a34c-e77fe2cb28b1"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Afrikaans?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Afrikaans",
+      "question_type": "QnA",
+      "unique_id": "3ea2b84b-4f8f-4d35-8e91-b6e66b853ff4"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Nepali?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Nepali",
+      "question_type": "QnA",
+      "unique_id": "99624c5d-3e34-4c24-a597-3cbff9425a32"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Swedish?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Swedish",
+      "question_type": "QnA",
+      "unique_id": "e2736743-f994-48a8-a80f-8227034cc9ba"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Urdu?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Urdu",
+      "question_type": "QnA",
+      "unique_id": "973c8528-3a08-4c91-b964-7645caa09c67"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 29,
+    "available_qna": 30
+  }
+}

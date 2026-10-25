@@ -176,7 +176,8 @@ Tell all details and best practices in a concise structured manner. Tell these a
                 "docs_path": [
                     # "https://raw.githubusercontent.com/microsoft/FLAML/main/website/docs/Examples/Integrate%20-%20Spark.md",
                     # "https://raw.githubusercontent.com/microsoft/FLAML/main/website/docs/Research.md",
-                    os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "knowledge", "knowledge_2.md")
+                    # "./knowledge\\knowledge.md",
+                    "./knowledge\\knowledge_2.md"
                     # os.path.join(os.path.abspath(""), "..", "website", "docs"),
                 ],
                 "custom_text_types": ["mdx"],

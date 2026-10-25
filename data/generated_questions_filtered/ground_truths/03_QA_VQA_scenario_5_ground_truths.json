@@ -1,0 +1,974 @@
+[
+  {
+    "unique_id": "1f8d04a7-9051-40e6-97c1-7a34aa2ea183",
+    "complete_question": "What is the performance of LLaMA-3 (8B) on QA VQA for Assamese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XQuAD-IN Fine-tuned Token-F1 (Table 20)",
+        "value": "45.0",
+        "value_in_100_range": 45.0
+      },
+      {
+        "metric_name": "XorQA-IN-XX Fine-tuned Token-F1 (Table 22)",
+        "value": "24.8",
+        "value_in_100_range": 24.8
+      },
+      {
+        "metric_name": "XorQA-IN-EN Fine-tuned Token-F1 (Table 22)",
+        "value": "70.3",
+        "value_in_100_range": 70.3
+      },
+      {
+        "metric_name": "CrossSum-IN Fine-tuned ChrF (Table 21)",
+        "value": "23.9",
+        "value_in_100_range": 23.9
+      },
+      {
+        "metric_name": "XQuAD-IN One-Shot Token-F1 (Table 19)",
+        "value": "53.0",
+        "value_in_100_range": 53.0
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "26.4",
+        "value_in_100_range": 26.4
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "59.3",
+        "value_in_100_range": 59.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f14303cd-f067-41ea-b094-a082b161b4de",
+    "complete_question": "What is the performance of BLOOMZ-7B on QA VQA for Bodo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XorQA-IN-XX Fine-tuned Token-F1 (Table 22)",
+        "value": "14.9",
+        "value_in_100_range": 14.9
+      },
+      {
+        "metric_name": "XorQA-IN-EN Fine-tuned Token-F1 (Table 22)",
+        "value": "38.8",
+        "value_in_100_range": 38.8
+      },
+      {
+        "metric_name": "CrossSum-IN Fine-tuned ChrF (Table 21)",
+        "value": "19.7",
+        "value_in_100_range": 19.7
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "0.9",
+        "value_in_100_range": 0.9
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "7.6",
+        "value_in_100_range": 7.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "28534d50-d5f9-4126-ae76-77ccfcd242f0",
+    "complete_question": "What score does Gemma-7B-PT and IT achieve for QA VQA in Sanskrit?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XQuAD-IN Fine-tuned Token-F1 (Table 20)",
+        "value": "45.0",
+        "value_in_100_range": 45.0
+      },
+      {
+        "metric_name": "XorQA-IN-XX Fine-tuned Token-F1 (Table 22)",
+        "value": "24.8",
+        "value_in_100_range": 24.8
+      },
+      {
+        "metric_name": "XorQA-IN-EN Fine-tuned Token-F1 (Table 22)",
+        "value": "70.3",
+        "value_in_100_range": 70.3
+      },
+      {
+        "metric_name": "CrossSum-IN Fine-tuned ChrF (Table 21)",
+        "value": "23.9",
+        "value_in_100_range": 23.9
+      },
+      {
+        "metric_name": "XQuAD-IN One-Shot Token-F1 (Table 19)",
+        "value": "28.4",
+        "value_in_100_range": 28.4
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "10.8",
+        "value_in_100_range": 10.8
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "22.3",
+        "value_in_100_range": 22.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "affe37b3-c4b5-476c-8a28-bf95b9719188",
+    "complete_question": "How well does BLOOM-7B perform on QA VQA for Malvi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XorQA-IN-XX Fine-tuned Token-F1 (Table 22)",
+        "value": "20.1",
+        "value_in_100_range": 20.1
+      },
+      {
+        "metric_name": "XorQA-IN-EN Fine-tuned Token-F1 (Table 22)",
+        "value": "67.1",
+        "value_in_100_range": 67.1
+      },
+      {
+        "metric_name": "CrossSum-IN Fine-tuned ChrF (Table 21)",
+        "value": "24.5",
+        "value_in_100_range": 24.5
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "17.0",
+        "value_in_100_range": 17.0
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "22.8",
+        "value_in_100_range": 22.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c62df88e-c782-4acc-9c66-46a5559d4801",
+    "complete_question": "How well does Gemma-7B perform on QA VQA for Manipuri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XorQA-IN-XX Fine-tuned Token-F1 (Table 22)",
+        "value": "16.8",
+        "value_in_100_range": 16.8
+      },
+      {
+        "metric_name": "XorQA-IN-EN Fine-tuned Token-F1 (Table 22)",
+        "value": "48.6",
+        "value_in_100_range": 48.6
+      },
+      {
+        "metric_name": "CrossSum-IN Fine-tuned ChrF (Table 21)",
+        "value": "15.6",
+        "value_in_100_range": 15.6
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "4.0",
+        "value_in_100_range": 4.0
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "14.9",
+        "value_in_100_range": 14.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "79cf5eb2-5a6d-4e27-989a-3cde9b4d769f",
+    "complete_question": "What score does LLaMA-3-Instruct (8B) achieve for QA VQA in Odia?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Llama-3-Instruct Zero-Shot Extractive INDIC QA Benchmark F1 (Table 6)",
+        "value": "5.59",
+        "value_in_100_range": 5.59
+      },
+      {
+        "metric_name": "Llama-3-Instruct Zero-Shot Generative INDIC QA Benchmark Rouge-L (Table 6)",
+        "value": "1.74",
+        "value_in_100_range": 1.74
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2420d8eb-be6d-40ff-a0e8-8f1da7ca3122",
+    "complete_question": "How well does Gemini-Pro perform on QA VQA for Odia?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XQuAD-IN One-Shot Token-F1 (Table 19)",
+        "value": "5.9",
+        "value_in_100_range": 5.9
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "1.6",
+        "value_in_100_range": 1.6
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "14.8",
+        "value_in_100_range": 14.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "16d8cb9a-acd5-4950-b10c-57454f8e6679",
+    "complete_question": "What score does BLOOM achieve for QA VQA in Tibetan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XorQA-IN-XX Fine-tuned Token-F1 (Table 22)",
+        "value": "41.5",
+        "value_in_100_range": 41.5
+      },
+      {
+        "metric_name": "XorQA-IN-EN Fine-tuned Token-F1 (Table 22)",
+        "value": "42.9",
+        "value_in_100_range": 42.9
+      },
+      {
+        "metric_name": "CrossSum-IN Fine-tuned ChrF (Table 21)",
+        "value": "7.0",
+        "value_in_100_range": 7.0
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "5.4",
+        "value_in_100_range": 5.4
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "6.0",
+        "value_in_100_range": 6.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f6345f74-21c5-4822-85af-26fffd566094",
+    "complete_question": "How well does Airavata (7B) perform on QA VQA for Odia?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Zero-Shot INDIC QA Benchmark Extractive F1 (Table 6)",
+        "value": "1.78",
+        "value_in_100_range": 1.78
+      },
+      {
+        "metric_name": "Zero-Shot INDIC QA Benchmark Generative Rouge-L (Table 6)",
+        "value": "1.27",
+        "value_in_100_range": 1.27
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "89c47c5b-44ec-47a0-b868-eaa1cfd4a01d",
+    "complete_question": "What is the performance of Gemma-IT (7B) on QA VQA for Assamese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XQuAD-IN One-Shot Token-F1 (Table 19)",
+        "value": "28.4",
+        "value_in_100_range": 28.4
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "10.8",
+        "value_in_100_range": 10.8
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "22.3",
+        "value_in_100_range": 22.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "26b1777f-40f9-4d08-9ca1-f4b2e79fc125",
+    "complete_question": "What score does PaLM-2-L achieve for QA VQA in Garhwali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XorQA-In-Xx Token-F1",
+        "value": "13.7",
+        "value_in_100_range": 13.7
+      }
+    ],
+    "answer_text_for_qna": "13.7"
+  },
+  {
+    "unique_id": "965ee1e2-8f36-4575-8351-179972480f91",
+    "complete_question": "What is the performance of OpenHathi on QA VQA for Bhojpuri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Table 2 - QA VQA Accuracy",
+        "value": "0.56",
+        "value_in_100_range": 56.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "1af0c5f1-8611-40e7-875e-da1506f8a6ec",
+    "complete_question": "What score does Gemma-7B-PT and IT achieve for QA VQA in Chhattisgarhi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XorQA-IN-XX Fine-tuned Token-F1 (Table 22)",
+        "value": "27.9",
+        "value_in_100_range": 27.9
+      },
+      {
+        "metric_name": "XorQA-IN-EN Fine-tuned Token-F1 (Table 22)",
+        "value": "68.2",
+        "value_in_100_range": 68.2
+      },
+      {
+        "metric_name": "CrossSum-IN Fine-tuned ChrF (Table 21)",
+        "value": "22.5",
+        "value_in_100_range": 22.5
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "22.7",
+        "value_in_100_range": 22.7
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "24.9",
+        "value_in_100_range": 24.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "7d4e134f-ebc7-4ded-ae67-2c33af8c7cd7",
+    "complete_question": "What score does Translate-Test paradigm with IndicTrans2 achieve for QA VQA in Assamese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XQuAD-IN Fine-tuned Token-F1 (Table 20)",
+        "value": "45.0",
+        "value_in_100_range": 45.0
+      },
+      {
+        "metric_name": "XorQA-IN-XX Fine-tuned Token-F1 (Table 22)",
+        "value": "24.8",
+        "value_in_100_range": 24.8
+      },
+      {
+        "metric_name": "XorQA-IN-EN Fine-tuned Token-F1 (Table 22)",
+        "value": "70.3",
+        "value_in_100_range": 70.3
+      },
+      {
+        "metric_name": "CrossSum-IN Fine-tuned ChrF (Table 21)",
+        "value": "23.9",
+        "value_in_100_range": 23.9
+      },
+      {
+        "metric_name": "XQuAD-IN One-Shot Token-F1 (Table 19)",
+        "value": "53.0",
+        "value_in_100_range": 53.0
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "26.4",
+        "value_in_100_range": 26.4
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "59.3",
+        "value_in_100_range": 59.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "9e762c2f-e64b-41ab-8c5d-2ac4679ef1e7",
+    "complete_question": "How well does mBLIP mT0-XL (4.9B) perform on QA VQA for Filipino?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XQuAD-IN Fine-tuned Token-F1 (Table 20)",
+        "value": "45.0",
+        "value_in_100_range": 45.0
+      },
+      {
+        "metric_name": "XorQA-IN-XX Fine-tuned Token-F1 (Table 22)",
+        "value": "24.8",
+        "value_in_100_range": 24.8
+      },
+      {
+        "metric_name": "XorQA-IN-EN Fine-tuned Token-F1 (Table 22)",
+        "value": "70.3",
+        "value_in_100_range": 70.3
+      },
+      {
+        "metric_name": "CrossSum-IN Fine-tuned ChrF (Table 21)",
+        "value": "23.9",
+        "value_in_100_range": 23.9
+      },
+      {
+        "metric_name": "XQuAD-IN One-Shot Token-F1 (Table 19)",
+        "value": "53.0",
+        "value_in_100_range": 53.0
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "26.4",
+        "value_in_100_range": 26.4
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "59.3",
+        "value_in_100_range": 59.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "df2f861d-378a-4a3c-ab27-7e4bbd6b4e13",
+    "complete_question": "How well does OpenHathi perform on QA VQA for Haryanvi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XorQA-IN-XX Fine-tuned Token-F1 (Table 22)",
+        "value": "21.1",
+        "value_in_100_range": 21.1
+      },
+      {
+        "metric_name": "XorQA-IN-EN Fine-tuned Token-F1 (Table 22)",
+        "value": "69.1",
+        "value_in_100_range": 69.1
+      },
+      {
+        "metric_name": "CrossSum-IN Fine-tuned ChrF (Table 21)",
+        "value": "22.0",
+        "value_in_100_range": 22.0
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "18.5",
+        "value_in_100_range": 18.5
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "23.1",
+        "value_in_100_range": 23.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c13c237e-8c53-416d-8ca7-778d04a99355",
+    "complete_question": "What is the performance of Gemma-7B-IT on QA VQA for Bodo?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Table 18 - XorQA-IN-XX One-Shot Accuracy",
+        "value": "12.7",
+        "value_in_100_range": 12.7
+      },
+      {
+        "metric_name": "Table 18 - XorQA-IN-EN One-Shot Accuracy",
+        "value": "15.6",
+        "value_in_100_range": 15.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "5f6d5b78-2b80-4e6e-8362-dca1fd5f20a0",
+    "complete_question": "How well does Narvasa2.0 perform on QA VQA for Odia?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Zero-Shot INDIC QA Benchmark Extractive F1 (Table 5)",
+        "value": "20.75",
+        "value_in_100_range": 20.75
+      },
+      {
+        "metric_name": "Zero-Shot INDIC QA Benchmark Generative Rouge-L (Table 5)",
+        "value": "3.12",
+        "value_in_100_range": 3.12
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ec9ee671-6863-4a5c-b600-cab0a87fbc2d",
+    "complete_question": "What score does Aya-101 (13B) achieve for QA VQA in Odia?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "INDICQA Zero-Shot Subset QA Average (F1) (Table 5)",
+        "value": "48.82",
+        "value_in_100_range": 48.82
+      },
+      {
+        "metric_name": "INDICQA Zero-Shot Subset QA Average (Rouge-L, Generative) (Table 5)",
+        "value": "3.23",
+        "value_in_100_range": 3.23
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "68ec1d5d-2d76-4bba-b5b6-19973b274dba",
+    "complete_question": "What is the performance of Airavata on QA VQA for Awadhi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XorQA-IN-XX Fine-tuned Token-F1 (Table 22)",
+        "value": "24.2",
+        "value_in_100_range": 24.2
+      },
+      {
+        "metric_name": "XorQA-IN-EN Fine-tuned Token-F1 (Table 22)",
+        "value": "68.0",
+        "value_in_100_range": 68.0
+      },
+      {
+        "metric_name": "CrossSum-IN Fine-tuned ChrF (Table 21)",
+        "value": "20.4",
+        "value_in_100_range": 20.4
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "26.3",
+        "value_in_100_range": 26.3
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "23.3",
+        "value_in_100_range": 23.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "af4ee1fb-57a4-4574-b9cd-3038716b2bf6",
+    "complete_question": "What is the performance of BLOOM for QA VQA in Maithili?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Table 18 - XorQA-IN-XX One-Shot Accuracy",
+        "value": "8.0",
+        "value_in_100_range": 8.0
+      },
+      {
+        "metric_name": "Table 18 - XorQA-IN-EN One-Shot Accuracy",
+        "value": "55.2",
+        "value_in_100_range": 55.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "09a6a1ff-3fd5-48a6-86ad-c4acb29d3e51",
+    "complete_question": "What is the performance of BLOOMZ for QA VQA in Rajasthani?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XorQA-IN-XX Fine-tuned Token-F1 (Table 22)",
+        "value": "30.8",
+        "value_in_100_range": 30.8
+      },
+      {
+        "metric_name": "XorQA-IN-EN Fine-tuned Token-F1 (Table 22)",
+        "value": "66.2",
+        "value_in_100_range": 66.2
+      },
+      {
+        "metric_name": "CrossSum-IN Fine-tuned ChrF (Table 21)",
+        "value": "19.5",
+        "value_in_100_range": 19.5
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "17.3",
+        "value_in_100_range": 17.3
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "51.5",
+        "value_in_100_range": 51.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "94adc859-724a-4ff2-9e71-03257029385a",
+    "complete_question": "How well does Aya-8B perform on QA VQA for Odia?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "INDICQA Zero-Shot Extractive QA F1 (Table 6)",
+        "value": "15.77",
+        "value_in_100_range": 15.77
+      },
+      {
+        "metric_name": "INDICQA Zero-Shot Generative QA Rouge-L (Table 6)",
+        "value": "5.79",
+        "value_in_100_range": 5.79
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "bd44f13f-3bf6-4b92-8a60-501571314165",
+    "complete_question": "What is the performance of Airavata on QA VQA for Santali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "INDICQA Zero-Shot Extractive QA F1 (Table 6)",
+        "value": "9.12",
+        "value_in_100_range": 9.12
+      },
+      {
+        "metric_name": "INDICQA Zero-Shot Generative QA Rouge-L (Table 6)",
+        "value": "4.03",
+        "value_in_100_range": 4.03
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "daa93ada-d295-487a-bdf5-f2236bc96a16",
+    "complete_question": "What score does BLOOM-7B achieve for QA VQA in Santali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XorQA-IN-XX Fine-tuned Token-F1 (Table 22)",
+        "value": "2.7",
+        "value_in_100_range": 2.7
+      },
+      {
+        "metric_name": "XorQA-IN-EN Fine-tuned Token-F1 (Table 22)",
+        "value": "32.1",
+        "value_in_100_range": 32.1
+      },
+      {
+        "metric_name": "CrossSum-IN Fine-tuned ChrF (Table 21)",
+        "value": "5.9",
+        "value_in_100_range": 5.9
+      },
+      {
+        "metric_name": "XorQA-IN-XX One-Shot Token-F1 (Table 18)",
+        "value": "1.3",
+        "value_in_100_range": 1.3
+      },
+      {
+        "metric_name": "XorQA-IN-EN One-Shot Token-F1 (Table 18)",
+        "value": "6.7",
+        "value_in_100_range": 6.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "9dc63a45-a273-4ef0-845b-0bd1fc9ea7a2",
+    "complete_question": "What is the top-performing model for QA VQA in Assamese?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "a17221d1-d7e8-4f39-aa8f-3cfc21e533b6",
+    "complete_question": "Which language shows the best performance with Airavata for QA VQA?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "accuracy",
+        "value": "75.4%",
+        "value_in_100_range": 75.4
+      }
+    ],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "50dbdc50-0d46-4969-b722-ea0de11ad7e2",
+    "complete_question": "Which model achieves the highest score for QA VQA in Malvi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "77a6c993-1d2d-4eb8-936b-9d090b271810",
+    "complete_question": "What is the top-performing model for QA VQA in Pashto?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "366853aa-1873-4ac6-a741-75a56d9a176d",
+    "complete_question": "Which model achieves the highest score for QA VQA in Maithili?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "4c75c22a-1f0f-45ed-87c0-dcc1cb97d030",
+    "complete_question": "What is the top-performing model for QA VQA in Manipuri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "3595b6f3-4d00-4af0-acb9-0ff5b1fbb409",
+    "complete_question": "Which language shows the best performance with PaLM-2-L for QA VQA?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "5fa12727-cca4-465d-95a0-55e02acdfdbe",
+    "complete_question": "For QA VQA, which language shows the best performance with IndicBART?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "4001a485-b0ec-477a-86f6-7e98edfb633d",
+    "complete_question": "What is the top-performing model for QA VQA in Chhattisgarhi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "c1803cd1-d862-49bd-9066-10a564d409b2",
+    "complete_question": "Which model achieves the highest score for QA VQA in Sanskrit?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "e2af9672-0dbe-4cb5-8d50-24f101e76fca",
+    "complete_question": "Which model performs best for QA VQA in Malvi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "20ec0024-c306-4171-ae87-afcf73451c05",
+    "complete_question": "Which model performs best for QA VQA in Marwari?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "c805ded1-516f-4eed-8adc-7a9f1a4cf4fc",
+    "complete_question": "Which model achieves the highest score for QA VQA in Odia?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "53064b64-3cea-4867-a608-6dcd8ee1f0da",
+    "complete_question": "Which model achieves the highest score for QA VQA in Bodo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5 XXL"
+  },
+  {
+    "unique_id": "0f5c8ff7-4f2a-4032-823b-f5b02c96fc42",
+    "complete_question": "Which model achieves the highest score for QA VQA in Haryanvi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "88bf979c-3f90-4073-96b3-4e1d841919d1",
+    "complete_question": "What is the top-performing model for QA VQA in Awadhi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "e310200e-2d19-4bf6-86c3-5d78f4c34d77",
+    "complete_question": "Which model performs best for QA VQA in Santali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "05413e61-7802-45e0-980a-8ec4753989cd",
+    "complete_question": "What is the top-performing model for QA VQA in Sanskrit?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "b131112b-937b-4f12-8697-227d9e8aa1aa",
+    "complete_question": "Which model achieves the highest score for QA VQA in Manipuri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5 XXL"
+  },
+  {
+    "unique_id": "4ca81525-9b19-4b4f-8b0a-76261178fdfb",
+    "complete_question": "What is the top-performing model for QA VQA in Rajasthani?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "621ac934-29c1-426c-af2a-303ae2dca98e",
+    "complete_question": "Which model performs best for QA VQA in Maithili?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "7e879ef3-4b26-4b28-b42f-053ee25f2a93",
+    "complete_question": "For QA VQA, which language shows the best performance with Gemma-7B?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "3e618148-d934-4d58-8699-d0a729a026fa",
+    "complete_question": "Which model performs best for QA VQA in Tibetan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "bb80cb68-448f-432b-ac03-5e1285821985",
+    "complete_question": "Which model performs best for QA VQA in Garhwali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "d9fd6732-ed64-4f5a-aef9-1d52792df04d",
+    "complete_question": "Which model achieves the highest score for QA VQA in Garhwali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Token-F1",
+        "value": "13.7",
+        "value_in_100_range": 13.7
+      }
+    ],
+    "answer_text_for_qna": "LLaMA-65B"
+  }
+]

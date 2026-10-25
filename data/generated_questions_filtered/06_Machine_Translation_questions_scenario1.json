@@ -1,0 +1,414 @@
+{
+  "task": "06_Machine_Translation",
+  "scenario": "GT_available",
+  "questions": [
+    {
+      "complete_question": "How does NLLB-200 perform on Machine Translation for Assamese?",
+      "task": "Machine Translation",
+      "models": "NLLB-200",
+      "languages": "Assamese",
+      "question_type": "Predictive",
+      "unique_id": "2bdc786d-fdd0-439d-a4a5-0c74ffae7ea0"
+    },
+    {
+      "complete_question": "What is the performance of Qwen-2-Audio on Machine Translation for Acehnese?",
+      "task": "Machine Translation",
+      "models": "Qwen-2-Audio",
+      "languages": "Acehnese",
+      "question_type": "Predictive",
+      "unique_id": "52e7c52a-c0c1-4421-8856-5cddb0825bf4"
+    },
+    {
+      "complete_question": "What score does Gemini-2.0-Flash achieve for Machine Translation in Acehnese?",
+      "task": "Machine Translation",
+      "models": "Gemini-2.0-Flash",
+      "languages": "Acehnese",
+      "question_type": "Predictive",
+      "unique_id": "42001ba1-21e6-4247-a88d-813947f9da31"
+    },
+    {
+      "complete_question": "What is the performance of NLLB-200 on Machine Translation for Assamese?",
+      "task": "Machine Translation",
+      "models": "NLLB-200",
+      "languages": "Assamese",
+      "question_type": "Predictive",
+      "unique_id": "0e73579c-1678-44b7-8003-16b9f482ebf9"
+    },
+    {
+      "complete_question": "What score does IndicTrans2 achieve for Machine Translation in Maithili?",
+      "task": "Machine Translation",
+      "models": "IndicTrans2",
+      "languages": "Maithili",
+      "question_type": "Predictive",
+      "unique_id": "bf5710a9-7524-4575-9dff-dab937b6769d"
+    },
+    {
+      "complete_question": "How well does IndicTrans2 perform on Machine Translation for Sanskrit?",
+      "task": "Machine Translation",
+      "models": "IndicTrans2",
+      "languages": "Sanskrit",
+      "question_type": "Predictive",
+      "unique_id": "358f2028-910c-4c0d-ac07-6c2d1fab16ba"
+    },
+    {
+      "complete_question": "How well does IndicTrans2 perform on Machine Translation for Odia?",
+      "task": "Machine Translation",
+      "models": "IndicTrans2",
+      "languages": "Odia",
+      "question_type": "Predictive",
+      "unique_id": "3d706f9e-5968-4fd8-817b-73a737c4bda6"
+    },
+    {
+      "complete_question": "How accurate is Gemini-2.0-Flash on Machine Translation for Acehnese compared to Qwen-2-Audio?",
+      "task": "Machine Translation",
+      "models": "Gemini-2.0-Flash,Qwen-2-Audio",
+      "languages": "Acehnese",
+      "question_type": "Predictive",
+      "unique_id": "4a9b9094-90cf-46b4-8961-d6042b69db21"
+    },
+    {
+      "complete_question": "How well does Qwen-2-Audio perform on Machine Translation for Tigrinya?",
+      "task": "Machine Translation",
+      "models": "Qwen-2-Audio",
+      "languages": "Tigrinya",
+      "question_type": "Predictive",
+      "unique_id": "31198648-001e-403b-8311-68a066c06682"
+    },
+    {
+      "complete_question": "For Machine Translation, which languages have been evaluated using NLLB-200 and what are the performance differences among them?",
+      "task": "Machine Translation",
+      "models": "NLLB-200",
+      "languages": "",
+      "question_type": "Predictive",
+      "unique_id": "1d4f00a3-c6db-4241-9909-50e03da71f28"
+    },
+    {
+      "complete_question": "What is the performance of GPT-4o on Machine Translation for Acehnese?",
+      "task": "Machine Translation",
+      "models": "GPT-4o",
+      "languages": "Acehnese",
+      "question_type": "Predictive",
+      "unique_id": "e2da723d-07bc-4313-b3b0-dcdb4d095383"
+    },
+    {
+      "complete_question": "How well does Gemma-3-27B perform on Machine Translation for Lao?",
+      "task": "Machine Translation",
+      "models": "Gemma-3-27B",
+      "languages": "Lao",
+      "question_type": "Predictive",
+      "unique_id": "6527ddf3-c348-4b3e-855f-eafdb2e9033f"
+    },
+    {
+      "complete_question": "How well does Qwen-2-Audio perform on Machine Translation for Sundanese?",
+      "task": "Machine Translation",
+      "models": "Qwen-2-Audio",
+      "languages": "Sundanese",
+      "question_type": "Predictive",
+      "unique_id": "e4ae4fc5-b1b1-4e19-bd67-131bf89d6986"
+    },
+    {
+      "complete_question": "What is the performance of Qwen-2-Audio on Machine Translation for Faroese?",
+      "task": "Machine Translation",
+      "models": "Qwen-2-Audio",
+      "languages": "Faroese",
+      "question_type": "Predictive",
+      "unique_id": "ddd6bbc7-c82c-499f-bab2-c97526c4f562"
+    },
+    {
+      "complete_question": "What is the performance of Qwen-2-Audio on Machine Translation for Maltese?",
+      "task": "Machine Translation",
+      "models": "Qwen-2-Audio",
+      "languages": "Maltese",
+      "question_type": "Predictive",
+      "unique_id": "d1a5106e-8a12-4066-a2d9-af46a2f2c608"
+    },
+    {
+      "complete_question": "How does Qwen-2-Audio perform on Machine Translation across Sundanese, Twi, and Wolof?",
+      "task": "Machine Translation",
+      "models": "Qwen-2-Audio",
+      "languages": "Sundanese,Twi,Wolof",
+      "question_type": "Predictive",
+      "unique_id": "c8ec44da-1263-4060-aa0c-c153d2f397e8"
+    },
+    {
+      "complete_question": "How does GPT-4o perform on Machine Translation for Ewe?",
+      "task": "Machine Translation",
+      "models": "GPT-4o",
+      "languages": "Ewe",
+      "question_type": "Predictive",
+      "unique_id": "ab002b59-cd97-429f-b0dd-e95fd0669188"
+    },
+    {
+      "complete_question": "Which languages see the highest Machine Translation scores when using mBART for evaluation?",
+      "task": "Machine Translation",
+      "models": "mBART",
+      "languages": "",
+      "question_type": "Predictive",
+      "unique_id": "7148155a-3ab8-44ed-8195-29a076262d69"
+    },
+    {
+      "complete_question": "What is the performance of Various-MT-systems on Machine Translation for Twi?",
+      "task": "Machine Translation",
+      "models": "various-MT-systems",
+      "languages": "Twi",
+      "question_type": "Predictive",
+      "unique_id": "49f6935b-6f39-44f1-bb4e-b57ab7c91338"
+    },
+    {
+      "complete_question": "What is the performance of Gemini-2.0-Flash on Machine Translation for Dinka?",
+      "task": "Machine Translation",
+      "models": "Gemini-2.0-Flash",
+      "languages": "Dinka",
+      "question_type": "Predictive",
+      "unique_id": "b7515d66-55e5-470b-82c5-72d8bf6036d6"
+    },
+    {
+      "complete_question": "What are the performance results of Llama-3-8B-Instruct on Machine Translation for German?",
+      "task": "Machine Translation",
+      "models": "Llama-3-8B-Instruct",
+      "languages": "German",
+      "question_type": "Predictive",
+      "unique_id": "16b41ef6-479c-4bd7-a575-a648065c8961"
+    },
+    {
+      "complete_question": "What score does Qwen-2-Audio achieve for Machine Translation in Fulah?",
+      "task": "Machine Translation",
+      "models": "Qwen-2-Audio",
+      "languages": "Fulah",
+      "question_type": "Predictive",
+      "unique_id": "d3bcecae-3d0e-4f3f-80ff-9eb7039f449b"
+    },
+    {
+      "complete_question": "How well does AfriCOMET perform on Machine Translation for Bambara?",
+      "task": "Machine Translation",
+      "models": "AfriCOMET",
+      "languages": "Bambara",
+      "question_type": "Predictive",
+      "unique_id": "c64dcfc9-d120-479f-80b2-125b83edce0d"
+    },
+    {
+      "complete_question": "How well does mT5 perform on Machine Translation for Manipuri?",
+      "task": "Machine Translation",
+      "models": "mT5",
+      "languages": "Manipuri",
+      "question_type": "Predictive",
+      "unique_id": "da795c1e-ab47-4dfd-bcb0-e7eb84a7ed7d"
+    },
+    {
+      "complete_question": "How does IndicTrans2 perform on Machine Translation for Odia?",
+      "task": "Machine Translation",
+      "models": "IndicTrans2",
+      "languages": "Odia",
+      "question_type": "Predictive",
+      "unique_id": "3c942a08-9d4c-462e-a9f9-6e8757f99400"
+    },
+    {
+      "complete_question": "What is the top-performing model for Machine Translation in Occitan?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Occitan",
+      "question_type": "QnA",
+      "unique_id": "a9c1ec5f-a4b4-4676-b592-a248a1f5d805"
+    },
+    {
+      "complete_question": "For Machine Translation, which language shows the best performance with Gemma-3-27B?",
+      "task": "Machine Translation",
+      "models": "Gemma-3-27B",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "e2f0452b-1e6b-4dc9-a7c5-1c2596af490e"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Sundanese?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Sundanese",
+      "question_type": "QnA",
+      "unique_id": "25724bfb-5237-42f7-b7d0-744c6a4bc79a"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Congolese-Swahili?",
+      "task": "Machine Translation",
+      "models": "Neural-machine-translation-models, cross-dialect-transfer-methods, semi-supervised-learning-approaches",
+      "languages": "Congolese-Swahili",
+      "question_type": "QnA",
+      "unique_id": "6907cfd5-7a53-4f4a-94f4-a7c9f25b72bd"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Santali?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Santali",
+      "question_type": "QnA",
+      "unique_id": "dae46596-0de6-4436-949f-066d301cc8e1"
+    },
+    {
+      "complete_question": "What is the top-performing model for Machine Translation in Bambara?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Bambara",
+      "question_type": "QnA",
+      "unique_id": "5b5eefb5-3b8f-48ac-9259-86a19932f5bd"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Kinyarwanda?",
+      "task": "Machine Translation",
+      "models": "AfriCOMET, AfroXLM-R, COMET, M2M-100, NLLB-200, mBART-50, various-MT-systems",
+      "languages": "Kinyarwanda",
+      "question_type": "QnA",
+      "unique_id": "54086465-6f0f-4d96-b16e-080721f87801"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Kashmiri?",
+      "task": "Machine Translation",
+      "models": "IndicTrans2, NLLB-200, mBART-50, mT5, various-LLMs",
+      "languages": "Kashmiri",
+      "question_type": "QnA",
+      "unique_id": "0645ff75-cb8f-4c21-bd6d-b6964fe00afe"
+    },
+    {
+      "complete_question": "For Machine Translation, which language shows the best performance with PaLM-X?",
+      "task": "Machine Translation",
+      "models": "PaLM-X",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "58977385-43dd-48ff-bf3c-51e4f26a192e"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Machine Translation in Maltese?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Maltese",
+      "question_type": "QnA",
+      "unique_id": "d3c19b33-c761-4d7d-b6cf-0bc008f8e47a"
+    },
+    {
+      "complete_question": "What is the top-performing model for Machine Translation in Maithili?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Maithili",
+      "question_type": "QnA",
+      "unique_id": "9f5bc63d-4b25-425e-b3c1-b23401969fec"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Bodo?",
+      "task": "Machine Translation",
+      "models": "IndicTrans2, NLLB-200, mBART-50, mT5, various-LLMs",
+      "languages": "Bodo",
+      "question_type": "QnA",
+      "unique_id": "26c2e181-9c39-46e5-997c-c10e6b7e5ae9"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Baule?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Baule",
+      "question_type": "QnA",
+      "unique_id": "a77e10ce-9ba9-47e6-8a5b-5bcb2d3e3ee1"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Baule?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Baule",
+      "question_type": "QnA",
+      "unique_id": "58904f04-2dcd-4367-89be-1983cbd14606"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Machine Translation in Dogri?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Dogri",
+      "question_type": "QnA",
+      "unique_id": "05bd3070-854e-46b1-a9ca-3c4129117a5f"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Machine Translation in Dogri?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Dogri",
+      "question_type": "QnA",
+      "unique_id": "2ca82dbf-0993-4d9a-bf9f-e633dd3b3587"
+    },
+    {
+      "complete_question": "What is the top-performing model for Machine Translation in Yoruba?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Yoruba",
+      "question_type": "QnA",
+      "unique_id": "ed1f1a65-9a30-44b1-8136-036af55202fc"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Acehnese?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Acehnese",
+      "question_type": "QnA",
+      "unique_id": "7f2605af-8bea-4914-b423-d782155f2b39"
+    },
+    {
+      "complete_question": "What is the top-performing model for Machine Translation in Kashmiri?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Kashmiri",
+      "question_type": "QnA",
+      "unique_id": "f7632020-2070-4b4c-a42f-60e19c81381d"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Manipuri?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Manipuri",
+      "question_type": "QnA",
+      "unique_id": "bb38da3d-d897-4359-8d8d-7a65bc2db384"
+    },
+    {
+      "complete_question": "For Machine Translation, which language shows the best performance with mT5?",
+      "task": "Machine Translation",
+      "models": "mT5",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "6a6a2696-57ec-4851-9a12-4dcca44dde74"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Aranese?",
+      "task": "Machine Translation",
+      "models": "Various-systems",
+      "languages": "Aranese",
+      "question_type": "QnA",
+      "unique_id": "6b0196f3-3d11-4b38-8fa1-b41ce6da5aef"
+    },
+    {
+      "complete_question": "What is the top-performing model for Machine Translation in Fulah?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Fulah",
+      "question_type": "QnA",
+      "unique_id": "c5f0d1a3-23f2-43ae-a78c-15b7bfeaa23d"
+    },
+    {
+      "complete_question": "For Machine Translation, which language shows the best performance with IndicTrans2?",
+      "task": "Machine Translation",
+      "models": "IndicTrans2",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "2e6d377e-520c-4905-8216-b72bffc816cc"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Machine Translation in Sindhi?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Sindhi",
+      "question_type": "QnA",
+      "unique_id": "7173134e-0b7d-4a00-a70a-863367639918"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 34,
+    "available_qna": 34
+  }
+}

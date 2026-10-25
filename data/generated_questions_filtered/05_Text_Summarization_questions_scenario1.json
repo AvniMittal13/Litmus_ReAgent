@@ -1,0 +1,414 @@
+{
+  "task": "05_Text_Summarization",
+  "scenario": "GT_available",
+  "questions": [
+    {
+      "complete_question": "What is the performance of mT5 on Text Summarization for Marathi?",
+      "task": "Text Summarization",
+      "models": "mT5",
+      "languages": "Marathi",
+      "question_type": "Predictive",
+      "unique_id": "ce4a9481-b594-42bb-9c5f-3765fc06260c"
+    },
+    {
+      "complete_question": "Which languages show the best Text Summarization scores for M-BERT?",
+      "task": "Text Summarization",
+      "models": "M-BERT",
+      "languages": "",
+      "question_type": "Predictive",
+      "unique_id": "aa86db3d-b459-4d69-85a8-bc3f6cc264be"
+    },
+    {
+      "complete_question": "How well does multilingual transformer models perform on Text Summarization for Hausa?",
+      "task": "Text Summarization",
+      "models": "multilingual transformer models",
+      "languages": "Hausa",
+      "question_type": "Predictive",
+      "unique_id": "3977f37f-95df-43f5-98d4-3902960944c1"
+    },
+    {
+      "complete_question": "How well does mBART-multilingual-BART perform on Text Summarization for Kyrgyz?",
+      "task": "Text Summarization",
+      "models": "mBART-multilingual-BART",
+      "languages": "Kyrgyz",
+      "question_type": "Predictive",
+      "unique_id": "18533296-ffab-4eb4-950d-ff7faeae2adb"
+    },
+    {
+      "complete_question": "What score does mBART-multilingual-BART achieve for Text Summarization in Azerbaijani?",
+      "task": "Text Summarization",
+      "models": "mBART-multilingual-BART",
+      "languages": "Azerbaijani",
+      "question_type": "Predictive",
+      "unique_id": "d5304411-1189-4ec5-8907-5d32d8f47bd3"
+    },
+    {
+      "complete_question": "For Text Summarization, how does mT5 perform for Pidgin?",
+      "task": "Text Summarization",
+      "models": "mT5",
+      "languages": "Pidgin",
+      "question_type": "Predictive",
+      "unique_id": "4fcd2a26-0962-4d70-8b23-204281076e24"
+    },
+    {
+      "complete_question": "How well does mT5-official-baseline perform on Text Summarization for Burmese?",
+      "task": "Text Summarization",
+      "models": "mT5-official-baseline",
+      "languages": "Burmese",
+      "question_type": "Predictive",
+      "unique_id": "7d3ee1d1-c3a1-458c-aa48-ffb6a938197c"
+    },
+    {
+      "complete_question": "What is the performance of multilingual-transformer-models on Text Summarization for Bengali?",
+      "task": "Text Summarization",
+      "models": "multilingual-transformer-models",
+      "languages": "Bengali",
+      "question_type": "Predictive",
+      "unique_id": "e294a5c0-b24d-4021-b5ac-9dc22c017e11"
+    },
+    {
+      "complete_question": "What score does mT5 achieve for Text Summarization in Burmese?",
+      "task": "Text Summarization",
+      "models": "mT5",
+      "languages": "Burmese",
+      "question_type": "Predictive",
+      "unique_id": "9ac9b3de-f0f9-47ec-9f30-21c5697c3cbb"
+    },
+    {
+      "complete_question": "How well does mT5-multilingual-T5 perform on Text Summarization for Uzbek?",
+      "task": "Text Summarization",
+      "models": "mT5-multilingual-T5",
+      "languages": "Uzbek",
+      "question_type": "Predictive",
+      "unique_id": "0cb5126f-27ca-4992-9fdb-74efacb6f4b3"
+    },
+    {
+      "complete_question": "How well does mT5-multilingual-T5 perform on Text Summarization for Pashto?",
+      "task": "Text Summarization",
+      "models": "mT5-multilingual-T5",
+      "languages": "Pashto",
+      "question_type": "Predictive",
+      "unique_id": "41042d17-2d40-46e4-882a-22777bd83ac8"
+    },
+    {
+      "complete_question": "What is the performance of mT5-official-baseline on Text Summarization for Oromo?",
+      "task": "Text Summarization",
+      "models": "mT5-official-baseline",
+      "languages": "Oromo",
+      "question_type": "Predictive",
+      "unique_id": "9cf1a2cf-3d0e-45a8-9f22-5998144c4d4c"
+    },
+    {
+      "complete_question": "How does mBART perform on Text Summarization in Urdu?",
+      "task": "Text Summarization",
+      "models": "mBART",
+      "languages": "Urdu",
+      "question_type": "Predictive",
+      "unique_id": "611e608d-d72e-4c1c-bf77-e611c952a10b"
+    },
+    {
+      "complete_question": "Which model achieves the strongest performance for Text Summarization in Turkish?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Turkish",
+      "question_type": "Predictive",
+      "unique_id": "118244dd-b176-420b-bdcd-76ec4f503176"
+    },
+    {
+      "complete_question": "How well does multilingual-transformer-models perform on Text Summarization for Kyrgyz?",
+      "task": "Text Summarization",
+      "models": "multilingual-transformer-models",
+      "languages": "Kyrgyz",
+      "question_type": "Predictive",
+      "unique_id": "b7656f05-7516-4df8-87f6-f07dbf4fee7f"
+    },
+    {
+      "complete_question": "What score does mBART-multilingual-BART achieve for Text Summarization in Scottish Gaelic?",
+      "task": "Text Summarization",
+      "models": "mBART-multilingual-BART",
+      "languages": "Scottish Gaelic",
+      "question_type": "Predictive",
+      "unique_id": "f897df74-68a3-4aa5-bc6e-b16fad03855f"
+    },
+    {
+      "complete_question": "How well does multilingual-transformer-models perform on Text Summarization for Punjabi?",
+      "task": "Text Summarization",
+      "models": "multilingual-transformer-models",
+      "languages": "Punjabi",
+      "question_type": "Predictive",
+      "unique_id": "1e5e60f8-cecb-4965-bdc8-72fa1766e6dc"
+    },
+    {
+      "complete_question": "How well does mT5 perform on Text Summarization for Vietnamese?",
+      "task": "Text Summarization",
+      "models": "mT5",
+      "languages": "Vietnamese",
+      "question_type": "Predictive",
+      "unique_id": "c32db735-bb10-4a7a-89d2-ad06ff1512eb"
+    },
+    {
+      "complete_question": "What score does mT5-multilingual-T5 achieve for Text Summarization in Igbo?",
+      "task": "Text Summarization",
+      "models": "mT5-multilingual-T5",
+      "languages": "Igbo",
+      "question_type": "Predictive",
+      "unique_id": "2c2c1a1a-5a87-4dae-a009-841660f4d85a"
+    },
+    {
+      "complete_question": "What score does mBART-multilingual-BART achieve for Text Summarization in Nepali?",
+      "task": "Text Summarization",
+      "models": "mBART-multilingual-BART",
+      "languages": "Nepali",
+      "question_type": "Predictive",
+      "unique_id": "7ccb3776-0268-4d98-89f8-cb2b69c32eae"
+    },
+    {
+      "complete_question": "What score does mT5-official-baseline achieve for Text Summarization in Tigrinya?",
+      "task": "Text Summarization",
+      "models": "mT5-official-baseline",
+      "languages": "Tigrinya",
+      "question_type": "Predictive",
+      "unique_id": "2bb52b17-ee58-4cd6-b6f4-eb8db7b04dc9"
+    },
+    {
+      "complete_question": "What score does mT5-official-baseline achieve for Text Summarization in Tigrinya?",
+      "task": "Text Summarization",
+      "models": "mT5-official-baseline",
+      "languages": "Tigrinya",
+      "question_type": "Predictive",
+      "unique_id": "8262c7a6-a558-498f-8486-ea4b8fc4f4f7"
+    },
+    {
+      "complete_question": "What score does mBART achieve for Text Summarization in Swahili?",
+      "task": "Text Summarization",
+      "models": "mBART",
+      "languages": "Swahili",
+      "question_type": "Predictive",
+      "unique_id": "5cf132d7-e2d7-476d-989e-bab896ca89d4"
+    },
+    {
+      "complete_question": "What score does mBART-multilingual-BART achieve for Text Summarization in Kirundi?",
+      "task": "Text Summarization",
+      "models": "mBART-multilingual-BART",
+      "languages": "Kirundi",
+      "question_type": "Predictive",
+      "unique_id": "3316f96d-be1d-45bf-9e00-3eb7ef67bd9c"
+    },
+    {
+      "complete_question": "How well does mT5-official-baseline perform on Text Summarization for Thai?",
+      "task": "Text Summarization",
+      "models": "mT5-official-baseline",
+      "languages": "Thai",
+      "question_type": "Predictive",
+      "unique_id": "4e273101-636b-4d6a-a006-7b5fbacdba12"
+    },
+    {
+      "complete_question": "Which model performs best for Text Summarization in Thai?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Thai",
+      "question_type": "QnA",
+      "unique_id": "6c132633-829f-4349-9577-21b9c150bf38"
+    },
+    {
+      "complete_question": "Which model performs best for Text Summarization in Amharic?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Amharic",
+      "question_type": "QnA",
+      "unique_id": "f727acac-5012-4747-a558-c30d2f0ad49d"
+    },
+    {
+      "complete_question": "What is the top-performing model for Text Summarization in Oromo?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Oromo",
+      "question_type": "QnA",
+      "unique_id": "c641e087-b0bd-4ff3-b2f8-8fb27956422c"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Text Summarization in Kirundi?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Kirundi",
+      "question_type": "QnA",
+      "unique_id": "2186ce4f-514d-4bfc-807b-52be94355e98"
+    },
+    {
+      "complete_question": "Which model performs best for Text Summarization in Kirundi?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Kirundi",
+      "question_type": "QnA",
+      "unique_id": "2f2f1ffd-c6e0-4f58-9bb7-75da4099d8ba"
+    },
+    {
+      "complete_question": "For Text Summarization, which language shows the best performance with multilingual-transformer-models?",
+      "task": "Text Summarization",
+      "models": "multilingual-transformer-models",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "de21e4d7-37b7-4c9d-a216-2b84663f91ea"
+    },
+    {
+      "complete_question": "Which model performs best for Text Summarization in Punjabi?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Punjabi",
+      "question_type": "QnA",
+      "unique_id": "d9ebeef5-00c8-4e19-a396-8d9478dc8ec6"
+    },
+    {
+      "complete_question": "Which model performs best for Text Summarization in Uzbek?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Uzbek",
+      "question_type": "QnA",
+      "unique_id": "1e44a942-0f72-4d65-b220-b66ca2105ad5"
+    },
+    {
+      "complete_question": "Which model performs best for Text Summarization in Scottish Gaelic?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Scottish Gaelic",
+      "question_type": "QnA",
+      "unique_id": "e2bf0a2f-07b9-4031-bcf3-bcd8a9c4abed"
+    },
+    {
+      "complete_question": "What is the top-performing model for Text Summarization in Pashto?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Pashto",
+      "question_type": "QnA",
+      "unique_id": "de021279-e547-4329-83d7-2718b9631712"
+    },
+    {
+      "complete_question": "For Text Summarization, which language shows the best performance with mBART-multilingual-BART?",
+      "task": "Text Summarization",
+      "models": "mBART-multilingual-BART",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "b33a141f-6792-45fc-bba9-9e2e54e6b509"
+    },
+    {
+      "complete_question": "What is the top-performing model for Text Summarization in Igbo?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Igbo",
+      "question_type": "QnA",
+      "unique_id": "ac1d8746-c136-4aca-a898-7b320b8f6f50"
+    },
+    {
+      "complete_question": "For Text Summarization, which language shows the best performance with Community-models?",
+      "task": "Text Summarization",
+      "models": "Community-models",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "60e06bee-1dde-4dac-8feb-a1575f64181a"
+    },
+    {
+      "complete_question": "For Text Summarization, which language shows the best performance with mT5-official-baseline?",
+      "task": "Text Summarization",
+      "models": "mT5-official-baseline",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "fee6f914-f8c2-4120-9a36-8c97c596c42f"
+    },
+    {
+      "complete_question": "For Text Summarization, which language shows the best performance with multilingual-transformer-models?",
+      "task": "Text Summarization",
+      "models": "multilingual-transformer-models",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "5a3e810f-f5d3-4341-8ff9-36285fe88cf1"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Text Summarization in Tigrinya?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Tigrinya",
+      "question_type": "QnA",
+      "unique_id": "aed2d47e-68cf-4893-884e-7df9b872a351"
+    },
+    {
+      "complete_question": "Which model performs best for Text Summarization in Telugu?",
+      "task": "Text Summarization",
+      "models": "mBART, mT5, multilingual transformer models",
+      "languages": "Telugu",
+      "question_type": "QnA",
+      "unique_id": "a7c091a2-8bae-48b6-942f-70a1d4e2a448"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Text Summarization in Somali?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Somali",
+      "question_type": "QnA",
+      "unique_id": "bbb77487-9004-454f-ab2f-7d20bc1e9284"
+    },
+    {
+      "complete_question": "Which model performs best for Text Summarization in Pashto?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Pashto",
+      "question_type": "QnA",
+      "unique_id": "e28145ce-ffe1-48c1-828d-f9368c07f95c"
+    },
+    {
+      "complete_question": "What is the top-performing model for Text Summarization in Somali?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Somali",
+      "question_type": "QnA",
+      "unique_id": "26f51065-63dd-4598-887e-d94151702e27"
+    },
+    {
+      "complete_question": "Which model performs best for Text Summarization in Kyrgyz?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Kyrgyz",
+      "question_type": "QnA",
+      "unique_id": "6c3c6196-1123-4d89-ac5c-51405298ba56"
+    },
+    {
+      "complete_question": "For Text Summarization, which language shows the best performance with mT5?",
+      "task": "Text Summarization",
+      "models": "mT5",
+      "languages": "Amharic, Arabic, Azerbaijani, Bengali, Burmese, Chinese, French, German, Gujarati, Hausa, Hindi, Igbo, Indonesian, Japanese, Kirundi, Korean, Kyrgyz, Marathi, Nepali, Oromo, Pashto, Persian, Pidgin, Portuguese, Punjabi, Russian, Scottish Gaelic, Serbian, Sinhala, Somali, Spanish, Swahili, Tamil, Telugu, Thai, Tigrinya, Turkish, Ukrainian, Urdu, Uzbek, Vietnamese, Welsh, Yoruba",
+      "question_type": "QnA",
+      "unique_id": "9527f1a5-3200-4882-bca8-9a10ca60945a"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Text Summarization in Azerbaijani?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Azerbaijani",
+      "question_type": "QnA",
+      "unique_id": "a24dd6a4-550a-4464-9e70-717a891649c7"
+    },
+    {
+      "complete_question": "For Text Summarization, which language shows the best performance with mT5-multilingual-T5?",
+      "task": "Text Summarization",
+      "models": "mT5-multilingual-T5",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "7cc713b9-be61-4d56-9550-4a48f2ce1e2e"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Text Summarization in Burmese?",
+      "task": "Text Summarization",
+      "models": "",
+      "languages": "Burmese",
+      "question_type": "QnA",
+      "unique_id": "30cdfad6-5682-415c-8199-292ce7638301"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 31,
+    "available_qna": 32
+  }
+}

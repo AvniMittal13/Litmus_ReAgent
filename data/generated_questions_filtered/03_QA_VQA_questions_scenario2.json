@@ -1,0 +1,414 @@
+{
+  "task": "03_QA_VQA",
+  "scenario": "same_language_different_model",
+  "questions": [
+    {
+      "complete_question": "How well does BLOOMZ perform on QA VQA for Sanskrit?",
+      "task": "QA VQA",
+      "models": "BLOOMZ",
+      "languages": "Sanskrit",
+      "question_type": "Predictive",
+      "unique_id": "3f36edc7-2798-4c40-89c9-8e47fb664e0b"
+    },
+    {
+      "complete_question": "What score does LLaMA-3-Instruct (8B) achieve for QA VQA in Hindi?",
+      "task": "QA VQA",
+      "models": "LLaMA-3-Instruct (8B)",
+      "languages": "Hindi",
+      "question_type": "Predictive",
+      "unique_id": "17f57169-1a9d-4a5c-8bf7-8786591b8e3f"
+    },
+    {
+      "complete_question": "What is the performance of Gemma (7B) on QA VQA for Tamil?",
+      "task": "QA VQA",
+      "models": "Gemma (7B)",
+      "languages": "Tamil",
+      "question_type": "Predictive",
+      "unique_id": "4f5bd48f-6c7b-4555-8f8e-542da20ecba8"
+    },
+    {
+      "complete_question": "How well does BLOOMZ-7B perform on QA VQA for Nepali?",
+      "task": "QA VQA",
+      "models": "BLOOMZ-7B",
+      "languages": "Nepali",
+      "question_type": "Predictive",
+      "unique_id": "104f24af-4ebc-4e9e-bc3d-f75caa1eeddb"
+    },
+    {
+      "complete_question": "What score does BLOOM achieve for QA VQA in Maithili?",
+      "task": "QA VQA",
+      "models": "BLOOM",
+      "languages": "Maithili",
+      "question_type": "Predictive",
+      "unique_id": "af0fa0dd-7972-4148-b928-61ee45a51a4e"
+    },
+    {
+      "complete_question": "What score does BLOOM-7B achieve for QA VQA in Marwari?",
+      "task": "QA VQA",
+      "models": "BLOOM-7B",
+      "languages": "Marwari",
+      "question_type": "Predictive",
+      "unique_id": "23fbe2f5-88dd-4ccf-b27b-f403787c7253"
+    },
+    {
+      "complete_question": "How well does AIRAVATA (7B) perform on QA VQA for Assamese?",
+      "task": "QA VQA",
+      "models": "Airavata (7B)",
+      "languages": "Assamese",
+      "question_type": "Predictive",
+      "unique_id": "cb3c32d6-b91c-4303-aa70-34fbad868273"
+    },
+    {
+      "complete_question": "What score does Airavata achieve for QA VQA in Garhwali?",
+      "task": "QA VQA",
+      "models": "Airavata",
+      "languages": "Garhwali",
+      "question_type": "Predictive",
+      "unique_id": "927a3915-c653-4de8-8c06-323a0b61588c"
+    },
+    {
+      "complete_question": "What score does BLOOM achieve for QA VQA in Garhwali?",
+      "task": "QA VQA",
+      "models": "BLOOM",
+      "languages": "Garhwali",
+      "question_type": "Predictive",
+      "unique_id": "a43e4989-a863-4d44-9ff1-9e75a08edddb"
+    },
+    {
+      "complete_question": "How well does OpenHathi (7B) perform on QA VQA for Assamese?",
+      "task": "QA VQA",
+      "models": "OpenHathi (7B)",
+      "languages": "Assamese",
+      "question_type": "Predictive",
+      "unique_id": "778fe862-fe84-456d-943a-1f1edb088b4c"
+    },
+    {
+      "complete_question": "What is the performance of Airavata on QA VQA for Awadhi?",
+      "task": "QA VQA",
+      "models": "Airavata",
+      "languages": "Awadhi",
+      "question_type": "Predictive",
+      "unique_id": "f70a7398-9656-458d-803e-160659a74e05"
+    },
+    {
+      "complete_question": "What score does Gemma-IT (7B) achieve for QA VQA in Marathi?",
+      "task": "QA VQA",
+      "models": "Gemma-IT (7B)",
+      "languages": "Marathi",
+      "question_type": "Predictive",
+      "unique_id": "1b1a8c04-9853-4585-be09-a31df7c4df02"
+    },
+    {
+      "complete_question": "How well does BLOOM-7B perform on QA VQA for Malvi?",
+      "task": "QA VQA",
+      "models": "BLOOM-7B",
+      "languages": "Malvi",
+      "question_type": "Predictive",
+      "unique_id": "52bb932f-883b-4bb7-a6a8-6695629cf3e8"
+    },
+    {
+      "complete_question": "What is the performance of mT5-Large on QA VQA for Romanian?",
+      "task": "QA VQA",
+      "models": "mT5-Large",
+      "languages": "Romanian",
+      "question_type": "Predictive",
+      "unique_id": "0d74330b-e4ad-4a94-b91b-989bcdeb531b"
+    },
+    {
+      "complete_question": "How well does BLOOMZ perform on QA VQA for Santali?",
+      "task": "QA VQA",
+      "models": "BLOOMZ",
+      "languages": "Santali",
+      "question_type": "Predictive",
+      "unique_id": "281cf05b-a5a8-40c5-b289-4b706982d39d"
+    },
+    {
+      "complete_question": "What is the performance of Mistral NeMo on QA VQA for Odia?",
+      "task": "QA VQA",
+      "models": "Mistral NeMo",
+      "languages": "Odia",
+      "question_type": "Predictive",
+      "unique_id": "2267e4b1-f9b8-49a2-a875-2abee8b42283"
+    },
+    {
+      "complete_question": "What score does Ayur-8B achieve for QA VQA in Gujarati?",
+      "task": "QA VQA",
+      "models": "Aya-8B",
+      "languages": "Gujarati",
+      "question_type": "Predictive",
+      "unique_id": "4e0907c4-1224-44b4-b8d2-7ce3bb1f1774"
+    },
+    {
+      "complete_question": "What score does Gemma-7B-PT and IT achieve for QA VQA in Bhojpuri?",
+      "task": "QA VQA",
+      "models": "Gemma-7B-PT and IT",
+      "languages": "Bhojpuri",
+      "question_type": "Predictive",
+      "unique_id": "9db8ae6d-a643-4e52-94b2-84c7c6bef03a"
+    },
+    {
+      "complete_question": "What score does BLOOMZ-7B achieve for QA VQA in Haryanvi?",
+      "task": "QA VQA",
+      "models": "BLOOMZ-7B",
+      "languages": "Haryanvi",
+      "question_type": "Predictive",
+      "unique_id": "f4c137a3-015f-421d-ad0a-74b75de74f7a"
+    },
+    {
+      "complete_question": "What score does LLaMA achieve for QA VQA in Maithili?",
+      "task": "QA VQA",
+      "models": "LLaMA",
+      "languages": "Maithili",
+      "question_type": "Predictive",
+      "unique_id": "a1a702d2-c288-4e80-a8a4-35d40e951cec"
+    },
+    {
+      "complete_question": "What is the performance of LLaMA-3 (8B) on QA VQA for Telugu?",
+      "task": "QA VQA",
+      "models": "LLaMA-3 (8B)",
+      "languages": "Telugu",
+      "question_type": "Predictive",
+      "unique_id": "3d8d3f38-a143-4f3e-9514-0d07c5ca58e0"
+    },
+    {
+      "complete_question": "What score does OpenHathi (7B) achieve for QA VQA in Konkani?",
+      "task": "QA VQA",
+      "models": "OpenHathi (7B)",
+      "languages": "Konkani",
+      "question_type": "Predictive",
+      "unique_id": "4aa462c1-6e34-4888-b780-e8248daa1fc9"
+    },
+    {
+      "complete_question": "What score does Aya-101 (13B) achieve for QA VQA in Gujarati?",
+      "task": "QA VQA",
+      "models": "Aya-101 (13B)",
+      "languages": "Gujarati",
+      "question_type": "Predictive",
+      "unique_id": "c6c2b77b-4860-421c-810f-565f75cd599d"
+    },
+    {
+      "complete_question": "How well does Narvasa2.0 perform on QA VQA for Malayalam?",
+      "task": "QA VQA",
+      "models": "Narvasa2.0",
+      "languages": "Malayalam",
+      "question_type": "Predictive",
+      "unique_id": "81738343-7b8b-4a25-94d7-89eabb493a81"
+    },
+    {
+      "complete_question": "What is the performance of PaLM-2-XXS to L on QA VQA for Punjabi?",
+      "task": "QA VQA",
+      "models": "PaLM-2-XXS to L",
+      "languages": "Punjabi",
+      "question_type": "Predictive",
+      "unique_id": "ce292735-237a-4f7d-8669-97978c7d99d6"
+    },
+    {
+      "complete_question": "What is the top-performing model for QA VQA in Tamil?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Tamil",
+      "question_type": "QnA",
+      "unique_id": "2a038121-da9a-458f-9cb9-f150de04fecb"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for QA VQA in Telugu?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Telugu",
+      "question_type": "QnA",
+      "unique_id": "60e38702-08fd-4bde-b85b-48aa714f03ba"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Nepali?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Nepali",
+      "question_type": "QnA",
+      "unique_id": "cff8b796-b299-4b47-9039-10ab6a9552fa"
+    },
+    {
+      "complete_question": "What is the top-performing model for QA VQA in Punjabi?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Punjabi",
+      "question_type": "QnA",
+      "unique_id": "17cac770-c882-49d1-962e-c6ab8376e2ab"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for QA VQA in Chhattisgarhi?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Chhattisgarhi",
+      "question_type": "QnA",
+      "unique_id": "63c40b94-2693-494d-8367-761a2b4738bf"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for QA VQA in Malvi?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Malvi",
+      "question_type": "QnA",
+      "unique_id": "dc7508a6-9c90-435c-af76-d041402b9769"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for QA VQA in Santali?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Santali",
+      "question_type": "QnA",
+      "unique_id": "41bfc682-1fb2-4c95-babb-d70632abf98e"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Assamese?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Assamese",
+      "question_type": "QnA",
+      "unique_id": "2333cb93-38e6-4b7d-8753-f04e9acc179e"
+    },
+    {
+      "complete_question": "What is the top-performing model for QA VQA in Awadhi?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Awadhi",
+      "question_type": "QnA",
+      "unique_id": "e08ea4a0-9752-44a3-8884-adaec109cdca"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Manipuri?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Manipuri",
+      "question_type": "QnA",
+      "unique_id": "ca6d4fff-c63c-4bdc-9991-fa999d368ca4"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Urdu?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Urdu",
+      "question_type": "QnA",
+      "unique_id": "6ee67f73-4b39-4ca8-8b9a-315ea2c1728a"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Aymara?",
+      "task": "QA VQA",
+      "models": "DistilBERT",
+      "languages": "Aymara",
+      "question_type": "QnA",
+      "unique_id": "8b981b21-a189-40e1-8b19-0bb28daa6a3e"
+    },
+    {
+      "complete_question": "What is the top-performing model for QA VQA in Kannada?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Kannada",
+      "question_type": "QnA",
+      "unique_id": "7af9b6ac-e4b1-46d4-87ea-7a5e82e6f51b"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for QA VQA in Maithili?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Maithili",
+      "question_type": "QnA",
+      "unique_id": "23c9e1fa-9646-4aaf-801b-50ecadd83844"
+    },
+    {
+      "complete_question": "What is the top-performing model for QA VQA in Malayalam?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Malayalam",
+      "question_type": "QnA",
+      "unique_id": "35798537-d100-45a5-a4e1-a9427cd664b5"
+    },
+    {
+      "complete_question": "What is the top-performing model for QA VQA in Rajasthani?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Rajasthani",
+      "question_type": "QnA",
+      "unique_id": "01fb17e2-e256-4f3f-86fd-0428b87f3731"
+    },
+    {
+      "complete_question": "What is the top-performing model for QA VQA in Sanskrit?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Sanskrit",
+      "question_type": "QnA",
+      "unique_id": "c9c52c53-1dd1-4df9-b4a6-a7836eac279b"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Hindi?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Hindi",
+      "question_type": "QnA",
+      "unique_id": "860ee8d0-ff48-45e3-ad40-5733e4ab862b"
+    },
+    {
+      "complete_question": "What is the top-performing model for QA VQA in Pashto?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Pashto",
+      "question_type": "QnA",
+      "unique_id": "c9ef5eae-8b11-4fa6-9fa8-e4e3fac24db1"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for QA VQA in Bengali?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Bengali",
+      "question_type": "QnA",
+      "unique_id": "66305134-59a2-4693-bc76-95d481bed99b"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for QA VQA in Bodo?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Bodo",
+      "question_type": "QnA",
+      "unique_id": "8726a90f-2da0-4471-b169-d167bc91311f"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Garhwali?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Garhwali",
+      "question_type": "QnA",
+      "unique_id": "4d3fc178-3065-4110-8843-bb8ac5f3ead3"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for QA VQA in Odia?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Odia",
+      "question_type": "QnA",
+      "unique_id": "aaa15241-1c2e-423a-aabe-482d9ebeadf2"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Marwari?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Marwari",
+      "question_type": "QnA",
+      "unique_id": "85edc90f-7303-42e6-ae01-94a2cd467c07"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Haryanvi?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Haryanvi",
+      "question_type": "QnA",
+      "unique_id": "37884d28-d871-4de6-bd7c-57ae53b80ebe"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 30,
+    "available_qna": 30
+  }
+}

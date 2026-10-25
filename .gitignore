@@ -2,7 +2,16 @@
 __pycache__/
 *.pyc
 .DS_Store
-code/outputs/
+# data links created during setup (see README)
+code/all_final_csvs_finall
+code/scraped_content.json
+code/generated_questions
+code/final_testing_codes/GET_GTS_FINAL/Ground_truths_5
+code/final_testing_codes\GET_GTS_FINAL\Ground_truths_5
+code/knowledge\knowledge_2.md
+# runtime outputs and caches
+code/final_testing_codes/FINAL_RUS/
+code/final_testing_codes/ABLATION_RUNS/
 code/agent_outputs/
 code/tmp/
 code/expert_knowledge_cache.pkl

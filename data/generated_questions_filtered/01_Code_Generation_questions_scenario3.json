@@ -1,0 +1,414 @@
+{
+  "task": "01_Code_Generation",
+  "scenario": "similar_language_same_model",
+  "questions": [
+    {
+      "complete_question": "How well does GPT-3.5 perform on Code Generation for Romanian?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Romanian",
+      "question_type": "Predictive",
+      "unique_id": "31cf1b8f-ee29-47e5-84f6-35fceb593f39"
+    },
+    {
+      "complete_question": "What score does GPT-3.5 achieve for Code Generation in Kyrgyz?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Kyrgyz",
+      "question_type": "Predictive",
+      "unique_id": "bcf33a64-df0d-438e-a393-67515419fb01"
+    },
+    {
+      "complete_question": "How well does GPT-4o perform on Code Generation for Bengali?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Bengali",
+      "question_type": "Predictive",
+      "unique_id": "3b495be1-b54b-4b0c-801f-feccf3f6d33d"
+    },
+    {
+      "complete_question": "What is the performance of GPT-3.5 on Code Generation for Khmer?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Khmer",
+      "question_type": "Predictive",
+      "unique_id": "86399d35-8443-4b2f-b50c-2bb29b5ce9eb"
+    },
+    {
+      "complete_question": "How well does GPT-4o perform on Code Generation for Macedonian?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Macedonian",
+      "question_type": "Predictive",
+      "unique_id": "8a3204ea-4117-499e-89c7-06a32da7248c"
+    },
+    {
+      "complete_question": "What is the performance of GPT-3.5 on Code Generation for Catalan?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Catalan",
+      "question_type": "Predictive",
+      "unique_id": "f8613ce4-e34d-4109-b974-8ffc2142ff98"
+    },
+    {
+      "complete_question": "What is the performance of GPT-3.5 on Code Generation for Amharic?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Amharic",
+      "question_type": "Predictive",
+      "unique_id": "47401b73-7aa2-45a9-aada-0b16c3133e23"
+    },
+    {
+      "complete_question": "What score does GPT-3.5 achieve for Code Generation in Croatian?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Croatian",
+      "question_type": "Predictive",
+      "unique_id": "0347cba3-78b5-4f20-89b1-1177947f031c"
+    },
+    {
+      "complete_question": "How well does Claude-3.5-Opus perform on Code Generation for Somali?",
+      "task": "Code Generation",
+      "models": "Claude-3.5-Opus",
+      "languages": "Somali",
+      "question_type": "Predictive",
+      "unique_id": "e85b7a87-534a-475b-9b11-6f629fc0a021"
+    },
+    {
+      "complete_question": "What is the performance of GPT-4o on Code Generation for Nepali?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Nepali",
+      "question_type": "Predictive",
+      "unique_id": "9cb4b5a0-4f25-4df2-8aad-329abc9620ce"
+    },
+    {
+      "complete_question": "What score does GPT-4o achieve for Code Generation in Burmese?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Burmese",
+      "question_type": "Predictive",
+      "unique_id": "43b65d30-a141-42a9-b6a9-848578c1beef"
+    },
+    {
+      "complete_question": "What is the performance of DeepSeek-Coder-V2 on Code Generation for Amharic?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "Amharic",
+      "question_type": "Predictive",
+      "unique_id": "58a57bb6-9c11-432a-b992-420d90e77128"
+    },
+    {
+      "complete_question": "What is the performance of GPT-3.5 on Code Generation for Macedonian?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Macedonian",
+      "question_type": "Predictive",
+      "unique_id": "54806c14-f5f6-49fc-b133-3efc457081f1"
+    },
+    {
+      "complete_question": "What is the performance of GPT-3.5 on Code Generation for Kazakh?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Kazakh",
+      "question_type": "Predictive",
+      "unique_id": "74d0ac00-bf14-4963-b559-be8ce8fcc7db"
+    },
+    {
+      "complete_question": "What is the performance of GPT-4o on Code Generation for Romanian?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Romanian",
+      "question_type": "Predictive",
+      "unique_id": "65b64b87-9e95-460f-afa7-11c561aaa253"
+    },
+    {
+      "complete_question": "What score does WizardCoder achieve for Code Generation in Shona?",
+      "task": "Code Generation",
+      "models": "WizardCoder",
+      "languages": "Shona",
+      "question_type": "Predictive",
+      "unique_id": "8278dd17-42d9-47e4-9812-7b808c4fb4dc"
+    },
+    {
+      "complete_question": "How well does GPT-3.5 perform on Code Generation for Lithuanian?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Lithuanian",
+      "question_type": "Predictive",
+      "unique_id": "bf38be49-14b0-4be4-9e77-660dedfe198e"
+    },
+    {
+      "complete_question": "What score does Aya achieve for Code Generation in Tsonga?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "Tsonga",
+      "question_type": "Predictive",
+      "unique_id": "58150806-dd70-4b26-a636-d32652c90a3a"
+    },
+    {
+      "complete_question": "What score does GPT-4o achieve for Code Generation in Czech?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Czech",
+      "question_type": "Predictive",
+      "unique_id": "83c0a54d-c3b9-4abb-863f-ffb78c01e541"
+    },
+    {
+      "complete_question": "What is the performance of GPT-4o on Code Generation for Croatian?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Croatian",
+      "question_type": "Predictive",
+      "unique_id": "3adc0d84-a93e-4747-a2a2-8da41eb0324c"
+    },
+    {
+      "complete_question": "How well does GPT-3.5 perform on Code Generation for Czech?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Czech",
+      "question_type": "Predictive",
+      "unique_id": "561147f8-6337-4442-8b2e-b85006363a0c"
+    },
+    {
+      "complete_question": "What is the performance of Aya on Code Generation for Sardinian?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "Sardinian",
+      "question_type": "Predictive",
+      "unique_id": "1b5477e1-779f-4f19-8dc1-ad2dddd64313"
+    },
+    {
+      "complete_question": "What score does DeepSeek-Coder-V2 achieve for Code Generation in Lao?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "Lao",
+      "question_type": "Predictive",
+      "unique_id": "499eaca5-af6c-43c6-9729-9aeeaaa49528"
+    },
+    {
+      "complete_question": "What score does GPT-3.5 achieve for Code Generation in Kurdish?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Kurdish",
+      "question_type": "Predictive",
+      "unique_id": "6681449a-12ec-4d0f-8635-6d6f5e528ce9"
+    },
+    {
+      "complete_question": "What score does GPT-3.5 achieve for Code Generation in Polish?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Polish",
+      "question_type": "Predictive",
+      "unique_id": "4d0e6258-228c-4b90-94b3-ee6820d4930e"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Burmese?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o",
+      "languages": "Burmese",
+      "question_type": "QnA",
+      "unique_id": "d7631cb2-0831-4ed1-b319-fe2dec84b911"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Khmer?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Khmer",
+      "question_type": "QnA",
+      "unique_id": "400b59fd-9252-4e01-92a9-14052e77a0f7"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Macedonian?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o",
+      "languages": "Macedonian",
+      "question_type": "QnA",
+      "unique_id": "6899afdb-a395-4ac2-a288-06d47e98a77b"
+    },
+    {
+      "complete_question": "Which model, between GPT-3.5 and GPT-4o, shows higher Code Generation accuracy on Macedonian via similar language transfer?",
+      "task": "Code Generation",
+      "models": "GPT-3.5,GPT-4o",
+      "languages": "Macedonian",
+      "question_type": "QnA",
+      "unique_id": "297d852d-0c2a-40dc-bc9f-78f277d497bb"
+    },
+    {
+      "complete_question": "Which model is top performing for Code Generation in Uzbek?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Uzbek",
+      "question_type": "QnA",
+      "unique_id": "c4585118-5218-458e-9ae7-57d93e81bc57"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Amharic?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Amharic",
+      "question_type": "QnA",
+      "unique_id": "960bd314-9624-4448-9b10-ca26aac477cb"
+    },
+    {
+      "complete_question": "Which model is top performing for Code Generation in Slovenian?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o",
+      "languages": "Slovenian",
+      "question_type": "QnA",
+      "unique_id": "d007b259-9fac-4bca-b6a5-61bc14d44d7f"
+    },
+    {
+      "complete_question": "How does code generation transfer quality vary for Czech across GPT-3.5 and GPT-4o models?",
+      "task": "Code Generation",
+      "models": "GPT-3.5,GPT-4o",
+      "languages": "Czech",
+      "question_type": "QnA",
+      "unique_id": "77453660-1723-4a4e-abe7-14e35c1dd4aa"
+    },
+    {
+      "complete_question": "How does transferring similar language data impact GPT-4o performance for Code Generation in Slovak?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Slovak",
+      "question_type": "QnA",
+      "unique_id": "b4da6d85-138e-461d-8a06-39ac3e1c6c8e"
+    },
+    {
+      "complete_question": "Which model is top for Code Generation in Croatian?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o",
+      "languages": "Croatian",
+      "question_type": "QnA",
+      "unique_id": "95a5cc90-e18b-4c70-abb8-af94d791b7f8"
+    },
+    {
+      "complete_question": "Can GPT-3.5 effectively generalize Code Generation performance from related languages to Kazakh?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Kazakh",
+      "question_type": "QnA",
+      "unique_id": "b2ba17d9-7ea8-482d-9cbf-5991c8ef9ed3"
+    },
+    {
+      "complete_question": "How do GPT-3.5 and GPT-4o compare on Code Generation for Slovenian using benchmarks from similar languages?",
+      "task": "Code Generation",
+      "models": "GPT-3.5,GPT-4o",
+      "languages": "Slovenian",
+      "question_type": "QnA",
+      "unique_id": "5f916a85-493c-4571-a253-7a0b6f00d1c4"
+    },
+    {
+      "complete_question": "What is the cross-lingual performance of WizardCoder on Code Generation for Swedish when leveraging related language data?",
+      "task": "Code Generation",
+      "models": "WizardCoder",
+      "languages": "Swedish",
+      "question_type": "QnA",
+      "unique_id": "a810e062-a96c-4637-9194-884820985f5d"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Catalan?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o",
+      "languages": "Catalan",
+      "question_type": "QnA",
+      "unique_id": "5fda8fd0-858d-4b0e-b634-1e6926ec2289"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Ukrainian?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o",
+      "languages": "Ukrainian",
+      "question_type": "QnA",
+      "unique_id": "d8b3a26c-9208-41bc-bb76-c14214efb6a6"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Swedish?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o, WizardCoder",
+      "languages": "Swedish",
+      "question_type": "QnA",
+      "unique_id": "e84f767f-8e54-4abc-90c0-a0228a9b7baa"
+    },
+    {
+      "complete_question": "Which model has the highest score for Code Generation in Kazakh?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Kazakh",
+      "question_type": "QnA",
+      "unique_id": "2a70a598-ec42-4452-ab17-7edd415bf73a"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Lithuanian?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Lithuanian",
+      "question_type": "QnA",
+      "unique_id": "2c24d73c-2874-43a8-998c-a20477915423"
+    },
+    {
+      "complete_question": "Which model has the highest score for Code Generation in Nepali?",
+      "task": "Code Generation",
+      "models": "GPT-4, GPT-4o",
+      "languages": "Nepali",
+      "question_type": "QnA",
+      "unique_id": "f5ef1489-c020-478a-a8e6-1dbf908d13dc"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Slovak?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o",
+      "languages": "Slovak",
+      "question_type": "QnA",
+      "unique_id": "9a28f6b0-1e49-40d4-a7fc-ec30b1c106ac"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Javanese?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Javanese",
+      "question_type": "QnA",
+      "unique_id": "5858fd34-5ca4-46f7-ba4f-30e4b7becf96"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Czech?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o",
+      "languages": "Czech",
+      "question_type": "QnA",
+      "unique_id": "135c6a2c-5302-4c83-88e5-408a72558665"
+    },
+    {
+      "complete_question": "Can GPT-3.5 transfer Code Generation performance to Uzbek using similar language benchmarks?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Uzbek",
+      "question_type": "QnA",
+      "unique_id": "85373e53-8d18-483f-9f01-029757e30531"
+    },
+    {
+      "complete_question": "What is the impact of similar language evaluation on GPT-3.5 Code Generation results for Kurdish?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "f5c8f1b7-2a28-4b5d-8db1-12e43ac42493"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Serbian?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o",
+      "languages": "Serbian",
+      "question_type": "QnA",
+      "unique_id": "1b01c9c1-875c-4ae2-816a-dbca40481f27"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 34,
+    "available_qna": 34
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "task": "03_QA_VQA",
+  "scenario": "GT_available",
+  "questions": [
+    {
+      "complete_question": "How well does Bloom-Speech perform on QA VQA for Bisu (bzi)?",
+      "task": "QA VQA",
+      "models": "Bloom-Speech",
+      "languages": "Bisu (bzi)",
+      "question_type": "Predictive",
+      "unique_id": "128a111c-d5ae-4bb1-b9e4-b02042e6206a"
+    },
+    {
+      "complete_question": "What is the performance of MMTE on QA VQA for Yoruba?",
+      "task": "QA VQA",
+      "models": "MMTE",
+      "languages": "Yoruba",
+      "question_type": "Predictive",
+      "unique_id": "58c4d5e2-c995-47c0-a919-de0c207e77e6"
+    },
+    {
+      "complete_question": "What is the performance of DistilBERT on QA VQA for Dotyali?",
+      "task": "QA VQA",
+      "models": "DistilBERT",
+      "languages": "Dotyali",
+      "question_type": "Predictive",
+      "unique_id": "eff4c032-5b6e-48fb-a9c3-00cefce5b4d5"
+    },
+    {
+      "complete_question": "What is the performance of MMTE on QA VQA for Javanese?",
+      "task": "QA VQA",
+      "models": "MMTE",
+      "languages": "Javanese",
+      "question_type": "Predictive",
+      "unique_id": "960807a8-6615-419d-b94c-b92b9c615916"
+    },
+    {
+      "complete_question": "What score does MMTE achieve for QA VQA in Kazakh?",
+      "task": "QA VQA",
+      "models": "MMTE",
+      "languages": "Kazakh",
+      "question_type": "Predictive",
+      "unique_id": "9d94e1f1-6ce4-49f2-b06b-98d078445df8"
+    },
+    {
+      "complete_question": "What is the performance of MMTE on QA VQA for Afrikaans?",
+      "task": "QA VQA",
+      "models": "MMTE",
+      "languages": "Afrikaans",
+      "question_type": "Predictive",
+      "unique_id": "f176dc35-c24f-4f73-b882-49c0a410946d"
+    },
+    {
+      "complete_question": "How well does MMTE perform on QA VQA for Marathi?",
+      "task": "QA VQA",
+      "models": "MMTE",
+      "languages": "Marathi",
+      "question_type": "Predictive",
+      "unique_id": "facf6ff1-e7ad-469a-a11e-a54d2206a2bd"
+    },
+    {
+      "complete_question": "What score does LLaMA-65B achieve for QA VQA in Telugu?",
+      "task": "QA VQA",
+      "models": "LLaMA-65B",
+      "languages": "Telugu",
+      "question_type": "Predictive",
+      "unique_id": "c79ce120-214b-48c9-b3b5-930a0726e6fe"
+    },
+    {
+      "complete_question": "What score does DistilBERT achieve for QA VQA in Kaqchikel?",
+      "task": "QA VQA",
+      "models": "DistilBERT",
+      "languages": "Kaqchikel",
+      "question_type": "Predictive",
+      "unique_id": "3211d4d3-02ed-4032-b59e-3bf63766ad28"
+    },
+    {
+      "complete_question": "How well does MMTE perform on QA VQA for Yoruba?",
+      "task": "QA VQA",
+      "models": "MMTE",
+      "languages": "Yoruba",
+      "question_type": "Predictive",
+      "unique_id": "463f1744-065a-4e84-998a-8be0bf3d94f3"
+    },
+    {
+      "complete_question": "What score does Bloom-Captioning achieve for QA VQA in Cebuano?",
+      "task": "QA VQA",
+      "models": "Bloom-Captioning",
+      "languages": "Cebuano",
+      "question_type": "Predictive",
+      "unique_id": "5b1f730e-978e-4f48-9141-97600c6cd89d"
+    },
+    {
+      "complete_question": "What is the performance of MMTE on QA VQA for Georgian?",
+      "task": "QA VQA",
+      "models": "MMTE",
+      "languages": "Georgian",
+      "question_type": "Predictive",
+      "unique_id": "33a6b48e-29cd-4b11-a2e5-0bcc25ce6d68"
+    },
+    {
+      "complete_question": "What score does MMTE achieve for QA VQA in Marathi?",
+      "task": "QA VQA",
+      "models": "MMTE",
+      "languages": "Marathi",
+      "question_type": "Predictive",
+      "unique_id": "92ffc886-91aa-472f-9751-71fe7d1305d9"
+    },
+    {
+      "complete_question": "What is the performance of XLM-R on QA VQA for Basque?",
+      "task": "QA VQA",
+      "models": "XLM-R",
+      "languages": "Basque",
+      "question_type": "Predictive",
+      "unique_id": "855210ed-067d-431b-8baf-78ba15b3f0aa"
+    },
+    {
+      "complete_question": "How well does GPT-4 perform on QA VQA for Tamil?",
+      "task": "QA VQA",
+      "models": "GPT-4",
+      "languages": "Tamil",
+      "question_type": "Predictive",
+      "unique_id": "9b7d2c0b-20e3-4604-a082-86d2a7f3dcf2"
+    },
+    {
+      "complete_question": "What score does XLM achieve for QA VQA in Persian?",
+      "task": "QA VQA",
+      "models": "XLM",
+      "languages": "Persian",
+      "question_type": "Predictive",
+      "unique_id": "ef00fcf1-8366-448b-90f2-b77905631dac"
+    },
+    {
+      "complete_question": "What is the performance of MMTE on QA VQA for Malay?",
+      "task": "QA VQA",
+      "models": "MMTE",
+      "languages": "Malay",
+      "question_type": "Predictive",
+      "unique_id": "26e65111-a6c3-4665-b2f3-d9be5b3078a5"
+    },
+    {
+      "complete_question": "How well does Gemma-7B-IT perform on QA VQA for Telugu?",
+      "task": "QA VQA",
+      "models": "Gemma-7B-IT",
+      "languages": "Telugu",
+      "question_type": "Predictive",
+      "unique_id": "f52223ba-8759-4781-944f-a7a8a7d094d3"
+    },
+    {
+      "complete_question": "What score does BLOOMZ-7B achieve for QA VQA in Awadhi?",
+      "task": "QA VQA",
+      "models": "BLOOMZ-7B",
+      "languages": "Awadhi",
+      "question_type": "Predictive",
+      "unique_id": "d1b9755a-d024-4bee-9a1d-b8cfe3fb3875"
+    },
+    {
+      "complete_question": "What score does MMTE achieve for QA VQA in Burmese?",
+      "task": "QA VQA",
+      "models": "MMTE",
+      "languages": "Burmese",
+      "question_type": "Predictive",
+      "unique_id": "d88f130d-815d-457d-ab76-b10312486330"
+    },
+    {
+      "complete_question": "What score does Bloom-VIST achieve for QA VQA in Kannada?",
+      "task": "QA VQA",
+      "models": "Bloom-VIST",
+      "languages": "Kannada",
+      "question_type": "Predictive",
+      "unique_id": "5aa17c73-4798-4751-b9be-3465609c9663"
+    },
+    {
+      "complete_question": "How well does MMTE perform on QA VQA for Kazakh?",
+      "task": "QA VQA",
+      "models": "MMTE",
+      "languages": "Kazakh",
+      "question_type": "Predictive",
+      "unique_id": "856962db-25f6-4235-9842-632ce9214218"
+    },
+    {
+      "complete_question": "What is the performance of Airavata on QA VQA for Assamese?",
+      "task": "QA VQA",
+      "models": "Airavata",
+      "languages": "Assamese",
+      "question_type": "Predictive",
+      "unique_id": "32b2d990-032b-4d9f-be83-5402ac4fa027"
+    },
+    {
+      "complete_question": "How well does GPT-4 perform on QA VQA for Nepali?",
+      "task": "QA VQA",
+      "models": "GPT-4",
+      "languages": "Nepali",
+      "question_type": "Predictive",
+      "unique_id": "2dea6ea2-8b1d-4ea2-b119-555fe0df2a62"
+    },
+    {
+      "complete_question": "What score does BLOOMZ-7B achieve for QA VQA in Kannada?",
+      "task": "QA VQA",
+      "models": "BLOOMZ-7B",
+      "languages": "Kannada",
+      "question_type": "Predictive",
+      "unique_id": "0d63eb01-d9ef-46a2-9825-f2478660eb99"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Filipino?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "5c0cf62f-c42a-43ea-a174-40be208ade8d"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Basque?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Basque",
+      "question_type": "QnA",
+      "unique_id": "ed799b1c-27b5-41b8-b066-2f3f6c95d132"
+    },
+    {
+      "complete_question": "What is the top-performing model for QA VQA in Tigrinya?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Tigrinya",
+      "question_type": "QnA",
+      "unique_id": "2a88e189-55a1-463d-a63c-f7f1dc1393ae"
+    },
+    {
+      "complete_question": "For QA VQA, which language shows the best performance with MMTE?",
+      "task": "QA VQA",
+      "models": "MMTE",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "dd047eda-c9c6-4b9c-9692-5228744d4703"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Yoruba?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Yoruba",
+      "question_type": "QnA",
+      "unique_id": "a5e53b83-0f46-42ea-8e6f-c3af0f40d106"
+    },
+    {
+      "complete_question": "For QA VQA, which language shows the best performance with PaLM-2-L?",
+      "task": "QA VQA",
+      "models": "PaLM-2-L",
+      "languages": "Punjabi, Gujarati, Kannada, Marathi, Malayalam, Nepali, Telugu, Tamil, Urdu",
+      "question_type": "QnA",
+      "unique_id": "fe7761c2-3fa8-4a8a-87e7-5bea535edaa2"
+    },
+    {
+      "complete_question": "For QA VQA, which language shows the best performance with XLM-R base?",
+      "task": "QA VQA",
+      "models": "XLM-R base",
+      "languages": "Swahili, Polish, Finnish, Swedish, Danish, Hebrew, Korean, Russian, Spanish, Urdu",
+      "question_type": "QnA",
+      "unique_id": "805efcc9-bac0-4222-8dda-5d6af09e446e"
+    },
+    {
+      "complete_question": "For QA VQA, which language shows the best performance with Bloom-VIST?",
+      "task": "QA VQA",
+      "models": "Bloom-VIST",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "17316db0-e32a-4424-87d3-f8f8c9b21098"
+    },
+    {
+      "complete_question": "For QA VQA, which language shows the best performance with XLM?",
+      "task": "QA VQA",
+      "models": "XLM",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "8c6ccfc7-26c9-4903-8af7-00c4be7c7847"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for QA VQA in Zapotec?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Zapotec",
+      "question_type": "QnA",
+      "unique_id": "4e84d101-1d31-4a2e-9241-d7103df5b3c4"
+    },
+    {
+      "complete_question": "For QA VQA, which language shows the best performance with Bloom-LM?",
+      "task": "QA VQA",
+      "models": "Bloom-LM",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "8fcb2a29-a163-4b5d-bd58-57f3ce62f09a"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for QA VQA in Nepali?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Nepali",
+      "question_type": "QnA",
+      "unique_id": "df855d1a-f8bd-4a3a-8f54-901eb57e069d"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for QA VQA in Malagasy?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Malagasy",
+      "question_type": "QnA",
+      "unique_id": "287c0bea-9a25-4636-a579-399c70d1153c"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Guarani?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Guarani",
+      "question_type": "QnA",
+      "unique_id": "3ca7bf82-b8d0-4490-9d0f-fc65abf4bb2a"
+    },
+    {
+      "complete_question": "What is the top-performing model for QA VQA in Bisu (bzi)?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Bisu (bzi)",
+      "question_type": "QnA",
+      "unique_id": "ad2c3b5c-06e2-4bc4-a2df-ac35c54b87da"
+    },
+    {
+      "complete_question": "What is the top-performing model for QA VQA in Quechua?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Quechua",
+      "question_type": "QnA",
+      "unique_id": "5c847e9c-46ee-48c4-a378-41750feec4c4"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Xhosa?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Xhosa",
+      "question_type": "QnA",
+      "unique_id": "73c244db-eebd-4afe-a021-c5e605915fe3"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for QA VQA in Bisu (bzi)?",
+      "task": "QA VQA",
+      "models": "DistilBERT",
+      "languages": "Bisu (bzi)",
+      "question_type": "QnA",
+      "unique_id": "4761cb56-d0ca-4bb7-892e-eb86f561aedd"
+    },
+    {
+      "complete_question": "For QA VQA, which language shows the best performance with Bloom-Captioning?",
+      "task": "QA VQA",
+      "models": "Bloom-Captioning",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "dc87e516-2acf-49fe-9a54-1ca35e74027e"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Amharic?",
+      "task": "QA VQA",
+      "models": "DistilBERT",
+      "languages": "Amharic",
+      "question_type": "QnA",
+      "unique_id": "c496bc92-9a7c-4fcf-b9d7-a065fd46d1c3"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for QA VQA in Nahuatl?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Nahuatl",
+      "question_type": "QnA",
+      "unique_id": "31accf4f-f1db-444f-9e8f-cddc34a68161"
+    },
+    {
+      "complete_question": "For QA VQA, which language shows the best performance with Bloom-VIST?",
+      "task": "QA VQA",
+      "models": "Bloom-VIST",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "5f3f14b3-6425-40ef-b32b-7d0a3064ae13"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Igbo?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Igbo",
+      "question_type": "QnA",
+      "unique_id": "3226f785-b553-49bd-9df8-7a48ca6f1ceb"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Khmer?",
+      "task": "QA VQA",
+      "models": "DistilBERT",
+      "languages": "Khmer",
+      "question_type": "QnA",
+      "unique_id": "2b9e6e94-eb02-48ad-9bbe-27842907eb22"
+    },
+    {
+      "complete_question": "Which model performs best for QA VQA in Aymara?",
+      "task": "QA VQA",
+      "models": "",
+      "languages": "Aymara",
+      "question_type": "QnA",
+      "unique_id": "a4c2a655-6af8-409f-932f-8a6a0e75120e"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 26,
+    "available_qna": 30
+  }
+}

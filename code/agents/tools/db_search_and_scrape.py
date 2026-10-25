@@ -14,10 +14,10 @@ import time
 load_dotenv()
 
 # Initialize Firecrawl
-firecrawl = FirecrawlApp(api_key=os.getenv("FIRECRAWL_API_KEY"))
+firecrawl = FirecrawlApp(api_key=os.getenv("FIRECRAWL_API_KEY36"))
 
 # Path to scraped content JSON file
-SCRAPED_CONTENT_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))), "data", "all_final_csvs_finall", "scraped_content.json")
+SCRAPED_CONTENT_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "scraped_content.json")
 
 # Path to query cache database
 QUERY_CACHE_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "query_cache.pkl")

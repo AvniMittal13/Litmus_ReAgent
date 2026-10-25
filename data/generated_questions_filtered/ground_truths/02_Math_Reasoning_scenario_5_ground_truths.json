@@ -1,0 +1,748 @@
+[
+  {
+    "unique_id": "2fcb9cbf-e8f9-48b4-95d0-42b58823cd7d",
+    "complete_question": "How well does PaLM-2 perform on Math Reasoning for Tagalog?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a8615e75-bf4b-4e15-a678-af32379a5c06",
+    "complete_question": "What is the performance of LLaMa-3-8B on Math Reasoning for Yoruba?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "23.6",
+        "value_in_100_range": 23.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e32a52fc-96ce-4a51-a3ac-9df611c9336d",
+    "complete_question": "What is the performance of Qwen2.5-Math-72B-PRM on Math Reasoning for Lithuanian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MCLM MT-MATH100",
+        "value": "61.62",
+        "value_in_100_range": 61.62
+      },
+      {
+        "metric_name": "MCLM MT-AIME2024",
+        "value": "16.67",
+        "value_in_100_range": 16.67
+      },
+      {
+        "metric_name": "MCLM M-IMO",
+        "value": "25.93",
+        "value_in_100_range": 25.93
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "533c7bab-b23c-45a8-8908-a05a29bc0c0b",
+    "complete_question": "What is the performance of LLaMa-2-7B on Math Reasoning for Luganda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "2.4",
+        "value_in_100_range": 2.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "336dbcc1-0d6f-4853-989e-0ad66b1c2660",
+    "complete_question": "How well does GPT-4o-mini-2024-07-18 perform on Math Reasoning for IsiZulu?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "35.4",
+        "value_in_100_range": 35.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "5372c7cc-b958-4309-9377-987132e02bbf",
+    "complete_question": "What score does gpt-4-turbo-2024-04-09 achieve for Math Reasoning in Hausa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "64.8",
+        "value_in_100_range": 64.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "1eac37a0-476b-4199-8c9c-e150355fbe93",
+    "complete_question": "What is the performance of Qwen2.5-Math-1.5B-Instruct on Math Reasoning for Ukrainian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MCLM MT-MATH100",
+        "value": "49.49",
+        "value_in_100_range": 49.49
+      },
+      {
+        "metric_name": "MCLM MT-AIME2024",
+        "value": "10.00",
+        "value_in_100_range": 10.0
+      },
+      {
+        "metric_name": "MCLM M-IMO",
+        "value": "7.41",
+        "value_in_100_range": 7.41
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "56ef4b94-9d83-4f58-8140-3220091001ca",
+    "complete_question": "How well does Gemma-2-27B perform on Math Reasoning for Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "32.4",
+        "value_in_100_range": 32.4
+      },
+      {
+        "metric_name": "AfriMGSM Exact Match (translate-test)",
+        "value": "44.0",
+        "value_in_100_range": 44.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "baccc3db-832d-4f0e-b15f-dce9b212caba",
+    "complete_question": "What score does o3-Mini achieve for Math Reasoning in Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MCLM MT-MATH100",
+        "value": "87.88",
+        "value_in_100_range": 87.88
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "655cb462-807e-4cee-8f31-72dab57fb1a8",
+    "complete_question": "How well does gpt-3.5-turbo-0125 perform on Math Reasoning for Vai?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "10.6",
+        "value_in_100_range": 10.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "215d2b41-8a5b-432b-b886-30f0cc5ef3e4",
+    "complete_question": "What is the performance of DeepSeek-R1-1.5B on Math Reasoning for Welsh?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MCLM MT-MATH100",
+        "value": "29.29",
+        "value_in_100_range": 29.29
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "0c73fe6a-b7f8-48b3-8fff-3b00383906a0",
+    "complete_question": "What score does BLOOMZ-7B achieve for Math Reasoning in Oromo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "1.7",
+        "value_in_100_range": 1.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "078902df-b18e-4b65-bf6c-2fb667c73637",
+    "complete_question": "What is the performance of GPT-4o-Mini on Math Reasoning for Hungarian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "35.4",
+        "value_in_100_range": 35.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "4a5d991e-de9d-48b2-a66c-ee48d1a6dd26",
+    "complete_question": "What score does Command-R achieve for Math Reasoning in Lingala?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "4.4",
+        "value_in_100_range": 4.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ff1ec687-ec54-4848-beae-6df10466093b",
+    "complete_question": "What score does Gemma-2-9B achieve for Math Reasoning in Sesotho?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "5b709fe2-5bfc-432b-ab7f-b02d24bfe3dd",
+    "complete_question": "What score does GPT-4-0613 achieve for Math Reasoning in Urdu?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "24bebf9f-88ea-4944-a3bc-d77cce428805",
+    "complete_question": "What score does MR1-1.5B achieve for Math Reasoning in Macedonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "23.96",
+        "value_in_100_range": 23.96
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "5.43",
+        "value_in_100_range": 5.43
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b19c1628-6f20-492e-b5b1-2406b0562250",
+    "complete_question": "How well does Command-R+ perform on Math Reasoning for Ewe?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "dc03480e-52a6-462a-8099-80578d110bb6",
+    "complete_question": "How well does Gemma-7B perform on Math Reasoning for chiShona?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e4cac319-b66e-4b80-8833-a3f7b4ef0ecd",
+    "complete_question": "How well does PaLM-2 perform on Math Reasoning for Persian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "9ea87aef-f8ce-402b-af0d-bb79050cb739",
+    "complete_question": "What score does PaLM-2 achieve for Math Reasoning in Slovenian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "42d3447c-61fb-4aa8-a6e5-72210865ff3c",
+    "complete_question": "How well does LLaMA-2 perform on Math Reasoning for Slovak?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "8340c9d0-36b4-4c31-9f43-c1399d8d5b8c",
+    "complete_question": "What is the performance of DeepSeek-R1-1.5B on Math Reasoning for Latvian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MCLM MT-MATH100",
+        "value": "34.34",
+        "value_in_100_range": 34.34
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "42b70849-55f4-4959-9700-d76ec224af3e",
+    "complete_question": "How well does Gemma2-9B perform on Math Reasoning for Estonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "38ed96fb-ea6d-41b8-8119-1738d0b74b2a",
+    "complete_question": "What score does Qwen2.5-Math-7B-Instruct achieve for Math Reasoning in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MCLM MT-MATH100",
+        "value": "67.68",
+        "value_in_100_range": 67.68
+      },
+      {
+        "metric_name": "MCLM MT-AIME2024",
+        "value": "23.33",
+        "value_in_100_range": 23.33
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "512e3701-806e-4bfb-a708-9806bfd64544",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "62.88",
+        "value_in_100_range": 62.88
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "8beaf909-0f15-402a-a2a5-bd5924d1f7b8",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Estonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "04440e06-c100-40f7-aff1-cdcf97bb8f4c",
+    "complete_question": "For Math Reasoning, which model achieves the highest score in Hausa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "34150aa0-4025-4ff9-a76c-aa08a503215d",
+    "complete_question": "What is the top-performing model for Math Reasoning in chiShona?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "58.4",
+        "value_in_100_range": 58.4
+      }
+    ],
+    "answer_text_for_qna": "GPT-4o"
+  },
+  {
+    "unique_id": "88e50cad-3ed6-4d42-8ca0-3c8a2ad4d263",
+    "complete_question": "What is the top-performing model for Math Reasoning in Ukrainian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "DA+SQM",
+        "value": "83.7",
+        "value_in_100_range": 83.7
+      }
+    ],
+    "answer_text_for_qna": "ONLINE-B"
+  },
+  {
+    "unique_id": "aa6c39bc-2384-408d-a610-b263ce8cb051",
+    "complete_question": "Which model performs best for Math Reasoning in Welsh?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "bb502150-0b12-4ab4-adf1-43f21a96cbe4",
+    "complete_question": "For Math Reasoning, which model achieves the highest score in Oromo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "412d38d4-35d5-4c11-9a3f-2db1064dbc44",
+    "complete_question": "For Math Reasoning, which model achieves the highest score in Persian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "ed33ce75-97a8-4897-a718-9dae36ae13f7",
+    "complete_question": "What is the top-performing model for Math Reasoning in Albanian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "28.43",
+        "value_in_100_range": 28.43
+      }
+    ],
+    "answer_text_for_qna": "Gemma"
+  },
+  {
+    "unique_id": "d60af029-570e-4d15-96a8-9abcfad9a9cb",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Twi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "62.88",
+        "value_in_100_range": 62.88
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "a4264676-df3e-4555-af1e-f7eb9cfba25e",
+    "complete_question": "For Math Reasoning, which model achieves the highest score in Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "951a9a5a-b15a-4df4-92e2-377cbd52092e",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Somali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "d5d105f9-a30a-47e9-a3fa-86d00cc69dfb",
+    "complete_question": "Which model performs best for Math Reasoning in Finnish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "62.88",
+        "value_in_100_range": 62.88
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "ad2b7db6-cc67-4d85-b9bd-67bfded7fe1d",
+    "complete_question": "What is the top-performing model for Math Reasoning in Slovenian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      }
+    ],
+    "answer_text_for_qna": "Gemma"
+  },
+  {
+    "unique_id": "33a2833f-0425-4b57-b242-9287459eb7ec",
+    "complete_question": "Which model performs best for Math Reasoning in Sesotho?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "93ce7185-ad7b-42bc-84ac-75eec540ae20",
+    "complete_question": "What is the top-performing model for Math Reasoning in Lingala?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "18.0",
+        "value_in_100_range": 18.0
+      }
+    ],
+    "answer_text_for_qna": "Gemma 2 27B"
+  },
+  {
+    "unique_id": "b6c127f1-a81f-4ad1-a353-a59660abd44f",
+    "complete_question": "For Math Reasoning, which model achieves the highest score in Amharic?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "62.88",
+        "value_in_100_range": 62.88
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "140376ed-7ec4-462b-b760-f4d6f050aa89",
+    "complete_question": "Which model performs best for Math Reasoning in Igbo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "22f4ac41-03d4-4a1c-aa0f-584a120f0786",
+    "complete_question": "What is the top-performing model for Math Reasoning in Yoruba?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "bf1104c8-fdfd-46d5-8a1e-54157171a484",
+    "complete_question": "For Math Reasoning, which model achieves the highest score in Tagalog?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "047c5f80-b22c-4f34-a64b-b64a21e70e71",
+    "complete_question": "What is the top-performing model for Math Reasoning in Kinyarwanda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "60.4",
+        "value_in_100_range": 60.4
+      }
+    ],
+    "answer_text_for_qna": "GPT-4o"
+  },
+  {
+    "unique_id": "135c3d64-5462-45f7-9af2-069f654d883b",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Luganda?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4o"
+  },
+  {
+    "unique_id": "bf77225d-866b-42a2-8406-58b4a43c5d61",
+    "complete_question": "Which model performs best for Math Reasoning in Ewe?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "49.06",
+        "value_in_100_range": 49.06
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "8b74c17d-92f9-48ed-b3f3-ad7e8bf1d6c1",
+    "complete_question": "For Math Reasoning, which model achieves the highest score in Lithuanian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "5c6f4a76-24dd-4c10-83ec-bfc5b2dd2b69",
+    "complete_question": "Which model performs best for Math Reasoning in Macedonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  }
+]

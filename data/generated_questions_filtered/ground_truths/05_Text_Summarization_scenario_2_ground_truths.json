@@ -1,0 +1,837 @@
+[
+  {
+    "unique_id": "0822ea60-1c13-47a1-bcf9-ded349ab571e",
+    "complete_question": "What is the performance of salamandra?7b?instruct on Text Summarization for Catalan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "54.13",
+        "value_in_100_range": 54.13
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "847e653d-cd8a-43ff-a447-df6903875402",
+    "complete_question": "What is the performance of Salamandra-7B on Text Summarization for Catalan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "54.13",
+        "value_in_100_range": 54.13
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "16e51e45-2b2a-4e5a-8ea9-6bde7fc6bb6b",
+    "complete_question": "What score does FLOR series achieve for Text Summarization in Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "47.5",
+        "value_in_100_range": 47.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f398a48f-7623-4766-b6ef-54e0be66acf3",
+    "complete_question": "What is the performance of FLOR series on Text Summarization for Catalna?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "50.4",
+        "value_in_100_range": 50.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "bc080b1f-9c40-48ac-885b-71db7067ba90",
+    "complete_question": "What score does salamandra?7b achieve for Text Summarization in Galician?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "39.88",
+        "value_in_100_range": 39.88
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "06aeb73f-07b8-4df1-925a-d289b691f360",
+    "complete_question": "How well does Qwen2.5 series perform on Text Summarization for Galician?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "52.52",
+        "value_in_100_range": 52.52
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3bef912c-9001-4222-aa34-d60eeff1e86e",
+    "complete_question": "How well does mT5-base perform on Text Summarization for Oromo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "18.70",
+        "value_in_100_range": 18.7
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "6.17",
+        "value_in_100_range": 6.17
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "16.19",
+        "value_in_100_range": 16.19
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "53a00c9c-5f0e-4f9c-bb8d-146029b36d02",
+    "complete_question": "What score does mBART-50 achieve for Text Summarization in Hausa?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "14.24",
+        "value_in_100_range": 14.24
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "2.94",
+        "value_in_100_range": 2.94
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "11.57",
+        "value_in_100_range": 11.57
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "6b1b4e07-b975-4694-b50f-4e5bbf937c6b",
+    "complete_question": "How well does mT5-small perform on Text Summarization for Pashto?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "5.58",
+        "value_in_100_range": 5.58
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "0.07",
+        "value_in_100_range": 0.07
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "4.44",
+        "value_in_100_range": 4.44
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c7d1c363-8ff9-41a8-9fba-6b683dbff575",
+    "complete_question": "What score does mBART-50 achieve for Text Summarization in Yoruba?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "7.68",
+        "value_in_100_range": 7.68
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "0.00",
+        "value_in_100_range": 0.0
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "7.43",
+        "value_in_100_range": 7.43
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "1fe1da57-ed41-4d64-8717-6d207fff342e",
+    "complete_question": "What is the performance of DeepSeek models on Text Summarization for Galician?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "33.6",
+        "value_in_100_range": 33.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "1ffc744b-2715-4cb2-ab57-66023e100f12",
+    "complete_question": "What score does SmolLM2-1.7B achieve for Text Summarization in Basque?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "36.8",
+        "value_in_100_range": 36.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "984bee0b-dc86-47b4-92dc-347849495fbf",
+    "complete_question": "What is the performance of AfriBERTa on Text Summarization for Swahili?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1 (multilingual)",
+        "value": "38.18",
+        "value_in_100_range": 38.18
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2 (multilingual)",
+        "value": "18.16",
+        "value_in_100_range": 18.16
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L (multilingual)",
+        "value": "30.98",
+        "value_in_100_range": 30.98
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "02cc63f5-d2d5-4099-b5a5-953a8bf5fc07",
+    "complete_question": "How well does Gemma-2-9B perform on Text Summarization for Catalan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "59.60",
+        "value_in_100_range": 59.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3b7bf0f5-3127-4ce4-b798-aba1913cf7ee",
+    "complete_question": "What is the performance of salamandra?2b on Text Summarization for Galician?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "34.99",
+        "value_in_100_range": 34.99
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a21a80eb-cbb9-4332-8924-a4e0776fb1a2",
+    "complete_question": "What score does RigoChat-7B-v2 achieve for Text Summarization in Catalna?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "46.7",
+        "value_in_100_range": 46.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e98dda41-3356-438a-80c8-22095e4b9820",
+    "complete_question": "How well does Qwen2.5-32B-IT-GPTQ-Int4 perform on Text Summarization for Basque?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "49.23",
+        "value_in_100_range": 49.23
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d19d9e8c-899a-4ddf-acca-bebb917226f5",
+    "complete_question": "What score does Salamandra-7B achieve for Text Summarization in Catalna?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "54.13",
+        "value_in_100_range": 54.13
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "052c776a-57ec-4504-a190-df2d722522e8",
+    "complete_question": "What score does aya?expanse?8b achieve for Text Summarization in Basque?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "41.99",
+        "value_in_100_range": 41.99
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c03c8269-a86f-49ad-aac3-3c15c18d8cfa",
+    "complete_question": "What score does Qwen-1.5 achieve for Text Summarization in Igbo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.100",
+        "value_in_100_range": 10.0
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.674",
+        "value_in_100_range": 67.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3531c838-49fc-4b71-b345-d382aaaafc6c",
+    "complete_question": "What is the performance of Salamandra-7B on Text Summarization for Galician?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "39.88",
+        "value_in_100_range": 39.88
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e8579ecf-33a6-44a6-977a-c595fade19f4",
+    "complete_question": "How well does leniachat?qwen2?1.5B?v0 perform on Text Summarization for Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "51.1",
+        "value_in_100_range": 51.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "1d047023-35bb-4b85-998b-4229f912931f",
+    "complete_question": "How well does mT5-base perform on Text Summarization for Yoruba?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "0.55",
+        "value_in_100_range": 0.55
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "0.00",
+        "value_in_100_range": 0
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "0.55",
+        "value_in_100_range": 0.55
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "4a8d0921-3894-4f25-907d-802a29687e78",
+    "complete_question": "What is the performance of salamandra?2b?instruct on Text Summarization for Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "46.60",
+        "value_in_100_range": 46.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "0855a683-cc49-4ef6-91ba-7bdd3f67fd33",
+    "complete_question": "What is the performance of Aya-Expanse-8B on Text Summarization for Basque?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "41.99",
+        "value_in_100_range": 41.99
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "be8e7a62-a935-488c-9f3a-4ec606a18740",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Bengali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "2799ba50-91aa-4fd1-91f4-6d7a0bce80b3",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Hindi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "35a6dba6-0ac3-44b9-adbc-d5db56a3132b",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Oromo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "2b5e5d3a-eb43-42cc-92eb-033ca1e824b6",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.300",
+        "value_in_100_range": 30.0
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.661",
+        "value_in_100_range": 66.1
+      }
+    ],
+    "answer_text_for_qna": "bloomz-7b1"
+  },
+  {
+    "unique_id": "cbd6a6ac-0905-419e-9cc2-2407e498edb8",
+    "complete_question": "For Text Summarization, which language shows the best performance with Qwen-1.5?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.188",
+        "value_in_100_range": 18.8
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.888",
+        "value_in_100_range": 88.8
+      }
+    ],
+    "answer_text_for_qna": "Chinese-Traditional"
+  },
+  {
+    "unique_id": "55a916fa-50d8-4f6b-b347-99c965a31873",
+    "complete_question": "For Text Summarization, which language shows the best performance with salamandra?2b?instruct?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Spanish"
+  },
+  {
+    "unique_id": "65e5f580-e2ab-4784-8c38-6f65079af249",
+    "complete_question": "What is the top-performing model for Text Summarization in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-L F1",
+        "value": "37.09",
+        "value_in_100_range": 37.09
+      }
+    ],
+    "answer_text_for_qna": "mBART (DC+Synth+MT)"
+  },
+  {
+    "unique_id": "2a757dcb-93b7-4eb1-be97-61c9a56babdf",
+    "complete_question": "For Text Summarization, which language shows the best performance with Gemma2?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "19.6",
+        "value_in_100_range": 19.6
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "20.8",
+        "value_in_100_range": 20.8
+      }
+    ],
+    "answer_text_for_qna": "Chinese-Traditional (zho_Hant)"
+  },
+  {
+    "unique_id": "82fabd6b-684e-45f0-8b07-eb1b558a7209",
+    "complete_question": "For Text Summarization, which language shows the best performance with mBART-50?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "7d510823-e305-4fa6-afa6-2905c4ce1284",
+    "complete_question": "For Text Summarization, which language shows the best performance with mBART-50?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "358f3d25-bb46-4733-9b2b-a1e93b7fef58",
+    "complete_question": "Which model performs best for Text Summarization in Welsh?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.763",
+        "value_in_100_range": 76.3
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "0a28e30f-4349-4da2-a81b-7f5781c0fd6e",
+    "complete_question": "For Text Summarization, which language shows the best performance with Salamandra-7B?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Average Language Performance",
+        "value": "54.13",
+        "value_in_100_range": 54.13
+      }
+    ],
+    "answer_text_for_qna": "Catalan"
+  },
+  {
+    "unique_id": "0a3e46ae-5d62-442f-ae38-91364ed17013",
+    "complete_question": "What is the top-performing model for Text Summarization in Urdu?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.223",
+        "value_in_100_range": 22.3
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.734",
+        "value_in_100_range": 73.4
+      }
+    ],
+    "answer_text_for_qna": "emma-500-llama2-7b"
+  },
+  {
+    "unique_id": "229a6c9e-cc37-48cd-a75c-ff63941a0dfe",
+    "complete_question": "Which model performs best for Text Summarization in Swahili?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1 (multilingual)",
+        "value": "38.18",
+        "value_in_100_range": 38.18
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2 (multilingual)",
+        "value": "18.16",
+        "value_in_100_range": 18.16
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L (multilingual)",
+        "value": "30.98",
+        "value_in_100_range": 30.98
+      }
+    ],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "d9864ad9-e976-4c2f-a7d0-1e815af55d1b",
+    "complete_question": "What is the top-performing model for Text Summarization in Galician?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Qwen2.5-32B-IT-GPTQ-Int4"
+  },
+  {
+    "unique_id": "7e1c0fd5-4f51-4532-aa75-68d11de5a571",
+    "complete_question": "Which model performs best for Text Summarization in Galician?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Qwen2.5-32B-IT-GPTQ-Int4"
+  },
+  {
+    "unique_id": "99aa1e18-0b97-470a-9c85-f22d7f788f21",
+    "complete_question": "Which model performs best for Text Summarization in Swahili?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "3ed7ae07-ce41-4306-96ba-ead97010a873",
+    "complete_question": "What is the top-performing model for Text Summarization in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.115",
+        "value_in_100_range": 11.5
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.640",
+        "value_in_100_range": 64.0
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "eab5419a-2d78-4643-99f2-f50eee49cec1",
+    "complete_question": "For Text Summarization, which language shows the best performance with Qwen2.5 series?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Spanish"
+  },
+  {
+    "unique_id": "f4b2b25f-ef4d-443d-bf71-c720f7b42ef1",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Pashto?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.127",
+        "value_in_100_range": 12.7
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.644",
+        "value_in_100_range": 64.4
+      }
+    ],
+    "answer_text_for_qna": "bloom-7b1"
+  },
+  {
+    "unique_id": "159a81ff-65b9-4d1a-81ae-62edbc0ca08a",
+    "complete_question": "Which model performs best for Text Summarization in Basque?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "gemma-2-9b"
+  },
+  {
+    "unique_id": "750188d8-d3f8-46fe-b6db-9de94a533b3a",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Catalna?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "gemma-2-9b"
+  },
+  {
+    "unique_id": "221a32dd-72f8-4c63-844e-1da1b38352de",
+    "complete_question": "What is the top-performing model for Text Summarization in Yoruba?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.126",
+        "value_in_100_range": 12.6
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.663",
+        "value_in_100_range": 66.3
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "b6129332-fc6a-4a5f-b54b-85b754b9d2c6",
+    "complete_question": "What is the top-performing model for Text Summarization in Igbo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.681",
+        "value_in_100_range": 68.1
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "2ac7258d-f091-421f-bf59-c65059d47f01",
+    "complete_question": "Which model performs best for Text Summarization in Yoruba?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.126",
+        "value_in_100_range": 12.6
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.663",
+        "value_in_100_range": 66.3
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  }
+]

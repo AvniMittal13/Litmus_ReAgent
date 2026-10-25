@@ -1,0 +1,414 @@
+{
+  "task": "01_Code_Generation",
+  "scenario": "distant_language_same_model",
+  "questions": [
+    {
+      "complete_question": "What is the performance of GPT-3.5 on Code Generation for Georgian?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Georgian",
+      "question_type": "Predictive",
+      "unique_id": "e03b1b88-f851-4a07-a983-e4f117c32dda"
+    },
+    {
+      "complete_question": "What is the performance of WizardCoder on Code Generation for Basque?",
+      "task": "Code Generation",
+      "models": "WizardCoder",
+      "languages": "Basque",
+      "question_type": "Predictive",
+      "unique_id": "464b9afd-edf1-4b8c-9cfd-5e3c8acd79ca"
+    },
+    {
+      "complete_question": "What is the performance of DeepSeek-Coder-V2 on Code Generation for Amharic?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "Amharic",
+      "question_type": "Predictive",
+      "unique_id": "e41614a7-08aa-4585-8a80-a99c217e40d6"
+    },
+    {
+      "complete_question": "What is the performance of GPT-4o on Code Generation for Odia?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Odia",
+      "question_type": "Predictive",
+      "unique_id": "56921377-7570-49d2-b3e1-bd9d82d8babf"
+    },
+    {
+      "complete_question": "What is the performance of GPT-3.5 on Code Generation for Sindhi?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Sindhi",
+      "question_type": "Predictive",
+      "unique_id": "0c969f3a-8829-4950-b97d-21adeda7af85"
+    },
+    {
+      "complete_question": "What score does GPT-4o achieve for Code Generation in Ganda?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Ganda",
+      "question_type": "Predictive",
+      "unique_id": "6f5fb484-c1b3-4779-ad70-c7058f6288f6"
+    },
+    {
+      "complete_question": "How well does GPT-3.5 perform on Code Generation for Bosnian?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Bosnian",
+      "question_type": "Predictive",
+      "unique_id": "0c54c4f3-d357-4ed1-987b-56aa81243276"
+    },
+    {
+      "complete_question": "How well does WizardCoder perform on Code Generation for Kannada?",
+      "task": "Code Generation",
+      "models": "WizardCoder",
+      "languages": "Kannada",
+      "question_type": "Predictive",
+      "unique_id": "d85e598a-4fc6-4789-8ce5-39248ec4e349"
+    },
+    {
+      "complete_question": "What is the performance of WizardCoder on Code Generation for Oromo?",
+      "task": "Code Generation",
+      "models": "WizardCoder",
+      "languages": "Oromo",
+      "question_type": "Predictive",
+      "unique_id": "a16b9405-8040-4e9a-b15c-d8dca4638156"
+    },
+    {
+      "complete_question": "What is the performance of Aya on Code Generation for Tsonga?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "Tsonga",
+      "question_type": "Predictive",
+      "unique_id": "e90f0f0d-b07a-43c3-a98b-e83586958f31"
+    },
+    {
+      "complete_question": "What is the performance of GPT-4o on Code Generation for Tsonga?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Tsonga",
+      "question_type": "Predictive",
+      "unique_id": "13c4afd6-2c60-4c74-a94d-5acf5ce2c4a5"
+    },
+    {
+      "complete_question": "What score does WizardCoder achieve for Code Generation in Uyghur?",
+      "task": "Code Generation",
+      "models": "WizardCoder",
+      "languages": "Uyghur",
+      "question_type": "Predictive",
+      "unique_id": "2d1dac95-7bb7-42b3-8857-3b18b7676b03"
+    },
+    {
+      "complete_question": "What score does GPT-3.5 achieve for Code Generation in Kyrgyz?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Kyrgyz",
+      "question_type": "Predictive",
+      "unique_id": "8c08f310-00b9-4b35-b7ee-96036a29aa9a"
+    },
+    {
+      "complete_question": "How well does Claude-3.5-Opus perform on Code Generation for Somali?",
+      "task": "Code Generation",
+      "models": "Claude-3.5-Opus",
+      "languages": "Somali",
+      "question_type": "Predictive",
+      "unique_id": "09dbf0a6-b6f3-4aff-b417-b3e85bb5381e"
+    },
+    {
+      "complete_question": "How well does GPT-4 perform on Code Generation for Odia?",
+      "task": "Code Generation",
+      "models": "GPT-4",
+      "languages": "Odia",
+      "question_type": "Predictive",
+      "unique_id": "77d2aafa-5b4c-4c76-89e7-78ae5e363f71"
+    },
+    {
+      "complete_question": "What score does DeepSeek-Coder-V2 achieve for Code Generation in Shona?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "Shona",
+      "question_type": "Predictive",
+      "unique_id": "8e14b8df-de45-4c89-bc84-764e620dd75c"
+    },
+    {
+      "complete_question": "How well does WizardCoder perform on Code Generation for Thai?",
+      "task": "Code Generation",
+      "models": "WizardCoder",
+      "languages": "Thai",
+      "question_type": "Predictive",
+      "unique_id": "63814155-b68f-48ac-ad91-e02b3f406e5f"
+    },
+    {
+      "complete_question": "How well does WizardCoder perform on Code Generation for Sardinian?",
+      "task": "Code Generation",
+      "models": "WizardCoder",
+      "languages": "Sardinian",
+      "question_type": "Predictive",
+      "unique_id": "dc3d41f1-fbd9-401b-8504-aa901d290b83"
+    },
+    {
+      "complete_question": "How well does WizardCoder perform on Code Generation for Sango?",
+      "task": "Code Generation",
+      "models": "WizardCoder",
+      "languages": "Sango",
+      "question_type": "Predictive",
+      "unique_id": "92e7f886-5454-4371-9074-b8d91c862f56"
+    },
+    {
+      "complete_question": "How well does GPT-4o perform on Code Generation for Shona?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Shona",
+      "question_type": "Predictive",
+      "unique_id": "092d7a01-7e38-4e24-8899-862457ec90e8"
+    },
+    {
+      "complete_question": "How well does GPT-4o perform on Code Generation for Nepali?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Nepali",
+      "question_type": "Predictive",
+      "unique_id": "d486f4cf-eb55-4cf3-8a73-494b9eb9efae"
+    },
+    {
+      "complete_question": "What is the performance of Aya on Code Generation for Malay?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "Malay",
+      "question_type": "Predictive",
+      "unique_id": "da378e6b-571c-42f6-aea4-5fe9df4a3a6c"
+    },
+    {
+      "complete_question": "What is the performance of DeepSeek-Coder-V2 on Code Generation for Odia?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "Odia",
+      "question_type": "Predictive",
+      "unique_id": "3511a1e4-efc7-44ff-bd7b-9c61c5868223"
+    },
+    {
+      "complete_question": "How well does Claude-3.5-Opus perform on Code Generation for Ganda?",
+      "task": "Code Generation",
+      "models": "Claude-3.5-Opus",
+      "languages": "Ganda",
+      "question_type": "Predictive",
+      "unique_id": "9d9e8be4-4209-4b85-8d12-e81494928d1e"
+    },
+    {
+      "complete_question": "What score does GPT-4o achieve for Code Generation in Sindhi?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Sindhi",
+      "question_type": "Predictive",
+      "unique_id": "02297eed-d9cb-45c7-95c4-94cc73d7837a"
+    },
+    {
+      "complete_question": "Can WizardCoder successfully transfer Code Generation skills to Sango from non-related languages?",
+      "task": "Code Generation",
+      "models": "WizardCoder",
+      "languages": "Sango",
+      "question_type": "QnA",
+      "unique_id": "2fb729e8-309c-4a84-9aaf-740e051b070e"
+    },
+    {
+      "complete_question": "Can GPT-3.5 transfer Code Generation competence to Tsonga in the absence of similar language benchmarks?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Tsonga",
+      "question_type": "QnA",
+      "unique_id": "703cbe93-8b18-49b0-bd3e-f593001d7118"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Sango?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o, WizardCoder",
+      "languages": "Sango",
+      "question_type": "QnA",
+      "unique_id": "38a64bae-c245-4a96-8a01-1f228a2ee789"
+    },
+    {
+      "complete_question": "How do GPT-3.5, GPT-4o, and WizardCoder compare on Code Generation for Ganda via distant language transfer?",
+      "task": "Code Generation",
+      "models": "GPT-3.5,GPT-4o,WizardCoder",
+      "languages": "Ganda",
+      "question_type": "QnA",
+      "unique_id": "8713f66c-970c-456b-8f25-15a135955281"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Somali?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o, WizardCoder",
+      "languages": "Somali",
+      "question_type": "QnA",
+      "unique_id": "2c74c828-7762-4106-91f4-675f31816f25"
+    },
+    {
+      "complete_question": "How does WizardCoder perform on Code Generation for Sindhi when evaluated with only distant language benchmarks?",
+      "task": "Code Generation",
+      "models": "WizardCoder",
+      "languages": "Sindhi",
+      "question_type": "QnA",
+      "unique_id": "03269784-8479-4d9c-8b74-bb5d95eb93f5"
+    },
+    {
+      "complete_question": "What is the distant cross-lingual performance of GPT-3.5 on Code Generation for Kinyarwanda?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Kinyarwanda",
+      "question_type": "QnA",
+      "unique_id": "073078f0-abc1-4d7c-983e-7d058c2eea97"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Tsonga?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o, WizardCoder",
+      "languages": "Tsonga",
+      "question_type": "QnA",
+      "unique_id": "d5ccf823-b388-4468-8f13-41d93de3d64d"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Igbo?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o, WizardCoder",
+      "languages": "Igbo",
+      "question_type": "QnA",
+      "unique_id": "1c969ee8-5689-4172-84a5-233d5020a4c3"
+    },
+    {
+      "complete_question": "Which models show best distant cross-lingual transfer for Code Generation to Somali?",
+      "task": "Code Generation",
+      "models": "GPT-3.5,GPT-4o,WizardCoder",
+      "languages": "Somali",
+      "question_type": "QnA",
+      "unique_id": "c93b39a7-62cf-4b43-bc36-747c20d84de0"
+    },
+    {
+      "complete_question": "How does WizardCoder's Code Generation ability extend to Basque when only distant languages are used in training?",
+      "task": "Code Generation",
+      "models": "WizardCoder",
+      "languages": "Basque",
+      "question_type": "QnA",
+      "unique_id": "bbb80e73-dff2-4b46-8b50-09773a39dac9"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Odia?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4, GPT-4o, WizardCoder",
+      "languages": "Odia",
+      "question_type": "QnA",
+      "unique_id": "22c9b7c0-3467-4f29-aefa-e932c1b267a6"
+    },
+    {
+      "complete_question": "Which language has the best performance for Code Generation with Aya?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "6d6bc566-cdb4-4815-b493-c868d9bae5f9"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Lao?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o, WizardCoder",
+      "languages": "Lao",
+      "question_type": "QnA",
+      "unique_id": "7c594999-2378-46fe-9cb7-354ea233496c"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Kinyarwanda?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o, WizardCoder",
+      "languages": "Kinyarwanda",
+      "question_type": "QnA",
+      "unique_id": "8fc6551c-b1fe-4902-86b8-6e4b2bf25e1b"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Sinhala?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Sinhala",
+      "question_type": "QnA",
+      "unique_id": "c06506d7-aa6b-4f7f-a31c-09306a8e00da"
+    },
+    {
+      "complete_question": "What kind of Code Generation results are achieved by GPT-4o on Kinyarwanda using distant transfer techniques?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Kinyarwanda",
+      "question_type": "QnA",
+      "unique_id": "110c163b-a97d-45b7-8a4f-870aba6b795a"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Uyghur?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o, WizardCoder",
+      "languages": "Uyghur",
+      "question_type": "QnA",
+      "unique_id": "501a6c7d-b5a2-4efc-8ba4-6841ab837037"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Yiddish?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o, WizardCoder",
+      "languages": "Yiddish",
+      "question_type": "QnA",
+      "unique_id": "77c518eb-ed47-4f99-845a-2329d034f948"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Shona?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o, WizardCoder",
+      "languages": "Shona",
+      "question_type": "QnA",
+      "unique_id": "212df35e-6c8d-41ae-bb26-efadee555417"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Hausa?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o, WizardCoder",
+      "languages": "Hausa",
+      "question_type": "QnA",
+      "unique_id": "a2b66111-9c4c-4f76-9924-5f3d5afa1b73"
+    },
+    {
+      "complete_question": "How does Code Generation performance in Bosnian vary among GPT-3.5, GPT-4o, and WizardCoder when relying on distant cross-lingual transfer?",
+      "task": "Code Generation",
+      "models": "GPT-3.5,GPT-4o,WizardCoder",
+      "languages": "Bosnian",
+      "question_type": "QnA",
+      "unique_id": "e79bcf1c-891c-4a6a-835a-9b78478c0e8e"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Sundanese?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o, WizardCoder",
+      "languages": "Sundanese",
+      "question_type": "QnA",
+      "unique_id": "07972256-b1fc-447a-90a3-dcc5ae0b5a91"
+    },
+    {
+      "complete_question": "Can GPT-3.5 effectively perform Code Generation for Uyghur through distant language transfer?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Uyghur",
+      "question_type": "QnA",
+      "unique_id": "d73b7d14-8e32-4118-8aee-1606f6d99e4d"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Thai?",
+      "task": "Code Generation",
+      "models": "GPT-3.5, GPT-4o, WizardCoder",
+      "languages": "Thai",
+      "question_type": "QnA",
+      "unique_id": "cc205b39-bd7f-4814-a857-8e62258ffe6f"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 35,
+    "available_qna": 35
+  }
+}

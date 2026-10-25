@@ -1,0 +1,414 @@
+{
+  "task": "06_Machine_Translation",
+  "scenario": "similar_language_same_model",
+  "questions": [
+    {
+      "complete_question": "What is the T5 score for Machine Translation in Kurdish?",
+      "task": "Machine Translation",
+      "models": "T5",
+      "languages": "Kurdish",
+      "question_type": "Predictive",
+      "unique_id": "1f61bad9-e770-46e7-963b-ef4110d5451f"
+    },
+    {
+      "complete_question": "How might COMET leverage cross-lingual similarities to enhance Machine Translation for Hausa?",
+      "task": "Machine Translation",
+      "models": "COMET",
+      "languages": "Hausa",
+      "question_type": "Predictive",
+      "unique_id": "8cf0626f-e0fb-4cde-9eb2-e347f52e1aea"
+    },
+    {
+      "complete_question": "What cross-lingual transfer results could Gemma-2-27B achieve for Machine Translation when translating Brazilian-Portuguese with data from related languages?",
+      "task": "Machine Translation",
+      "models": "Gemma-2-27B",
+      "languages": "Brazilian-Portuguese",
+      "question_type": "Predictive",
+      "unique_id": "7acfc806-ec4c-47bd-8810-0032f1405dfb"
+    },
+    {
+      "complete_question": "How effective is NLLB-200 for Machine Translation on Assamese when evaluated through transfer from typologically similar languages?",
+      "task": "Machine Translation",
+      "models": "NLLB-200",
+      "languages": "Assamese",
+      "question_type": "Predictive",
+      "unique_id": "7710123c-38e8-466b-9860-658c2eb99436"
+    },
+    {
+      "complete_question": "What translation quality might DeepSeek-V2.5 achieve for Khasi in Machine Translation by leveraging similar language resources?",
+      "task": "Machine Translation",
+      "models": "DeepSeek-V2.5",
+      "languages": "Khasi",
+      "question_type": "Predictive",
+      "unique_id": "1e1bd253-d89f-4148-bc2a-26665e168ed0"
+    },
+    {
+      "complete_question": "How does NLLB perform on Machine Translation for Asante-Twi when making use of transfer from similar languages?",
+      "task": "Machine Translation",
+      "models": "NLLB",
+      "languages": "Asante-Twi",
+      "question_type": "Predictive",
+      "unique_id": "68708de4-2f2f-482d-b719-d0fc167b1394"
+    },
+    {
+      "complete_question": "What results does NLLB-200-family give for Machine Translation in Quechua?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Quechua",
+      "question_type": "Predictive",
+      "unique_id": "9d364ce3-48cb-4d19-804f-803e86ad0a39"
+    },
+    {
+      "complete_question": "What Machine Translation results are likely from GPT-4o and GPT-4o-Audio for Lithuanian, exploiting transfer from closely related languages?",
+      "task": "Machine Translation",
+      "models": "GPT-4o,GPT-4o-Audio",
+      "languages": "Lithuanian",
+      "question_type": "Predictive",
+      "unique_id": "ddf53e21-f7e7-410a-8bea-7ea08862df66"
+    },
+    {
+      "complete_question": "What performance does mBart show for Machine Translation in Kurdish?",
+      "task": "Machine Translation",
+      "models": "mBart",
+      "languages": "Kurdish",
+      "question_type": "Predictive",
+      "unique_id": "dc56476c-f8e3-4c32-94e9-a271fda901f4"
+    },
+    {
+      "complete_question": "What is the expected performance of AraT5 on Machine Translation for Gulf Arabic when leveraging data from linguistically similar languages?",
+      "task": "Machine Translation",
+      "models": "AraT5",
+      "languages": "Gulf",
+      "question_type": "Predictive",
+      "unique_id": "0fdad739-cf34-4cc1-9ddc-e43ddf3a41d3"
+    },
+    {
+      "complete_question": "Can GPT-4o use similar language benchmarks to improve Machine Translation quality for Ewe?",
+      "task": "Machine Translation",
+      "models": "GPT-4o",
+      "languages": "Ewe",
+      "question_type": "Predictive",
+      "unique_id": "739b2af2-47db-431f-ac65-77a02f7c08d4"
+    },
+    {
+      "complete_question": "How well does Opus-MT perform for Machine Translation in South-Azerbaijani?",
+      "task": "Machine Translation",
+      "models": "Opus-MT",
+      "languages": "South-Azerbaijani",
+      "question_type": "Predictive",
+      "unique_id": "6bf15eae-64d5-4151-825f-ec3613f2162e"
+    },
+    {
+      "complete_question": "What Machine Translation results should we anticipate for IndicTrans2 when transferring to Maithili using similar language data?",
+      "task": "Machine Translation",
+      "models": "IndicTrans2",
+      "languages": "Maithili",
+      "question_type": "Predictive",
+      "unique_id": "4ba97b35-7bf3-447f-a1d0-898b5ee0b3e8"
+    },
+    {
+      "complete_question": "What is the effectiveness of NLLB-200-family for Machine Translation in Afar?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Afar",
+      "question_type": "Predictive",
+      "unique_id": "9a183a9a-574b-425d-9dfa-c0039dfda0ba"
+    },
+    {
+      "complete_question": "What is the expected accuracy of Gemini-1.5 in Machine Translation for Kyrgyz using benchmarks from similar languages?",
+      "task": "Machine Translation",
+      "models": "Gemini-1.5",
+      "languages": "Kyrgyz",
+      "question_type": "Predictive",
+      "unique_id": "f6016af4-f840-4c22-8d77-e71e3b460bf8"
+    },
+    {
+      "complete_question": "How well does NLLB-200-family perform on Machine Translation for Chichewa?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Chichewa",
+      "question_type": "Predictive",
+      "unique_id": "83df9247-77d5-456c-9c68-5092b43b659e"
+    },
+    {
+      "complete_question": "How does the performance of AfriCOMET on Machine Translation for Bambara change when informed by typologically related language resources?",
+      "task": "Machine Translation",
+      "models": "AfriCOMET",
+      "languages": "Bambara",
+      "question_type": "Predictive",
+      "unique_id": "bcfd3556-3738-4610-9e37-e799c64c9086"
+    },
+    {
+      "complete_question": "How does NLLB-200-family perform for Machine Translation in Bislama?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Bislama",
+      "question_type": "Predictive",
+      "unique_id": "3eff7fea-f753-4a7a-b2d8-9b2930848587"
+    },
+    {
+      "complete_question": "What is the output of M2M-100-various-sizes for Machine Translation in Latin?",
+      "task": "Machine Translation",
+      "models": "M2M-100-various-sizes",
+      "languages": "Latin",
+      "question_type": "Predictive",
+      "unique_id": "63219a17-0c1f-4b9d-97b0-efdebf446cd5"
+    },
+    {
+      "complete_question": "How might Gemini-2.0-Flash perform on Machine Translation for Dinka using similar language data?",
+      "task": "Machine Translation",
+      "models": "Gemini-2.0-Flash",
+      "languages": "Dinka",
+      "question_type": "Predictive",
+      "unique_id": "b3b35018-1aaa-4593-8a0a-087e752e1235"
+    },
+    {
+      "complete_question": "How well does T5 do on Machine Translation for Kurdish?",
+      "task": "Machine Translation",
+      "models": "T5",
+      "languages": "Kurdish",
+      "question_type": "Predictive",
+      "unique_id": "0e1fcee5-00e1-446f-b030-fbbcc5f270b3"
+    },
+    {
+      "complete_question": "What numerical evaluation does T5 get for Machine Translation in Kurdish?",
+      "task": "Machine Translation",
+      "models": "T5",
+      "languages": "Kurdish",
+      "question_type": "Predictive",
+      "unique_id": "da75a065-6f9f-4533-ac04-e99e77444f5a"
+    },
+    {
+      "complete_question": "How does NLLB-200-family fare on Machine Translation for Abkhazian?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Abkhazian",
+      "question_type": "Predictive",
+      "unique_id": "6556a190-e38b-406d-9e69-6a42c3a7cb3c"
+    },
+    {
+      "complete_question": "What output is produced by mBART50 for Machine Translation in Asante-Twi?",
+      "task": "Machine Translation",
+      "models": "mBART50",
+      "languages": "Asante-Twi",
+      "question_type": "Predictive",
+      "unique_id": "34de4434-cff9-45f6-bc4b-85e5896f3552"
+    },
+    {
+      "complete_question": "What translation results does NLLB-200-family achieve for Machine Translation in Samoan?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Samoan",
+      "question_type": "Predictive",
+      "unique_id": "e18b1ffe-8442-49cf-8429-5ff71b225d3d"
+    },
+    {
+      "complete_question": "For Kurdish, which model performs best on Machine Translation?",
+      "task": "Machine Translation",
+      "models": "T5, XLM-R, mBart",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "0a742a46-c45c-4779-9677-911531c1df08"
+    },
+    {
+      "complete_question": "Which model gets the top score for Machine Translation in South-Azerbaijani?",
+      "task": "Machine Translation",
+      "models": "LibreTranslate, NLLB, Opus-MT, mBART50",
+      "languages": "South-Azerbaijani",
+      "question_type": "QnA",
+      "unique_id": "ca48ced9-08ec-4167-9a8b-f03a77df008c"
+    },
+    {
+      "complete_question": "Which is the leading model for Kurdish in Machine Translation?",
+      "task": "Machine Translation",
+      "models": "T5, XLM-R, mBart",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "bbe52f91-077e-4c97-853c-a382ceedc13d"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Yiddish?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Yiddish",
+      "question_type": "QnA",
+      "unique_id": "f7962594-7ffc-466d-a3ba-3bc49c8efcab"
+    },
+    {
+      "complete_question": "Which model gives the best translation for Machine Translation in Ilocano?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Ilocano",
+      "question_type": "QnA",
+      "unique_id": "d7d93f1e-4f45-499d-bd4e-58cc9f9def76"
+    },
+    {
+      "complete_question": "What is the highest performing language for Machine Translation with mBart?",
+      "task": "Machine Translation",
+      "models": "mBart",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "9b92d076-f515-4058-8913-a8500d523f73"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Kurdish?",
+      "task": "Machine Translation",
+      "models": "T5, XLM-R, mBart",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "0c89f45d-a054-4133-93ad-e69064ce055f"
+    },
+    {
+      "complete_question": "Which language shows the best performance for Machine Translation with T5?",
+      "task": "Machine Translation",
+      "models": "T5",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "2f8538f1-612e-4040-869f-c25b801efa6a"
+    },
+    {
+      "complete_question": "Which model gets the highest performance for Machine Translation in Kurdish?",
+      "task": "Machine Translation",
+      "models": "T5, XLM-R, mBart",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "aaeda204-b5ac-41c2-8a8d-5e2c2d3d0b12"
+    },
+    {
+      "complete_question": "What is the leading language for T5 in Machine Translation benchmark?",
+      "task": "Machine Translation",
+      "models": "T5",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "ae4b57af-1a21-4ae0-81a9-82a50f6856a7"
+    },
+    {
+      "complete_question": "Which model achieves highest accuracy for Machine Translation in Jinghpaw?",
+      "task": "Machine Translation",
+      "models": "LibreTranslate, NLLB, Opus-MT, mBART50",
+      "languages": "Jinghpaw",
+      "question_type": "QnA",
+      "unique_id": "23a663fa-076f-46f7-86bc-1fd901a445d1"
+    },
+    {
+      "complete_question": "Which language is most accurately translated by T5 for Machine Translation?",
+      "task": "Machine Translation",
+      "models": "T5",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "cd758d2f-3c16-4a57-9b03-19e49787365b"
+    },
+    {
+      "complete_question": "Which model achieves the highest result for Machine Translation in Malagasy?",
+      "task": "Machine Translation",
+      "models": "M2M-100-various-sizes, NLLB-200-family",
+      "languages": "Malagasy",
+      "question_type": "QnA",
+      "unique_id": "34970d06-00d6-4b74-a88e-ba904f8d4231"
+    },
+    {
+      "complete_question": "Which language outperforms others for Machine Translation with XLM-R?",
+      "task": "Machine Translation",
+      "models": "XLM-R",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "92b087c5-8f10-4240-8666-fd8d2469ca93"
+    },
+    {
+      "complete_question": "Which model shows the best result for Machine Translation in Kurdish?",
+      "task": "Machine Translation",
+      "models": "T5, XLM-R, mBart",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "cce5b1ec-e287-4b4e-9f70-13c6a07ddf39"
+    },
+    {
+      "complete_question": "For Machine Translation, which language has the highest score using mBart?",
+      "task": "Machine Translation",
+      "models": "mBart",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "5dc34733-5b10-464a-bb8a-adb125c13860"
+    },
+    {
+      "complete_question": "Which language is translated best by XLM-R in Machine Translation?",
+      "task": "Machine Translation",
+      "models": "XLM-R",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "f42d66b8-330b-407a-a8c5-bc81e1564502"
+    },
+    {
+      "complete_question": "Which model gives the best output for Kurdish Machine Translation?",
+      "task": "Machine Translation",
+      "models": "T5, XLM-R, mBart",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "22c5f670-dad3-4751-b015-a8dc0061a400"
+    },
+    {
+      "complete_question": "Which model leads for Machine Translation in Cebuano?",
+      "task": "Machine Translation",
+      "models": "M2M-100-various-sizes, NLLB-200-family",
+      "languages": "Cebuano",
+      "question_type": "QnA",
+      "unique_id": "cf69a15f-2657-4846-a82f-836b7e085283"
+    },
+    {
+      "complete_question": "Which is the leading language for mBart in Machine Translation benchmark?",
+      "task": "Machine Translation",
+      "models": "mBart",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "9e1a2570-0814-4cf5-b792-6264927e6464"
+    },
+    {
+      "complete_question": "Which model delivers the best output for Machine Translation in Abkhazian?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Abkhazian",
+      "question_type": "QnA",
+      "unique_id": "8f152d96-5943-444c-b99c-b02c5d399364"
+    },
+    {
+      "complete_question": "For Machine Translation in Kurdish, which model has the best performance?",
+      "task": "Machine Translation",
+      "models": "T5, XLM-R, mBart",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "6d522f91-f85c-4a6d-9f3a-1a6ee3185b65"
+    },
+    {
+      "complete_question": "For Machine Translation, which model performs highest for Kurdish?",
+      "task": "Machine Translation",
+      "models": "T5, XLM-R, mBart",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "6417abb1-2511-41bf-907e-f02e18448347"
+    },
+    {
+      "complete_question": "What is the top-performing model for Machine Translation in Kurdish?",
+      "task": "Machine Translation",
+      "models": "T5, XLM-R, mBart",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "bde99c0f-6928-468a-9ea4-b5bf2d8373d8"
+    },
+    {
+      "complete_question": "What model achieves top results for Kurdish in Machine Translation?",
+      "task": "Machine Translation",
+      "models": "T5, XLM-R, mBart",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "dac55517-c7d0-455a-8288-a8099268a071"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 29,
+    "available_qna": 43
+  }
+}

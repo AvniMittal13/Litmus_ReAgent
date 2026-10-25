@@ -1,0 +1,414 @@
+{
+  "task": "01_Code_Generation",
+  "scenario": "GT_available",
+  "questions": [
+    {
+      "complete_question": "How well does CodeGen2-3.7B perform on Code Generation for Persian?",
+      "task": "Code Generation",
+      "models": "CodeGen2-3.7B",
+      "languages": "Persian",
+      "question_type": "Predictive",
+      "unique_id": "1f5f9c44-39b3-45c6-ab60-879c21e119a2"
+    },
+    {
+      "complete_question": "What is the performance of GPT-3.5 on Code Generation for Afrikaans?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Afrikaans",
+      "question_type": "Predictive",
+      "unique_id": "bfa0be13-ea08-46ba-9d29-f5c16d7918d6"
+    },
+    {
+      "complete_question": "What score does CodeT5+-770M achieve for Code Generation in Indonesian?",
+      "task": "Code Generation",
+      "models": "CodeT5+-770M",
+      "languages": "Indonesian",
+      "question_type": "Predictive",
+      "unique_id": "e826fbd4-188b-40a4-8fea-1f57e1e30341"
+    },
+    {
+      "complete_question": "What is the performance of DeepSeek-Coder-V2 on Code Generation for Nepali?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "Nepali",
+      "question_type": "Predictive",
+      "unique_id": "60ce2461-622d-4438-9de4-6ec138fd4337"
+    },
+    {
+      "complete_question": "What score does CodeT5+-770M achieve for Code Generation in Estonian?",
+      "task": "Code Generation",
+      "models": "CodeT5+-770M",
+      "languages": "Estonian",
+      "question_type": "Predictive",
+      "unique_id": "a068d51c-82ed-484c-aa9d-b51fcac7c319"
+    },
+    {
+      "complete_question": "What score does GPT-4 achieve for Code Generation in Vietnamese?",
+      "task": "Code Generation",
+      "models": "GPT-4",
+      "languages": "Vietnamese",
+      "question_type": "Predictive",
+      "unique_id": "b5d18f28-c1a1-4c45-b615-bb29a1b7d84e"
+    },
+    {
+      "complete_question": "What is the performance of CodeT5+-220M on Code Generation for Bulgarian?",
+      "task": "Code Generation",
+      "models": "CodeT5+-220M",
+      "languages": "Bulgarian",
+      "question_type": "Predictive",
+      "unique_id": "559b68eb-19f4-42b5-bb21-965c9abbf703"
+    },
+    {
+      "complete_question": "How well does CodeGen2-3.7B perform on Code Generation for Turkish?",
+      "task": "Code Generation",
+      "models": "CodeGen2-3.7B",
+      "languages": "Turkish",
+      "question_type": "Predictive",
+      "unique_id": "e01598bc-2a2a-4bb7-982b-0619306732fa"
+    },
+    {
+      "complete_question": "What is the performance of CodeT5+-220M on Code Generation for Turkish?",
+      "task": "Code Generation",
+      "models": "CodeT5+-220M",
+      "languages": "Turkish",
+      "question_type": "Predictive",
+      "unique_id": "a8a71a46-5bfe-4dfc-bc45-e5fcb2f53822"
+    },
+    {
+      "complete_question": "How well does GPT-3.5 perform on Code Generation for Tagalog?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Tagalog",
+      "question_type": "Predictive",
+      "unique_id": "7e06a748-d749-456c-9295-3e743061bce3"
+    },
+    {
+      "complete_question": "What is the performance of GPT-3.5 on Code Generation for Dutch?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Dutch",
+      "question_type": "Predictive",
+      "unique_id": "3690e693-ef3b-41fe-a68f-23180332deab"
+    },
+    {
+      "complete_question": "What score does CodeGen2-7B achieve for Code Generation in Indonesian?",
+      "task": "Code Generation",
+      "models": "CodeGen2-7B",
+      "languages": "Indonesian",
+      "question_type": "Predictive",
+      "unique_id": "4dbe367d-559c-4081-ac45-aabd379510f3"
+    },
+    {
+      "complete_question": "What is the performance of CodeT5+-2B on Code Generation for Finnish?",
+      "task": "Code Generation",
+      "models": "CodeT5+-2B",
+      "languages": "Finnish",
+      "question_type": "Predictive",
+      "unique_id": "5c2ae17d-66cf-4312-a659-b26acd0bc624"
+    },
+    {
+      "complete_question": "How well does GPT-4 perform on Code Generation for Hebrew?",
+      "task": "Code Generation",
+      "models": "GPT-4",
+      "languages": "Hebrew",
+      "question_type": "Predictive",
+      "unique_id": "e321693b-6539-4d97-a709-688d196812bf"
+    },
+    {
+      "complete_question": "How well does Gemini-2.0-Flash-Thinking perform on Code Generation for Urdu?",
+      "task": "Code Generation",
+      "models": "Gemini-2.0-Flash-Thinking",
+      "languages": "Urdu",
+      "question_type": "Predictive",
+      "unique_id": "e4a86aeb-49f9-41bc-827a-2a87db49a831"
+    },
+    {
+      "complete_question": "What score does CodeT5+-2B achieve for Code Generation in Malay?",
+      "task": "Code Generation",
+      "models": "CodeT5+-2B",
+      "languages": "Malay",
+      "question_type": "Predictive",
+      "unique_id": "42cf794e-19f8-46a0-9ee9-5e53cb60b39a"
+    },
+    {
+      "complete_question": "How well does CodeGen2-7B perform on Code Generation for Hungarian?",
+      "task": "Code Generation",
+      "models": "CodeGen2-7B",
+      "languages": "Hungarian",
+      "question_type": "Predictive",
+      "unique_id": "a5e73d31-cd39-4857-92ae-7df5d1c6f694"
+    },
+    {
+      "complete_question": "What score does LLaMA-7B achieve for Code Generation in Marathi?",
+      "task": "Code Generation",
+      "models": "LLaMA-7B",
+      "languages": "Marathi",
+      "question_type": "Predictive",
+      "unique_id": "41d98dbc-5bda-47dd-a997-0bb73505a72c"
+    },
+    {
+      "complete_question": "What score does CodeGen2-1B achieve for Code Generation in Vietnamese?",
+      "task": "Code Generation",
+      "models": "CodeGen2-1B",
+      "languages": "Vietnamese",
+      "question_type": "Predictive",
+      "unique_id": "8824e030-ff65-40a6-9936-a8dc580c727f"
+    },
+    {
+      "complete_question": "How well does CodeGen2-16B perform on Code Generation for Afrikaans?",
+      "task": "Code Generation",
+      "models": "CodeGen2-16B",
+      "languages": "Afrikaans",
+      "question_type": "Predictive",
+      "unique_id": "214d0649-c17d-49e8-a79e-1e1d19db3ac9"
+    },
+    {
+      "complete_question": "How well does Gemini-2.0-Flash-Thinking perform on Code Generation for Sanskrit?",
+      "task": "Code Generation",
+      "models": "Gemini-2.0-Flash-Thinking",
+      "languages": "Sanskrit",
+      "question_type": "Predictive",
+      "unique_id": "c7ddf524-5e2f-4892-a07f-7f5905133af2"
+    },
+    {
+      "complete_question": "How well does CodeGen2-7B perform on Code Generation for Greek?",
+      "task": "Code Generation",
+      "models": "CodeGen2-7B",
+      "languages": "Greek",
+      "question_type": "Predictive",
+      "unique_id": "5a7b94b2-066a-4af8-8386-4b9616f5ed81"
+    },
+    {
+      "complete_question": "What is the performance of CodeGen2-1B on Code Generation for Persian?",
+      "task": "Code Generation",
+      "models": "CodeGen2-1B",
+      "languages": "Persian",
+      "question_type": "Predictive",
+      "unique_id": "fdea7805-eb66-46a5-986b-66bd2d9ad37e"
+    },
+    {
+      "complete_question": "What is the performance of CodeGen2-3.7B on Code Generation for Malay?",
+      "task": "Code Generation",
+      "models": "CodeGen2-3.7B",
+      "languages": "Malay",
+      "question_type": "Predictive",
+      "unique_id": "83da74f7-0beb-4388-a475-d185e05f312e"
+    },
+    {
+      "complete_question": "What score does Gemini-1.5-Pro achieve for Code Generation in Portuguese?",
+      "task": "Code Generation",
+      "models": "Gemini-1.5-Pro",
+      "languages": "Portuguese",
+      "question_type": "Predictive",
+      "unique_id": "b6cbe26f-879e-4782-8770-65d9b522959a"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Tagalog?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Tagalog",
+      "question_type": "QnA",
+      "unique_id": "2110b74c-d458-4c1d-b3d3-e64b41d97839"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Hindi?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Hindi",
+      "question_type": "QnA",
+      "unique_id": "0a356c69-461c-48f6-99c7-e1e889bc6c63"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Vietnamese?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Vietnamese",
+      "question_type": "QnA",
+      "unique_id": "15f21b8c-2fb9-4df5-9351-39fce34b9f07"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Arabic?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Arabic",
+      "question_type": "QnA",
+      "unique_id": "e439f36d-d531-488e-96f0-443ed048b10f"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Latvian?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Latvian",
+      "question_type": "QnA",
+      "unique_id": "e865501b-8d85-4efd-96ea-037fe8b8fdef"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Greek?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Greek",
+      "question_type": "QnA",
+      "unique_id": "a864f753-5ca5-4e44-ba89-65c5fbc8fda0"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Dutch?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Dutch",
+      "question_type": "QnA",
+      "unique_id": "2b215404-bb90-4d42-a1f6-d9c7acc6261c"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Turkish?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Turkish",
+      "question_type": "QnA",
+      "unique_id": "3d0ca766-2091-4e98-9601-d416807cd182"
+    },
+    {
+      "complete_question": "For Code Generation, which language shows the best performance with CodeT5+-770M?",
+      "task": "Code Generation",
+      "models": "CodeT5+-770M",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "63db64e9-8eec-4e83-881c-c542118548be"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Hebrew?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Hebrew",
+      "question_type": "QnA",
+      "unique_id": "86787afb-69cd-4a45-869a-e4878922ba43"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Bulgarian?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Bulgarian",
+      "question_type": "QnA",
+      "unique_id": "98a238c0-736b-49a9-8265-be539b08a498"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Marathi?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Marathi",
+      "question_type": "QnA",
+      "unique_id": "5ac52faf-a8d7-4051-9eb1-d4301ab15e01"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Persian?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Persian",
+      "question_type": "QnA",
+      "unique_id": "ed76b50d-ce81-4288-8b3e-daa8520f01f8"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Punjabi?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Punjabi",
+      "question_type": "QnA",
+      "unique_id": "3cfc974c-256f-4b7e-9f38-de65d9a8e841"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Sanskrit?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Sanskrit",
+      "question_type": "QnA",
+      "unique_id": "d177f9d9-78f9-4fa5-85cc-69e4a730fa04"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Afrikaans?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Afrikaans",
+      "question_type": "QnA",
+      "unique_id": "5e1677cf-5a48-4f43-9608-c32acb5e4eb5"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Norwegian?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Norwegian",
+      "question_type": "QnA",
+      "unique_id": "b9b1711d-cc86-40f2-b987-d33dee96c91c"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Hungarian?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Hungarian",
+      "question_type": "QnA",
+      "unique_id": "02411c7f-019e-482b-ae6b-e3e7b95f815d"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Malay?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Malay",
+      "question_type": "QnA",
+      "unique_id": "0a2d0bae-ad51-40d8-9a47-a3d3c93cf216"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Tamil?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Tamil",
+      "question_type": "QnA",
+      "unique_id": "977f504f-c9fb-4de6-a692-61dfc3f2f005"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Finnish?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Finnish",
+      "question_type": "QnA",
+      "unique_id": "65ada266-2b1d-48d4-ae0c-4e0ddde78813"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Turkish?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Turkish",
+      "question_type": "QnA",
+      "unique_id": "02e195d3-359f-4252-924a-c376015d4a8a"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Chinese?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Chinese",
+      "question_type": "QnA",
+      "unique_id": "47aeb2f0-315c-4fb8-b106-9769afdeff36"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Estonian?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Estonian",
+      "question_type": "QnA",
+      "unique_id": "e72fac30-64e0-49ef-906f-1053fd9f2271"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Sanskrit?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Sanskrit",
+      "question_type": "QnA",
+      "unique_id": "23bab5a9-be9d-4676-a057-44c9cb1f047f"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 26,
+    "available_qna": 29
+  }
+}

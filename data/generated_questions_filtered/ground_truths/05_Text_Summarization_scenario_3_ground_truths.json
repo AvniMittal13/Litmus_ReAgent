@@ -1,0 +1,930 @@
+[
+  {
+    "unique_id": "45c1c383-6d0a-4d75-9e2e-0e26fe9bca23",
+    "complete_question": "How well does mT5 perform on Text Summarization for Czech?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2ffdb598-809c-400f-925e-2d8af2c0e9cd",
+    "complete_question": "What is the performance of mBART on Text Summarization for Italian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "1add8394-96da-4c60-b4ca-8ad1a5d4a0a9",
+    "complete_question": "How well does Gemma2 perform on Text Summarization for Gujurati?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "15.85",
+        "value_in_100_range": 15.85
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "2.97",
+        "value_in_100_range": 2.97
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "12.16",
+        "value_in_100_range": 12.16
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "76413ef1-6b7f-406c-a709-4b86113abe2c",
+    "complete_question": "What is the performance of mT5 on Text Summarization for Italian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "860b285c-cc22-42a4-a438-a5e2ace012eb",
+    "complete_question": "What score does mBART achieve for Text Summarization in Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "042966aa-5c23-4e9f-89fe-e806a77a5d5c",
+    "complete_question": "What score does mT5 achieve for Text Summarization in Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "71d1036e-c066-4e66-8264-8d0e871e5a70",
+    "complete_question": "What score does mT5 achieve for Text Summarization in Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "80bd3db8-6378-4b88-918a-7bb8796b6ae2",
+    "complete_question": "What is the performance of mT5 on Text Summarization for Czech?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "af4a288a-c7aa-465e-a817-09dca5059aa7",
+    "complete_question": "What is the performance of Mixtral on Text Summarization for Gujurati?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "11.74",
+        "value_in_100_range": 11.74
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "2.28",
+        "value_in_100_range": 2.28
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "8.89",
+        "value_in_100_range": 8.89
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "6dc7523f-b051-45b0-84cd-e5776cd70dff",
+    "complete_question": "How well does mBART perform on Text Summarization for Czech?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e61093b4-4175-4af8-979c-4ac17442cc0c",
+    "complete_question": "What is the performance of Aya-Expanse-8B on Text Summarization for Basque?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f98a092f-1b3c-48bb-8ba5-cb61d7243ea2",
+    "complete_question": "What is the performance of mBART on Text Summarization for Czech?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "38d53fe7-7f95-4c4d-ab29-1a44a077513a",
+    "complete_question": "How well does Salamandra-7B perform on Text Summarization for Catalan?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3edd8297-a330-46f4-86e4-d3508c42ee79",
+    "complete_question": "What score does mT5 achieve for Text Summarization in Czech?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "77601e42-ca1c-402b-8caf-3613b4010efc",
+    "complete_question": "How well does mT5 perform on Text Summarization for Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a9b7ac19-bcd3-44fe-af7f-410db64ebe0e",
+    "complete_question": "How well does mT5 perform on Text Summarization for Italian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2ffda2f4-85f5-4bf6-9a01-0ff31d498ff5",
+    "complete_question": "What score does Qwen2.5 series achieve for Text Summarization in Basque?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c08ac8ca-93eb-4489-ba0a-817a43cae9db",
+    "complete_question": "What is the performance of mBART-50 on Text Summarization for Ukranian?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "5.66",
+        "value_in_100_range": 5.66
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "0.56",
+        "value_in_100_range": 0.56
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "4.85",
+        "value_in_100_range": 4.85
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d8ddae01-f7df-4761-8f68-8a22c11d8edb",
+    "complete_question": "What is the performance of mBART on Text Summarization for Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "cd83ee43-d35c-4a8e-9e1f-6b9f6b7b1bb0",
+    "complete_question": "How well does mT5 perform on Text Summarization for Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "cef94ca0-ea7a-4a16-80ac-e150d86e9c5c",
+    "complete_question": "What is the performance of mT5 on Text Summarization for Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "60c09d54-ac2a-471d-abb4-8f67bf841a08",
+    "complete_question": "What score does mBART achieve for Text Summarization in Italian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "32556e11-a142-48c6-bf2f-a56ec8cae7a7",
+    "complete_question": "What is the performance of mT5 on Text Summarization for Czech?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "fc804c3b-ad19-4135-94a3-ff755bf353dc",
+    "complete_question": "What is the performance of mT5 on Text Summarization for Czech?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "92a44380-2c4a-455c-b459-5e817b454de5",
+    "complete_question": "What is the performance of mT5 on Text Summarization for Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "36.99",
+        "value_in_100_range": 36.99
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "15.18",
+        "value_in_100_range": 15.18
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "29.64",
+        "value_in_100_range": 29.64
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "1a03e436-5a67-4bbd-ad38-e94531a4b4f7",
+    "complete_question": "Which model performs best for Text Summarization in Gujurati?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4o"
+  },
+  {
+    "unique_id": "5c9e9436-1b7d-46f0-9a02-381805450763",
+    "complete_question": "Which language gets the best Text Summarization score with Lead-3?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-L F1",
+        "value": "16.49",
+        "value_in_100_range": 16.49
+      }
+    ],
+    "answer_text_for_qna": "Turkish"
+  },
+  {
+    "unique_id": "9ab3ffad-4010-403b-927c-87aec70e952f",
+    "complete_question": "For Text Summarization, which language shows the best performance with Gemma-2-9B?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Japanese"
+  },
+  {
+    "unique_id": "a616d708-25c4-4cba-9562-70cb1570fad0",
+    "complete_question": "Which is the top-performing model for Text Summarization in Czech?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-L F1",
+        "value": "34.06",
+        "value_in_100_range": 34.06
+      }
+    ],
+    "answer_text_for_qna": "DC+Synth+MT"
+  },
+  {
+    "unique_id": "b1bb574d-a0a2-4b36-8cd2-550ea30d3d9f",
+    "complete_question": "Which model performs best for Text Summarization in Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "bc0f971f-4b6f-4251-bae4-21dcff44ed62",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Czech?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-L F1",
+        "value": "34.06",
+        "value_in_100_range": 34.06
+      }
+    ],
+    "answer_text_for_qna": "DC+Synth+MT"
+  },
+  {
+    "unique_id": "1dce98fe-c2c4-4d20-9fbe-28f1adff2989",
+    "complete_question": "Which model performs best for Text Summarization in Galician?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "50093afd-abd1-4f22-aa79-89f221bd0bbd",
+    "complete_question": "For Text Summarization, which language shows the best performance with EuroLLM-9B?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Japanese"
+  },
+  {
+    "unique_id": "c1defa74-5669-4e9c-82c8-e6fbac3354f6",
+    "complete_question": "What is the top-performing model for Text Summarization in Czech?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "9aba682e-6c61-4c74-911e-7da509e7e16e",
+    "complete_question": "For Text Summarization, which language shows the best result with Lead-3?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-L F1",
+        "value": "16.49",
+        "value_in_100_range": 16.49
+      }
+    ],
+    "answer_text_for_qna": "Turkish"
+  },
+  {
+    "unique_id": "1f8a90cd-46f6-4ad0-8e05-d6506a976d60",
+    "complete_question": "Which model gives the highest score for Text Summarization in Czech?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-L F1",
+        "value": "34.06",
+        "value_in_100_range": 34.06
+      }
+    ],
+    "answer_text_for_qna": "DC+Synth+MT"
+  },
+  {
+    "unique_id": "be3c4968-da91-44ca-8640-6f0b16a55f97",
+    "complete_question": "Who achieves the best score for Text Summarization in Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "ecdbfec3-12e5-4da2-a34d-0ccc04340d53",
+    "complete_question": "Which language performs best for Text Summarization with Lead-3?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "cd67fe79-2215-4176-b94a-d20883a1a269",
+    "complete_question": "For Text Summarization, which language shows the best performance with mT5?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "e35f2f15-5cb1-427b-b5cd-700f0e010178",
+    "complete_question": "Which model performs best for Text Summarization in Czech?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "84d2b468-c1e7-4083-864c-9e1afdd4ee95",
+    "complete_question": "Which is the best model for Text Summarization in Czech?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "9c012e2b-b390-4d1d-ac5a-3f7a9076e1db",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Catalan?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "67d734f7-6131-42ab-a857-e99c31b54388",
+    "complete_question": "Which language has the best Text Summarization performance with mT5?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "03e71d29-67a6-47e4-8fa2-ae544cd20e9b",
+    "complete_question": "Which model performs best for Text Summarization in Italian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "2b2d8dde-b291-448a-8faf-42c0ba1a3be4",
+    "complete_question": "Which model performs best for Text Summarization in Catalna?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "ee21a43c-1772-49f5-96ae-a126aad48786",
+    "complete_question": "Who is the highest-scoring model for Text Summarization in Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "846b0f29-7f7b-492d-9888-df649b8ad256",
+    "complete_question": "Which model is the best for Text Summarization in Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "03e71f0e-ed27-4091-8b7e-b1276376cfca",
+    "complete_question": "What is the top-performing model for Text Summarization in Ukranian?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4o"
+  },
+  {
+    "unique_id": "8289b81e-d553-415e-86b6-623ec6490776",
+    "complete_question": "Which model performs best for Text Summarization in Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  },
+  {
+    "unique_id": "ece50768-32e0-4411-8442-c206dd638153",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5"
+  }
+]

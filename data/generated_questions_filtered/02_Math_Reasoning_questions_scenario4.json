@@ -1,0 +1,414 @@
+{
+  "task": "02_Math_Reasoning",
+  "scenario": "distant_language_same_model",
+  "questions": [
+    {
+      "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Latvian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Latvian",
+      "question_type": "Predictive",
+      "unique_id": "a75ad734-2746-493c-93eb-c9d5b344fde4"
+    },
+    {
+      "complete_question": "What is the performance of GPT-4 on Math Reasoning for Dialectal-Arabic?",
+      "task": "Math Reasoning",
+      "models": "GPT-4",
+      "languages": "Dialectal-Arabic",
+      "question_type": "Predictive",
+      "unique_id": "3e44bc1b-9a7e-418e-b90b-60aebca8f4b8"
+    },
+    {
+      "complete_question": "What is the projected outcome for Gemini-Pro handling Math Reasoning tasks in Greek given a distant language transfer setting?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Greek",
+      "question_type": "Predictive",
+      "unique_id": "77f03d26-451b-4ebd-8475-89581bc15b08"
+    },
+    {
+      "complete_question": "How robust is Gemini-Pro's Math Reasoning ability in Welsh when relying solely on knowledge from distant languages?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Welsh",
+      "question_type": "Predictive",
+      "unique_id": "b0f546a2-b830-4776-ae4e-11b43611600a"
+    },
+    {
+      "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Lithuanian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Lithuanian",
+      "question_type": "Predictive",
+      "unique_id": "f6cd93d8-2981-466c-82d5-0716436a17c3"
+    },
+    {
+      "complete_question": "How well does GPT-4 perform on Math Reasoning for Modern-Standard-Arabic?",
+      "task": "Math Reasoning",
+      "models": "GPT-4",
+      "languages": "Modern-Standard-Arabic",
+      "question_type": "Predictive",
+      "unique_id": "c601817b-5874-4754-a565-d901c310f590"
+    },
+    {
+      "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Greek?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Greek",
+      "question_type": "Predictive",
+      "unique_id": "aa5f9413-c8fa-428b-bd74-8f353d787362"
+    },
+    {
+      "complete_question": "How does Gemini-Pro fare in Turkish Math Reasoning tasks under the constraint of only distant language transfer?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Turkish",
+      "question_type": "Predictive",
+      "unique_id": "a61ee17e-36a6-4cab-b954-dc999ba36762"
+    },
+    {
+      "complete_question": "What score does Mistral-Large achieve for Math Reasoning in Turkish?",
+      "task": "Math Reasoning",
+      "models": "Mistral-Large",
+      "languages": "Turkish",
+      "question_type": "Predictive",
+      "unique_id": "ca1d6d74-5f54-4609-89d5-d9f9a66b497e"
+    },
+    {
+      "complete_question": "How well does Mistral-Large perform on Math Reasoning for Hungarian?",
+      "task": "Math Reasoning",
+      "models": "Mistral-Large",
+      "languages": "Hungarian",
+      "question_type": "Predictive",
+      "unique_id": "9f0d7f51-20ca-43ab-b219-89e3e6590763"
+    },
+    {
+      "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Estonian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Estonian",
+      "question_type": "Predictive",
+      "unique_id": "3a9facb5-910f-47b4-8010-7ffab5e41741"
+    },
+    {
+      "complete_question": "What level of Math Reasoning competence does GPT-4 demonstrate for Modern-Standard-Arabic when leveraging distant language transfer alone?",
+      "task": "Math Reasoning",
+      "models": "GPT-4",
+      "languages": "Modern-Standard-Arabic",
+      "question_type": "Predictive",
+      "unique_id": "96ccbb28-5e46-4bff-818d-2f2414e8e70d"
+    },
+    {
+      "complete_question": "Could Gemini-Pro effectively address Math Reasoning challenges in Latvian using knowledge transferred from distant languages?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Latvian",
+      "question_type": "Predictive",
+      "unique_id": "26cb4bdb-077d-4ef8-8d0f-1f87d434028f"
+    },
+    {
+      "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Finnish?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Finnish",
+      "question_type": "Predictive",
+      "unique_id": "76927627-72db-4f5c-8b2c-351d83818a8c"
+    },
+    {
+      "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Somali?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Somali",
+      "question_type": "Predictive",
+      "unique_id": "ebaf9a42-0f92-4e14-82d1-d2c816cb81b7"
+    },
+    {
+      "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Lithuanian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Lithuanian",
+      "question_type": "Predictive",
+      "unique_id": "836d0dc6-4dc9-4c8b-810f-8221dde6cc43"
+    },
+    {
+      "complete_question": "Can Gemini-Pro solve Math Reasoning tasks in Persian through distant cross-lingual transfer effectively?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Persian",
+      "question_type": "Predictive",
+      "unique_id": "6eea693b-d7e2-49df-8bd4-990a0711d316"
+    },
+    {
+      "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Albanian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Albanian",
+      "question_type": "Predictive",
+      "unique_id": "a01aba29-da89-4266-ace8-cefbfb47d395"
+    },
+    {
+      "complete_question": "What are the potential strengths and weaknesses of Gemini-Pro on Math Reasoning for Modern-Standard-Arabic through distant cross-lingual transfer?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Modern-Standard-Arabic",
+      "question_type": "Predictive",
+      "unique_id": "328f80b1-78db-4733-9c2b-5e252172792b"
+    },
+    {
+      "complete_question": "What score does Mistral-Large achieve for Math Reasoning in Estonian?",
+      "task": "Math Reasoning",
+      "models": "Mistral-Large",
+      "languages": "Estonian",
+      "question_type": "Predictive",
+      "unique_id": "e3bf2df3-b8c8-46e5-88b0-2752ceff82f7"
+    },
+    {
+      "complete_question": "What score does Gemini-Pro achieve for Math Reasoning in Persian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Persian",
+      "question_type": "Predictive",
+      "unique_id": "0afe8a96-ed03-43fd-bb1c-3cf9a1700a4b"
+    },
+    {
+      "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Turkish?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Turkish",
+      "question_type": "Predictive",
+      "unique_id": "3982fe31-b5eb-4a45-b072-3b3091e45dec"
+    },
+    {
+      "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Persian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Persian",
+      "question_type": "Predictive",
+      "unique_id": "d0bff60b-cd6c-4e5f-a098-ad19176093bf"
+    },
+    {
+      "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Welsh?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Welsh",
+      "question_type": "Predictive",
+      "unique_id": "93d3e707-df1c-47f0-ae19-22709dd290ba"
+    },
+    {
+      "complete_question": "What score does Gemini-Pro achieve for Math Reasoning in Latvian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Latvian",
+      "question_type": "Predictive",
+      "unique_id": "e8fb14a6-aa91-464b-970b-7ebdaa3853ac"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Welsh?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Welsh",
+      "question_type": "QnA",
+      "unique_id": "0f4079d0-940d-4588-a86c-0cdb9b928024"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Persian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Persian",
+      "question_type": "QnA",
+      "unique_id": "d91937ac-c23d-4652-933f-b279cef3c402"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Estonian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Estonian",
+      "question_type": "QnA",
+      "unique_id": "83748d0b-31ba-462d-ab14-2e5ce48e876b"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Lithuanian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Lithuanian",
+      "question_type": "QnA",
+      "unique_id": "4898df66-395d-445f-80b2-ebfdea2cb529"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Finnish?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Finnish",
+      "question_type": "QnA",
+      "unique_id": "f8b9cdd1-be80-4fa3-bb23-410df9b618c7"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Hungarian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Hungarian",
+      "question_type": "QnA",
+      "unique_id": "2a6c3130-bfe0-435b-b45f-4a7ae5e2c188"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Latvian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Latvian",
+      "question_type": "QnA",
+      "unique_id": "e39bb644-bb4d-42db-a3a2-d2b29d35eefb"
+    },
+    {
+      "complete_question": "Can distant language transfer approaches for Math Reasoning in Finnish benefit more from Gemini-Pro compared to Hungarian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Finnish,Hungarian",
+      "question_type": "QnA",
+      "unique_id": "1de19ee4-fb1e-400a-8116-479d84666f05"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Turkish?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Turkish",
+      "question_type": "QnA",
+      "unique_id": "0b33d9c8-3f0c-4bc7-80d1-6047f533fd58"
+    },
+    {
+      "complete_question": "How does Math Reasoning performance vary between Estonian and Finnish for Gemini-Pro when only distant language transfer is used?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Estonian,Finnish",
+      "question_type": "QnA",
+      "unique_id": "91ee6478-bca6-4f27-8d22-95565623170c"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Greek?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Greek",
+      "question_type": "QnA",
+      "unique_id": "8c7466e5-ab38-48c6-922c-590b5786b7b1"
+    },
+    {
+      "complete_question": "For the task of Math Reasoning, which model outperforms in Persian using distant language adaptation?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Persian",
+      "question_type": "QnA",
+      "unique_id": "0527128c-7fdd-4075-9f1b-f865d8655bac"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Latvian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Latvian",
+      "question_type": "QnA",
+      "unique_id": "a0391b44-0ff4-4d0e-837f-50ebda2f44fc"
+    },
+    {
+      "complete_question": "For which languages does Gemini-Pro demonstrate the least drop in Math Reasoning performance using only distant transfer?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Albanian,Estonian,Finnish,Greek,Hungarian,Latvian,Lithuanian,Persian,Somali,Turkish,Welsh",
+      "question_type": "QnA",
+      "unique_id": "f973c2a1-e405-4b68-b5fb-c47e35c3f3fa"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Somali?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Somali",
+      "question_type": "QnA",
+      "unique_id": "24856cc5-237e-41f2-a836-7c39de2a3f21"
+    },
+    {
+      "complete_question": "What challenges do models face when transferring Math Reasoning capabilities into Albanian from unrelated languages?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Albanian",
+      "question_type": "QnA",
+      "unique_id": "2e07d402-2399-4240-a79e-f2d2aab32abc"
+    },
+    {
+      "complete_question": "Is it possible for GPT-4 to effectively transfer mathematical reasoning abilities from unrelated languages to Dialectal-Arabic?",
+      "task": "Math Reasoning",
+      "models": "GPT-4",
+      "languages": "Dialectal-Arabic",
+      "question_type": "QnA",
+      "unique_id": "3166cd22-208e-4e32-9250-07f1788f4583"
+    },
+    {
+      "complete_question": "Does Gemini-Pro's Math Reasoning strength remain consistent across Latvian and Lithuanian via distant language transfer approaches?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Latvian,Lithuanian",
+      "question_type": "QnA",
+      "unique_id": "a32509b5-2dcc-4aa2-99a2-82eee2fbda0d"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Albanian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Albanian",
+      "question_type": "QnA",
+      "unique_id": "0abd19ff-adb7-42e6-8503-1f75fedd9bb2"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Albanian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Albanian",
+      "question_type": "QnA",
+      "unique_id": "611afb5c-eae1-40a3-8e7a-d1bd9746c896"
+    },
+    {
+      "complete_question": "How well do Gemini-Pro and GPT-4 support Math Reasoning in Turkish and Modern-Standard-Arabic, respectively, under distant transfer?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro,GPT-4",
+      "languages": "Modern-Standard-Arabic,Turkish",
+      "question_type": "QnA",
+      "unique_id": "b91801b7-48ae-4016-a42f-6ead0888a855"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Persian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Persian",
+      "question_type": "QnA",
+      "unique_id": "c59cc6a5-7776-44be-a25a-56eef282ada1"
+    },
+    {
+      "complete_question": "How does Gemini-Pro's Math Reasoning accuracy in Lithuanian compare to its performance in Estonian through distant-language knowledge transfer?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro",
+      "languages": "Estonian,Lithuanian",
+      "question_type": "QnA",
+      "unique_id": "21da1881-2142-40c2-82f4-f5627a9a503b"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Somali?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Somali",
+      "question_type": "QnA",
+      "unique_id": "80dea4dd-f807-4929-9fa6-94c2a82616fb"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Lithuanian?",
+      "task": "Math Reasoning",
+      "models": "Gemini-Pro, Mistral-Large",
+      "languages": "Lithuanian",
+      "question_type": "QnA",
+      "unique_id": "d4f08b8f-d910-4a08-b7c8-02ae2fac9704"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 33,
+    "available_qna": 35
+  }
+}

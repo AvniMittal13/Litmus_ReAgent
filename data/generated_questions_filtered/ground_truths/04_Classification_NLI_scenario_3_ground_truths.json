@@ -1,0 +1,892 @@
+[
+  {
+    "unique_id": "1e6995a0-08f2-4ad0-a11e-015bdf1e46aa",
+    "complete_question": "What is the performance of XLM-R on Classification NLI for Khmer?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (%)",
+        "value": "60.5",
+        "value_in_100_range": 60.5
+      },
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy Zero (%)",
+        "value": "35.3",
+        "value_in_100_range": 35.3
+      },
+      {
+        "metric_name": "MASSIVE Intent Accuracy (%)",
+        "value": "77.2",
+        "value_in_100_range": 77.2
+      },
+      {
+        "metric_name": "MASSIVE Intent Accuracy Zero (%)",
+        "value": "61.3",
+        "value_in_100_range": 61.3
+      },
+      {
+        "metric_name": "MASSIVE Micro-Averaged Slot F1 (%)",
+        "value": "77.9",
+        "value_in_100_range": 77.9
+      },
+      {
+        "metric_name": "MASSIVE Micro-Averaged Slot F1 Zero (%)",
+        "value": "53.6",
+        "value_in_100_range": 53.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f3ed0859-bd5d-44ce-89a6-9db3fb38a4ee",
+    "complete_question": "What score does XLM-R achieve for Classification NLI in Croatian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Classification NLI Exact Match Accuracy (Croatian, hr-HR, XLM-R Full)",
+        "value": "86.7",
+        "value_in_100_range": 86.7
+      },
+      {
+        "metric_name": "MASSIVE Classification NLI Intent Accuracy (Croatian, hr-HR, XLM-R Full)",
+        "value": "97.2",
+        "value_in_100_range": 97.2
+      },
+      {
+        "metric_name": "MASSIVE Classification NLI Slot F1 (Croatian, hr-HR, XLM-R Full)",
+        "value": "87.5",
+        "value_in_100_range": 87.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "44e1467b-8a0f-4354-800d-2812245ab305",
+    "complete_question": "How well does XLM-R perform on Classification NLI for Ukrainian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI (IrokoBench)",
+        "value": "67.7",
+        "value_in_100_range": 67.7
+      },
+      {
+        "metric_name": "AfriMMLU (IrokoBench)",
+        "value": "52.7",
+        "value_in_100_range": 52.7
+      },
+      {
+        "metric_name": "AfriMGSM (IrokoBench)",
+        "value": "22.2",
+        "value_in_100_range": 22.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "35f814be-9eb1-4a8c-bd35-3a448bb7b7b2",
+    "complete_question": "What score does XLM-R achieve for Classification NLI in Hebrew?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (%)",
+        "value": "64.5",
+        "value_in_100_range": 64.5
+      },
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy Zero (%)",
+        "value": "37.8",
+        "value_in_100_range": 37.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f9bc041b-81f5-4754-9fa4-66912f0da05d",
+    "complete_question": "How well does XLM-R perform on Classification NLI for Sinhala?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE NLI Exact Match Accuracy (Sinhala)",
+        "value": "33.5",
+        "value_in_100_range": 33.5
+      },
+      {
+        "metric_name": "MASSIVE NLI Intent Accuracy (Sinhala)",
+        "value": "54.9",
+        "value_in_100_range": 54.9
+      },
+      {
+        "metric_name": "MASSIVE NLI Slot F1 (Sinhala)",
+        "value": "36.3",
+        "value_in_100_range": 36.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "da634656-40f0-4df2-aaa6-f3c6f11f173b",
+    "complete_question": "How well does XLM-R perform on Classification NLI for Slovenian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (%)",
+        "value": "64.3",
+        "value_in_100_range": 64.3
+      },
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (Zero-Shot) (%)",
+        "value": "38.4",
+        "value_in_100_range": 38.4
+      },
+      {
+        "metric_name": "MASSIVE Intent Accuracy (%)",
+        "value": "86.3",
+        "value_in_100_range": 86.3
+      },
+      {
+        "metric_name": "MASSIVE Intent Accuracy (Zero-Shot) (%)",
+        "value": "69.5",
+        "value_in_100_range": 69.5
+      },
+      {
+        "metric_name": "MASSIVE Micro-Averaged Slot F1 (%)",
+        "value": "72.2",
+        "value_in_100_range": 72.2
+      },
+      {
+        "metric_name": "MASSIVE Micro-Averaged Slot F1 (Zero-Shot) (%)",
+        "value": "53.1",
+        "value_in_100_range": 53.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ef75d066-5d53-4868-9e85-bcd2a624e963",
+    "complete_question": "What score does XLM-R achieve for Classification NLI in Macedonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE NLI Classification Exact Match Accuracy (XLM-R Full, mk-MK)",
+        "value": "74.5",
+        "value_in_100_range": 74.5
+      },
+      {
+        "metric_name": "MASSIVE NLI Classification Exact Match Accuracy (XLM-R Zero, mk-MK)",
+        "value": "53.0",
+        "value_in_100_range": 53.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "dce09cfb-caf7-4620-994c-4c7f839350e5",
+    "complete_question": "What score does GPT-3.5 achieve for Classification NLI in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "7.4",
+        "value_in_100_range": 7.4
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "25.9",
+        "value_in_100_range": 25.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "87799402-bca0-4821-ae38-155e15b27567",
+    "complete_question": "How well does mT5 perform on Classification NLI for Sinhala?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "23.2",
+        "value_in_100_range": 23.2
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "45.8",
+        "value_in_100_range": 45.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b9cd6320-a60a-4a5c-aab3-3c511327e766",
+    "complete_question": "What is the performance of Airavata on Classification NLI for Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "7.4",
+        "value_in_100_range": 7.4
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "25.9",
+        "value_in_100_range": 25.9
+      },
+      {
+        "metric_name": "FLORES-IN xx→en One-Shot BLEU",
+        "value": "41.8",
+        "value_in_100_range": 41.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "dddb7c14-68c7-4e97-b374-8987c0b4b169",
+    "complete_question": "How well does GPT-4 perform on Classification NLI for Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "23.2",
+        "value_in_100_range": 23.2
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "45.8",
+        "value_in_100_range": 45.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "574546cc-c19b-4137-9348-c0ccb24a0337",
+    "complete_question": "What is the performance of mT5 on Classification NLI for Sinhala?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "23.2",
+        "value_in_100_range": 23.2
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "45.8",
+        "value_in_100_range": 45.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e95ed2b0-d109-47c0-84ec-4419c66929c6",
+    "complete_question": "What is the performance of XLM-R on Classification NLI for Armenian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Exact Match Accuracy (MASSIVE Table 7)",
+        "value": "63.1",
+        "value_in_100_range": 63.1
+      },
+      {
+        "metric_name": "Exact Match Accuracy Zero-shot (MASSIVE Table 7)",
+        "value": "39.0",
+        "value_in_100_range": 39.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "090870b1-23cb-429e-9842-c1df84600990",
+    "complete_question": "How well does XLM-R perform on Classification NLI for Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "7.4",
+        "value_in_100_range": 7.4
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "25.9",
+        "value_in_100_range": 25.9
+      },
+      {
+        "metric_name": "FLORES-IN xx→en One-Shot BLEU",
+        "value": "41.8",
+        "value_in_100_range": 41.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d27497b2-8086-4e87-8282-172f25783cc9",
+    "complete_question": "What score does XLM-R achieve for Classification NLI in Kazakh?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy",
+        "value": "63.2",
+        "value_in_100_range": 63.2
+      },
+      {
+        "metric_name": "MASSIVE Intent Accuracy",
+        "value": "81.1",
+        "value_in_100_range": 81.1
+      },
+      {
+        "metric_name": "MASSIVE Slot F1",
+        "value": "58.5",
+        "value_in_100_range": 58.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d9623a91-77a7-4646-a10d-0bd3eefb9746",
+    "complete_question": "What score does GPT-4 achieve for Classification NLI in Tibetan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "23.2",
+        "value_in_100_range": 23.2
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "45.8",
+        "value_in_100_range": 45.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "cad626f8-4516-434a-82f6-7b7d2315b3ad",
+    "complete_question": "How well does PaLM-2 perform on Classification NLI for Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "23.2",
+        "value_in_100_range": 23.2
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "45.8",
+        "value_in_100_range": 45.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "17b52bc3-df7a-49b3-abd4-dfd722a93e2e",
+    "complete_question": "How well does XLM-R perform on Classification NLI for Catalan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Classification NLI MASSIVE XLM-R Full Exact Match Accuracy (ca-ES)",
+        "value": "84.5",
+        "value_in_100_range": 84.5
+      },
+      {
+        "metric_name": "Classification NLI MASSIVE XLM-R Full Intent Accuracy (ca-ES)",
+        "value": "85.3",
+        "value_in_100_range": 85.3
+      },
+      {
+        "metric_name": "Classification NLI MASSIVE XLM-R Full Slot F1 (ca-ES)",
+        "value": "58.3",
+        "value_in_100_range": 58.3
+      },
+      {
+        "metric_name": "Classification NLI MASSIVE XLM-R Zero Exact Match Accuracy (ca-ES)",
+        "value": "71.7",
+        "value_in_100_range": 71.7
+      },
+      {
+        "metric_name": "Classification NLI MASSIVE XLM-R Zero Intent Accuracy (ca-ES)",
+        "value": "70.6",
+        "value_in_100_range": 70.6
+      },
+      {
+        "metric_name": "Classification NLI MASSIVE XLM-R Zero Slot F1 (ca-ES)",
+        "value": "24.1",
+        "value_in_100_range": 24.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "148fb104-f758-4ce2-9480-6f76b9073678",
+    "complete_question": "What score does Gemma achieve for Classification NLI in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "16.8",
+        "value_in_100_range": 16.8
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "24.7",
+        "value_in_100_range": 24.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "8c1d2904-6f4c-49c4-b38b-d4f43f52b7ae",
+    "complete_question": "How well does XLM-R perform on Classification NLI for Swedish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (%)",
+        "value": "69.7",
+        "value_in_100_range": 69.7
+      },
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy Zero (%)",
+        "value": "57.9",
+        "value_in_100_range": 57.9
+      },
+      {
+        "metric_name": "MASSIVE Intent Accuracy (%)",
+        "value": "87.9",
+        "value_in_100_range": 87.9
+      },
+      {
+        "metric_name": "MASSIVE Intent Accuracy Zero (%)",
+        "value": "85.2",
+        "value_in_100_range": 85.2
+      },
+      {
+        "metric_name": "MASSIVE Micro-Averaged Slot F1 (%)",
+        "value": "78.5",
+        "value_in_100_range": 78.5
+      },
+      {
+        "metric_name": "MASSIVE Micro-Averaged Slot F1 Zero (%)",
+        "value": "68.4",
+        "value_in_100_range": 68.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "465d248d-f6e6-498f-b889-cee3b7b1bb0a",
+    "complete_question": "What is the performance of XLM-R on Classification NLI for Macedonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Classification NLI Exact Match Accuracy (Macedonian/mk-MK, XLM-R Full)",
+        "value": "69.7",
+        "value_in_100_range": 69.7
+      },
+      {
+        "metric_name": "MASSIVE Classification NLI Exact Match Accuracy (Macedonian/mk-MK, XLM-R Zero)",
+        "value": "21.3",
+        "value_in_100_range": 21.3
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c4d887cf-d8ef-4810-ad70-13cac1aaa198",
+    "complete_question": "What is the performance of XLM-R on Classification NLI for Tibetan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "1.5",
+        "value_in_100_range": 1.5
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "6.6",
+        "value_in_100_range": 6.6
+      },
+      {
+        "metric_name": "FLORES-IN xx→en One-Shot BLEU",
+        "value": "16.9",
+        "value_in_100_range": 16.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "89748cc7-d123-42a4-80d9-47f6cd6c2bb3",
+    "complete_question": "What is the performance of XLM-R on Classification NLI for Danish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (%)",
+        "value": "68.2",
+        "value_in_100_range": 68.2
+      },
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (%) (Zero-Shot)",
+        "value": "54.4",
+        "value_in_100_range": 54.4
+      },
+      {
+        "metric_name": "MASSIVE Intent Accuracy (%)",
+        "value": "86.9",
+        "value_in_100_range": 86.9
+      },
+      {
+        "metric_name": "MASSIVE Intent Accuracy (%) (Zero-Shot)",
+        "value": "83.1",
+        "value_in_100_range": 83.1
+      },
+      {
+        "metric_name": "MASSIVE Micro-Averaged Slot F1 (%)",
+        "value": "77.7",
+        "value_in_100_range": 77.7
+      },
+      {
+        "metric_name": "MASSIVE Micro-Averaged Slot F1 (%) (Zero-Shot)",
+        "value": "64.6",
+        "value_in_100_range": 64.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ab44c3fd-f746-49d6-86b3-08a75dc37846",
+    "complete_question": "What score does XLM-R achieve for Classification NLI in Afrikaans?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (%)",
+        "value": "64.9",
+        "value_in_100_range": 64.9
+      },
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy Zero (%)",
+        "value": "43.9",
+        "value_in_100_range": 43.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "0e8c0937-d070-446c-8e96-c8e127b20c24",
+    "complete_question": "What score does LLaMA-65B achieve for Classification NLI in Tibetan?",
+    "atleast_one_successful_execution": false,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "1.5",
+        "value_in_100_range": 1.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "586479d4-ce08-43bb-85d0-5c8d48f8051c",
+    "complete_question": "Which model performs best for Classification NLI in Sinhala?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "be740455-25ae-4624-afb3-48bc7af379fc",
+    "complete_question": "Which language has the best performance for Classification NLI with XLM-R?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "077adc68-986e-495a-a895-0be1b6fb2c1f",
+    "complete_question": "What is the top-performing model for Classification NLI in Tibetan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "bdc718a7-49d3-4ef1-a6d3-dfe660767d29",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Khmer?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "c3a26115-7e96-4e63-8e4b-d7e9084803fe",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Afrikaans?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5 T2T Full"
+  },
+  {
+    "unique_id": "301bf375-45fe-49cc-908f-72b44d4f26b5",
+    "complete_question": "Which model performs best for Classification NLI in Danish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5 Enc Full"
+  },
+  {
+    "unique_id": "f46a43a3-3689-4b5c-a21b-244db2f9845f",
+    "complete_question": "What is the top-performing model for Classification NLI in Croatian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "c7745dec-bf2b-4167-bbdd-07e71fcac7ec",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Tibetan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "d51011b7-58bb-499b-8a4d-d6f808251f19",
+    "complete_question": "For Classification NLI, which language shows the best performance with XLM-R?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "11577cfe-69ac-4d45-896d-76c0ed9aa70b",
+    "complete_question": "What is the top-performing language for Classification NLI with LLaMA-65B?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Token-F1",
+        "value": "43.5",
+        "value_in_100_range": 43.5
+      }
+    ],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "3d750bae-793d-499d-9179-48116b007295",
+    "complete_question": "Which language has the best performance for Classification NLI with XLM-R?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "d0ff8f0f-3f9a-4ded-975a-9626226fcee4",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Hebrew?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "9d7c708a-77c6-476d-80ab-5c345335c36f",
+    "complete_question": "For Classification NLI, which language shows the best performance with mT5?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "accuracy",
+        "value": "64.2",
+        "value_in_100_range": 64.2
+      }
+    ],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "a48bad51-beae-45b1-a998-4bc9a100c2c2",
+    "complete_question": "Which language shows the best performance for Classification NLI with mT5?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "accuracy",
+        "value": "64.2",
+        "value_in_100_range": 64.2
+      },
+      {
+        "metric_name": "accuracy",
+        "value": "59.3",
+        "value_in_100_range": 59.3
+      }
+    ],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "f731b1ce-97ca-4ea4-b0b2-04e597440656",
+    "complete_question": "What is the top-performing model for Classification NLI in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "58b4b557-f3c9-4022-82e8-0acefffe0956",
+    "complete_question": "What is the top-performing model for Classification NLI in Serbian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "fb0c0ef7-719c-4700-8c54-db7195023f93",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Ukrainian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "cf7ecd6a-35c1-49e8-8568-ee272b55fa09",
+    "complete_question": "Which model performs best for Classification NLI in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "accuracy",
+        "value": "64.2",
+        "value_in_100_range": 64.2
+      }
+    ],
+    "answer_text_for_qna": "BiLSTM-max (Translate-test)"
+  },
+  {
+    "unique_id": "664de05f-8719-444c-838a-0ffba43b4f46",
+    "complete_question": "Which model performs best for Classification NLI in Uzbek?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "ab0a0077-2eaa-4527-8a89-ffcd632132ca",
+    "complete_question": "Which model performs best for Classification NLI in Macedonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "dd76f5bd-9207-4dd0-b217-a8d9a0e0095f",
+    "complete_question": "What is the top-performing language for Classification NLI with PaLM-2?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "0e80404c-5164-48be-bdda-d1bca5202734",
+    "complete_question": "Which model performs best for Classification NLI in Catalan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "accuracy",
+        "value": "83.7",
+        "value_in_100_range": 83.7
+      }
+    ],
+    "answer_text_for_qna": "XLM-R"
+  },
+  {
+    "unique_id": "6db63d75-9a0a-4e95-b551-183ffff989fd",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Kazakh?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "15be95f9-17a3-49b4-930d-d4f8acd9b7e0",
+    "complete_question": "What is the top-performing model for Classification NLI in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "ec64257a-3308-4847-acd5-364679b0bedd",
+    "complete_question": "What is the top-performing model for Classification NLI in Armenian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  }
+]

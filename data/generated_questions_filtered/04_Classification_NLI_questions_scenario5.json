@@ -1,0 +1,414 @@
+{
+  "task": "04_Classification_NLI",
+  "scenario": "different_language_different_model",
+  "questions": [
+    {
+      "complete_question": "What is the performance of XLM-Rzero on Classification NLI for Armenian?",
+      "task": "Classification NLI",
+      "models": "XLM-Rzero",
+      "languages": "Armenian",
+      "question_type": "Predictive",
+      "unique_id": "c88932ca-41a1-4a2d-b10f-451546ad493b"
+    },
+    {
+      "complete_question": "What is the performance of Gemma2-27B on Classification NLI for Afrikaans?",
+      "task": "Classification NLI",
+      "models": "Gemma2-27B",
+      "languages": "Afrikaans",
+      "question_type": "Predictive",
+      "unique_id": "12aea794-7896-4a7f-bee3-3c75b95bd962"
+    },
+    {
+      "complete_question": "What is the performance of Command-R-Plus-R7B on Classification NLI for Afrikaans?",
+      "task": "Classification NLI",
+      "models": "Command-R-Plus-R7B",
+      "languages": "Afrikaans",
+      "question_type": "Predictive",
+      "unique_id": "ef745a1b-7d91-45f9-b4cf-87920221eed3"
+    },
+    {
+      "complete_question": "What score does BLOOM-7B achieve for Classification NLI in Santali?",
+      "task": "Classification NLI",
+      "models": "BLOOM-7B",
+      "languages": "Santali",
+      "question_type": "Predictive",
+      "unique_id": "6ed76103-50a1-4d0c-99f5-6c74d670bb21"
+    },
+    {
+      "complete_question": "How well does Gemma-7B-PT perform on Classification NLI for Maithili?",
+      "task": "Classification NLI",
+      "models": "Gemma-7B-PT",
+      "languages": "Maithili",
+      "question_type": "Predictive",
+      "unique_id": "7361d9fe-c491-4e25-9f06-d5dc38037b75"
+    },
+    {
+      "complete_question": "How well does NLLB-200-1.3B perform on Classification NLI for Ladin?",
+      "task": "Classification NLI",
+      "models": "NLLB-200-1.3B",
+      "languages": "Ladin",
+      "question_type": "Predictive",
+      "unique_id": "e02ed710-4168-470f-bc1e-6d6b6c1cbad4"
+    },
+    {
+      "complete_question": "What is the performance of MBART-large-50 on Classification NLI for Ladin?",
+      "task": "Classification NLI",
+      "models": "MBART-large-50",
+      "languages": "Ladin",
+      "question_type": "Predictive",
+      "unique_id": "1a4f1742-33c1-4185-958f-578c59dac1f8"
+    },
+    {
+      "complete_question": "How well does XLM-Rzero perform on Classification NLI for Albanian?",
+      "task": "Classification NLI",
+      "models": "XLM-Rzero",
+      "languages": "Albanian",
+      "question_type": "Predictive",
+      "unique_id": "c8647c27-88e2-4bd0-9fe8-02f23a8f7dc4"
+    },
+    {
+      "complete_question": "What is the performance of Aya-23B on Classification NLI for Afrikaans?",
+      "task": "Classification NLI",
+      "models": "Aya-23B",
+      "languages": "Afrikaans",
+      "question_type": "Predictive",
+      "unique_id": "65e733f7-9dd1-4c5d-b936-2ee12be72b5d"
+    },
+    {
+      "complete_question": "How well does Llama3.3-70B perform on Classification NLI for Afrikaans?",
+      "task": "Classification NLI",
+      "models": "Llama3.3-70B",
+      "languages": "Afrikaans",
+      "question_type": "Predictive",
+      "unique_id": "3f0c7cbf-1030-4e02-bab0-3800f8e37800"
+    },
+    {
+      "complete_question": "How well does BLOOM perform on Classification NLI for Tibetian?",
+      "task": "Classification NLI",
+      "models": "BLOOM",
+      "languages": "Tibetan",
+      "question_type": "Predictive",
+      "unique_id": "2cb93a98-9841-46cc-ba6d-d579798ec173"
+    },
+    {
+      "complete_question": "What is the performance of XLM-RoBERTa-base on Classification NLI for Ladin?",
+      "task": "Classification NLI",
+      "models": "XLM-RoBERTa-base",
+      "languages": "Ladin",
+      "question_type": "Predictive",
+      "unique_id": "d06e917d-b140-4a19-944d-0b5b406703c7"
+    },
+    {
+      "complete_question": "What score does Llama3.1-70B achieve for Classification NLI in Kirundi?",
+      "task": "Classification NLI",
+      "models": "Llama3.1-70B",
+      "languages": "Kirundi",
+      "question_type": "Predictive",
+      "unique_id": "4d611b5d-15c4-4f15-ada2-efbff1a0cb03"
+    },
+    {
+      "complete_question": "What is the performance of Gemma3-27B on Classification NLI for Afrikaans?",
+      "task": "Classification NLI",
+      "models": "Gemma3-27B",
+      "languages": "Afrikaans",
+      "question_type": "Predictive",
+      "unique_id": "56d0df36-1bcd-4839-a4bd-3f976fec3d91"
+    },
+    {
+      "complete_question": "How well does mT5-XXL perform on Classification NLI for Manipuri?",
+      "task": "Classification NLI",
+      "models": "mT5-XXL",
+      "languages": "Manipuri",
+      "question_type": "Predictive",
+      "unique_id": "75a4999f-a68f-4f9d-9274-3948aa5eacbb"
+    },
+    {
+      "complete_question": "What score does mT5EncZero achieve for Classification NLI in Macedonian?",
+      "task": "Classification NLI",
+      "models": "mT5EncZero",
+      "languages": "Macedonian",
+      "question_type": "Predictive",
+      "unique_id": "f79fb9bd-ac14-44b9-b694-0e69a78c421c"
+    },
+    {
+      "complete_question": "How well does Claude-4-Sonnet perform on Classification NLI for Kirundi?",
+      "task": "Classification NLI",
+      "models": "Claude-4-Sonnet",
+      "languages": "Kirundi",
+      "question_type": "Predictive",
+      "unique_id": "2e320910-ef9f-47d9-a395-960bae46713e"
+    },
+    {
+      "complete_question": "How well does Gemma-7B-PT perform on Classification NLI for Malvi?",
+      "task": "Classification NLI",
+      "models": "Gemma-7B-PT",
+      "languages": "Malvi",
+      "question_type": "Predictive",
+      "unique_id": "b5613b77-97c0-4d71-a04c-7c802474935b"
+    },
+    {
+      "complete_question": "What score does BLOOM achieve for Classification NLI in Bhojpuri?",
+      "task": "Classification NLI",
+      "models": "BLOOM",
+      "languages": "Bhojpuri",
+      "question_type": "Predictive",
+      "unique_id": "a8f0dca8-16b7-45a9-9850-d244660cd6a2"
+    },
+    {
+      "complete_question": "What score does PaLM-2-XXS achieve for Classification NLI in Bodo?",
+      "task": "Classification NLI",
+      "models": "PaLM-2-XXS",
+      "languages": "Bodo",
+      "question_type": "Predictive",
+      "unique_id": "179d61ce-f779-4557-9ab0-23039e7fcbf8"
+    },
+    {
+      "complete_question": "What score does Gemma-7B-IT achieve for Classification NLI in Manipuri?",
+      "task": "Classification NLI",
+      "models": "Gemma-7B-IT",
+      "languages": "Manipuri",
+      "question_type": "Predictive",
+      "unique_id": "c138558d-0e9c-4e89-a1f9-405f27b65e89"
+    },
+    {
+      "complete_question": "How well does PaLM-2-S perform on Classification NLI for Chhattisgarhi?",
+      "task": "Classification NLI",
+      "models": "PaLM-2-S",
+      "languages": "Chhattisgarhi",
+      "question_type": "Predictive",
+      "unique_id": "7a3c5f1e-e7d0-4312-91e7-1e39362df3c2"
+    },
+    {
+      "complete_question": "What is the performance of Phi-4-3.8B on Classification NLI for Afrikaans?",
+      "task": "Classification NLI",
+      "models": "Phi-4-3.8B",
+      "languages": "Afrikaans",
+      "question_type": "Predictive",
+      "unique_id": "eff2bc2d-3d36-4421-9f0c-aec4f6252f58"
+    },
+    {
+      "complete_question": "What is the performance of Gemma2-9B on Classification NLI for Kirundi?",
+      "task": "Classification NLI",
+      "models": "Gemma2-9B",
+      "languages": "Kirundi",
+      "question_type": "Predictive",
+      "unique_id": "bd085e39-f021-4e99-bb29-36d407fa786d"
+    },
+    {
+      "complete_question": "What score does LLaMA-7B achieve for Classification NLI in Nepali?",
+      "task": "Classification NLI",
+      "models": "LLaMA-7B",
+      "languages": "Nepali",
+      "question_type": "Predictive",
+      "unique_id": "97b0813a-b459-479a-baad-33389a89acd3"
+    },
+    {
+      "complete_question": "Which model performs best for Classification NLI in Albanian?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Albanian",
+      "question_type": "QnA",
+      "unique_id": "92bb990f-d1eb-4f0a-acfb-f6c19ee7e056"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Bodo?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Bodo",
+      "question_type": "QnA",
+      "unique_id": "fa87e03b-a814-4e2b-972b-1c5a8b30aadd"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Malvi?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Malvi",
+      "question_type": "QnA",
+      "unique_id": "9ecbcea2-5413-4e8c-954a-7f8a8006673b"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Filipino?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Filipino",
+      "question_type": "QnA",
+      "unique_id": "026a27c5-64f3-4da7-a1f0-a9134568de46"
+    },
+    {
+      "complete_question": "Which model performs best for Classification NLI in Santali?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Santali",
+      "question_type": "QnA",
+      "unique_id": "b4bf18f8-5c72-4b33-ade6-9630fa08f6ec"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Chhattisgarhi?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Chhattisgarhi",
+      "question_type": "QnA",
+      "unique_id": "0aa5a03d-32b0-4bfb-9da2-d970667e74a4"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Konkani?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Konkani",
+      "question_type": "QnA",
+      "unique_id": "d12d9941-feca-4338-bd2a-8e2decfe29cd"
+    },
+    {
+      "complete_question": "Which model performs best for Classification NLI in Manipuri?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Manipuri",
+      "question_type": "QnA",
+      "unique_id": "0a553a39-e011-4cad-9506-de1706af3caa"
+    },
+    {
+      "complete_question": "Which model performs best for Classification NLI in Garhwali?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Garhwali",
+      "question_type": "QnA",
+      "unique_id": "e71f3945-1c45-4ca3-b99d-d1ce0493238c"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Pashto?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Pashto",
+      "question_type": "QnA",
+      "unique_id": "73250d2c-e883-417c-bcf3-62cc0cd332e2"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Rajasthani?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Rajasthani",
+      "question_type": "QnA",
+      "unique_id": "83b97d6f-8925-4abf-8668-613bd53b5637"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Awadhi?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Awadhi",
+      "question_type": "QnA",
+      "unique_id": "d88c8af5-ac99-47f1-97c8-cb87b38e0bd8"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Tibetan?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Tibetan",
+      "question_type": "QnA",
+      "unique_id": "24b94325-975a-4c01-bcb3-429b249dbeb3"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Haitian Creole?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Haitian Creole",
+      "question_type": "QnA",
+      "unique_id": "200d02e7-1fd0-4fa1-bac6-0ed5f05c4cfe"
+    },
+    {
+      "complete_question": "Which model performs best for Classification NLI in Maithili?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Maithili",
+      "question_type": "QnA",
+      "unique_id": "5cf1b08f-a860-48e7-8fc9-7c2951165ca6"
+    },
+    {
+      "complete_question": "Which model performs best for Classification NLI in Estonian?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Estonian",
+      "question_type": "QnA",
+      "unique_id": "63230a3b-a276-4c6b-b6a3-13405483647c"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Ladin?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Ladin",
+      "question_type": "QnA",
+      "unique_id": "308ac889-73d8-488d-9c84-93aab3a19474"
+    },
+    {
+      "complete_question": "Which model performs best for Classification NLI in Georgian?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Georgian",
+      "question_type": "QnA",
+      "unique_id": "dca14501-6172-4eec-bb37-2aed96962a57"
+    },
+    {
+      "complete_question": "Which model performs best for Classification NLI in Nepali?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Nepali",
+      "question_type": "QnA",
+      "unique_id": "0a960a1a-ea09-4320-9468-05836c147dbb"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Danish?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Danish",
+      "question_type": "QnA",
+      "unique_id": "1133122d-d1c4-4b9d-b1e5-9c3411f98c6a"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Finnish?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Finnish",
+      "question_type": "QnA",
+      "unique_id": "72de086e-c131-4323-99bb-3472b7970722"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Armenian?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Armenian",
+      "question_type": "QnA",
+      "unique_id": "f22d85ab-07c8-41a9-82b3-f32801b65df5"
+    },
+    {
+      "complete_question": "Which model performs best for Classification NLI in Cebuano?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Cebuano",
+      "question_type": "QnA",
+      "unique_id": "78a40939-fd5b-4171-bce8-ab8962b7cc4b"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Haryanvi?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Haryanvi",
+      "question_type": "QnA",
+      "unique_id": "0b1ce56f-fe3f-468f-8911-86129f594f6c"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Kirundi?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Kirundi",
+      "question_type": "QnA",
+      "unique_id": "88d931c9-98bc-4848-a6d2-6c422c30b4fa"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 27,
+    "available_qna": 30
+  }
+}

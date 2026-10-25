@@ -1,0 +1,414 @@
+{
+  "task": "01_Code_Generation",
+  "scenario": "different_language_different_model",
+  "questions": [
+    {
+      "complete_question": "What score does Aya achieve for Code Generation in Basque?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "Basque",
+      "question_type": "Predictive",
+      "unique_id": "c60a59af-8604-429b-afb7-69e53f3c7c13"
+    },
+    {
+      "complete_question": "What score does WizardCoder achieve for Code Generation in Igbo?",
+      "task": "Code Generation",
+      "models": "WizardCoder",
+      "languages": "Igbo",
+      "question_type": "Predictive",
+      "unique_id": "9804e356-2890-47d6-8d7c-251af3dfb109"
+    },
+    {
+      "complete_question": "How well does CodeGen2 perform on Code Generation for Estonian?",
+      "task": "Code Generation",
+      "models": "CodeGen2",
+      "languages": "Estonian",
+      "question_type": "Predictive",
+      "unique_id": "09b1a565-0a2c-40ea-92b6-b472acb23b06"
+    },
+    {
+      "complete_question": "How well does GPT-4o perform on Code Generation for Marathi?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "Marathi",
+      "question_type": "Predictive",
+      "unique_id": "9ccfdfeb-9f27-401e-9724-c228d57a1d39"
+    },
+    {
+      "complete_question": "What is the performance of GPT-3.5 on Code Generation for Macedonian?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Macedonian",
+      "question_type": "Predictive",
+      "unique_id": "d0a7292d-6c2e-4c17-9eb4-dbf1bd351ca6"
+    },
+    {
+      "complete_question": "What score does DeepSeek-Coder-V2 achieve for Code Generation in Sango?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "Sango",
+      "question_type": "Predictive",
+      "unique_id": "a128f546-2809-4f11-ab52-9503342008ba"
+    },
+    {
+      "complete_question": "What score does Claude-3.5-Opus achieve for Code Generation in Kurdish?",
+      "task": "Code Generation",
+      "models": "Claude-3.5-Opus",
+      "languages": "Kurdish",
+      "question_type": "Predictive",
+      "unique_id": "1e727066-d396-4c28-9562-978a35ddb49d"
+    },
+    {
+      "complete_question": "What score does Aya achieve for Code Generation in Oromo?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "Oromo",
+      "question_type": "Predictive",
+      "unique_id": "f396ed7e-75c9-429c-a263-99aae2ab657e"
+    },
+    {
+      "complete_question": "How well does DeepSeek-Coder-V2 perform on Code Generation for Slovak?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "Slovak",
+      "question_type": "Predictive",
+      "unique_id": "8827d4d3-dfa4-4c99-a48d-49e7c3b82e30"
+    },
+    {
+      "complete_question": "What is the performance of GPT-3.5 on Code Generation for Somali?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Somali",
+      "question_type": "Predictive",
+      "unique_id": "cf7b9024-b8c0-4508-adca-9f8af0961655"
+    },
+    {
+      "complete_question": "What is the performance of Aya on Code Generation for Amharic?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "Amharic",
+      "question_type": "Predictive",
+      "unique_id": "116c6c16-63ed-4934-a297-776b48b9924c"
+    },
+    {
+      "complete_question": "What score does Claude-3.5-Opus achieve for Code Generation in Bosnian?",
+      "task": "Code Generation",
+      "models": "Claude-3.5-Opus",
+      "languages": "Bosnian",
+      "question_type": "Predictive",
+      "unique_id": "e92c0ed6-763c-4c6b-ac2b-8dbe7d371871"
+    },
+    {
+      "complete_question": "How well does DeepSeek-Coder-V2 perform on Code Generation for Sindhi?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "Sindhi",
+      "question_type": "Predictive",
+      "unique_id": "1b892e5a-9e24-4ba1-b309-955926838459"
+    },
+    {
+      "complete_question": "How well does GPT-3.5 perform on Code Generation for Malayalam?",
+      "task": "Code Generation",
+      "models": "GPT-3.5",
+      "languages": "Malayalam",
+      "question_type": "Predictive",
+      "unique_id": "eead2fda-6f51-44e3-bd9e-4d0b34bce748"
+    },
+    {
+      "complete_question": "What is the performance of DeepSeek-Coder-V2 on Code Generation for Tsonga?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "Tsonga",
+      "question_type": "Predictive",
+      "unique_id": "c760283b-0ef0-445f-bc78-34229474684c"
+    },
+    {
+      "complete_question": "How well does DeepSeek-Coder-V2 perform on Code Generation for Kinyarwanda?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "Kinyarwanda",
+      "question_type": "Predictive",
+      "unique_id": "224e0c0a-7612-433c-9c6f-dcd3296bc3d4"
+    },
+    {
+      "complete_question": "What score does DeepSeek-Coder-V2 achieve for Code Generation in Swahili?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "",
+      "question_type": "Predictive",
+      "unique_id": "7af2f5d7-c413-4c29-afad-db69e58a2a8b"
+    },
+    {
+      "complete_question": "What score does DeepSeek-Coder-V2 achieve for Code Generation in Dari?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "Dari",
+      "question_type": "Predictive",
+      "unique_id": "7de77c56-896b-4ed4-a334-036ea520c5b5"
+    },
+    {
+      "complete_question": "What is the performance of Claude-3.5-Opus on Code Generation for Hausa?",
+      "task": "Code Generation",
+      "models": "Claude-3.5-Opus",
+      "languages": "Hausa",
+      "question_type": "Predictive",
+      "unique_id": "158bc3f7-7391-47ca-b3d0-f2c28833a410"
+    },
+    {
+      "complete_question": "What is the performance of Aya on Code Generation for Nepali?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "Nepali",
+      "question_type": "Predictive",
+      "unique_id": "181a8a33-82cb-41c2-a957-db3359da16f1"
+    },
+    {
+      "complete_question": "What is the performance of Claude-3.5-Opus on Code Generation for Igbo?",
+      "task": "Code Generation",
+      "models": "Claude-3.5-Opus",
+      "languages": "Igbo",
+      "question_type": "Predictive",
+      "unique_id": "5147e9ed-6edb-4c09-b85a-71b3fe0d79be"
+    },
+    {
+      "complete_question": "What is the performance of Aya on Code Generation for Basque?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "Basque",
+      "question_type": "Predictive",
+      "unique_id": "d5ded3df-ad88-4664-987c-02b029bb92f6"
+    },
+    {
+      "complete_question": "What is the performance of DeepSeek-Coder-V2 on Code Generation for Kinyarwanda?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "Kinyarwanda",
+      "question_type": "Predictive",
+      "unique_id": "b1720742-6dee-471b-9b70-e273c2c1f4c9"
+    },
+    {
+      "complete_question": "What score does Claude-3.5-Opus achieve for Code Generation in Ganda?",
+      "task": "Code Generation",
+      "models": "Claude-3.5-Opus",
+      "languages": "Ganda",
+      "question_type": "Predictive",
+      "unique_id": "5efacbd0-c141-41e0-abed-0779d943a1e9"
+    },
+    {
+      "complete_question": "What is the performance of Claude-3.5-Opus on Code Generation for Lao?",
+      "task": "Code Generation",
+      "models": "Claude-3.5-Opus",
+      "languages": "Lao",
+      "question_type": "Predictive",
+      "unique_id": "b66d7c4a-5636-4f31-a050-654a72fb4f90"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Lao?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Lao",
+      "question_type": "QnA",
+      "unique_id": "7cae9647-0e44-4342-8af1-d9c54e708781"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Sindhi?",
+      "task": "Code Generation",
+      "models": "Aya, Claude-3.5-Opus, DeepSeek-Coder-V2",
+      "languages": "Sindhi",
+      "question_type": "QnA",
+      "unique_id": "156ddc5a-1a5a-43dd-8ddb-8c454e2111cb"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Sindhi?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Sindhi",
+      "question_type": "QnA",
+      "unique_id": "eea44e1c-e98a-4cde-bc9e-693243075256"
+    },
+    {
+      "complete_question": "How could researchers proceed to evaluate Aya on Code Generation for Kyrgyz without any access to model or language data?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "Kyrgyz",
+      "question_type": "QnA",
+      "unique_id": "2a6a1620-0ac1-4a9d-9dcc-06b40ea61cbc"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Ganda?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Ganda",
+      "question_type": "QnA",
+      "unique_id": "2d55d04e-cd62-4746-bcc6-00a03c9a55b1"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Tsonga?",
+      "task": "Code Generation",
+      "models": "Aya, Claude-3.5-Opus, DeepSeek-Coder-V2",
+      "languages": "Tsonga",
+      "question_type": "QnA",
+      "unique_id": "3010b1df-7511-4337-8371-80a7b47f78ba"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Uzbek?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Uzbek",
+      "question_type": "QnA",
+      "unique_id": "60002083-51c7-4a06-a1de-13d34acce8de"
+    },
+    {
+      "complete_question": "How do existing evaluation frameworks adapt when assessing Aya for Code Generation on Sango, where both components are absent in any existing database?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "Sango",
+      "question_type": "QnA",
+      "unique_id": "48bc1b9c-4db3-4e50-b0bb-97d07150a889"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Oromo?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Oromo",
+      "question_type": "QnA",
+      "unique_id": "3e285677-282d-4ca7-a200-11b9a37031eb"
+    },
+    {
+      "complete_question": "What are the challenges in benchmarking Claude-3.5-Opus for Code Generation in Yoruba, given a complete lack of paired corpus and results?",
+      "task": "Code Generation",
+      "models": "Claude-3.5-Opus",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "3e57ed71-b7a2-451f-b36f-852349707354"
+    },
+    {
+      "complete_question": "What strategies exist to judge Aya's Code Generation performance in Burmese considering we have neither model nor language support in our data?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "Burmese",
+      "question_type": "QnA",
+      "unique_id": "3d91c137-ddc2-497b-b800-57a6dca5a7b0"
+    },
+    {
+      "complete_question": "How might one approach evaluating Claude-3.5-Opus for Code Generation in Telugu without access to examples or benchmarks for either?",
+      "task": "Code Generation",
+      "models": "Claude-3.5-Opus",
+      "languages": "Telugu",
+      "question_type": "QnA",
+      "unique_id": "921712da-adab-4bf5-ae1b-aa2d19795440"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Tsonga?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Tsonga",
+      "question_type": "QnA",
+      "unique_id": "9234c089-391a-4f8c-94d2-89dbcaec7d81"
+    },
+    {
+      "complete_question": "For Code Generation, which language shows the best performance with GPT-4o?",
+      "task": "Code Generation",
+      "models": "GPT-4o",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "2de55e56-38de-49df-9483-38cd5fffc59b"
+    },
+    {
+      "complete_question": "Can Aya's Code Generation capabilities for Lithuanian be inferred in any way despite lacking data for both the model and the language?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "Lithuanian",
+      "question_type": "QnA",
+      "unique_id": "2bc9696f-69d1-48e6-9257-7d25fdf2d65f"
+    },
+    {
+      "complete_question": "For Code Generation, which language shows the best performance with Claude-3.5-Opus?",
+      "task": "Code Generation",
+      "models": "Claude-3.5-Opus",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "4ec20333-45b5-4e96-a76b-848f700291c5"
+    },
+    {
+      "complete_question": "How can we assess DeepSeek-Coder-V2's Code Generation ability for Catalan without any datasets or prior results for the language or the model?",
+      "task": "Code Generation",
+      "models": "DeepSeek-Coder-V2",
+      "languages": "Catalan",
+      "question_type": "QnA",
+      "unique_id": "79e75616-852b-41f4-937a-9cabf20e6313"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Hausa?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Hausa",
+      "question_type": "QnA",
+      "unique_id": "74da13ee-a7f3-454d-ac45-1e86b88de38e"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Bengali?",
+      "task": "Code Generation",
+      "models": "Airavata, Aya, BLOOMZ, Claude-3.5-Opus, DeepSeek-Coder-V2, DeepSeek-R1, Gemma, LLaMA, LLaMA 3.1, LLaMA 3.2, LLaMA 3.3, Mistral, Mistral Small, PaLM-2, Qwen 2.5, mT5",
+      "languages": "Bengali",
+      "question_type": "QnA",
+      "unique_id": "3e1be626-414f-4f88-bb2d-2961047b64d1"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Code Generation in Igbo?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Igbo",
+      "question_type": "QnA",
+      "unique_id": "8098818c-2c4c-47bf-a578-e2735f0b0eac"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Lithuanian?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Lithuanian",
+      "question_type": "QnA",
+      "unique_id": "5e4e7c86-7b6f-4160-a5f6-b2ed896cebb5"
+    },
+    {
+      "complete_question": "Is there any precedent or best practice for estimating Claude-3.5-Opus's Code Generation performance in Kurdish without prior model or language exposure?",
+      "task": "Code Generation",
+      "models": "Claude-3.5-Opus",
+      "languages": "Kurdish",
+      "question_type": "QnA",
+      "unique_id": "d218a849-3fa5-4b23-92ce-8073d5e7bd71"
+    },
+    {
+      "complete_question": "What is the top-performing model for Code Generation in Somali?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Somali",
+      "question_type": "QnA",
+      "unique_id": "99ae3ee4-cf07-4dcd-bd5d-e45c8a327877"
+    },
+    {
+      "complete_question": "Which model performs best for Code Generation in Nepali?",
+      "task": "Code Generation",
+      "models": "",
+      "languages": "Nepali",
+      "question_type": "QnA",
+      "unique_id": "4f1b5aa6-24ad-456e-843b-10600f9dff16"
+    },
+    {
+      "complete_question": "For Code Generation, which language shows the best performance with Aya?",
+      "task": "Code Generation",
+      "models": "Aya",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "7470eb64-992d-4ad4-9c59-3e3b314844ab"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 35,
+    "available_qna": 33
+  }
+}

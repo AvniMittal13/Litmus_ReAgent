@@ -1,0 +1,414 @@
+{
+  "task": "04_Classification_NLI",
+  "scenario": "GT_available",
+  "questions": [
+    {
+      "complete_question": "How well does AfroXLMR-76L perform on Classification NLI for Twi?",
+      "task": "Classification NLI",
+      "models": "AfroXLMR-76L",
+      "languages": "Twi",
+      "question_type": "Predictive",
+      "unique_id": "c555c865-449d-4a2c-a9c6-408eed5da4ca"
+    },
+    {
+      "complete_question": "What score does AfroXLMR-base achieve for Classification NLI in Nigerian Pidgin?",
+      "task": "Classification NLI",
+      "models": "AfroXLMR-base",
+      "languages": "Nigerian Pidgin",
+      "question_type": "Predictive",
+      "unique_id": "154057fc-7f18-49c8-a48d-df8a682b5784"
+    },
+    {
+      "complete_question": "How well does AfroLLaMA perform on Classification NLI for Lingala?",
+      "task": "Classification NLI",
+      "models": "AfroLLaMA",
+      "languages": "Lingala",
+      "question_type": "Predictive",
+      "unique_id": "5d60f78f-53a2-4889-bef4-5ba8f2a4c469"
+    },
+    {
+      "complete_question": "What score does Gemma-2 achieve for Classification NLI in Egyptian Arabic?",
+      "task": "Classification NLI",
+      "models": "Gemma-2",
+      "languages": "Egyptian Arabic",
+      "question_type": "Predictive",
+      "unique_id": "0c7066de-d73a-4bde-a80d-914d15be6d7c"
+    },
+    {
+      "complete_question": "What score does LLaMA-3.1-8B achieve for Classification NLI in Kabyle?",
+      "task": "Classification NLI",
+      "models": "LLaMA-3.1-8B",
+      "languages": "Kabyle",
+      "question_type": "Predictive",
+      "unique_id": "c0703f04-c8b2-4d49-b176-4a0d513d5c42"
+    },
+    {
+      "complete_question": "What score does Claude OPUS achieve for Classification NLI in Hausa?",
+      "task": "Classification NLI",
+      "models": "Claude OPUS",
+      "languages": "Hausa",
+      "question_type": "Predictive",
+      "unique_id": "9cf27492-bad8-43ae-9a38-4cee1ddd7f77"
+    },
+    {
+      "complete_question": "What score does GPT-4-Turbo achieve for Classification NLI in Oromo?",
+      "task": "Classification NLI",
+      "models": "GPT-4-Turbo",
+      "languages": "Oromo",
+      "question_type": "Predictive",
+      "unique_id": "23bf7c85-0bdd-487e-8568-d9934516eed7"
+    },
+    {
+      "complete_question": "How well does AfroLLaMA perform on Classification NLI for Kikuyu?",
+      "task": "Classification NLI",
+      "models": "AfroLLaMA",
+      "languages": "Kikuyu",
+      "question_type": "Predictive",
+      "unique_id": "5e9d1348-ef12-4100-8e49-548e3c5d1f1e"
+    },
+    {
+      "complete_question": "What is the performance of Aya-101 on Classification NLI for Tamasheq?",
+      "task": "Classification NLI",
+      "models": "Aya-101",
+      "languages": "Tamasheq",
+      "question_type": "Predictive",
+      "unique_id": "142ab89d-831f-40ec-b935-64d4998edba4"
+    },
+    {
+      "complete_question": "What is the performance of LLaMA-3.1-8B on Classification NLI for Chichewa?",
+      "task": "Classification NLI",
+      "models": "LLaMA-3.1-8B",
+      "languages": "Chichewa",
+      "question_type": "Predictive",
+      "unique_id": "13e7f393-bad2-407a-88cd-990bc657647f"
+    },
+    {
+      "complete_question": "What is the performance of AfroXLMR-large on Classification NLI for Bambara?",
+      "task": "Classification NLI",
+      "models": "AfroXLMR-large",
+      "languages": "Bambara",
+      "question_type": "Predictive",
+      "unique_id": "6a57a647-229f-4d7c-96eb-a1cfe5d70aa6"
+    },
+    {
+      "complete_question": "How well does Serengeti perform on Classification NLI for Ewe?",
+      "task": "Classification NLI",
+      "models": "Serengeti",
+      "languages": "Ewe",
+      "question_type": "Predictive",
+      "unique_id": "cb814c9b-a17c-4667-b36e-ef4637c89e15"
+    },
+    {
+      "complete_question": "How well does BLOOMZ-7B perform on Classification NLI for Mossi?",
+      "task": "Classification NLI",
+      "models": "BLOOMZ-7B",
+      "languages": "Mossi",
+      "question_type": "Predictive",
+      "unique_id": "b0945ba1-1753-4587-85ff-7188253000e3"
+    },
+    {
+      "complete_question": "What score does Gemma-2-27B achieve for Classification NLI in Wolof?",
+      "task": "Classification NLI",
+      "models": "Gemma-2-27B",
+      "languages": "Wolof",
+      "question_type": "Predictive",
+      "unique_id": "b07c19bc-7d65-4a91-82ba-bec6b62bceef"
+    },
+    {
+      "complete_question": "What score does LLaMA-3.1-70B achieve for Classification NLI in Tamasheq?",
+      "task": "Classification NLI",
+      "models": "LLaMA-3.1-70B",
+      "languages": "Tamasheq",
+      "question_type": "Predictive",
+      "unique_id": "412df6c7-ecbc-4124-8885-231d73c0d04e"
+    },
+    {
+      "complete_question": "How well does XLM-R perform on Classification NLI for Yoruba?",
+      "task": "Classification NLI",
+      "models": "XLM-R",
+      "languages": "Yoruba",
+      "question_type": "Predictive",
+      "unique_id": "73c9b38b-3bc0-4ed3-8440-fab8f5512c61"
+    },
+    {
+      "complete_question": "What is the performance of Gemma-2-27B on Classification NLI for Shona?",
+      "task": "Classification NLI",
+      "models": "Gemma-2-27B",
+      "languages": "Shona",
+      "question_type": "Predictive",
+      "unique_id": "a99e63c9-ab32-4f3d-b21d-15edf1d914d8"
+    },
+    {
+      "complete_question": "How well does XLM-R-large perform on Classification NLI for Algerian Arabic?",
+      "task": "Classification NLI",
+      "models": "XLM-R-large",
+      "languages": "Algerian Arabic",
+      "question_type": "Predictive",
+      "unique_id": "17d815df-1e3e-45fe-b99c-1575fda3fc08"
+    },
+    {
+      "complete_question": "What score does mT0-XXL-MT achieve for Classification NLI in Somali?",
+      "task": "Classification NLI",
+      "models": "mT0-XXL-MT",
+      "languages": "Somali",
+      "question_type": "Predictive",
+      "unique_id": "b2f4ffaa-041e-47b6-8659-490e9239d180"
+    },
+    {
+      "complete_question": "What is the performance of Command-R (August version) on Classification NLI for Igbo?",
+      "task": "Classification NLI",
+      "models": "Command-R (August version)",
+      "languages": "Igbo",
+      "question_type": "Predictive",
+      "unique_id": "2ea25d8a-3548-4707-91ab-8ef212ba6a7f"
+    },
+    {
+      "complete_question": "What is the performance of LLaMA-3.1-8B on Classification NLI for Fon?",
+      "task": "Classification NLI",
+      "models": "LLaMA-3.1-8B",
+      "languages": "Fon",
+      "question_type": "Predictive",
+      "unique_id": "e73d7f2a-79b4-4f6d-98fc-846af1d95a80"
+    },
+    {
+      "complete_question": "How well does Gemini-1.5-Pro perform on Classification NLI for Ghomálá'?",
+      "task": "Classification NLI",
+      "models": "Gemini-1.5-Pro",
+      "languages": "Ghomálá'",
+      "question_type": "Predictive",
+      "unique_id": "b5f76d00-0971-4164-8c96-d29a087b3bd5"
+    },
+    {
+      "complete_question": "What score does LLaMaX-3-8B achieve for Classification NLI in Luo?",
+      "task": "Classification NLI",
+      "models": "LLaMaX-3-8B",
+      "languages": "Luo",
+      "question_type": "Predictive",
+      "unique_id": "b21a982e-6ea3-40b4-aca0-2ded4502047a"
+    },
+    {
+      "complete_question": "What is the performance of Aya-101 on Classification NLI for Dyula?",
+      "task": "Classification NLI",
+      "models": "Aya-101",
+      "languages": "Dyula",
+      "question_type": "Predictive",
+      "unique_id": "e8de9164-472a-4bbf-8c68-defeb8353c2a"
+    },
+    {
+      "complete_question": "What is the performance of LLaMA-3.1-70B on Classification NLI for Kabiyè?",
+      "task": "Classification NLI",
+      "models": "LLaMA-3.1-70B",
+      "languages": "Kabiyè",
+      "question_type": "Predictive",
+      "unique_id": "2f946cde-ac34-41d4-82b8-42a5d40b406a"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Kikuyu?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Kikuyu",
+      "question_type": "QnA",
+      "unique_id": "324e343b-3d49-4e65-89c2-e4c1e78063d6"
+    },
+    {
+      "complete_question": "For Classification NLI, which language shows the best performance with GPT-4o?",
+      "task": "Classification NLI",
+      "models": "GPT-4o",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "9b7ec8b0-02b1-4aee-a4a0-2f8f23d8b4d8"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Egyptian Arabic?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Egyptian Arabic",
+      "question_type": "QnA",
+      "unique_id": "cd96e90d-3c72-4f52-ac52-17f8e720c314"
+    },
+    {
+      "complete_question": "Which language has the best performance for Classification NLI with Command-R (August version)?",
+      "task": "Classification NLI",
+      "models": "Command-R (August version)",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "b77f1edd-43c3-4ae9-b00c-c07245516171"
+    },
+    {
+      "complete_question": "Which model performs best for Classification NLI in Chokwe?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Chokwe",
+      "question_type": "QnA",
+      "unique_id": "acf2e1d7-5db8-4f4f-8227-4bdbc99621ef"
+    },
+    {
+      "complete_question": "For Classification NLI, which language shows the best performance with Gemini-1.5-Pro?",
+      "task": "Classification NLI",
+      "models": "Gemini-1.5-Pro",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "85c11eae-a2e3-441d-bdb6-ceb25ca30465"
+    },
+    {
+      "complete_question": "Which model performs best for Classification NLI in Bemba?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Bemba",
+      "question_type": "QnA",
+      "unique_id": "814119fa-653a-4a5d-8739-8ceaab5e1561"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Bamabara?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Bambara",
+      "question_type": "QnA",
+      "unique_id": "6f72aa0e-b8fc-472e-bc0e-67d6bc961b2a"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Lugbara?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Lugbara",
+      "question_type": "QnA",
+      "unique_id": "e27ad177-f4c3-41f8-90e7-ad9e57023465"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Nigerian Fulfulde?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Nigerian Fulfulde",
+      "question_type": "QnA",
+      "unique_id": "0f8ae950-56c9-4770-906a-a99b9f5f914d"
+    },
+    {
+      "complete_question": "Which model performs best for Classification NLI in Dyula, Fon, Kabiyè?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Dyula, Fon, Kabiyè",
+      "question_type": "QnA",
+      "unique_id": "ecbc9e6e-072a-42d4-b25c-b7b86476959f"
+    },
+    {
+      "complete_question": "For Classification NLI, which language shows the best performance with AfroLLaMA?",
+      "task": "Classification NLI",
+      "models": "AfroLLaMA",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "c40df541-6191-4048-b002-0be7ea8aa6c5"
+    },
+    {
+      "complete_question": "For Classification NLI, which language shows the best performance with Aya-101?",
+      "task": "Classification NLI",
+      "models": "Aya-101",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "213e1e19-9092-4b14-a317-1834441b35e5"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Nyanja?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Nyanja",
+      "question_type": "QnA",
+      "unique_id": "ba0c87af-2750-49ca-9185-fbb8a38642c4"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Kabiyè?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Kabiyè",
+      "question_type": "QnA",
+      "unique_id": "2a85947f-460e-4b72-9714-5df64e790424"
+    },
+    {
+      "complete_question": "Which language shows the best performance with Serengeti for Classification NLI?",
+      "task": "Classification NLI",
+      "models": "Serengeti",
+      "languages": "",
+      "question_type": "QnA",
+      "unique_id": "d933d626-1663-43ef-a92a-c3dd26b0cc13"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Classification NLI in Somali?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Somali",
+      "question_type": "QnA",
+      "unique_id": "921fb7e3-ef81-4250-a44e-a218a06e2d50"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Kikongo?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Kikongo",
+      "question_type": "QnA",
+      "unique_id": "88ef88b5-781f-4f8b-af0d-eeeb61e373bb"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Luba-Kasai?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Luba-Kasai",
+      "question_type": "QnA",
+      "unique_id": "f028952c-d48e-4c3b-bd8d-dc5926a070bc"
+    },
+    {
+      "complete_question": "Which model performs best for Classification NLI in Kamba?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Kamba",
+      "question_type": "QnA",
+      "unique_id": "5b038c12-4821-484b-98e9-154df1f17962"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Kabyle?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Kabyle",
+      "question_type": "QnA",
+      "unique_id": "9a9e034e-3c72-4806-8b2f-be992c40e5b4"
+    },
+    {
+      "complete_question": "Which model performs best for Classification NLI in Dyula?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Dyula",
+      "question_type": "QnA",
+      "unique_id": "10043810-c9c3-439a-b313-eb308fd16a89"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Northern Sotho?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Northern Sotho",
+      "question_type": "QnA",
+      "unique_id": "4a105c74-716b-4c0e-9da1-2910d33f8b27"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Fon?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Fon",
+      "question_type": "QnA",
+      "unique_id": "768d22c0-b12f-42b6-8221-f8f97da22454"
+    },
+    {
+      "complete_question": "What is the top-performing model for Classification NLI in Akan?",
+      "task": "Classification NLI",
+      "models": "",
+      "languages": "Akan",
+      "question_type": "QnA",
+      "unique_id": "2ba42e82-4161-4c2d-b3db-0a8a48ea0ff4"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 28,
+    "available_qna": 28
+  }
+}

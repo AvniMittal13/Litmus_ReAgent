@@ -1,0 +1,842 @@
+[
+  {
+    "unique_id": "c88932ca-41a1-4a2d-b10f-451546ad493b",
+    "complete_question": "What is the performance of XLM-Rzero on Classification NLI for Armenian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (%)",
+        "value": "39.0",
+        "value_in_100_range": 39.0
+      },
+      {
+        "metric_name": "MASSIVE Intent Accuracy (%)",
+        "value": "71.6",
+        "value_in_100_range": 71.6
+      },
+      {
+        "metric_name": "MASSIVE Micro-Averaged Slot F1 (%)",
+        "value": "50.0",
+        "value_in_100_range": 50.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "12aea794-7896-4a7f-bee3-3c75b95bd962",
+    "complete_question": "What is the performance of Gemma2-27B on Classification NLI for Afrikaans?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option prediction accuracy (IrokoBench Table 6)",
+        "value": "67.8",
+        "value_in_100_range": 67.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ef745a1b-7d91-45f9-b4cf-87920221eed3",
+    "complete_question": "What is the performance of Command-R-Plus-R7B on Classification NLI for Afrikaans?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy",
+        "value": "68.3",
+        "value_in_100_range": 68.3
+      },
+      {
+        "metric_name": "MASSIVE Intent Accuracy",
+        "value": "86.0",
+        "value_in_100_range": 86.0
+      },
+      {
+        "metric_name": "MASSIVE Micro-Averaged Slot F1",
+        "value": "78.3",
+        "value_in_100_range": 78.3
+      },
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (Zero-shot)",
+        "value": "39.9",
+        "value_in_100_range": 39.9
+      },
+      {
+        "metric_name": "MASSIVE Intent Accuracy (Zero-shot)",
+        "value": "68.5",
+        "value_in_100_range": 68.5
+      },
+      {
+        "metric_name": "MASSIVE Micro-Averaged Slot F1 (Zero-shot)",
+        "value": "51.9",
+        "value_in_100_range": 51.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "6ed76103-50a1-4d0c-99f5-6c74d670bb21",
+    "complete_question": "What score does BLOOM-7B achieve for Classification NLI in Santali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "0.2",
+        "value_in_100_range": 0.2
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "8.4",
+        "value_in_100_range": 8.4
+      },
+      {
+        "metric_name": "FLORES-IN xx→en One-Shot BLEU",
+        "value": "16.1",
+        "value_in_100_range": 16.1
+      },
+      {
+        "metric_name": "XORQA-IN-XX One-Shot Score",
+        "value": "0.0",
+        "value_in_100_range": 0.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "7361d9fe-c491-4e25-9f06-d5dc38037b75",
+    "complete_question": "How well does Gemma-7B-PT perform on Classification NLI for Maithili?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "12.6",
+        "value_in_100_range": 12.6
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "26.0",
+        "value_in_100_range": 26.0
+      },
+      {
+        "metric_name": "FLORES-IN xx→en One-Shot BLEU",
+        "value": "32.7",
+        "value_in_100_range": 32.7
+      },
+      {
+        "metric_name": "XORQA-IN-XX One-Shot Score",
+        "value": "18.9",
+        "value_in_100_range": 18.9
+      },
+      {
+        "metric_name": "XORQA-IN-EN One-Shot Score",
+        "value": "65.0",
+        "value_in_100_range": 65.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e02ed710-4168-470f-bc1e-6d6b6c1cbad4",
+    "complete_question": "How well does NLLB-200-1.3B perform on Classification NLI for Ladin?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "1a4f1742-33c1-4185-958f-578c59dac1f8",
+    "complete_question": "What is the performance of MBART-large-50 on Classification NLI for Ladin?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "accuracy",
+        "value": "10.37",
+        "value_in_100_range": 10.37
+      },
+      {
+        "metric_name": "F1",
+        "value": "10.91",
+        "value_in_100_range": 10.91
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c8647c27-88e2-4bd0-9fe8-02f23a8f7dc4",
+    "complete_question": "How well does XLM-Rzero perform on Classification NLI for Albanian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy",
+        "value": "35.1",
+        "value_in_100_range": 35.1
+      },
+      {
+        "metric_name": "MASSIVE Intent Accuracy",
+        "value": "67.6",
+        "value_in_100_range": 67.6
+      },
+      {
+        "metric_name": "MASSIVE Micro-Averaged Slot F1",
+        "value": "50.0",
+        "value_in_100_range": 50.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "65e733f7-9dd1-4c5d-b936-2ee12be72b5d",
+    "complete_question": "What is the performance of Aya-23B on Classification NLI for Afrikaans?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (%)",
+        "value": "68.3",
+        "value_in_100_range": 68.3
+      },
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (Zero-Shot, %) (mT5 T2T Zero)",
+        "value": "39.9",
+        "value_in_100_range": 39.9
+      },
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (Zero-Shot, %) (mT5 Enc Zero)",
+        "value": "34.9",
+        "value_in_100_range": 34.9
+      },
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (Zero-Shot, %) (XLM-R Zero)",
+        "value": "43.9",
+        "value_in_100_range": 43.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3f0c7cbf-1030-4e02-bab0-3800f8e37800",
+    "complete_question": "How well does Llama3.3-70B perform on Classification NLI for Afrikaans?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (%)",
+        "value": "68.3",
+        "value_in_100_range": 68.3
+      },
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (%) (Zero Shot)",
+        "value": "39.9",
+        "value_in_100_range": 39.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2cb93a98-9841-46cc-ba6d-d579798ec173",
+    "complete_question": "How well does BLOOM perform on Classification NLI for Tibetian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "0.1",
+        "value_in_100_range": 0.1
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "13.7",
+        "value_in_100_range": 13.7
+      },
+      {
+        "metric_name": "FLORES-IN xx→en One-Shot BLEU",
+        "value": "16.1",
+        "value_in_100_range": 16.1
+      },
+      {
+        "metric_name": "XORQA-IN-XX One-Shot Score",
+        "value": "5.4",
+        "value_in_100_range": 5.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d06e917d-b140-4a19-944d-0b5b406703c7",
+    "complete_question": "What is the performance of XLM-RoBERTa-base on Classification NLI for Ladin?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "accuracy",
+        "value": "80.15",
+        "value_in_100_range": 80.15
+      },
+      {
+        "metric_name": "F1",
+        "value": "84.81",
+        "value_in_100_range": 84.81
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "4d611b5d-15c4-4f15-ada2-efbff1a0cb03",
+    "complete_question": "What score does Llama3.1-70B achieve for Classification NLI in Kirundi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "23.2",
+        "value_in_100_range": 23.2
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "45.8",
+        "value_in_100_range": 45.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "56d0df36-1bcd-4839-a4bd-3f976fec3d91",
+    "complete_question": "What is the performance of Gemma3-27B on Classification NLI for Afrikaans?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Prompt LLMs in African Language)",
+        "value": "67.8",
+        "value_in_100_range": 67.8
+      },
+      {
+        "metric_name": "AfriXNLI Option Prediction Accuracy (Translate-Test Evaluation in English)",
+        "value": "60.8",
+        "value_in_100_range": 60.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "75a4999f-a68f-4f9d-9274-3948aa5eacbb",
+    "complete_question": "How well does mT5-XXL perform on Classification NLI for Manipuri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "3.3",
+        "value_in_100_range": 3.3
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "8.3",
+        "value_in_100_range": 8.3
+      },
+      {
+        "metric_name": "FLORES-IN xx→en One-Shot BLEU",
+        "value": "20.7",
+        "value_in_100_range": 20.7
+      },
+      {
+        "metric_name": "CrossSum-IN Fine-tuned Score",
+        "value": "15.6",
+        "value_in_100_range": 15.6
+      },
+      {
+        "metric_name": "XORQA-IN-XX Fine-tuned Score",
+        "value": "16.8",
+        "value_in_100_range": 16.8
+      },
+      {
+        "metric_name": "XORQA-IN-EN Fine-tuned Score",
+        "value": "48.6",
+        "value_in_100_range": 48.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f79fb9bd-ac14-44b9-b694-0e69a78c421c",
+    "complete_question": "What score does mT5EncZero achieve for Classification NLI in Macedonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Classification NLI Exact Match Accuracy (mT5EncZero Macedonian)",
+        "value": "62.2",
+        "value_in_100_range": 62.2
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2e320910-ef9f-47d9-a395-960bae46713e",
+    "complete_question": "How well does Claude-4-Sonnet perform on Classification NLI for Kirundi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriXNLI Classification Accuracy (IrokoBench Table, run)",
+        "value": "84.8",
+        "value_in_100_range": 84.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b5613b77-97c0-4d71-a04c-7c802474935b",
+    "complete_question": "How well does Gemma-7B-PT perform on Classification NLI for Malvi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "13.1",
+        "value_in_100_range": 13.1
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "28.3",
+        "value_in_100_range": 28.3
+      },
+      {
+        "metric_name": "FLORES-IN xx→en One-Shot BLEU",
+        "value": "34.9",
+        "value_in_100_range": 34.9
+      },
+      {
+        "metric_name": "XORQA-IN-XX One-Shot Score",
+        "value": "10.6",
+        "value_in_100_range": 10.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a8f0dca8-16b7-45a9-9850-d244660cd6a2",
+    "complete_question": "What score does BLOOM achieve for Classification NLI in Bhojpuri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "0.9",
+        "value_in_100_range": 0.9
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "24.9",
+        "value_in_100_range": 24.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "179d61ce-f779-4557-9ab0-23039e7fcbf8",
+    "complete_question": "What score does PaLM-2-XXS achieve for Classification NLI in Bodo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "11.0",
+        "value_in_100_range": 11.0
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "11.3",
+        "value_in_100_range": 11.3
+      },
+      {
+        "metric_name": "FLORES-IN xx→en One-Shot BLEU",
+        "value": "31.0",
+        "value_in_100_range": 31.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c138558d-0e9c-4e89-a1f9-405f27b65e89",
+    "complete_question": "What score does Gemma-7B-IT achieve for Classification NLI in Manipuri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "4.4",
+        "value_in_100_range": 4.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "7a3c5f1e-e7d0-4312-91e7-1e39362df3c2",
+    "complete_question": "How well does PaLM-2-S perform on Classification NLI for Chhattisgarhi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "22.0",
+        "value_in_100_range": 22.0
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "52.7",
+        "value_in_100_range": 52.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "eff2bc2d-3d36-4421-9f0c-aec4f6252f58",
+    "complete_question": "What is the performance of Phi-4-3.8B on Classification NLI for Afrikaans?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy (%)",
+        "value": "68.3",
+        "value_in_100_range": 68.3
+      },
+      {
+        "metric_name": "MASSIVE Exact Match Accuracy Zero (%)",
+        "value": "39.9",
+        "value_in_100_range": 39.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "bd085e39-f021-4e99-bb29-36d407fa786d",
+    "complete_question": "What is the performance of Gemma2-9B on Classification NLI for Kirundi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MasakhaNEWS Topic Classification Accuracy",
+        "value": "89.13",
+        "value_in_100_range": 89.13
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "97b0813a-b459-479a-baad-33389a89acd3",
+    "complete_question": "What score does LLaMA-7B achieve for Classification NLI in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CrossSum-IN One-Shot Score",
+        "value": "7.4",
+        "value_in_100_range": 7.4
+      },
+      {
+        "metric_name": "FLORES-IN en→xx One-Shot BLEU",
+        "value": "25.9",
+        "value_in_100_range": 25.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "92bb990f-d1eb-4f0a-acfb-f6c19ee7e056",
+    "complete_question": "Which model performs best for Classification NLI in Albanian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5 T2T Full"
+  },
+  {
+    "unique_id": "fa87e03b-a814-4e2b-972b-1c5a8b30aadd",
+    "complete_question": "What is the top-performing model for Classification NLI in Bodo?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "9ecbcea2-5413-4e8c-954a-7f8a8006673b",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Malvi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "026a27c5-64f3-4da7-a1f0-a9134568de46",
+    "complete_question": "What is the top-performing model for Classification NLI in Filipino?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "accuracy",
+        "value": "64.2",
+        "value_in_100_range": 64.2
+      }
+    ],
+    "answer_text_for_qna": "BiLSTM-max (Translate-test)"
+  },
+  {
+    "unique_id": "b4bf18f8-5c72-4b33-ade6-9630fa08f6ec",
+    "complete_question": "Which model performs best for Classification NLI in Santali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "0aa5a03d-32b0-4bfb-9da2-d970667e74a4",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Chhattisgarhi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "d12d9941-feca-4338-bd2a-8e2decfe29cd",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Konkani?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "0a553a39-e011-4cad-9506-de1706af3caa",
+    "complete_question": "Which model performs best for Classification NLI in Manipuri?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "e71f3945-1c45-4ca3-b99d-d1ce0493238c",
+    "complete_question": "Which model performs best for Classification NLI in Garhwali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Token-F1",
+        "value": "13.7",
+        "value_in_100_range": 13.7
+      }
+    ],
+    "answer_text_for_qna": "LLaMA-65B"
+  },
+  {
+    "unique_id": "73250d2c-e883-417c-bcf3-62cc0cd332e2",
+    "complete_question": "What is the top-performing model for Classification NLI in Pashto?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "83b97d6f-8925-4abf-8668-613bd53b5637",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Rajasthani?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "d88c8af5-ac99-47f1-97c8-cb87b38e0bd8",
+    "complete_question": "What is the top-performing model for Classification NLI in Awadhi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "24b94325-975a-4c01-bcb3-429b249dbeb3",
+    "complete_question": "What is the top-performing model for Classification NLI in Tibetan?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "200d02e7-1fd0-4fa1-bac6-0ed5f05c4cfe",
+    "complete_question": "What is the top-performing model for Classification NLI in Haitian Creole?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "5cf1b08f-a860-48e7-8fc9-7c2951165ca6",
+    "complete_question": "Which model performs best for Classification NLI in Maithili?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Token-F1",
+        "value": "28.0",
+        "value_in_100_range": 28.0
+      }
+    ],
+    "answer_text_for_qna": "LLaMA-65B"
+  },
+  {
+    "unique_id": "63230a3b-a276-4c6b-b6a3-13405483647c",
+    "complete_question": "Which model performs best for Classification NLI in Estonian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "gpt-4o-2024-08-06"
+  },
+  {
+    "unique_id": "308ac889-73d8-488d-9c84-93aab3a19474",
+    "complete_question": "What is the top-performing model for Classification NLI in Ladin?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "accuracy",
+        "value": "93.99",
+        "value_in_100_range": 93.99
+      },
+      {
+        "metric_name": "F1",
+        "value": "96.07",
+        "value_in_100_range": 96.07
+      }
+    ],
+    "answer_text_for_qna": "FSL-LLaMA"
+  },
+  {
+    "unique_id": "dca14501-6172-4eec-bb37-2aed96962a57",
+    "complete_question": "Which model performs best for Classification NLI in Georgian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "0a960a1a-ea09-4320-9468-05836c147dbb",
+    "complete_question": "Which model performs best for Classification NLI in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "accuracy",
+        "value": "64.2",
+        "value_in_100_range": 64.2
+      }
+    ],
+    "answer_text_for_qna": "BiLSTM-max (TRANSLATE TEST)"
+  },
+  {
+    "unique_id": "1133122d-d1c4-4b9d-b1e5-9c3411f98c6a",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Danish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "72de086e-c131-4323-99bb-3472b7970722",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Finnish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "f22d85ab-07c8-41a9-82b3-f32801b65df5",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Armenian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "mT5 T2T Full"
+  },
+  {
+    "unique_id": "78a40939-fd5b-4171-bce8-ab8962b7cc4b",
+    "complete_question": "Which model performs best for Classification NLI in Cebuano?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "PaLM-2-L"
+  },
+  {
+    "unique_id": "0b1ce56f-fe3f-468f-8911-86129f594f6c",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Haryanvi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Token-F1",
+        "value": "18.5",
+        "value_in_100_range": 18.5
+      }
+    ],
+    "answer_text_for_qna": "LLaMA-65B"
+  },
+  {
+    "unique_id": "88d931c9-98bc-4848-a6d2-6c422c30b4fa",
+    "complete_question": "Which model achieves the highest score for Classification NLI in Kirundi?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "aya-101"
+  }
+]

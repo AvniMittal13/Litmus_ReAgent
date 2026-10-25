@@ -1,0 +1,786 @@
+[
+  {
+    "unique_id": "9980a965-f4c7-4809-a230-acfc41356b47",
+    "complete_question": "What is the performance of OpenAI-o3-mini-medium on Math Reasoning for French?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "76.4",
+        "value_in_100_range": 76.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "92ebfea3-146a-4a93-b251-865d9f34b6b0",
+    "complete_question": "What score does Gemini-Pro achieve for Math Reasoning in Danish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ed278d0f-3e8b-4155-bf54-85ce5af61f81",
+    "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Norwegian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "64f94751-b350-4072-8237-4fce7a23e723",
+    "complete_question": "What score does ChatGPT-4o-latest achieve for Math Reasoning in Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "PolyMath-Medium DW-ACC (Spanish, ChatGPT-4o-latest)",
+        "value": "42.4",
+        "value_in_100_range": 42.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f1d9ec9b-3caf-4416-a223-e2d7d9488135",
+    "complete_question": "What score does DeepSeek-R1-Distill-Qwen-1.5B achieve for Math Reasoning in Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MMATH Accuracy (ES)",
+        "value": "40.40",
+        "value_in_100_range": 40.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "7efcdc36-ebe2-4265-9dac-daaf444dc686",
+    "complete_question": "What score does DeepSeek-R1-671B achieve for Math Reasoning in Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "PolyMath DW-ACC (Medium, es, Deepseek-R1-671B)",
+        "value": "72.8",
+        "value_in_100_range": 72.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "7c9c681d-f756-462b-8fe3-5823834fb5d6",
+    "complete_question": "How well does DeepSeek-R1-Distill-Qwen-14B perform on Math Reasoning for Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MMATH Accuracy (ES)",
+        "value": "69.17",
+        "value_in_100_range": 69.17
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e4f78d28-c8a6-42d4-96c5-dedb71250369",
+    "complete_question": "What is the performance of DeepSeek-R1-Distill-Llama-8B on Math Reasoning for Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "MMATH Accuracy (ES)",
+        "value": "52.44",
+        "value_in_100_range": 52.44
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "4ae70253-c283-4f5c-aabb-c9b6e6f9194b",
+    "complete_question": "What is the performance of GPT-4.5-preview on Math Reasoning for Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "PolyMath-Medium DW-ACC (es, Spanish)",
+        "value": "42.4",
+        "value_in_100_range": 42.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a07e6564-c43f-411e-9373-6db81c5c8c25",
+    "complete_question": "How well does OpenAI-o1-mini perform on Math Reasoning for French?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "9.6",
+        "value_in_100_range": 9.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "39ccfe68-cb88-4474-9d68-ad8c7a237bae",
+    "complete_question": "How well does Claude-3.7-sonnet perform on Math Reasoning for Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Math Accuracy",
+        "value": "26.4%",
+        "value_in_100_range": 26.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "4a35d36a-ad18-47a4-8f31-30ec04ec507b",
+    "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Hebrew?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "33c78c9c-be9c-46c5-bed2-2ce52f0ce8db",
+    "complete_question": "What is the performance of Gemma3-27B-IT on Math Reasoning for Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "11.41",
+        "value_in_100_range": 11.41
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "8.08",
+        "value_in_100_range": 8.08
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e5dadeec-a9e3-4168-ab77-8acbac7486f4",
+    "complete_question": "What score does Llama-3.3-70B-Instruct achieve for Math Reasoning in French?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "76.4",
+        "value_in_100_range": 76.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "c62bdd4c-9d1e-46ce-82db-db6a0ac0834c",
+    "complete_question": "How well does Gemini-Pro perform on Math Reasoning for Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "9f5d7fa9-8a52-4ec7-8620-91704e4ce54a",
+    "complete_question": "What is the performance of Gemini-Pro on Math Reasoning for Afrikaans?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "80.00",
+        "value_in_100_range": 80.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "cf84bffd-18f4-4bfe-8f67-bcf9799dd89f",
+    "complete_question": "How well does Gemini-2.5-pro perform on Math Reasoning for Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "PolyMath-Medium DW-ACC (Spanish, es)",
+        "value": "76.0",
+        "value_in_100_range": 76.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f37d7b12-35d6-4f5a-8f54-585c97c4740a",
+    "complete_question": "What score does DeepSeek-R1-Distill-Qwen-7B achieve for Math Reasoning in Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "PolyMath-Medium DW-ACC (Spanish, Deepseek-R1-671B)",
+        "value": "72.8",
+        "value_in_100_range": 72.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "ce7ce207-3647-43f3-8762-a1bc2be682d7",
+    "complete_question": "How well does DeepSeek-R1 perform on Math Reasoning for French?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "PolyMath DW-ACC (Medium, French)",
+        "value": "73.6",
+        "value_in_100_range": 73.6
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2916ac08-bd1a-41ab-862a-4d12020b02a9",
+    "complete_question": "What score does QwQ-32B achieve for Math Reasoning in French?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Math Reasoning (French)",
+        "value": "61.25",
+        "value_in_100_range": 61.25
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3443696d-8477-48a6-adc0-b21f53e5aad1",
+    "complete_question": "What score does Claude-3.7-sonnet achieve for Math Reasoning in French?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Math Accuracy (%)",
+        "value": "32.5",
+        "value_in_100_range": 32.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "075562cb-c1e8-4c6c-b372-629aabfa9708",
+    "complete_question": "How well does DeepSeek-V3 perform on Math Reasoning for Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "PolyMath-Medium DW-ACC (Spanish)",
+        "value": "40.0",
+        "value_in_100_range": 40.0
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "42d83020-6f55-4236-9b8a-0fcca0a4ef56",
+    "complete_question": "How well does DeepSeek-R1-Distill perform on Math Reasoning for Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d2bf64de-4cfb-4e43-ad67-bf40f81e409f",
+    "complete_question": "What is the performance of DeepSeek-R1-Distill-Qwen-32B on Math Reasoning for Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "PolyMath-Medium DW-ACC (es)",
+        "value": "72.8",
+        "value_in_100_range": 72.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e752ca21-45e4-40af-be81-01fe33bbf2ef",
+    "complete_question": "What is the performance of DeepSeek-R1 on Math Reasoning for Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "21.70",
+        "value_in_100_range": 21.7
+      },
+      {
+        "metric_name": "Generative QA ROUGE-L",
+        "value": "4.92",
+        "value_in_100_range": 4.92
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f00e4963-7c3d-4f49-a19b-c0fc1f3676f4",
+    "complete_question": "For Math Reasoning, which language shows the best performance with Gemini-Pro?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "82.5",
+        "value_in_100_range": 82.5
+      }
+    ],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "c6a84c7a-c4ce-4c93-a9c0-9d9b8ff319a3",
+    "complete_question": "What is the top-performing model for Math Reasoning in Hebrew?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "62.88",
+        "value_in_100_range": 62.88
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "520f8c05-fb74-4704-826b-5c91347e314f",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Hebrew?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "2f2c76f9-265b-4715-8fb3-14d7a7511a64",
+    "complete_question": "For Math Reasoning, which language shows the best performance with Gemma3-27B-IT?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "78a3c3af-3f54-43cb-a05b-8f8ad23bc516",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Danish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Math Reasoning (Danish)",
+        "value": "ROUGE-2 (F1): 16",
+        "value_in_100_range": 16
+      }
+    ],
+    "answer_text_for_qna": "S0MLING, DanSum"
+  },
+  {
+    "unique_id": "dab391c9-dd8f-4efd-b300-c137c2754112",
+    "complete_question": "For Math Reasoning, which language shows the best performance with DeepSeek-R1-Distill-Qwen-32B?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "1a425f42-fb03-4a65-8ad3-106fa4bc9eb1",
+    "complete_question": "Which model performs best for Math Reasoning in Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Spearman's ρ",
+        "value": "0.798",
+        "value_in_100_range": 79.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2118a610-8120-4773-9314-48323b0ba6d5",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in French?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "77.50",
+        "value_in_100_range": 77.5
+      }
+    ],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "e037021d-3999-4125-8add-8ef9684dcd73",
+    "complete_question": "What is the top-performing model for Math Reasoning in Danish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "2f084cb4-cd42-4683-80b7-f8e6772edc65",
+    "complete_question": "What is the top-performing model for Math Reasoning in Norwegian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Qwen2.5-Math-7B-Instruct"
+  },
+  {
+    "unique_id": "33d32894-f9d1-4185-89f6-1c2c09ed4144",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in French?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "77.50",
+        "value_in_100_range": 77.5
+      }
+    ],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "34de5217-90f0-423e-abd8-af046beaa63c",
+    "complete_question": "For Math Reasoning, which language shows the best performance with Gemini-2.0-flash-thinking?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "CodeBERTScore",
+        "value": "0.9362",
+        "value_in_100_range": 93.62
+      }
+    ],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "d9b99606-bbfc-480c-867a-80a7300fb6cf",
+    "complete_question": "What is the top-performing model for Math Reasoning in Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "49.06",
+        "value_in_100_range": 49.06
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "25cba474-a4e1-4501-94dd-a8ae50f40201",
+    "complete_question": "Which model performs best for Math Reasoning in Spanish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "78.75",
+        "value_in_100_range": 78.75
+      }
+    ],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "76b34b11-15f9-4b28-abb7-7211df851007",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "62.88",
+        "value_in_100_range": 62.88
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "9c037fc9-7148-48a3-b4bf-ee220c214d2a",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in French?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Math Reasoning (MGSM) correlation with human judgment",
+        "value": "0.71–0.85",
+        "value_in_100_range": 85.0
+      }
+    ],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "9b28643e-8f5c-45ee-b8be-0779e5983093",
+    "complete_question": "Which model performs best for Math Reasoning in Dutch?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "6bf71a03-7e14-4142-af41-ce2ea315c151",
+    "complete_question": "For Math Reasoning, which language shows the best performance with Mistral-Large?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "41.53",
+        "value_in_100_range": 41.53
+      }
+    ],
+    "answer_text_for_qna": "Hindi"
+  },
+  {
+    "unique_id": "9fb37034-04c9-48b2-baed-d7a3bf0ccd19",
+    "complete_question": "Which model performs best for Math Reasoning in French?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "pass@1",
+        "value": "77.50",
+        "value_in_100_range": 77.5
+      }
+    ],
+    "answer_text_for_qna": "GPT-4"
+  },
+  {
+    "unique_id": "0cdcab1c-98aa-4494-9527-ef6eae058676",
+    "complete_question": "For Math Reasoning, which language shows the best performance with Claude-3.7-sonnet?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Math Accuracy (%)",
+        "value": "32.5",
+        "value_in_100_range": 32.5
+      },
+      {
+        "metric_name": "Math Accuracy (%)",
+        "value": "26.4",
+        "value_in_100_range": 26.4
+      },
+      {
+        "metric_name": "Math Accuracy (%)",
+        "value": "20.5",
+        "value_in_100_range": 20.5
+      }
+    ],
+    "answer_text_for_qna": "French"
+  },
+  {
+    "unique_id": "46a099c9-8daa-433f-a34c-e77fe2cb28b1",
+    "complete_question": "For Math Reasoning, which language shows the best performance with Qwen-QwQ-32B?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Math Reasoning",
+        "value": "Chinese",
+        "value_in_100_range": 0
+      },
+      {
+        "metric_name": "Multi-IF (Chinese)",
+        "value": "94.1",
+        "value_in_100_range": 94.1
+      },
+      {
+        "metric_name": "INCLUDE (Chinese)",
+        "value": "90.2",
+        "value_in_100_range": 90.2
+      },
+      {
+        "metric_name": "MMMLU (Chinese)",
+        "value": "81.8",
+        "value_in_100_range": 81.8
+      },
+      {
+        "metric_name": "MT-AIME2024 (Chinese)",
+        "value": "90.0",
+        "value_in_100_range": 90.0
+      },
+      {
+        "metric_name": "PolyMath (Chinese)",
+        "value": "49.7",
+        "value_in_100_range": 49.7
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "3ea2b84b-4f8f-4d35-8e91-b6e66b853ff4",
+    "complete_question": "Which model performs best for Math Reasoning in Afrikaans?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "AfriMGSM Exact Match (in-lang)",
+        "value": "28.5",
+        "value_in_100_range": 28.5
+      }
+    ],
+    "answer_text_for_qna": "Gemma 2 27B"
+  },
+  {
+    "unique_id": "99624c5d-3e34-4c24-a597-3cbff9425a32",
+    "complete_question": "What is the top-performing model for Math Reasoning in Nepali?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "46.43",
+        "value_in_100_range": 46.43
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "e2736743-f994-48a8-a80f-8227034cc9ba",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Swedish?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "Extractive QA F1",
+        "value": "62.88",
+        "value_in_100_range": 62.88
+      }
+    ],
+    "answer_text_for_qna": "Bloomz"
+  },
+  {
+    "unique_id": "973c8528-3a08-4c91-b964-7645caa09c67",
+    "complete_question": "Which model achieves the highest score for Math Reasoning in Urdu?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "accuracy",
+        "value": "59.3",
+        "value_in_100_range": 59.3
+      }
+    ],
+    "answer_text_for_qna": "MT Baseline (Translate-test) BiLSTM-max"
+  }
+]

@@ -5,16 +5,17 @@ This repository contains the code and data for **Litmus (Re)Agent: A Benchmark a
 A multi-agent system for predicting how well LLMs perform across languages, tasks and models, with a focus on low-resource languages. For each question, the system gathers evidence from a curated database of research papers, follows expert research guidance, and, when no benchmark reports the number directly, collects features and trains small predictive models in generated code.
 
 ```
-LitmusReAgent/
-├── code/
-│   ├── agents/         # the multi-agent system (+ ablation variants)
-│   ├── runners/        # scripts that run the system / baselines over the benchmark
-│   ├── evaluation/     # LLM-judge and agent-level evaluation scripts
-│   ├── knowledge/      # expert-knowledge corpus used by the RAG agent
-│   └── utils/          # Azure OpenAI chat + embedding helpers
+├── code/                          # original project code (unchanged)
+│   ├── agents/                    # the multi-agent system (+ ablation variants)
+│   ├── final_testing_codes/       # runners for the system, ablations and baseline
+│   │   └── GET_GTS_FINAL/         # ground-truth generation, prediction extraction, MAE/accuracy
+│   ├── final_evals/               # LLM-judge and agent-level evaluation scripts
+│   ├── knowledge/                 # expert-knowledge corpus used by the RAG agent
+│   └── utils/                     # Azure OpenAI chat + embedding helpers
 └── data/
-    ├── all_final_csvs_finall/   # paper database (CSVs, embeddings, scraped content)
-    └── Ground_truths/           # benchmark questions with ground-truth answers
+    ├── all_final_csvs_finall/        # paper database (CSVs, embeddings, scraped content)
+    ├── generated_questions_filtered/ # the benchmark: 1,500 questions + their ground truths
+    └── Ground_truths/                # extended ground-truth set (2,035 questions)
 ```
 
 ## Architecture
@@ -45,36 +46,71 @@ LitmusReAgent/
 ```bash
 cd code
 pip install -r requirements.txt
-cp .env.example .env   # fill in Azure OpenAI endpoint/deployment (+ Firecrawl key)
+cp .env.example .env   # fill in Azure OpenAI endpoint/deployment and Firecrawl keys
 ```
 
 Authentication uses `OPENAI_API_KEY` if set, otherwise Azure AD (`az login` / `DefaultAzureCredential`). Embeddings must use `text-embedding-ada-002`, because the precomputed paper embeddings were built with it.
+
+### Put the data where the code expects it
+
+The code is the original, unchanged project code, so it reads data from the locations it used originally (relative to `code/`). Link (or copy) `data/` into place once:
+
+```bash
+cd code
+ln -s ../data/all_final_csvs_finall all_final_csvs_finall
+ln -s ../data/all_final_csvs_finall/scraped_content.json scraped_content.json
+ln -s ../data/generated_questions_filtered generated_questions
+mkdir -p final_testing_codes/GET_GTS_FINAL
+ln -s ../../../data/generated_questions_filtered/ground_truths final_testing_codes/GET_GTS_FINAL/Ground_truths_5
+mkdir -p final_testing_codes/FINAL_RUS   # output folder the runners expect to exist
+```
+
+On Windows, copy the same folders to the same places, e.g. `Copy-Item -Recurse ..\data\all_final_csvs_finall .`.
+
+> The original code was run on **Windows**. Two paths are written with backslashes and resolve relative to the current directory: `./final_testing_codes\GET_GTS_FINAL\Ground_truths_5` (in the runners) and `./knowledge\knowledge_2.md` (in `agents/custom_agents/expert_knowledge.py`). On macOS/Linux, add links with those literal names so they resolve without touching the code:
+> ```bash
+> ln -s final_testing_codes/GET_GTS_FINAL/Ground_truths_5 'final_testing_codes\GET_GTS_FINAL\Ground_truths_5'
+> ln -s knowledge/knowledge_2.md 'knowledge\knowledge_2.md'
+> ```
 
 ## Running
 
 Run all commands from `code/`:
 
-| Script | What it runs |
+| Command | What it runs |
 |---|---|
-| `python runners/run_litmus_reagent.py` | **Full LITMUS-ReAgent** (MainAgent) |
-| `python runners/run_thought_agent_only.py` | A single ThoughtAgent without the MainAgent layer |
-| `python -m runners.run_ablation_no_coder` | Ablation: no coder agent |
-| `python -m runners.run_ablation_no_expert` | Ablation: no expert-knowledge agent |
-| `python runners/run_gpt4_baseline.py` | Direct LLM baseline (no tools) |
+| `python final_testing_codes/run_all_que_db.py` | **Full LITMUS-ReAgent** (MainAgent) |
+| `python final_testing_codes/run_all_que_db_thought.py` | A single ThoughtAgent without the MainAgent layer |
+| `python -m final_testing_codes.run_ablation_no_coder` | Ablation: no coder agent |
+| `python -m final_testing_codes.run_ablation_no_expert` | Ablation: no expert-knowledge agent |
+| `python final_testing_codes/run_gpt4_baseline.py` | Direct LLM baseline (no tools) |
 
-`run_litmus_reagent.py` is interactive. It asks for a **task** (1–6), a **scenario group** (1–2 or 3–5) and a **paper DB variant**:
+`run_all_que_db.py` is interactive. It asks for a **task** (1–6), a **scenario pair** and a **paper DB variant**:
 - `reduced`: `reduced_combined_<task>_embeddings.pkl` (smaller paper set)
 - `combined`: `combined_<task>_embeddings.pkl` (full paper set)
 
-It sets `DB_PATH` for the selected task, loads up to `MAX_QUESTIONS_PER_JSON = 50` questions per ground-truth file, and is resumable. Already-completed question folders are skipped. Outputs go to `code/outputs/<run>/<Task>/ScenarioPair_<n>/<question_id>/`, with the final response, the full conversation hierarchy, per-agent intermediates and the generated code files.
+It sets `DB_PATH` for the selected task, loads up to `MAX_QUESTIONS_PER_JSON = 50` questions with ground truth per file from `GET_GTS_FINAL/Ground_truths_5`, and is resumable. Already-completed question folders are skipped. Outputs go to `final_testing_codes/FINAL_RUS/<run>_responses/<Task>/ScenarioPair_<n>/<question_id>/`, with the final response, the full conversation hierarchy, per-agent intermediates and the generated code files.
 
 ## Evaluation
 
-The scripts in `code/evaluation/` read response folders produced by the runners. Pass input/output folders as arguments; the defaults point to the original experiment folders.
+### MAE / accuracy against ground truth (`final_testing_codes/GET_GTS_FINAL/`)
+See `final_testing_codes/GET_GTS_FINAL/README.md`. Set the input/output folders in each package's `config.py`, then run from `code/`:
+
+```bash
+# 1. extract the predicted values from the agent reports (response.md)
+python -m final_testing_codes.GET_GTS_FINAL.evaluation_performance_metrics_v2.main
+# 2. MAE for predictive questions, accuracy for QnA questions
+python -m final_testing_codes.GET_GTS_FINAL.mae_accuracy_evaluation.evaluator
+```
+
+For the ablation runs, use `evaluation_performance_metrics_v2.run_ablation_extraction` and `mae_accuracy_evaluation.run_ablation_eval` (`--ablation no_coder | no_expert_knowledge`). `ground_truth_generator_v2` is the pipeline that produced the ground truths, included for transparency. The ground truths themselves are already in `data/`.
+
+### Report- and agent-level metrics (`final_evals/`)
+These read response folders produced by the runners; pass the folders as arguments.
 
 | Script | Measures |
 |---|---|
-| `accuracy_metric.py` | Extracts the final predicted value and compares it to ground truth (LLM-judge) |
+| `accuracy_metric.py` | Extracts the final predicted value from two reports and compares them (LLM-judge) |
 | `run_text_metrics_configurable.py` | Report-quality metrics across multiple response folders |
 | `hallucination_metric.py` | Whether cited papers exist in the paper DB |
 | `evaluate_tool_relevance.py` | Relevance of DB search / crawl tool calls |
@@ -91,17 +127,22 @@ Curated research-paper database, one folder per task: `01_Code_Generation`, `02_
 - `*_language_model(s)_mapping.*`, `language_statistics.csv`, `model_statistics.csv`, `statistics_output/`: per-task language/model coverage
 - Helper scripts to rebuild embeddings and the scrape cache (`create_and_save_embeddings.py`, `scrape_and_save_all_urls.py`, …); see the README in that folder
 
+### `data/generated_questions_filtered/`: the benchmark
+`<task>_questions_scenario<1-5>.json`: 30 files × 50 = **1,500 questions**, the set used in the experiments. Each question has `unique_id, complete_question, task, models, languages, question_type`.
+- `ground_truths/`: the ground truths for exactly these 1,500 questions (identical to the original `GET_GTS_FINAL/Ground_truths_5`). Each entry has `unique_id, complete_question, predictive_or_qna, ground_truth_metrics_and_values_for_predictive, answer_text_for_qna, is_answer_present, atleast_one_successful_execution`.
+- `diagrams/`: benchmark statistics figures.
+
 ### `data/Ground_truths/`
-`<task>_scenario_<1-5>_ground_truths.json`: 30 files, 2,035 questions in total (1,065 predictive, 970 QnA). Each entry has:
-`unique_id, complete_question, predictive_or_qna, ground_truth_metrics_and_values_for_predictive, answer_text_for_qna, is_answer_present, atleast_one_successful_execution`.
+Extended ground-truth set in the same format: 30 files, 2,035 questions (1,065 predictive, 970 QnA). It contains all 1,500 benchmark questions with identical entries, plus 535 more.
 
 ## Notes on this release
 
-- **`code/utils/` is reconstructed.** The original helper module was not in the uploaded sources. It was rewritten to match the interface the code calls (`model_config`, `client`, `get_gpt_output`, `get_chat_response`, `get_structured_response`, `embedding_client`, `openai_embedding_function`).
-- **`code/knowledge/knowledge_2.md` was recovered** from the project's LightRAG index (*"LLM Performance Prediction Playbook"*). It is the expert-knowledge corpus the RAG agent was indexing, but it may differ in small details from the exact file used in the experiments.
-- **Paths were adapted** to this layout (data under `../data`, outputs under `code/outputs`). Firecrawl keys were unified to `FIRECRAWL_API_KEY`. Agent logic and prompts are unchanged.
-- The experiments evaluated **1,500 questions (50 per task×scenario file)**, a subset of the 2,035 in `data/Ground_truths`. The runner takes the first 50 per file, which is not necessarily the same subset.
-- Not included: experiment outputs and intermediate logs, the question-generation pipeline, the Magentic-One / single-agent / original-LITMUS baselines, and visualization scripts.
+- **All project code is copied verbatim** from the original project, with the same file names, folder structure and logic. Only the following files were not part of the uploaded sources and were added:
+  - `code/utils/`: **reconstructed**. The original helper module was missing. It was rewritten to match the interface the code calls (`model_config`, `client`, `get_gpt_output`, `get_chat_response`, `get_structured_response`, `embedding_client`, `openai_embedding_function`).
+  - `code/knowledge/knowledge_2.md`: **recovered** from the project's LightRAG index (*"LLM Performance Prediction Playbook"*). It is the expert-knowledge corpus the RAG agent was indexing, but it may differ in small details from the exact file used in the experiments.
+  - `code/requirements.txt`, `code/.env.example`.
+- Some config defaults point to the folder names used in the original experiments (e.g. `final_results/magnetic_one_1_responses`). Edit `config.py` to point at your own runs, as in the original workflow.
+- Not included: experiment outputs and intermediate logs, the question-generation pipeline, the Magentic-One / single-agent / original-LITMUS++ baselines, and visualization scripts.
 
 ## Citation
 

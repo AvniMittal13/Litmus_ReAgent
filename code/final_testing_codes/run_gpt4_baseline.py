@@ -59,10 +59,10 @@ class GPT4BaselineProcessor:
     
     def __init__(self):
         self.base_dir = Path(__file__).parent.parent
-        self.gt_dir = self.base_dir.parent / "data" / "Ground_truths"
-        self.responses_dir = self.base_dir / "outputs" / "gpt4_baseline_final_responses"
-        self.progress_file = self.base_dir / "outputs" / "gpt4_baseline_final_progress.json"
-        self.log_file = self.base_dir / "outputs" / "gpt4_baseline_final_log.txt"
+        self.gt_dir = Path(r"./final_testing_codes\GET_GTS_FINAL\Ground_truths_5")
+        self.responses_dir = self.base_dir / "final_testing_codes" / "FINAL_RUS" / "gpt4_baseline_final_responses"
+        self.progress_file = self.base_dir / "final_testing_codes" / "FINAL_RUS" / "gpt4_baseline_final_progress.json"
+        self.log_file = self.base_dir / "final_testing_codes" / "FINAL_RUS" / "gpt4_baseline_final_log.txt"
         
         # Task mappings
         self.tasks = {

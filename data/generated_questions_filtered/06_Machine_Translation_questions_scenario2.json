@@ -1,0 +1,414 @@
+{
+  "task": "06_Machine_Translation",
+  "scenario": "same_language_different_model",
+  "questions": [
+    {
+      "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Ewe?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Ewe",
+      "question_type": "Predictive",
+      "unique_id": "d1c06348-7b43-4d11-9df6-e4895a6bbf1e"
+    },
+    {
+      "complete_question": "What is the performance of NLLB-200 family on Machine Translation for Ilocano?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Ilocano",
+      "question_type": "Predictive",
+      "unique_id": "2c1b5dca-bcab-46d1-8ee2-ea7a5bc54af3"
+    },
+    {
+      "complete_question": "How well does NLLB-200 family perform on Machine Translation for Maltese?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Maltese",
+      "question_type": "Predictive",
+      "unique_id": "6afa3db9-7fce-42b3-9d70-32b35dee51b6"
+    },
+    {
+      "complete_question": "What score does Claude-3 achieve for Machine Translation in Santali?",
+      "task": "Machine Translation",
+      "models": "Claude-3",
+      "languages": "Santali",
+      "question_type": "Predictive",
+      "unique_id": "7ee085b3-e63a-45a2-a0bb-f5d7de145810"
+    },
+    {
+      "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Javanese?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Javanese",
+      "question_type": "Predictive",
+      "unique_id": "f7fa4f3f-5f4b-40b1-b7fa-9397a49ef8d6"
+    },
+    {
+      "complete_question": "How well does NLLB-200 family perform on Machine Translation for Igbo?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Igbo",
+      "question_type": "Predictive",
+      "unique_id": "7d37c4af-51b3-4ef8-b833-6405006e0dd0"
+    },
+    {
+      "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Zulu?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Zulu",
+      "question_type": "Predictive",
+      "unique_id": "42e2cccf-682a-4d41-9415-72a8978b9e47"
+    },
+    {
+      "complete_question": "What is the performance of Gemini-2.0-Flash on Machine Translation for Acehnese?",
+      "task": "Machine Translation",
+      "models": "Gemini-2.0-Flash",
+      "languages": "Acehnese",
+      "question_type": "Predictive",
+      "unique_id": "30ef7674-d33b-4044-afc9-7b82c8327cbd"
+    },
+    {
+      "complete_question": "How well does NLLB-200 family perform on Machine Translation for Quechua?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Quechua",
+      "question_type": "Predictive",
+      "unique_id": "1ed4bc34-67ff-4759-98b7-16e6231aca23"
+    },
+    {
+      "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Bodo?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Bodo",
+      "question_type": "Predictive",
+      "unique_id": "41f03cf9-fd3e-443c-92df-6ade466d960f"
+    },
+    {
+      "complete_question": "What is the performance of NLLB-200 family on Machine Translation for Luxembourgish?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Luxembourgish",
+      "question_type": "Predictive",
+      "unique_id": "4d68f404-98c5-4a7c-bdc6-61e4073cd229"
+    },
+    {
+      "complete_question": "How well does NLLB-200 family perform on Machine Translation for Kinyarwanda?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Kinyarwanda",
+      "question_type": "Predictive",
+      "unique_id": "b74ec304-aaee-48fe-ab7a-71038a075da8"
+    },
+    {
+      "complete_question": "What is the performance of NLLB-200 family on Machine Translation for Latin?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Latin",
+      "question_type": "Predictive",
+      "unique_id": "de5a755c-83be-4096-a535-68da54995e8f"
+    },
+    {
+      "complete_question": "How well does NLLB-200 family perform on Machine Translation for Yiddish?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Yiddish",
+      "question_type": "Predictive",
+      "unique_id": "4388baa8-6b82-449c-abf3-7684e0e9f36e"
+    },
+    {
+      "complete_question": "How well does NLLB-200 family perform on Machine Translation for Filipino?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Filipino",
+      "question_type": "Predictive",
+      "unique_id": "8daa07ee-7ab1-487a-a4a8-c34f494a77ea"
+    },
+    {
+      "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Sesotho?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Sesotho",
+      "question_type": "Predictive",
+      "unique_id": "d0cea775-803d-4ea8-ac3e-29d2e7cf161c"
+    },
+    {
+      "complete_question": "What is the performance of NLLB-200 family on Machine Translation for Guarani?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Guarani",
+      "question_type": "Predictive",
+      "unique_id": "eefe499b-82d1-414e-8a34-bc50f55ace67"
+    },
+    {
+      "complete_question": "What is the performance of NLLB-200 family on Machine Translation for Samoan?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Samoan",
+      "question_type": "Predictive",
+      "unique_id": "b27174b4-33ef-4171-a600-ccc9fed92dc8"
+    },
+    {
+      "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Xhosa?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Xhosa",
+      "question_type": "Predictive",
+      "unique_id": "f4018839-eb19-45a4-8ee3-68cfa61e9488"
+    },
+    {
+      "complete_question": "What is the performance of NLLB-200 family on Machine Translation for Sundanese?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Sundanese",
+      "question_type": "Predictive",
+      "unique_id": "3b7fefe4-7f31-4ae2-8e88-b4baa03c6b3c"
+    },
+    {
+      "complete_question": "How well does NLLB-200 family perform on Machine Translation for Shona?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Shona",
+      "question_type": "Predictive",
+      "unique_id": "9d1a742a-08df-45e1-9cc7-79d08b93d822"
+    },
+    {
+      "complete_question": "What score does NLLB-200 family achieve for Machine Translation in Hausa?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Hausa",
+      "question_type": "Predictive",
+      "unique_id": "2d84120f-7ee7-4b92-adb7-59c1e971e1cc"
+    },
+    {
+      "complete_question": "What is the performance of NLLB-200 family on Machine Translation for Yoruba?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Yoruba",
+      "question_type": "Predictive",
+      "unique_id": "b006b757-868d-4590-b40a-2df1154a98b2"
+    },
+    {
+      "complete_question": "How well does NLLB-200 family perform on Machine Translation for Chichewa?",
+      "task": "Machine Translation",
+      "models": "NLLB-200-family",
+      "languages": "Chichewa",
+      "question_type": "Predictive",
+      "unique_id": "f33bdd5c-68f3-4737-8892-03fb48478d94"
+    },
+    {
+      "complete_question": "How well does M2M-100-various-sizes perform on Machine Translation for Basque?",
+      "task": "Machine Translation",
+      "models": "M2M-100-various-sizes",
+      "languages": "Basque",
+      "question_type": "Predictive",
+      "unique_id": "5c3ce9bc-c6fc-4a1d-b190-cb517ca376ca"
+    },
+    {
+      "complete_question": "For Machine Translation, which model is best for Bislama?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Bislama",
+      "question_type": "QnA",
+      "unique_id": "271482ad-c68e-47e4-a863-ff561fb7f56b"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Machine Translation in Basque?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Basque",
+      "question_type": "QnA",
+      "unique_id": "b9b67cd7-e8f2-46c2-b758-537ed9e10127"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Dinka?",
+      "task": "Machine Translation",
+      "models": "GPT-4o, GPT-4o-Audio, Gemini-2.0-Flash, Gemma-3-27B, Qwen-2-Audio",
+      "languages": "Dinka",
+      "question_type": "QnA",
+      "unique_id": "d2bdc065-4f31-4d8a-a0cc-c761f01e8575"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Machine Translation in Corsican?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Corsican",
+      "question_type": "QnA",
+      "unique_id": "d0b0286b-f68a-4f17-bbf3-fc26d61ce994"
+    },
+    {
+      "complete_question": "For Machine Translation, which model is best for Xhosa?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Xhosa",
+      "question_type": "QnA",
+      "unique_id": "df50bb0a-8368-41a5-ae2d-dce232082195"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Machine Translation in Kinyarwanda?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Kinyarwanda",
+      "question_type": "QnA",
+      "unique_id": "913d6f97-a37c-4161-a86d-3d679638e7cb"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Yiddish?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Yiddish",
+      "question_type": "QnA",
+      "unique_id": "211bd59a-41a9-4c72-8915-e875a2da87e8"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Machine Translation in Zulu?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Zulu",
+      "question_type": "QnA",
+      "unique_id": "e4fd69f6-1215-481a-8de3-b06d6f99d97c"
+    },
+    {
+      "complete_question": "What is the top-performing model for Machine Translation in Afar?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Afar",
+      "question_type": "QnA",
+      "unique_id": "f4917ab7-9693-4f37-b889-08dba533e83a"
+    },
+    {
+      "complete_question": "What is the top-performing model for Machine Translation in Chichewa?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Chichewa",
+      "question_type": "QnA",
+      "unique_id": "768c4c2b-af9b-45a0-ad60-4b8f4c13c02c"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Luxembourgish?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Luxembourgish",
+      "question_type": "QnA",
+      "unique_id": "cff12674-cd77-438a-b658-c3abbc094f8a"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Filipino?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Filipino",
+      "question_type": "QnA",
+      "unique_id": "f24bf0c0-9f9a-4b9f-b1cf-c303179a82bc"
+    },
+    {
+      "complete_question": "What is the top-performing model for Machine Translation in Quechua?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Quechua",
+      "question_type": "QnA",
+      "unique_id": "73a17a76-f6a3-4d7f-8e7d-6f6330bddfca"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Machine Translation in Maltese?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Maltese",
+      "question_type": "QnA",
+      "unique_id": "1c7b155a-a79a-4c1a-b473-295bbe2c0f53"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Ilocano?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Ilocano",
+      "question_type": "QnA",
+      "unique_id": "e4ffdc2b-cbe2-4e4e-8ca3-74ef4d56a3ac"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Machine Translation in Hausa?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Hausa",
+      "question_type": "QnA",
+      "unique_id": "fc6f143c-a6da-45bb-9332-7de97cf20cef"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Burmese?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Burmese",
+      "question_type": "QnA",
+      "unique_id": "1c16a84a-2a3e-4bba-a421-a4e514ba44a8"
+    },
+    {
+      "complete_question": "What is the top-performing model for Machine Translation in Lao?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Lao",
+      "question_type": "QnA",
+      "unique_id": "bd5fbcec-af04-4a42-80c7-4da55f9fc0b3"
+    },
+    {
+      "complete_question": "What is the top-performing model for Machine Translation in Javanese?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Javanese",
+      "question_type": "QnA",
+      "unique_id": "d89d5c17-336f-439d-a2bf-d65bb8209be3"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Bodo?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Bodo",
+      "question_type": "QnA",
+      "unique_id": "5feeba06-f3fc-4013-8548-744aa96f409c"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Machine Translation in Sundanese?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Sundanese",
+      "question_type": "QnA",
+      "unique_id": "b1096887-1b81-41be-90c7-18a0f2195467"
+    },
+    {
+      "complete_question": "For Machine Translation, which model is best for Ewe?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Ewe",
+      "question_type": "QnA",
+      "unique_id": "dfb2e6e5-327b-4be3-ae35-251bfab98a93"
+    },
+    {
+      "complete_question": "What is the top-performing model for Machine Translation in Guarani?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Guarani",
+      "question_type": "QnA",
+      "unique_id": "918baa70-7a34-44f2-a90d-5b4b6119509a"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Bambara?",
+      "task": "Machine Translation",
+      "models": "AfriCOMET, AfroXLM-R, COMET, GPT-4o, GPT-4o-Audio, Gemini-2.0-Flash, Gemma-3-27B, M2M-100, NLLB-200, Qwen-2-Audio, mBART-50, various-MT-systems",
+      "languages": "Bambara",
+      "question_type": "QnA",
+      "unique_id": "b19bb8b4-daeb-4f02-8e4c-046ee9ee11f4"
+    },
+    {
+      "complete_question": "Which model performs best for Machine Translation in Sesotho?",
+      "task": "Machine Translation",
+      "models": "",
+      "languages": "Sesotho",
+      "question_type": "QnA",
+      "unique_id": "b2bda43a-fec4-471e-a87e-d6d9a1d8259b"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 27,
+    "available_qna": 29
+  }
+}

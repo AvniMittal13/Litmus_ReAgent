@@ -1,0 +1,414 @@
+{
+  "task": "02_Math_Reasoning",
+  "scenario": "different_language_different_model",
+  "questions": [
+    {
+      "complete_question": "How well does PaLM-2 perform on Math Reasoning for Tagalog?",
+      "task": "Math Reasoning",
+      "models": "PaLM-2",
+      "languages": "Tagalog",
+      "question_type": "Predictive",
+      "unique_id": "2fcb9cbf-e8f9-48b4-95d0-42b58823cd7d"
+    },
+    {
+      "complete_question": "What is the performance of LLaMa-3-8B on Math Reasoning for Yoruba?",
+      "task": "Math Reasoning",
+      "models": "LLaMa-3-8B",
+      "languages": "Yoruba",
+      "question_type": "Predictive",
+      "unique_id": "a8615e75-bf4b-4e15-a678-af32379a5c06"
+    },
+    {
+      "complete_question": "What is the performance of Qwen2.5-Math-72B-PRM on Math Reasoning for Lithuanian?",
+      "task": "Math Reasoning",
+      "models": "Qwen2.5-Math-72B-PRM",
+      "languages": "Lithuanian",
+      "question_type": "Predictive",
+      "unique_id": "e32a52fc-96ce-4a51-a3ac-9df611c9336d"
+    },
+    {
+      "complete_question": "What is the performance of LLaMa-2-7B on Math Reasoning for Luganda?",
+      "task": "Math Reasoning",
+      "models": "LLaMa-2-7B",
+      "languages": "Luganda",
+      "question_type": "Predictive",
+      "unique_id": "533c7bab-b23c-45a8-8908-a05a29bc0c0b"
+    },
+    {
+      "complete_question": "How well does GPT-4o-mini-2024-07-18 perform on Math Reasoning for IsiZulu?",
+      "task": "Math Reasoning",
+      "models": "gpt-4o-mini-2024-07-18",
+      "languages": "isiZulu",
+      "question_type": "Predictive",
+      "unique_id": "336dbcc1-0d6f-4853-989e-0ad66b1c2660"
+    },
+    {
+      "complete_question": "What score does gpt-4-turbo-2024-04-09 achieve for Math Reasoning in Hausa?",
+      "task": "Math Reasoning",
+      "models": "gpt-4-turbo-2024-04-09",
+      "languages": "Hausa",
+      "question_type": "Predictive",
+      "unique_id": "5372c7cc-b958-4309-9377-987132e02bbf"
+    },
+    {
+      "complete_question": "What is the performance of Qwen2.5-Math-1.5B-Instruct on Math Reasoning for Ukrainian?",
+      "task": "Math Reasoning",
+      "models": "Qwen2.5-Math-1.5B-Instruct",
+      "languages": "Ukrainian",
+      "question_type": "Predictive",
+      "unique_id": "1eac37a0-476b-4199-8c9c-e150355fbe93"
+    },
+    {
+      "complete_question": "How well does Gemma-2-27B perform on Math Reasoning for Kinyarwanda?",
+      "task": "Math Reasoning",
+      "models": "Gemma-2-27B",
+      "languages": "Kinyarwanda",
+      "question_type": "Predictive",
+      "unique_id": "56ef4b94-9d83-4f58-8140-3220091001ca"
+    },
+    {
+      "complete_question": "What score does o3-Mini achieve for Math Reasoning in Somali?",
+      "task": "Math Reasoning",
+      "models": "o3-Mini",
+      "languages": "Somali",
+      "question_type": "Predictive",
+      "unique_id": "baccc3db-832d-4f0e-b15f-dce9b212caba"
+    },
+    {
+      "complete_question": "How well does gpt-3.5-turbo-0125 perform on Math Reasoning for Vai?",
+      "task": "Math Reasoning",
+      "models": "gpt-3.5-turbo-0125",
+      "languages": "Vai",
+      "question_type": "Predictive",
+      "unique_id": "655cb462-807e-4cee-8f31-72dab57fb1a8"
+    },
+    {
+      "complete_question": "What is the performance of DeepSeek-R1-1.5B on Math Reasoning for Welsh?",
+      "task": "Math Reasoning",
+      "models": "DeepSeek-R1-1.5B",
+      "languages": "Welsh",
+      "question_type": "Predictive",
+      "unique_id": "215d2b41-8a5b-432b-b886-30f0cc5ef3e4"
+    },
+    {
+      "complete_question": "What score does BLOOMZ-7B achieve for Math Reasoning in Oromo?",
+      "task": "Math Reasoning",
+      "models": "BLOOMZ-7B",
+      "languages": "Oromo",
+      "question_type": "Predictive",
+      "unique_id": "0c73fe6a-b7f8-48b3-8fff-3b00383906a0"
+    },
+    {
+      "complete_question": "What is the performance of GPT-4o-Mini on Math Reasoning for Hungarian?",
+      "task": "Math Reasoning",
+      "models": "GPT-4o-Mini",
+      "languages": "Hungarian",
+      "question_type": "Predictive",
+      "unique_id": "078902df-b18e-4b65-bf6c-2fb667c73637"
+    },
+    {
+      "complete_question": "What score does Command-R achieve for Math Reasoning in Lingala?",
+      "task": "Math Reasoning",
+      "models": "Command-R",
+      "languages": "Lingala",
+      "question_type": "Predictive",
+      "unique_id": "4a5d991e-de9d-48b2-a66c-ee48d1a6dd26"
+    },
+    {
+      "complete_question": "What score does Gemma-2-9B achieve for Math Reasoning in Sesotho?",
+      "task": "Math Reasoning",
+      "models": "Gemma-2-9B",
+      "languages": "Sesotho",
+      "question_type": "Predictive",
+      "unique_id": "ff1ec687-ec54-4848-beae-6df10466093b"
+    },
+    {
+      "complete_question": "What score does GPT-4-0613 achieve for Math Reasoning in Urdu?",
+      "task": "Math Reasoning",
+      "models": "GPT-4-0613",
+      "languages": "Urdu",
+      "question_type": "Predictive",
+      "unique_id": "5b709fe2-5bfc-432b-ab7f-b02d24bfe3dd"
+    },
+    {
+      "complete_question": "What score does MR1-1.5B achieve for Math Reasoning in Macedonian?",
+      "task": "Math Reasoning",
+      "models": "MR1-1.5B",
+      "languages": "Macedonian",
+      "question_type": "Predictive",
+      "unique_id": "24bebf9f-88ea-4944-a3bc-d77cce428805"
+    },
+    {
+      "complete_question": "How well does Command-R+ perform on Math Reasoning for Ewe?",
+      "task": "Math Reasoning",
+      "models": "Command-R+",
+      "languages": "Ewe",
+      "question_type": "Predictive",
+      "unique_id": "b19c1628-6f20-492e-b5b1-2406b0562250"
+    },
+    {
+      "complete_question": "How well does Gemma-7B perform on Math Reasoning for chiShona?",
+      "task": "Math Reasoning",
+      "models": "Gemma-7B",
+      "languages": "chiShona",
+      "question_type": "Predictive",
+      "unique_id": "dc03480e-52a6-462a-8099-80578d110bb6"
+    },
+    {
+      "complete_question": "How well does PaLM-2 perform on Math Reasoning for Persian?",
+      "task": "Math Reasoning",
+      "models": "PaLM-2",
+      "languages": "Persian",
+      "question_type": "Predictive",
+      "unique_id": "e4cac319-b66e-4b80-8833-a3f7b4ef0ecd"
+    },
+    {
+      "complete_question": "What score does PaLM-2 achieve for Math Reasoning in Slovenian?",
+      "task": "Math Reasoning",
+      "models": "PaLM-2",
+      "languages": "Slovenian",
+      "question_type": "Predictive",
+      "unique_id": "9ea87aef-f8ce-402b-af0d-bb79050cb739"
+    },
+    {
+      "complete_question": "How well does LLaMA-2 perform on Math Reasoning for Slovak?",
+      "task": "Math Reasoning",
+      "models": "LLaMA-2",
+      "languages": "Slovak",
+      "question_type": "Predictive",
+      "unique_id": "42d3447c-61fb-4aa8-a6e5-72210865ff3c"
+    },
+    {
+      "complete_question": "What is the performance of DeepSeek-R1-1.5B on Math Reasoning for Latvian?",
+      "task": "Math Reasoning",
+      "models": "DeepSeek-R1-1.5B",
+      "languages": "Latvian",
+      "question_type": "Predictive",
+      "unique_id": "8340c9d0-36b4-4c31-9f43-c1399d8d5b8c"
+    },
+    {
+      "complete_question": "How well does Gemma2-9B perform on Math Reasoning for Estonian?",
+      "task": "Math Reasoning",
+      "models": "Gemma2-9B",
+      "languages": "Estonian",
+      "question_type": "Predictive",
+      "unique_id": "42b70849-55f4-4959-9700-d76ec224af3e"
+    },
+    {
+      "complete_question": "What score does Qwen2.5-Math-7B-Instruct achieve for Math Reasoning in Nepali?",
+      "task": "Math Reasoning",
+      "models": "Qwen2.5-Math-7B-Instruct",
+      "languages": "Nepali",
+      "question_type": "Predictive",
+      "unique_id": "38ed96fb-ea6d-41b8-8119-1738d0b74b2a"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Nepali?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Nepali",
+      "question_type": "QnA",
+      "unique_id": "512e3701-806e-4bfb-a708-9806bfd64544"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Estonian?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Estonian",
+      "question_type": "QnA",
+      "unique_id": "8beaf909-0f15-402a-a2a5-bd5924d1f7b8"
+    },
+    {
+      "complete_question": "For Math Reasoning, which model achieves the highest score in Hausa?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Hausa",
+      "question_type": "QnA",
+      "unique_id": "04440e06-c100-40f7-aff1-cdcf97bb8f4c"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in chiShona?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "chiShona",
+      "question_type": "QnA",
+      "unique_id": "34150aa0-4025-4ff9-a76c-aa08a503215d"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Ukrainian?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Ukrainian",
+      "question_type": "QnA",
+      "unique_id": "88e50cad-3ed6-4d42-8ca0-3c8a2ad4d263"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Welsh?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Welsh",
+      "question_type": "QnA",
+      "unique_id": "aa6c39bc-2384-408d-a610-b263ce8cb051"
+    },
+    {
+      "complete_question": "For Math Reasoning, which model achieves the highest score in Oromo?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Oromo",
+      "question_type": "QnA",
+      "unique_id": "bb502150-0b12-4ab4-adf1-43f21a96cbe4"
+    },
+    {
+      "complete_question": "For Math Reasoning, which model achieves the highest score in Persian?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Persian",
+      "question_type": "QnA",
+      "unique_id": "412d38d4-35d5-4c11-9a3f-2db1064dbc44"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Albanian?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Albanian",
+      "question_type": "QnA",
+      "unique_id": "ed33ce75-97a8-4897-a718-9dae36ae13f7"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Twi?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Twi",
+      "question_type": "QnA",
+      "unique_id": "d60af029-570e-4d15-96a8-9abcfad9a9cb"
+    },
+    {
+      "complete_question": "For Math Reasoning, which model achieves the highest score in Kinyarwanda?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Kinyarwanda",
+      "question_type": "QnA",
+      "unique_id": "a4264676-df3e-4555-af1e-f7eb9cfba25e"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Somali?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Somali",
+      "question_type": "QnA",
+      "unique_id": "951a9a5a-b15a-4df4-92e2-377cbd52092e"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Finnish?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Finnish",
+      "question_type": "QnA",
+      "unique_id": "d5d105f9-a30a-47e9-a3fa-86d00cc69dfb"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Slovenian?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Slovenian",
+      "question_type": "QnA",
+      "unique_id": "ad2b7db6-cc67-4d85-b9bd-67bfded7fe1d"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Sesotho?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Sesotho",
+      "question_type": "QnA",
+      "unique_id": "33a2833f-0425-4b57-b242-9287459eb7ec"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Lingala?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Lingala",
+      "question_type": "QnA",
+      "unique_id": "93ce7185-ad7b-42bc-84ac-75eec540ae20"
+    },
+    {
+      "complete_question": "For Math Reasoning, which model achieves the highest score in Amharic?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Amharic",
+      "question_type": "QnA",
+      "unique_id": "b6c127f1-a81f-4ad1-a353-a59660abd44f"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Igbo?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Igbo",
+      "question_type": "QnA",
+      "unique_id": "140376ed-7ec4-462b-b760-f4d6f050aa89"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Yoruba?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Yoruba",
+      "question_type": "QnA",
+      "unique_id": "22f4ac41-03d4-4a1c-aa0f-584a120f0786"
+    },
+    {
+      "complete_question": "For Math Reasoning, which model achieves the highest score in Tagalog?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Tagalog",
+      "question_type": "QnA",
+      "unique_id": "bf1104c8-fdfd-46d5-8a1e-54157171a484"
+    },
+    {
+      "complete_question": "What is the top-performing model for Math Reasoning in Kinyarwanda?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Kinyarwanda",
+      "question_type": "QnA",
+      "unique_id": "047c5f80-b22c-4f34-a64b-b64a21e70e71"
+    },
+    {
+      "complete_question": "Which model achieves the highest score for Math Reasoning in Luganda?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Luganda",
+      "question_type": "QnA",
+      "unique_id": "135c3d64-5462-45f7-9af2-069f654d883b"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Ewe?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Ewe",
+      "question_type": "QnA",
+      "unique_id": "bf77225d-866b-42a2-8406-58b4a43c5d61"
+    },
+    {
+      "complete_question": "For Math Reasoning, which model achieves the highest score in Lithuanian?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Lithuanian",
+      "question_type": "QnA",
+      "unique_id": "8b74c17d-92f9-48ed-b3f3-ad7e8bf1d6c1"
+    },
+    {
+      "complete_question": "Which model performs best for Math Reasoning in Macedonian?",
+      "task": "Math Reasoning",
+      "models": "",
+      "languages": "Macedonian",
+      "question_type": "QnA",
+      "unique_id": "5c6f4a76-24dd-4c10-83ec-bfc5b2dd2b69"
+    }
+  ],
+  "validation_stats": {
+    "total_questions": 50,
+    "predictive_count": 25,
+    "qna_count": 25,
+    "target_per_type": 25,
+    "available_predictive": 27,
+    "available_qna": 29
+  }
+}

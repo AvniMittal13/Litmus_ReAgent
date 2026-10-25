@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Ablation study: Run MainAgent WITHOUT coder_agent / code_executor_agent
+Ablation study: Run MainAgent WITHOUT expert_knowledge_agent
 on 10 Code Generation prompts across scenarios 1-5.
 
 Usage:
-    venv\\Scripts\\Activate.ps1; python -m runners.run_ablation_no_coder
+    venv\\Scripts\\Activate.ps1; python -m final_testing_codes.run_ablation_no_expert
 """
 
 import json
@@ -22,12 +22,12 @@ QUESTIONS_PER_SCENARIO = 10  # 10 questions per scenario
 # Add the parent directory to the path to import agents
 sys.path.append(str(Path(__file__).parent.parent))
 
-from agents.main_agent_db_no_coder import MainAgent
+from agents.main_agent_db_no_expert import MainAgent
 
 
-class AblationNoCoderProcessor:
+class AblationNoExpertProcessor:
     """
-    Ablation: process Code Generation questions using MainAgent without coder_agent.
+    Ablation: process Code Generation questions using MainAgent without expert_knowledge_agent.
     """
     
     @staticmethod
@@ -42,14 +42,14 @@ class AblationNoCoderProcessor:
     
     def __init__(self):
         self.base_dir = Path(__file__).parent.parent
-        self.gt_dir = self.base_dir.parent / "data" / "Ground_truths"
+        self.gt_dir = self.base_dir / "final_testing_codes" / "GET_GTS_FINAL" / "Ground_truths_5"
         self.questions_dir = self.base_dir / "generated_questions"
-        self.db_base_dir = self.base_dir.parent / "data" / "all_final_csvs_finall"
+        self.db_base_dir = self.base_dir / "all_final_csvs_finall"
         
         # Output dirs specific to this ablation
-        self.responses_base_dir = self.base_dir / "outputs" / "ABLATION_RUNS" / "no_coder" / "01_Code_Generation"
-        self.progress_file = self.base_dir / "outputs" / "ABLATION_RUNS" / "no_coder" / "ablation_progress.json"
-        self.log_file = self.base_dir / "outputs" / "ABLATION_RUNS" / "no_coder" / "ablation_log.txt"
+        self.responses_base_dir = self.base_dir / "final_testing_codes" / "ABLATION_RUNS" / "no_expert_knowledge" / "01_Code_Generation"
+        self.progress_file = self.base_dir / "final_testing_codes" / "ABLATION_RUNS" / "no_expert_knowledge" / "ablation_progress.json"
+        self.log_file = self.base_dir / "final_testing_codes" / "ABLATION_RUNS" / "no_expert_knowledge" / "ablation_log.txt"
         
         # Ensure directories exist
         self.responses_base_dir.mkdir(parents=True, exist_ok=True)
@@ -72,7 +72,7 @@ class AblationNoCoderProcessor:
     
     def create_new_progress(self):
         return {
-            "ablation": "no_coder",
+            "ablation": "no_expert_knowledge",
             "task": self.task_name,
             "total_questions": 0,
             "completed_questions": 0,
@@ -92,7 +92,7 @@ class AblationNoCoderProcessor:
     
     def log(self, message):
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        log_message = f"[{timestamp}] [ABLATION no_coder] {message}"
+        log_message = f"[{timestamp}] [ABLATION no_expert] {message}"
         print(log_message)
         try:
             with open(self.log_file, 'a', encoding='utf-8') as f:
@@ -176,7 +176,7 @@ class AblationNoCoderProcessor:
     
     def initialize_agent(self, working_dir=None):
         try:
-            self.log("Initializing fresh MainAgent (no coder) ...")
+            self.log("Initializing fresh MainAgent (no expert_knowledge) ...")
             self.main_agent = MainAgent(base_working_dir=working_dir)
             self.log("MainAgent ready")
             return True
@@ -187,7 +187,7 @@ class AblationNoCoderProcessor:
     def process_question(self, question_info, scenario):
         unique_id = question_info['unique_id']
         complete_question = question_info['complete_question']
-        session_key = f"no_coder_{self.task_name}_S{scenario}_{unique_id}"
+        session_key = f"no_expert_{self.task_name}_S{scenario}_{unique_id}"
         
         if not self.should_recompute(unique_id, scenario):
             self.log(f"Skipping completed: {unique_id}")
@@ -206,8 +206,8 @@ class AblationNoCoderProcessor:
             formatted = (
                 "Run the following Question without asking any clarifications. "
                 "Assume answers/responses to the questions and continue\n"
-                "Perform analysis by collecting data via web search and expert knowledge "
-                "and synthesize a well-reasoned prediction.\n\n"
+                "Use coder agent to generate code for performing predictive analysis "
+                "by training intelligent regressors wherever required.\n\n"
                 f"Question: {complete_question}"
             )
             response = self.main_agent.run(formatted)
@@ -228,7 +228,7 @@ class AblationNoCoderProcessor:
             # Save intermediates
             try:
                 intermediates_dir = response_dir / "intermediates"
-                intermediates_dir.mkdir(parents=True, exist_ok=True)
+                intermediates_dir.mkdir(exist_ok=True)
                 for agent_name, adata in hierarchy.get("thought_agents", {}).items():
                     inters = adata.get("intermediates", {})
                     if inters:
@@ -248,7 +248,7 @@ class AblationNoCoderProcessor:
                 'file': question_info['file'],
                 'task_name': self.task_name,
                 'scenario': scenario,
-                'ablation': 'no_coder',
+                'ablation': 'no_expert_knowledge',
                 'db_path': os.environ.get('DB_PATH', ''),
                 'full_question_data': question_info['full_data'],
                 'processing_time_seconds': elapsed,
@@ -287,7 +287,7 @@ class AblationNoCoderProcessor:
     
     def run(self):
         self.log("=" * 60)
-        self.log("ABLATION STUDY: Remove Coder Agent")
+        self.log("ABLATION STUDY: Remove Expert Knowledge Agent")
         self.log(f"Task: {self.task_name}")
         self.log(f"Questions per scenario: {QUESTIONS_PER_SCENARIO}, Scenarios: {self.scenarios}")
         self.log("=" * 60)
@@ -332,7 +332,7 @@ class AblationNoCoderProcessor:
         
         # Summary
         self.log("\n" + "=" * 60)
-        self.log("ABLATION SUMMARY: no_coder")
+        self.log("ABLATION SUMMARY: no_expert_knowledge")
         self.log(f"Total: {self.progress['total_questions']}")
         self.log(f"Completed: {self.progress['completed_questions']}")
         self.log(f"Failed: {self.progress['failed_questions']}")
@@ -342,7 +342,7 @@ class AblationNoCoderProcessor:
 
 
 if __name__ == "__main__":
-    processor = AblationNoCoderProcessor()
+    processor = AblationNoExpertProcessor()
     try:
         processor.run()
     except KeyboardInterrupt:

@@ -1,0 +1,1056 @@
+[
+  {
+    "unique_id": "a1999ac4-adf6-4480-a386-9cf56c8ea766",
+    "complete_question": "How well does Mixtral perform on Text Summarization for Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.577",
+        "value_in_100_range": 57.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "6fa0198d-62cf-4521-a6d0-12ea7298f75f",
+    "complete_question": "How well does Qwen-1.5 perform on Text Summarization for Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.091",
+        "value_in_100_range": 9.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.654",
+        "value_in_100_range": 65.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "604f1e5d-fcf4-48b4-87cb-d965d8927025",
+    "complete_question": "What score does Mixtral achieve for Text Summarization in Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "11.74",
+        "value_in_100_range": 11.74
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "2.28",
+        "value_in_100_range": 2.28
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "8.89",
+        "value_in_100_range": 8.89
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "68c71291-d113-4506-89d0-540ae7b976e0",
+    "complete_question": "What is the performance of GPT-4 on Text Summarization for Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.675",
+        "value_in_100_range": 67.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "486dc7dd-b145-4f77-90f6-0618f4515719",
+    "complete_question": "How well does GPT-4 perform on Text Summarization for Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.718",
+        "value_in_100_range": 71.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e1d36d49-84e8-409e-a309-634045da6c42",
+    "complete_question": "How well does Mixtral perform on Text Summarization for Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.056",
+        "value_in_100_range": 5.6
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.631",
+        "value_in_100_range": 63.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2f4ea74e-7ade-402c-ab15-813ac7712d5f",
+    "complete_question": "What is the performance of GPT-4 on Text Summarization for Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.718",
+        "value_in_100_range": 71.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "36b5db30-fc2a-4a81-9181-b0273f918819",
+    "complete_question": "What is the performance of Qwen-1.5 on Text Summarization for Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.171",
+        "value_in_100_range": 17.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.704",
+        "value_in_100_range": 70.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2f7df315-fd44-498c-97f0-5f92f8aff056",
+    "complete_question": "What is the performance of GPT-3.5 on Text Summarization for Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.142",
+        "value_in_100_range": 14.2
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.665",
+        "value_in_100_range": 66.5
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "e3c1cac8-5d48-476c-99a2-ca6adf454129",
+    "complete_question": "How well does GPT-3.5 perform on Text Summarization for Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.116",
+        "value_in_100_range": 11.6
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.629",
+        "value_in_100_range": 62.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "cc232034-06a5-42ee-a8ab-17d33dd15d91",
+    "complete_question": "What is the performance of Qwen-1.5 on Text Summarization for Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "9.1",
+        "value_in_100_range": 9.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "65.4",
+        "value_in_100_range": 65.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "38cf728d-c48a-42e6-bdff-445f696697fb",
+    "complete_question": "What is the performance of GPT-3.5 on Text Summarization for Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.158",
+        "value_in_100_range": 15.8
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.647",
+        "value_in_100_range": 64.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "959b4643-61ba-4d64-aa77-813d394e4df3",
+    "complete_question": "What is the performance of GPT-4 on Text Summarization for Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.079",
+        "value_in_100_range": 7.9
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.687",
+        "value_in_100_range": 68.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "074360dc-0657-4967-8098-7dfd472f1afe",
+    "complete_question": "What score does Mixtral achieve for Text Summarization in Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "11.74",
+        "value_in_100_range": 11.74
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "2.28",
+        "value_in_100_range": 2.28
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "8.89",
+        "value_in_100_range": 8.89
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "0972b46a-5db4-488a-a313-4baaed19af6a",
+    "complete_question": "What score does Qwen-1.5 achieve for Text Summarization in Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.091",
+        "value_in_100_range": 9.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.654",
+        "value_in_100_range": 65.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "806a2b15-f459-41b3-b9a5-5d0369d8e3a7",
+    "complete_question": "What is the performance of Mixtral on Text Summarization for Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "11.74",
+        "value_in_100_range": 11.74
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "2.28",
+        "value_in_100_range": 2.28
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "8.89",
+        "value_in_100_range": 8.89
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "4f792c85-e194-4818-8620-204bf907281b",
+    "complete_question": "How well does Qwen-1.5 perform on Text Summarization for Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.079",
+        "value_in_100_range": 7.9
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.687",
+        "value_in_100_range": 68.7
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "a6219c10-933f-47a7-ab83-6cdc2d4c1562",
+    "complete_question": "What score does GPT-4 achieve for Text Summarization in Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "23.91",
+        "value_in_100_range": 23.91
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "6.01",
+        "value_in_100_range": 6.01
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "16.63",
+        "value_in_100_range": 16.63
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "b717f315-2c22-428a-8aec-dfeaf8ee0d26",
+    "complete_question": "How well does GPT-4 perform on Text Summarization for Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.718",
+        "value_in_100_range": 71.8
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "d3cd63b8-39b4-42b7-89a6-2fc0fe679a1d",
+    "complete_question": "What score does GPT-4 achieve for Text Summarization in Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.116",
+        "value_in_100_range": 11.6
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.654",
+        "value_in_100_range": 65.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "3f8b5df7-43a1-4442-b9c1-afc78600f35b",
+    "complete_question": "How well does Mixtral perform on Text Summarization for Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.082",
+        "value_in_100_range": 8.2
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.649",
+        "value_in_100_range": 64.9
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "f1b59be5-709d-40d8-9c15-1aebad0bade6",
+    "complete_question": "What score does GPT-4 achieve for Text Summarization in Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "23.91",
+        "value_in_100_range": 23.91
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "6.01",
+        "value_in_100_range": 6.01
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "16.63",
+        "value_in_100_range": 16.63
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "7cd4c1ca-8e39-48f2-a398-2491cf1184b8",
+    "complete_question": "What score does Mixtral achieve for Text Summarization in Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-1",
+        "value": "11.74",
+        "value_in_100_range": 11.74
+      },
+      {
+        "metric_name": "ROUGE-2",
+        "value": "2.28",
+        "value_in_100_range": 2.28
+      },
+      {
+        "metric_name": "ROUGE-L",
+        "value": "8.89",
+        "value_in_100_range": 8.89
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "518e0780-b837-4445-b437-fd8f81f3e0bc",
+    "complete_question": "What score does Qwen-1.5 achieve for Text Summarization in Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.091",
+        "value_in_100_range": 9.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.654",
+        "value_in_100_range": 65.4
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "97fb4969-b1a9-4e5d-930f-c18b88da5862",
+    "complete_question": "How well does Mixtral perform on Text Summarization for Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "predictive",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.056",
+        "value_in_100_range": 5.6
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.631",
+        "value_in_100_range": 63.1
+      }
+    ],
+    "answer_text_for_qna": ""
+  },
+  {
+    "unique_id": "2bc36bd8-5c09-4b80-8d0f-31f66f9800c9",
+    "complete_question": "What is the top-performing model for Text Summarization in Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "12.1",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "65.4",
+        "value_in_100_range": 65.4
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "3cc6da9f-1ca2-4435-99f4-6e6803042a04",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.230",
+        "value_in_100_range": 23.0
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.672",
+        "value_in_100_range": 67.2
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "f2a2addb-b5e4-442f-9410-4af38ea70207",
+    "complete_question": "Which language demonstrates the best performance in Text Summarization with GPT-3.5?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "ROUGE-L (KIS)",
+        "value": "74.5",
+        "value_in_100_range": 74.5
+      }
+    ],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "64b1c1cf-2528-4d3b-8ece-8697679ac892",
+    "complete_question": "Which model stands out for Text Summarization in Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.291",
+        "value_in_100_range": 29.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.648",
+        "value_in_100_range": 64.8
+      }
+    ],
+    "answer_text_for_qna": "bloomz-7b1"
+  },
+  {
+    "unique_id": "67e3cc29-14a5-4a29-882b-7b5d403a7c3c",
+    "complete_question": "Among GPT-3.5, GPT-4, Mixtral, Qwen-1.5, which performs best for Text Summarization in Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "12.5",
+        "value_in_100_range": 12.5
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "65.4",
+        "value_in_100_range": 65.4
+      }
+    ],
+    "answer_text_for_qna": "Qwen1.5"
+  },
+  {
+    "unique_id": "86663605-8b36-4167-8de0-a8b2e87263b0",
+    "complete_question": "Which language demonstrates the best performance in Text Summarization with Mixtral?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "023de445-bf16-464f-b769-47b9b3c88233",
+    "complete_question": "What is the leading model for Text Summarization in Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.089",
+        "value_in_100_range": 8.9
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.648",
+        "value_in_100_range": 64.8
+      }
+    ],
+    "answer_text_for_qna": "bloomz-7b1"
+  },
+  {
+    "unique_id": "a9d57df9-54dc-4e55-8d17-d17f8ff06731",
+    "complete_question": "For Text Summarization, which language shows the best performance with Mixtral?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "53f13180-f74a-4528-8510-fc010a3b04fb",
+    "complete_question": "Among GPT-3.5, GPT-4, Mixtral, Qwen-1.5, which performs best for Text Summarization in Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.079",
+        "value_in_100_range": 7.9
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.704",
+        "value_in_100_range": 70.4
+      }
+    ],
+    "answer_text_for_qna": "Qwen1.5"
+  },
+  {
+    "unique_id": "00557858-7589-4e70-83b0-3968b18da3ee",
+    "complete_question": "For Text Summarization, which language is best with Qwen-1.5?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "151038c9-9c67-4872-bf7f-9449ec51bf7e",
+    "complete_question": "Which model performs best for Text Summarization in Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.704",
+        "value_in_100_range": 70.4
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "cb999611-fac3-4e4b-a90c-d847a7a6683a",
+    "complete_question": "What is the leading model for Text Summarization in Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.698",
+        "value_in_100_range": 69.8
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "1443a718-d2fe-4160-ae7d-ed8494a47805",
+    "complete_question": "Which language has the best performance for Text Summarization with GPT-4?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "f2902b17-50a0-423f-aed8-c8a55edc72bc",
+    "complete_question": "Which language has the best performance for Text Summarization with Qwen-1.5?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "3548f73e-8914-4eda-8989-8a8372e4350f",
+    "complete_question": "For Text Summarization, which language is best with GPT-3.5?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [],
+    "answer_text_for_qna": "English"
+  },
+  {
+    "unique_id": "0f9160e6-2425-4e00-b31f-96fcad2ed78e",
+    "complete_question": "Which model stands out for Text Summarization in Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.704",
+        "value_in_100_range": 70.4
+      }
+    ],
+    "answer_text_for_qna": "Qwen2-7B"
+  },
+  {
+    "unique_id": "a69e4886-df39-4d58-8e09-f79e7d41abe6",
+    "complete_question": "For Text Summarization, which language shows the best performance with GPT-4?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "f7e3d0b7-a2cc-401f-9877-d1fba8d0e87d",
+    "complete_question": "Who is the top-performing model for Text Summarization in Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.173",
+        "value_in_100_range": 17.3
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.704",
+        "value_in_100_range": 70.4
+      }
+    ],
+    "answer_text_for_qna": "Qwen1.5-7B"
+  },
+  {
+    "unique_id": "8e8fc203-f9a7-4a62-b278-a6bff57e06b1",
+    "complete_question": "Which model performs best for Text Summarization in Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.167",
+        "value_in_100_range": 16.7
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.661",
+        "value_in_100_range": 66.1
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "45224f2b-5e14-4f03-8a57-88fe3ff1e9b3",
+    "complete_question": "For Text Summarization, which language shows the best performance with Qwen-1.5?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.188",
+        "value_in_100_range": 18.8
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.704",
+        "value_in_100_range": 70.4
+      }
+    ],
+    "answer_text_for_qna": "Chinese-Traditional (zho_Hant)"
+  },
+  {
+    "unique_id": "2d976f0b-0467-49f1-b245-e98543d08c5b",
+    "complete_question": "For Text Summarization, which language shows the best performance with GPT-3.5?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "6d70aa44-f10c-4122-b6c5-d4a5d4e72b9e",
+    "complete_question": "For Text Summarization, what is the best performing language with Mixtral?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE-1",
+        "value": "36.89",
+        "value_in_100_range": 36.89
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-2",
+        "value": "15.23",
+        "value_in_100_range": 15.23
+      },
+      {
+        "metric_name": "XL-Sum ROUGE-L",
+        "value": "30.52",
+        "value_in_100_range": 30.52
+      }
+    ],
+    "answer_text_for_qna": "Chinese"
+  },
+  {
+    "unique_id": "b2880c86-b032-416c-b958-f92c169622a0",
+    "complete_question": "Which model achieves the best results for Text Summarization in Ukranian?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.121",
+        "value_in_100_range": 12.1
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.577",
+        "value_in_100_range": 57.7
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "27988ae6-2cd2-4bcb-afab-6e68b5b70154",
+    "complete_question": "Which model achieves the highest score for Text Summarization in Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.167",
+        "value_in_100_range": 16.7
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.661",
+        "value_in_100_range": 66.1
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  },
+  {
+    "unique_id": "a20b2af3-0981-41db-a823-9727c999abe1",
+    "complete_question": "Which model achieves the best results for Text Summarization in Gujurati?",
+    "atleast_one_successful_execution": true,
+    "is_answer_present": true,
+    "predictive_or_qna": "qna",
+    "ground_truth_metrics_and_values_for_predictive": [
+      {
+        "metric_name": "XL-Sum ROUGE",
+        "value": "0.167",
+        "value_in_100_range": 16.7
+      },
+      {
+        "metric_name": "XL-Sum BERTScore",
+        "value": "0.661",
+        "value_in_100_range": 66.1
+      }
+    ],
+    "answer_text_for_qna": "yayi-7b"
+  }
+]
