@@ -6,10 +6,12 @@ A multi-agent system for predicting how well LLMs perform across languages, task
 
 ```
 ├── code/                          # original project code (unchanged)
-│   ├── agents/                    # the multi-agent system (+ ablation variants)
-│   ├── final_testing_codes/       # runners for the system, ablations and baseline
+│   ├── agents/                    # the multi-agent system (+ ablations, single-agent, original LITMUS++)
+│   ├── final_testing_codes/       # runners for the system, ablations and baselines
 │   │   └── GET_GTS_FINAL/         # ground-truth generation, prediction extraction, MAE/accuracy
 │   ├── final_evals/               # LLM-judge and agent-level evaluation scripts
+│   ├── magnetic_one/              # Magentic-One baseline
+│   ├── generate_questions/        # pipeline that generated the benchmark questions
 │   ├── knowledge/                 # expert-knowledge corpus used by the RAG agent
 │   └── utils/                     # Azure OpenAI chat + embedding helpers
 └── data/
@@ -40,6 +42,11 @@ A multi-agent system for predicting how well LLMs perform across languages, task
 **Ablations** (same structure, one component removed):
 - `main_agent_db_no_coder.py` / `thought_agent_db_no_coder.py`: no coder/executor
 - `main_agent_db_no_expert.py` / `thought_agent_db_no_expert.py`: no expert-knowledge agent
+
+**Baselines**:
+- `agents/single_agent/`: a single agent with the same tools (DB search + scrape, expert-knowledge RAG, code execution)
+- `agents/main_agent_db_original.py` / `thought_agent_db_original.py` (+ `prompts/*_original/`): the original LITMUS++ system
+- `magnetic_one/`: Magentic-One (AutoGen AgentChat)
 
 ## Setup
 
@@ -84,6 +91,11 @@ Run all commands from `code/`:
 | `python -m final_testing_codes.run_ablation_no_coder` | Ablation: no coder agent |
 | `python -m final_testing_codes.run_ablation_no_expert` | Ablation: no expert-knowledge agent |
 | `python final_testing_codes/run_gpt4_baseline.py` | Direct LLM baseline (no tools) |
+| `python final_testing_codes/run_single_agent_baseline.py` | Single-agent baseline |
+| `python final_testing_codes/run_all_que_db_ORIGINAL_LITMUS.py` (or `_batch.py`) | Original LITMUS++ baseline |
+| `python magnetic_one/run_all_magnetic_one.py` | Magentic-One baseline (see `magnetic_one/README.md` for the script variants) |
+
+Magentic-One uses the newer AutoGen packages, which are not in `requirements.txt`: `pip install autogen-agentchat "autogen-ext[openai,azure,magentic-one]"`.
 
 `run_all_que_db.py` is interactive. It asks for a **task** (1–6), a **scenario pair** and a **paper DB variant**:
 - `reduced`: `reduced_combined_<task>_embeddings.pkl` (smaller paper set)
@@ -104,6 +116,9 @@ python -m final_testing_codes.GET_GTS_FINAL.mae_accuracy_evaluation.evaluator
 ```
 
 For the ablation runs, use `evaluation_performance_metrics_v2.run_ablation_extraction` and `mae_accuracy_evaluation.run_ablation_eval` (`--ablation no_coder | no_expert_knowledge`). `ground_truth_generator_v2` is the pipeline that produced the ground truths, included for transparency. The ground truths themselves are already in `data/`.
+
+### Benchmark generation (`generate_questions/`)
+The pipeline that produced the benchmark questions from the paper database (5 scenarios per task; see `config.py` and `run_all.py`). It is included for transparency: the final, filtered questions are already in `data/generated_questions_filtered/`. Its default output folder is `generated_questions`, which the setup above links to the shipped benchmark, so pass a different output folder (`--output`) if you regenerate questions, or the benchmark files will be overwritten.
 
 ### Report- and agent-level metrics (`final_evals/`)
 These read response folders produced by the runners; pass the folders as arguments.
@@ -142,7 +157,8 @@ Extended ground-truth set in the same format: 30 files, 2,035 questions (1,065 p
   - `code/knowledge/knowledge_2.md`: **recovered** from the project's LightRAG index (*"LLM Performance Prediction Playbook"*). It is the expert-knowledge corpus the RAG agent was indexing, but it may differ in small details from the exact file used in the experiments.
   - `code/requirements.txt`, `code/.env.example`.
 - Some config defaults point to the folder names used in the original experiments (e.g. `final_results/magnetic_one_1_responses`). Edit `config.py` to point at your own runs, as in the original workflow.
-- Not included: experiment outputs and intermediate logs, the question-generation pipeline, the Magentic-One / single-agent / original-LITMUS++ baselines, and visualization scripts.
+- The original LITMUS++ baseline is included as code, but its expert-knowledge file from the LITMUS++ release is not part of the uploaded sources.
+- Not included: experiment outputs and intermediate logs, human-evaluation responses, and visualization scripts.
 
 ## Citation
 

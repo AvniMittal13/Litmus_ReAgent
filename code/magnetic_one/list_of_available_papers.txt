@@ -1,0 +1,85 @@
+Please use the following papers only for finding answers.
+You can use code or any other means as well
+
+| #  | Paper Title                                                                  | URL                                                                                              |
+|----|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| 1  | IndicEval-XL                                                                | https://arxiv.org/html/2502.19067v1                                                              |
+| 2  | HumanEval-XL                                                                | https://arxiv.org/html/2402.16694v1                                                              |
+| 3  | Multi-IF                                                                     | https://arxiv.org/html/2410.15553v2                                                              |
+| 4  | BFCL-Hi                                                                      | https://arxiv.org/html/2508.19831v1                                                              |
+| 5  | MT-Bench-X                                                                   | https://arxiv.org/html/2402.13703v3                                                              |
+| 6  | CodeXGLUE                                                                    | https://arxiv.org/pdf/2102.04664                                                                 |
+| 7  | Cross-lingual Code Transfer                                                  | https://arxiv.org/html/2310.16937v3                                                              |
+| 8  | Small Language Models Code Generation                                        | https://arxiv.org/pdf/2507.03160                                                                 |
+| 9  | MCoNaLa                                                                      | https://arxiv.org/pdf/2203.08388                                                                 |
+| 10 | Multilingual Prompt-Based Code Generation                                    | https://arxiv.org/pdf/2408.09701                                                                 |
+| 11 | From Effectiveness to Efficiency                                             | https://scispace.com/pdf/from-effectiveness-to-efficiency-comparative-evaluation-of-12u1jow6di.pdf |
+| 12 | MMATH                                                                        | https://arxiv.org/html/2505.19126v1                                                              |
+| 13 | Multi-NRC                                                                    | https://arxiv.org/html/2507.17476v1                                                              |
+| 14 | PolyMath                                                                     | https://arxiv.org/pdf/2504.18428                                                                 |
+| 15 | Qiyas Benchmark                                                              | https://arxiv.org/pdf/2407.00146                                                                 |
+| 16 | IndiMathQA & HAWP                                                            | https://arxiv.org/html/2412.18415v1                                                              |
+| 17 | MERA                                                                         | https://arxiv.org/html/2506.09440v1                                                              |
+| 18 | INDIC-QA                                                                     | https://arxiv.org/html/2407.13522v1                                                              |
+| 19 | OlymMATH                                                                     | https://arxiv.org/pdf/2503.21380                                                                 |
+| 20 | Invalsi Benchmarks                                                           | https://arxiv.org/html/2403.18697v3                                                              |
+| 21 | MLQA                                                                         | https://arxiv.org/pdf/1910.07475                                                                 |
+| 22 | XTREME                                                                       | https://arxiv.org/pdf/2003.11080                                                                 |
+| 23 | MedExpQA                                                                     | https://arxiv.org/pdf/2404.05590                                                                 |
+| 24 | VLR-Bench                                                                    | https://arxiv.org/html/2412.10151v1                                                              |
+| 25 | Benchmarking Hindi LLMs                                                      | https://arxiv.org/html/2508.19831v1                                                              |
+| 26 | HindiLLM                                                                     | https://arxiv.org/html/2412.20357v1                                                              |
+| 27 | MMQA                                                                         | https://aclanthology.org/L18-1440/                                                               |
+| 28 | MMCricBench-3K                                                               | https://arxiv.org/html/2508.17334v2                                                              |
+| 29 | A Unified Framework for Multilingual and Code-Mixed Visual Question Answering | https://aclanthology.org/2020.aacl-main.90/                                                      |
+| 30 | XGLUE                                                                        | https://arxiv.org/pdf/2004.01401                                                                 |
+| 31 | EU20 Multilingual LLM Benchmarks                                             | https://arxiv.org/html/2410.08928v1                                                              |
+| 32 | Benchmarking Vision-Language Models on German Factual Data                    | https://arxiv.org/pdf/2504.11108                                                                 |
+| 33 | Visual Reasoning Multi-Model Bench                                           | https://arxiv.org/pdf/2502.16428                                                                 |
+| 34 | Evaluates Knowledge-Based Zero-Shot VQA                                      | https://arxiv.org/pdf/2402.02541                                                                 |
+| 35 | DeepSeek-V3                                                                  | https://arxiv.org/html/2412.19437v2                                                              |
+| 36 | XESE/XETQ                                                                   | https://aclanthology.org/2025.coling-main.520.pdf                                                |
+| 37 | UQA                                                                          | https://arxiv.org/html/2405.01458v2                                                              |
+| 38 | UQuAD1.0                                                                     | https://aclanthology.org/2025.indonlp-1.17.pdf                                                  |
+| 39 | BLOOM                                                                        | https://arxiv.org/pdf/2210.14712                                                                 |
+| 40 | CLUE                                                                         | https://arxiv.org/pdf/2004.05986                                                                 |
+| 41 | TituLLM                                                                      | https://arxiv.org/html/2502.11187v3                                                              |
+| 42 | XNLI                                                                         | https://arxiv.org/html/2405.02937v2                                                              |
+| 43 | IndicMMLU-Pro                                                                | https://arxiv.org/html/2501.15747v1                                                              |
+| 44 | C-Eval                                                                       | https://arxiv.org/pdf/2305.08322                                                                 |
+| 45 | CMMMU                                                                        | https://arxiv.org/pdf/2401.11944                                                                 |
+| 46 | GAOKAO-Bench                                                                 | https://arxiv.org/pdf/2305.12474                                                                 |
+| 47 | PAWS-X                                                                       | https://arxiv.org/pdf/1908.11828                                                                 |
+| 48 | IndicNLI / IndicGLUE                                                         | https://arxiv.org/html/2501.13912v1                                                              |
+| 49 | TeSent                                                                       | https://arxiv.org/html/2508.01486v1                                                              |
+| 50 | Native Language Identification                                               | https://aclanthology.org/2025.naacl-srw.19.pdf                                                  |
+| 51 | MLDoc                                                                        | https://arxiv.org/pdf/1805.09821                                                                 |
+| 52 | AfriSenti                                                                    | https://arxiv.org/pdf/2302.08956                                                                 |
+| 53 | PFCD                                                                         | https://arxiv.org/pdf/2503.02737                                                                 |
+| 54 | AfroBench                                                                    | https://arxiv.org/pdf/2311.07978                                                                 |
+| 55 | IrokoBench                                                                   | https://arxiv.org/pdf/2406.03368                                                                 |
+| 56 | MLSUM                                                                        | https://aclanthology.org/2020.emnlp-main.647/                                                   |
+| 57 | LCSTS                                                                        | https://arxiv.org/pdf/1506.05865                                                                 |
+| 58 | DeepSeek-R1-Distill-Qwen-14B                                                | https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B                                 |
+| 59 | JGLUE                                                                        | https://github.com/yahoojapan/JGLUE                                                             |
+| 60 | JiraiBench                                                                   | https://arxiv.org/html/2503.21679v1                                                              |
+| 61 | Character-Level Counting Problems                                            | https://arxiv.org/pdf/2410.14166                                                                 |
+| 62 | News Summarization Benchmarking                                              | https://arxiv.org/pdf/2301.13848                                                                 |
+| 63 | XL-Sum                                                                       | https://arxiv.org/pdf/2106.13822                                                                 |
+| 64 | Global Voices                                                                | https://arxiv.org/pdf/1910.00421                                                                 |
+| 65 | MLMD-News                                                                    | https://arxiv.org/pdf/2410.09773                                                                 |
+| 66 | LoResMT 2024                                                                 | https://aclanthology.org/2024.loresmt-1.18.pdf                                                  |
+| 67 | FLORES-101                                                                   | https://aclanthology.org/2022.tacl-1.30.pdf                                                     |
+| 68 | FLORES+ Expansion for Spanish Regional Languages                             | https://aclanthology.org/2024.wmt-1.41v2.pdf                                                    |
+| 69 | MENYO-20k                                                                    | https://arxiv.org/pdf/2103.08647                                                                 |
+| 70 | WMT 2023                                                                     | https://aclanthology.org/2023.wmt-1.1.pdf                                                       |
+| 71 | Attention Is All You Need                                                    | https://arxiv.org/pdf/1806.00187                                                                 |
+| 72 | WMT 2024 Chat Translation                                                   | https://arxiv.org/html/2410.11624v1                                                              |
+| 73 | mSTEB                                                                        | https://arxiv.org/html/2506.08400v3                                                              |
+| 74 | WMT 2024 English-Hindi                                                       | https://aclanthology.org/2024.wmt-1.27.pdf                                                      |
+| 75 | CJEval                                                                       | https://arxiv.org/html/2409.16202v2                                                              |
+| 76 | LLMsEval                                                                     | https://arxiv.org/html/2304.04675v4                                                              |
+| 77 | IndicTrans2                                                                  | https://arxiv.org/pdf/2305.16307                                                                 |
+| 78 | AfriMTE / AfriCOMET                                                          | https://arxiv.org/pdf/2311.09828                                                                 |
+| 79 | Congolese Swahili-French MT                                                  | https://arxiv.org/pdf/2103.10734                                                                 |
+
